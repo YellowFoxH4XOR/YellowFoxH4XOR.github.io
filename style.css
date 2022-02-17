@@ -1,4 +1,14 @@
   body{
     font-family: 'Delius';
-    font-size: 22px;
+    background-color: white;
+  }
+
+  img{
+    height: 6rem;
+    width: 6rem;
+  }
+
+  .show-inline{
+    display: flex;
+    flex-direction: row;
   }
