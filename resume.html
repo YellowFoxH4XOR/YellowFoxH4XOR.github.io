@@ -1,14 +1,15 @@
+<!-- resume.html -->
 <!DOCTYPE html>
-<html lang="en" class="no-js dark-mode">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Akshat Katiyar | Software Engineer</title>
+  <title>Resume</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap" rel="stylesheet">
 
-<!-- Basic Favicon (small default icon) -->
+  <!-- Basic Favicon (small default icon) -->
 <link rel="icon" href="favicon/favicon.ico" sizes="any">
 
 <!-- Additional sizes for modern browsers -->
@@ -27,57 +28,53 @@
 <body>
   <header>
     <div class="nav-container">
-      <button class="dark-mode-toggle" aria-label="Toggle Dark Mode" aria-pressed="true">
-        <span class="toggle-icon">🔆</span>
+      <button class="dark-mode-toggle" aria-label="Toggle Dark Mode" aria-pressed="false">
+        <span class="toggle-icon">🌑</span>
       </button>
-
-      <button class="hamburger" aria-label="Toggle Navigation">
+      <button class="hamburger" aria-label="Toggle navigation">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
       </button>
-      <nav class="nav-links" aria-label="Main navigation">
-        <a href="index.html" class="active">Home</a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
         <a href="bookshelf.html">Bookshelf</a>
-        <a href="resume.html">Resume</a>
+        <a href="resume.html" class="active">Resume</a>
       </nav>
     </div>
   </header>
+  <main class="page-main resume-main">
+    <h1>Resume</h1>
+<section class="resume-section">
+  <h2>Experience</h2>
+  
+  <div class="job">
+    <h3>Senior Software Engineer @ Commonwealth Bank</h3>
+    <p>Bangalore, India | May 2023–Present</p>
+    <p><em>Secure Network Services</em></p>
+    <ul>
+      <li>Built core components for Monitoring the network, performing automated changes within the network.</li>
+      <li>Led schema modularization efforts, enabling better maintainability and flexible deployments.</li>
+      <li>Improved developer tooling with Python-based libraries</li>
+      <li>Mentored interns, guiding them through impactful projects.</li>
+    </ul>
+  </div>
+  
+</section>
 
-  <main>
-    <section class="intro" aria-labelledby="intro-heading">
-      <img src="images/profile.jpg" alt="Profile picture of Jyotinder" class="profile-pic"/>
-      <div class="description">
-        <h1 id="intro-heading">Hey, I'm Akshat 👋</h1>
-        <p>I'm a full-stack developer with a focus on building and optimizing software systems. I primarily work with technologies like Python and Go. Currently, I’m part of the team at Commonwealth Bank of Australia, where I contribute to developing and enhancing various software solutions across the tech stack.</p>
-      </div>
-    </section>
+<section class="resume-section">
+  <h2>Skills</h2>
+  <p>Angular, Python, Go, SQL, Compilers, Design, Quick Prototyping</p>
+</section>
 
-    <section class="links-section" aria-labelledby="links-heading">
-      <h2 id="links-heading">Links</h2>
-      <div class="links-container">
-        <a href="" target="_blank" class="link-item link-substack">Newsletter</a>
-        <a href="https://x.com/yellowfox_h4xor" target="_blank" class="link-item link-twitter">Twitter</a>
-        <a href="https://github.com/YellowFoxH4XOR" target="_blank" class="link-item link-github">GitHub</a>
-        <a href="https://www.linkedin.com/in/akshat-katiyar/" target="_blank" class="link-item link-linkedin">LinkedIn</a>
-      </div>
-    </section>
-
-    <section class="projects-section" aria-labelledby="projects-heading">
-      <h2 id="projects-heading">Projects</h2>
-      <article class="project" aria-labelledby="project1-heading">
-        <h3 id="project1-heading"></h3>
-        <p></p>
-        <a href="" target="_blank"></a>
-      </article>
-    </section>
-
+<section class="resume-section">
+  <p><a href="" target="_blank">View PDF Version</a></p>
+</section>
   </main>
 
   <footer>
     <p>© 2025 Akshat. All rights reserved.</p>
   </footer>
-
 <script>
   // Hamburger menu toggle
   const hamburger = document.querySelector('.hamburger');

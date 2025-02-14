@@ -1,0 +1,807 @@
+/* Base styles with proper height handling */
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Code', Menlo, Monaco, 'Courier New', monospace;
+  font-size: 16px;
+  line-height: 1.6;
+  background: #f5f5f5; /* Default light mode background */
+  color: #111;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Dark mode classes */
+body.dark-mode {
+  background: #000; 
+  color: #eee;
+}
+
+a {
+  color: #555;
+  text-decoration: none;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+a:hover {
+  color: #000;
+}
+body.dark-mode a {
+  color: #aaa;
+}
+body.dark-mode a:hover {
+  color: #fff;
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+/* Header and Nav */
+header {
+  padding: 1rem;
+  background: #fff; /* Light mode: white navbar */
+  transition: background 0.3s ease;
+}
+body.dark-mode header {
+  background: #000; /* Dark mode: black navbar */
+}
+
+.nav-container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* Dark Mode Toggle on the left, Hamburger on the right */
+.dark-mode-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #555;
+  transition: color 0.3s ease;
+}
+.dark-mode-toggle:hover {
+  color: #111;
+}
+body.dark-mode .dark-mode-toggle {
+  color: #aaa;
+}
+body.dark-mode .dark-mode-toggle:hover {
+  color: #fff;
+}
+
+/* Hamburger */
+.hamburger {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+}
+.hamburger .bar {
+  width: 20px;
+  height: 2px;
+  background: #333; /* visible on light background */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+body.dark-mode .hamburger .bar {
+  background: #eee; /* visible on dark background */
+}
+
+.hamburger.open .bar:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+.hamburger.open .bar:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.open .bar:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+@media (max-width: 600px) {
+  .hamburger {
+    display: flex;
+  }
+}
+
+/* Nav links */
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+.nav-links a {
+  margin-left: 1.5rem;
+  color: #333;
+}
+.nav-links a.active {
+  text-decoration: underline;
+}
+body.dark-mode .nav-links a {
+  color: #ccc;
+}
+body.dark-mode .nav-links a.active {
+  text-decoration: underline;
+}
+
+/* Mobile Navigation */
+@media (max-width: 600px) {
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #fff; /* Light mode: white background */
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: none;
+    z-index: 999; /* Ensure above other elements */
+  }
+  .nav-links.open {
+    display: flex;
+  }
+
+  body.dark-mode .nav-links {
+    background: #111; /* Dark mode: dark background for menu */
+    box-shadow: 0 4px 10px rgba(255,255,255,0.1);
+  }
+
+  .nav-links a {
+    margin: 0.75rem 0;
+    color: #333;
+  }
+  body.dark-mode .nav-links a {
+    color: #ccc;
+  }
+}
+
+/* Main and Footer */
+main {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+@media (max-width: 600px) {
+  main {
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+  }
+}
+
+footer {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #666;
+  padding-bottom: 2rem;
+  background: #fff; /* Footer matches light background */
+}
+body.dark-mode footer {
+  background: #000; /* Dark background in dark mode */
+  color: #777;
+}
+
+/* Intro Section */
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  filter: grayscale(100%);
+  opacity: 0.8;
+  transition: filter 0.4s ease, opacity 0.4s ease;
+}
+.profile-pic:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+@media (max-width: 600px) {
+  .intro {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .intro img {
+    align-self: flex-start;
+    margin-bottom: 1rem;
+  }
+}
+
+.description h1 {
+  margin: 0;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+.description p {
+  font-size: 1rem;
+  color: #444;
+}
+body.dark-mode .description p {
+  color: #ccc;
+}
+
+/* Links Section */
+.links-section {
+  margin-top: 3rem;
+}
+.links-section h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+.links-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+.link-item {
+  position: relative;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+  color: #333;
+}
+.link-item:hover {
+  background-color: #eee;
+  border-color: #ccc;
+  color: #111;
+}
+body.dark-mode .link-item {
+  background-color: #000;
+  border: 1px solid #222;
+  color: #aaa;
+}
+body.dark-mode .link-item:hover {
+  background-color: #111;
+  border-color: #333;
+  color: #fff;
+}
+
+/* Link Icons */
+.link-youtube::before {
+  content: "▶";
+  margin-right: 0.5rem;
+  color: #f00;
+}
+.link-substack::before {
+  content: "🗞️";
+  margin-right: 0.5rem;
+  color: #ff5f5f;
+}
+.link-twitter::before {
+  content: "🐦";
+  margin-right: 0.5rem;
+  color: #1da1f2;
+}
+.link-github::before {
+  content: "★";
+  margin-right: 0.5rem;
+  color: #555;
+}
+.link-linkedin::before {
+  content: "★";
+  margin-right: 0.5rem;
+  color: #0a66c2;
+}
+
+@media (max-width: 600px) {
+  .links-container {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .link-item {
+    text-align: left;
+    padding: 0.7rem 0.7rem;
+  }
+}
+
+/* Projects Section */
+.projects-section {
+  margin-top: 3rem;
+}
+.projects-section h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+.project {
+  margin-bottom: 2rem;
+}
+.project h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+.project p {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 0.75rem;
+}
+body.dark-mode .project p {
+  color: #ccc;
+}
+.project a {
+  font-size: 0.9rem;
+  color: #555;
+  border-bottom: 1px dashed #555;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.project a:hover {
+  color: #000;
+  border-color: #000;
+}
+body.dark-mode .project a {
+  color: #aaa;
+  border-bottom-color: #aaa;
+}
+body.dark-mode .project a:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+/* Book List */
+.book-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+.book-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+  transition: border-color 0.2s ease;
+}
+.book-item:hover {
+  border-color: #ccc;
+}
+body.dark-mode .book-item {
+  border-color: #222;
+}
+body.dark-mode .book-item:hover {
+  border-color: #333;
+}
+.book-cover {
+  width: 50px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 4px;
+  background: #fff;
+}
+body.dark-mode .book-cover {
+  background: #111;
+}
+.book-details strong {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+  color: #111;
+}
+body.dark-mode .book-details strong {
+  color: #eee;
+}
+.book-details p {
+  font-size: 0.95rem;
+  color: #444;
+}
+body.dark-mode .book-details p {
+  color: #ccc;
+}
+
+/* If not dark-mode, then light mode */
+body:not(.dark-mode) {
+  background: #f5f5f5;
+  color: #111;
+}
+
+a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: #fff;
+}
+
+/* Light mode link colors */
+body:not(.dark-mode) a {
+  color: #555;
+}
+body:not(.dark-mode) a:hover {
+  color: #000;
+}
+
+/* Header, Footer: No background */
+header, footer {
+  background: none;
+}
+
+/* Nav Container */
+.nav-container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+/* Dark Mode Toggle */
+.dark-mode-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #eee;
+}
+.dark-mode-toggle:hover {
+  color: #fff;
+}
+
+/* Light mode toggle colors */
+body:not(.dark-mode) .dark-mode-toggle {
+  color: #555;
+}
+body:not(.dark-mode) .dark-mode-toggle:hover {
+  color: #111;
+}
+
+/* Hamburger */
+.hamburger {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+}
+.hamburger .bar {
+  width: 20px;
+  height: 2px;
+  background: #eee; /* visible in dark mode */
+}
+body:not(.dark-mode) .hamburger .bar {
+  background: #333; /* visible in light mode */
+}
+
+.hamburger.open .bar:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+.hamburger.open .bar:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.open .bar:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+@media (max-width: 600px) {
+  .hamburger {
+    display: flex;
+  }
+}
+
+/* Nav Links */
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-left: 1.5rem;
+  color: #eee;
+}
+.nav-links a.active {
+  text-decoration: underline;
+}
+
+/* Light mode nav links */
+body:not(.dark-mode) .nav-links a {
+  color: #333;
+}
+body:not(.dark-mode) .nav-links a.active {
+  text-decoration: underline;
+}
+
+/* Mobile Navigation */
+@media (max-width: 600px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .nav-links.open {
+    display: flex;
+  }
+}
+
+@media (max-width: 600px) {
+  /* Light mode nav links on mobile */
+  body:not(.dark-mode) .nav-links a {
+    color: #111;
+  }
+}
+
+/* Main and Footer */
+main {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+@media (max-width: 600px) {
+  main {
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+  }
+}
+
+/* Footer: no background, just text */
+footer {
+  max-width: 800px;
+  margin: 3rem auto;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #777;
+  padding-bottom: 2rem;
+}
+body:not(.dark-mode) footer {
+  color: #666;
+}
+
+/* Intro Section */
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  filter: grayscale(100%);
+  opacity: 0.8;
+  transition: filter 0.4s ease, opacity 0.4s ease;
+}
+.profile-pic:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+@media (max-width: 600px) {
+  .intro {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .intro img {
+    margin-bottom: 1rem;
+  }
+}
+
+.description h1 {
+  margin: 0;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+/* Light mode intro text */
+body:not(.dark-mode) .description p {
+  color: #333;
+}
+
+/* Links Section */
+.links-section {
+  margin-top: 3rem;
+}
+.links-section h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+.links-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+.link-item {
+  position: relative;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  background: none;
+  border: 1px solid #333;
+  color: #eee;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+.link-item:hover {
+  background-color: #111;
+  border-color: #555;
+  color: #fff;
+}
+
+/* Light mode link items */
+body:not(.dark-mode) .link-item {
+  border: 1px solid #ddd;
+  color: #333;
+}
+body:not(.dark-mode) .link-item:hover {
+  background-color: #eee;
+  border-color: #ccc;
+  color: #111;
+}
+
+/* Icons for links */
+.link-youtube::before {
+  content: "▶";
+  margin-right: 0.5rem;
+  color: #f00;
+}
+.link-substack::before {
+  content: "🗞️";
+  margin-right: 0.5rem;
+  color: #ff5f5f;
+}
+.link-twitter::before {
+  content: "🐦";
+  margin-right: 0.5rem;
+  color: #1da1f2;
+}
+.link-github::before {
+  content: "★";
+  margin-right: 0.5rem;
+  color: #ccc;
+}
+.link-linkedin::before {
+  content: "★";
+  margin-right: 0.5rem;
+  color: #0a66c2;
+}
+
+@media (max-width: 600px) {
+  .links-container {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
+
+/* Projects Section */
+.projects-section {
+  margin-top: 3rem;
+}
+.projects-section h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.project {
+  margin-bottom: 2rem;
+}
+.project h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+.project p {
+  font-size: 0.95rem;
+  color: #ccc;
+  margin-bottom: 0.75rem;
+}
+body:not(.dark-mode) .project p {
+  color: #444;
+}
+
+.project a {
+  font-size: 0.9rem;
+  color: #aaa;
+  border-bottom: 1px dashed #aaa;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.project a:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+/* Light mode projects links */
+body:not(.dark-mode) .project a {
+  color: #555;
+  border-bottom-color: #555;
+}
+body:not(.dark-mode) .project a:hover {
+  color: #000;
+  border-color: #000;
+}
+
+/* Bookshelf items (if applicable on other pages) */
+.book-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+.book-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #222;
+  padding-bottom: 1rem;
+  transition: border-color 0.2s ease;
+}
+.book-item:hover {
+  border-color: #333;
+}
+body:not(.dark-mode) .book-item {
+  border-color: #ddd;
+}
+body:not(.dark-mode) .book-item:hover {
+  border-color: #ccc;
+}
+
+.book-cover {
+  width: 50px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 4px;
+  background: #111;
+}
+body:not(.dark-mode) .book-cover {
+  background: #ddd;
+}
+
+.book-details strong {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+  color: #eee;
+}
+body:not(.dark-mode) .book-details strong {
+  color: #111;
+}
+.book-details p {
+  font-size: 0.95rem;
+  color: #ccc;
+}
+body:not(.dark-mode) .book-details p {
+  color: #333;
+}
+
