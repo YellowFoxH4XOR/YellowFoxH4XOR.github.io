@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { ScrollToTop } from "@/components/scroll-to-top";
 import { site } from "@/lib/site";
 
 const geistSans = Geist({
@@ -85,6 +86,13 @@ export default function RootLayout({
       className={`${geistSans.variable} ${firaCode.variable} h-full antialiased`}
     >
       <body className="relative flex min-h-full flex-col overflow-x-hidden bg-background text-foreground transition-colors duration-300">
+        {/* Keyboard skip link — hidden until focused. */}
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:border focus:border-border focus:bg-background focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:shadow-lg"
+        >
+          Skip to content
+        </a>
         {/* Background Ambient Grids & Glows — clipped to the viewport via a
             fixed overflow-hidden wrapper so the off-edge glows can't cause
             horizontal overflow (which made mobile browsers zoom out). */}
@@ -102,10 +110,14 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
-          <main className="mx-auto w-full max-w-6xl flex-1 px-6 py-12 sm:py-16 lg:px-8">
+          <main
+            id="main-content"
+            className="mx-auto w-full max-w-6xl flex-1 px-6 py-12 sm:py-16 lg:px-8"
+          >
             {children}
           </main>
           <Footer />
+          <ScrollToTop />
         </ThemeProvider>
       </body>
     </html>

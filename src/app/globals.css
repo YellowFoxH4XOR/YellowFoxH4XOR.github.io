@@ -350,3 +350,24 @@
 .article li.task-list-item {
   @apply list-none;
 }
+
+/* Respect users who prefer reduced motion — neutralize the (animation-heavy)
+   theme's animations, transitions, and smooth scrolling. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Visible keyboard focus for links (buttons already styled by the UI kit). */
+@layer base {
+  a:focus-visible,
+  summary:focus-visible {
+    @apply rounded-sm outline-none ring-2 ring-brand ring-offset-2 ring-offset-background;
+  }
+}

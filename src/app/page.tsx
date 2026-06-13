@@ -17,7 +17,7 @@ export default function HomePage() {
       <JsonLd data={websiteSchema()} />
       {/* Hero */}
       <section className="relative animate-fade-in-up opacity-0 [animation-fill-mode:forwards]">
-        <div className="flex flex-col-reverse items-start gap-6 sm:flex-row sm:items-center sm:gap-8">
+        <div className="flex max-w-4xl flex-col-reverse items-start gap-6 sm:flex-row sm:items-center sm:justify-between sm:gap-10">
           <div className="flex-1">
             <h1 className="text-3xl font-bold tracking-tight sm:text-4xl text-gradient-brand pb-1">
               {site.greeting}{" "}
