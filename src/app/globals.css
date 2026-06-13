@@ -50,7 +50,7 @@
   --radius-4xl: calc(var(--radius) * 2.6);
 
   /* Premium Keyframe Animations */
-  --animate-fade-in-up: fade-in-up 0.75s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-fade-in-up: fade-in-up 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   --animate-pulse-slow: pulse-slow 8s ease-in-out infinite;
   --animate-float: float 6s ease-in-out infinite;
 }
@@ -58,7 +58,7 @@
 @keyframes fade-in-up {
   0% {
     opacity: 0;
-    transform: translateY(24px);
+    transform: translateY(8px);
   }
   100% {
     opacity: 1;
@@ -265,16 +265,16 @@
 
 /* Staggered Load Animation Helpers */
 @utility animation-delay-100 {
-  animation-delay: 100ms;
+  animation-delay: 30ms;
 }
 @utility animation-delay-200 {
-  animation-delay: 200ms;
+  animation-delay: 60ms;
 }
 @utility animation-delay-300 {
-  animation-delay: 300ms;
+  animation-delay: 90ms;
 }
 @utility animation-delay-400 {
-  animation-delay: 400ms;
+  animation-delay: 120ms;
 }
 
 /* Markdown article styling — applied to rendered blog posts (.article). */
