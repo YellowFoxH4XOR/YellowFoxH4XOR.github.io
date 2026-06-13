@@ -279,7 +279,8 @@
 
 /* Markdown article styling — applied to rendered blog posts (.article). */
 .article {
-  @apply text-[0.975rem] leading-7 text-foreground/90;
+  /* break-words stops long URLs/tokens from forcing horizontal scroll on phones */
+  @apply text-[0.975rem] leading-7 text-foreground/90 break-words;
 }
 .article > * + * {
   @apply mt-5;
@@ -327,6 +328,11 @@
 }
 .article hr {
   @apply border-border/60 my-8;
+}
+/* Wrapper (injected by the markdown renderer) makes wide tables scroll on
+   small screens instead of overflowing the viewport. */
+.article .table-wrap {
+  @apply overflow-x-auto;
 }
 .article table {
   @apply w-full border-collapse overflow-hidden rounded-xl text-sm border border-border/50 bg-card/30;

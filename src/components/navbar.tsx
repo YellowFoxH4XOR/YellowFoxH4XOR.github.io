@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { navLinks, site } from "@/lib/site";
@@ -12,6 +12,24 @@ import { Button } from "@/components/ui/button";
 export function Navbar() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const [hidden, setHidden] = useState(false);
+
+  // Auto-hide on scroll down, reveal on scroll up (always shown near the top).
+  useEffect(() => {
+    let lastY = window.scrollY;
+    const onScroll = () => {
+      const y = window.scrollY;
+      if (y < 80 || y < lastY) {
+        setHidden(false);
+      } else if (y > lastY + 4) {
+        setHidden(true);
+        setOpen(false);
+      }
+      lastY = y;
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   // A link is active for an exact match, or when the current path is nested
   // under it (e.g. /blog/my-post highlights the "Blog" tab) — but never treat
@@ -20,10 +38,20 @@ export function Navbar() {
     href === "/" ? pathname === "/" : pathname.startsWith(href);
 
   return (
-    <header className="sticky top-4 z-50 mx-auto w-full max-w-3xl px-4 sm:px-6">
+    <header
+      className={cn(
+        "sticky top-4 z-50 mx-auto w-full max-w-3xl px-4 sm:px-6 transition-transform duration-300 will-change-transform",
+        // Auto-hide: slide fully out of view when scrolling down (kept visible
+        // while the mobile menu is open).
+        hidden && !open ? "-translate-y-[150%]" : "translate-y-0",
+      )}
+    >
       <div
         className={cn(
-          "flex flex-col justify-center px-6 transition-all duration-300 glass-panel shadow-lg hover:shadow-xl hover:border-brand/40",
+          // Opaque-enough background (with a fallback for browsers that skip
+          // backdrop-blur) so scrolled content doesn't bleed through. Only
+          // border-radius/shadow transition — animating blur/size is janky on phones.
+          "flex flex-col justify-center px-6 border border-border/60 bg-background/90 backdrop-blur-md shadow-lg hover:shadow-xl hover:border-brand/40 supports-[backdrop-filter]:bg-background/70",
           open ? "rounded-3xl h-auto py-4 gap-4" : "rounded-full h-14"
         )}
       >
@@ -86,14 +114,14 @@ export function Navbar() {
 
         {/* Mobile menu */}
         {open && (
-          <nav className="flex flex-col gap-1 border-t border-border/40 pt-3 sm:hidden animate-fade-in-up">
+          <nav className="flex flex-col gap-1 border-t border-border/40 pt-3 sm:hidden">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setOpen(false)}
                 className={cn(
-                  "block rounded-lg px-3 py-2 text-sm font-medium transition-all duration-300 hover:translate-x-1",
+                  "block rounded-lg px-3 py-2 text-sm font-medium",
                   isActive(link.href)
                     ? "text-brand bg-brand/10"
                     : "text-muted-foreground hover:text-foreground hover:bg-muted/50"

@@ -1,8 +1,18 @@
-import ReactMarkdown from "react-markdown";
+import ReactMarkdown, { type Components } from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeHighlight from "rehype-highlight";
 import rehypeSlug from "rehype-slug";
 import "highlight.js/styles/github-dark.css";
+
+// Wrap tables in a horizontally-scrollable container so wide tables don't
+// overflow the viewport on phones (react-markdown renders a bare <table>).
+const components: Components = {
+  table: ({ children }) => (
+    <div className="table-wrap">
+      <table>{children}</table>
+    </div>
+  ),
+};
 
 // Renders post markdown to HTML at build time (this is a server component).
 // remark-gfm: tables/strikethrough/task lists. rehype-highlight: code blocks.
@@ -13,6 +23,7 @@ export function Markdown({ content }: { content: string }) {
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
         rehypePlugins={[rehypeSlug, rehypeHighlight]}
+        components={components}
       >
         {content}
       </ReactMarkdown>
