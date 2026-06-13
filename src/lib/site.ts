@@ -6,7 +6,8 @@ export const site = {
   name: "Akshat Katiyar",
   role: "Software Engineer",
   // Used for absolute URLs in metadata / Open Graph. Override in prod via env.
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.akshatkatiyar.com",
+  // This must match the host the site is actually served on (canonical domain).
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://site.akshatkatiyar.com",
   description:
     "Full-stack engineer focused on building and optimizing software systems. Writing about engineering, systems, and the books I read.",
   intro:
