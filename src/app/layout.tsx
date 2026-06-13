@@ -85,11 +85,15 @@ export default function RootLayout({
       className={`${geistSans.variable} ${firaCode.variable} h-full antialiased`}
     >
       <body className="relative flex min-h-full flex-col overflow-x-hidden bg-background text-foreground transition-colors duration-300">
-        {/* Background Ambient Grids & Glows */}
-        <div className="pointer-events-none absolute inset-0 -z-10 bg-grid-pattern opacity-[0.03] dark:opacity-[0.04]" />
-        <div className="pointer-events-none absolute top-[-10%] left-[-10%] h-[600px] w-[600px] rounded-full bg-brand/8 blur-[130px] dark:bg-brand/5 animate-pulse-slow" />
-        <div className="pointer-events-none absolute top-[35%] right-[-10%] h-[500px] w-[500px] rounded-full bg-brand/5 blur-[120px] dark:bg-[#d946ef]/3 animate-pulse-slow" />
-        <div className="pointer-events-none absolute bottom-[10%] left-[-5%] h-[450px] w-[450px] rounded-full bg-brand/5 blur-[110px]" />
+        {/* Background Ambient Grids & Glows — clipped to the viewport via a
+            fixed overflow-hidden wrapper so the off-edge glows can't cause
+            horizontal overflow (which made mobile browsers zoom out). */}
+        <div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+          <div className="absolute inset-0 bg-grid-pattern opacity-[0.03] dark:opacity-[0.04]" />
+          <div className="absolute top-[-10%] left-[-10%] h-[600px] w-[600px] rounded-full bg-brand/8 blur-[130px] dark:bg-brand/5 animate-pulse-slow" />
+          <div className="absolute top-[35%] right-[-10%] h-[500px] w-[500px] rounded-full bg-brand/5 blur-[120px] dark:bg-[#d946ef]/3 animate-pulse-slow" />
+          <div className="absolute bottom-[10%] left-[-5%] h-[450px] w-[450px] rounded-full bg-brand/5 blur-[110px]" />
+        </div>
 
         <ThemeProvider
           attribute="class"
