@@ -4,22 +4,22 @@
 
 export const site = {
   name: "Akshat Katiyar",
-  role: "Software Engineer",
+  role: "Senior Backend Engineer",
   // Used for absolute URLs in metadata / Open Graph. Override in prod via env.
   // This must match the host the site is actually served on (canonical domain).
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://site.akshatkatiyar.com",
   description:
-    "Full-stack engineer focused on building and optimizing software systems. Writing about engineering, systems, and the books I read.",
+    "Senior Backend Engineer with 7+ years building production Python and Go services, REST APIs, and GenAI products (RAG, LLM agents). Writing about engineering, systems, and the books I read.",
   intro:
-    "I'm a full-stack developer focused on building and optimizing software systems. I primarily work with Python and Go. Currently part of the team at Commonwealth Bank of Australia, contributing across the tech stack.",
+    "I'm a Senior Backend Engineer with 7+ years building production Python and Go services, REST APIs, and PostgreSQL-backed platforms end to end. Lately I build GenAI products — RAG pipelines, LLM agents, and model routing — alongside DevOps and full-stack delivery. Currently at Commonwealth Bank (CBA India).",
   greeting: "Hey, I'm Akshat",
 
   // SEO / structured-data fields.
   locale: "en_US",
   twitterHandle: "@yellowfox_h4xor",
   email: "abhisidds@gmail.com",
-  jobTitle: "Senior Software Engineer",
-  worksFor: "Commonwealth Bank of Australia",
+  jobTitle: "Senior Backend Engineer",
+  worksFor: "Commonwealth Bank (CBA India)",
   // Profiles that establish identity for search/AI engines (schema.org sameAs).
   sameAs: [
     "https://github.com/YellowFoxH4XOR",
@@ -28,12 +28,16 @@ export const site = {
   ],
   keywords: [
     "Akshat Katiyar",
-    "software engineer",
-    "full-stack developer",
+    "senior backend engineer",
+    "backend engineer",
+    "GenAI engineer",
     "Python",
     "Go",
+    "FastAPI",
+    "RAG",
+    "LLM",
+    "LangChain",
     "distributed systems",
-    "backend engineering",
     "engineering blog",
   ],
 } as const;
