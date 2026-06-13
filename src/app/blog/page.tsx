@@ -5,6 +5,7 @@ import { PostCard } from "@/components/post-card";
 export const metadata: Metadata = {
   title: "Blog",
   description: "Writing about engineering, systems, and what I'm learning.",
+  alternates: { canonical: "/blog" },
 };
 
 export default function BlogIndexPage() {

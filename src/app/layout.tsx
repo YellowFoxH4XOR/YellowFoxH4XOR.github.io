@@ -24,12 +24,43 @@ export const metadata: Metadata = {
     template: `%s | ${site.name}`,
   },
   description: site.description,
+  keywords: [...site.keywords],
+  authors: [{ name: site.name, url: site.url }],
+  creator: site.name,
+  publisher: site.name,
+  alternates: {
+    canonical: "/",
+    types: {
+      "application/rss+xml": [
+        { url: "/feed.xml", title: `${site.name} — Blog` },
+      ],
+    },
+  },
   openGraph: {
     title: `${site.name} | ${site.role}`,
     description: site.description,
     url: site.url,
     siteName: site.name,
+    locale: site.locale,
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${site.name} | ${site.role}`,
+    description: site.description,
+    creator: site.twitterHandle,
+  },
+  // Encourage rich snippets / large image previews in search and AI cards.
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
   icons: {
     icon: [

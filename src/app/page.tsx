@@ -5,12 +5,16 @@ import { site } from "@/lib/site";
 import { getAllPosts } from "@/lib/blog";
 import { SocialLinks } from "@/components/social-links";
 import { PostCard } from "@/components/post-card";
+import { JsonLd } from "@/components/json-ld";
+import { personSchema, websiteSchema } from "@/lib/seo";
 
 export default function HomePage() {
   const posts = getAllPosts().slice(0, 3);
 
   return (
     <div className="space-y-16">
+      <JsonLd data={personSchema()} />
+      <JsonLd data={websiteSchema()} />
       {/* Hero */}
       <section className="relative animate-fade-in-up opacity-0 [animation-fill-mode:forwards]">
         <div className="flex flex-col-reverse items-start gap-6 sm:flex-row sm:items-center sm:gap-8">

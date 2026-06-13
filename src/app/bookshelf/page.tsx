@@ -5,6 +5,7 @@ import { books } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Bookshelf",
   description: "Books I've read and recommend.",
+  alternates: { canonical: "/bookshelf" },
 };
 
 export default function BookshelfPage() {

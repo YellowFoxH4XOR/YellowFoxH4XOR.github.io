@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 export const metadata: Metadata = {
   title: "Resume",
   description: "Experience and skills.",
+  alternates: { canonical: "/resume" },
 };
 
 export default function ResumePage() {

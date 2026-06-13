@@ -12,6 +12,29 @@ export const site = {
   intro:
     "I'm a full-stack developer focused on building and optimizing software systems. I primarily work with Python and Go. Currently part of the team at Commonwealth Bank of Australia, contributing across the tech stack.",
   greeting: "Hey, I'm Akshat",
+
+  // SEO / structured-data fields.
+  locale: "en_US",
+  twitterHandle: "@yellowfox_h4xor",
+  email: "abhisidds@gmail.com",
+  jobTitle: "Senior Software Engineer",
+  worksFor: "Commonwealth Bank of Australia",
+  // Profiles that establish identity for search/AI engines (schema.org sameAs).
+  sameAs: [
+    "https://github.com/YellowFoxH4XOR",
+    "https://www.linkedin.com/in/akshat-katiyar/",
+    "https://x.com/yellowfox_h4xor",
+  ],
+  keywords: [
+    "Akshat Katiyar",
+    "software engineer",
+    "full-stack developer",
+    "Python",
+    "Go",
+    "distributed systems",
+    "backend engineering",
+    "engineering blog",
+  ],
 } as const;
 
 export const navLinks = [
@@ -22,7 +45,7 @@ export const navLinks = [
 ] as const;
 
 export const socialLinks = [
-  { label: "Newsletter", href: "#", icon: "newsletter" },
+  { label: "Newsletter", href: "/feed.xml", icon: "newsletter" },
   { label: "Twitter", href: "https://x.com/yellowfox_h4xor", icon: "twitter" },
   { label: "GitHub", href: "https://github.com/YellowFoxH4XOR", icon: "github" },
   {
