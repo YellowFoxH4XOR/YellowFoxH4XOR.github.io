@@ -18,7 +18,7 @@ export default function BookshelfPage() {
         </p>
       </header>
 
-      <ul className="space-y-4">
+      <ul className="grid gap-4 sm:grid-cols-2">
         {books.map((book, index) => (
           <li
             key={book.title}

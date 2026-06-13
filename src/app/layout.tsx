@@ -102,7 +102,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
-          <main className="mx-auto w-full max-w-3xl flex-1 px-6 py-12 sm:py-16">
+          <main className="mx-auto w-full max-w-6xl flex-1 px-6 py-12 sm:py-16 lg:px-8">
             {children}
           </main>
           <Footer />

@@ -59,7 +59,7 @@ export default async function PostPage({ params }: Params) {
   ];
 
   return (
-    <article className="space-y-8 animate-fade-in-up">
+    <article className="mx-auto max-w-3xl space-y-8 animate-fade-in-up">
       <JsonLd data={blogPostingSchema(post)} />
       <JsonLd data={breadcrumbSchema(crumbs)} />
       <ReadingProgress />

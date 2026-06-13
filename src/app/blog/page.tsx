@@ -21,7 +21,7 @@ export default function BlogIndexPage() {
       </header>
 
       {posts.length > 0 ? (
-        <div className="grid gap-4 animate-fade-in-up opacity-0 animation-delay-100 [animation-fill-mode:forwards]">
+        <div className="grid gap-5 sm:grid-cols-2 animate-fade-in-up opacity-0 animation-delay-100 [animation-fill-mode:forwards]">
           {posts.map((post) => (
             <PostCard key={post.slug} post={post} />
           ))}

@@ -16,7 +16,7 @@ const icons: Record<string, IconCmp> = {
 export function Footer() {
   return (
     <footer className="mt-16 border-t border-border/40">
-      <div className="mx-auto flex w-full max-w-3xl flex-col items-center gap-6 px-6 py-10 text-sm text-muted-foreground sm:flex-row sm:justify-between">
+      <div className="mx-auto flex w-full max-w-6xl flex-col items-center gap-6 px-6 py-10 text-sm text-muted-foreground sm:flex-row sm:justify-between">
         <nav className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
           {navLinks.map((link) => (
             <Link
@@ -50,7 +50,7 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="mx-auto w-full max-w-3xl px-6 pb-10 text-center text-xs text-muted-foreground sm:text-left">
+      <div className="mx-auto w-full max-w-6xl px-6 pb-10 text-center text-xs text-muted-foreground sm:text-left">
         © {new Date().getFullYear()} {site.name}. All rights reserved.
       </div>
     </footer>

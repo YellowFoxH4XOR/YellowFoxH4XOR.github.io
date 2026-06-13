@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function ResumePage() {
   return (
-    <div className="space-y-12">
+    <div className="mx-auto max-w-3xl space-y-12">
       <header className="flex items-center justify-between gap-4 animate-fade-in-up opacity-0 [animation-fill-mode:forwards]">
         <h1 className="text-3xl font-bold tracking-tight text-gradient-brand pb-1">Resume</h1>
         {resumePdfUrl && (

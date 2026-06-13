@@ -23,7 +23,7 @@ export default function HomePage() {
               {site.greeting}{" "}
               <span className="inline-block hover:animate-bounce cursor-default">👋</span>
             </h1>
-            <p className="mt-4 text-base leading-7 text-muted-foreground">
+            <p className="mt-4 max-w-2xl text-base leading-7 text-muted-foreground">
               {site.intro}
             </p>
           </div>
@@ -69,7 +69,7 @@ export default function HomePage() {
         </div>
 
         {posts.length > 0 ? (
-          <div className="grid gap-4">
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {posts.map((post) => (
               <PostCard key={post.slug} post={post} />
             ))}
