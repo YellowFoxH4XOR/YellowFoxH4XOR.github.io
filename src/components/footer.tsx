@@ -50,7 +50,7 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="mx-auto w-full max-w-3xl px-6 pb-10 text-center text-xs text-muted-foreground/70 sm:text-left">
+      <div className="mx-auto w-full max-w-3xl px-6 pb-10 text-center text-xs text-muted-foreground sm:text-left">
         © {new Date().getFullYear()} {site.name}. All rights reserved.
       </div>
     </footer>
