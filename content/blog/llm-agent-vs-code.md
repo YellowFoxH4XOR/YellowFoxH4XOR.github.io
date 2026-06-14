@@ -1,6 +1,6 @@
 ---
 title: "When to Use an LLM Agent vs Plain Code"
-date: "2026-04-14"
+date: "2026-04-21"
 excerpt: "Agents add latency, non-determinism, and real cost per run — so plain code is the default. Here's the decision framework I actually use."
 tags: ["ai", "agents", "llm", "architecture"]
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Python or Go? How I Actually Choose for a Backend Service"
-date: "2026-01-27"
+date: "2026-02-17"
 excerpt: "A practical decision framework from shipping real services in both — concrete tiebreakers most teams underweight before they're forced to care."
 tags: ["python", "go", "backend", "architecture"]
 ---

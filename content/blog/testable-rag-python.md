@@ -1,6 +1,6 @@
 ---
 title: "Building a RAG Pipeline in Python You Can Actually Test"
-date: "2025-12-23"
+date: "2026-01-20"
 excerpt: "RAG feels untestable because generation is non-deterministic — the move is to decompose the pipeline into layers and test each one differently."
 tags: ["rag", "llm", "python", "testing"]
 ---

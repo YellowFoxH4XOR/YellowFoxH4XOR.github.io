@@ -1,6 +1,6 @@
 ---
 title: "Routing Between LLMs Without Blowing the Budget"
-date: "2025-12-09"
+date: "2026-01-06"
 excerpt: "How I built a routing layer for a bank's GenAI chatbot that cut resolution time ~30% while keeping model spend controlled — and when not to bother."
 tags: ["llm", "ai", "architecture", "cost"]
 ---

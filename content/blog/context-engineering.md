@@ -1,6 +1,6 @@
 ---
 title: "Context Engineering Is the New Prompt Engineering"
-date: "2026-01-13"
+date: "2026-02-03"
 excerpt: "Prompt engineering tunes the question; context engineering controls what tokens the model even sees — and the job is keeping that set ruthlessly small."
 tags: ["ai", "llm", "context-engineering", "agents"]
 ---

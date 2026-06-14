@@ -1,6 +1,6 @@
 ---
 title: "Cutting PostgreSQL Query Latency on a Reporting Endpoint"
-date: "2026-02-17"
+date: "2026-03-03"
 excerpt: "A slow reporting endpoint, a missing composite index, an unsargable predicate, and what EXPLAIN ANALYZE actually told us — a debugging walkthrough."
 tags: ["postgres", "backend", "performance", "systems"]
 ---

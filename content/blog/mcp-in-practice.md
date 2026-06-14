@@ -1,6 +1,6 @@
 ---
 title: "MCP in Practice: Tools for an Agent Without the N×M Mess"
-date: "2026-03-03"
+date: "2026-03-17"
 excerpt: "MCP collapses the N×M agent-tool integration problem into one server per tool — here's what that means for how you actually design and scope tool contracts."
 tags: ["mcp", "agents", "llm", "tools"]
 ---

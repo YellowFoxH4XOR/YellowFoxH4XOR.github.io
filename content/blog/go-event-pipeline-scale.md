@@ -1,6 +1,6 @@
 ---
 title: "A Go Event Pipeline at 100k Events/Day, Sub-200ms"
-date: "2026-03-24"
+date: "2026-03-31"
 excerpt: "How we built a serverless SQS → Lambda → DynamoDB pipeline in Go that handles 100k events a day at sub-200ms end-to-end latency with 99.99% uptime — and what broke along the way."
 tags: ["go", "aws", "systems", "architecture"]
 ---
