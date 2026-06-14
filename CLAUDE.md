@@ -1,0 +1,102 @@
+# CLAUDE.md — akshatkatiyar.com
+
+Project-specific rules. These sit on top of the global rules and are about one
+thing: **this site must stay maximally discoverable by humans, search engines,
+and AI answer engines / agents (ChatGPT, Perplexity, Claude, Google AI).**
+Treat SEO + agent-discoverability as a non-negotiable invariant, not a feature.
+
+## Architecture (one paragraph)
+
+Next.js 16 (App Router), Tailwind v4, shadcn/ui. Deployed as a standalone
+Docker image on Coolify, served at `https://site.akshatkatiyar.com`. Blog posts
+are markdown files in `content/blog/`; pushing one to `master` triggers a
+Coolify rebuild. There is **one source of truth for identity/metadata**:
+`src/lib/site.ts`. All schema/JSON-LD lives in `src/lib/seo.ts`.
+
+## The discoverability system — what lives where
+
+| Concern | File | Notes |
+|---|---|---|
+| Identity, bio, skills, social, URL | `src/lib/site.ts` | Single source of truth |
+| JSON-LD builders | `src/lib/seo.ts` | Person, WebSite, BlogPosting, Blog, ProfilePage (resume), ItemList (bookshelf), Breadcrumb |
+| JSON-LD renderer | `src/components/json-ld.tsx` | Server-rendered into HTML |
+| Sitemap | `src/app/sitemap.ts` | Static routes + one entry per post |
+| robots.txt | `src/app/robots.ts` | Allow-lists AI crawlers explicitly |
+| llms.txt | `src/app/llms.txt/route.ts` | llmstxt.org convention |
+| RSS | `src/app/feed.xml/route.ts` | Posts stream |
+| Per-page `<head>` metadata | each `page.tsx` / `generateMetadata` | title, description, canonical, OG, Twitter |
+| Blog content | `content/blog/*.md` | Frontmatter-driven |
+
+## Auto-propagation — do NOT hand-maintain these
+
+Adding/removing a markdown file in `content/blog/` automatically updates **all**
+of: the sitemap, `llms.txt`, the RSS feed, blog static params, and the blog
+index `Blog` JSON-LD. They are pure functions of `getAllPosts()`.
+
+- **Never** hand-edit `sitemap.ts` / `llms.txt` / `feed.xml` to add a post.
+- If you find yourself wanting to, the derivation is broken — fix the derivation.
+
+## Invariants for ANY change (check before finishing)
+
+1. **JSON-LD must be server-rendered** via `<JsonLd>` (it's in the static HTML).
+   Non-JS crawlers (CCBot, many answer-engine fetchers) don't run JavaScript —
+   schema injected client-side is invisible. Never move it into `useEffect`.
+2. **One Person, one WebSite entity.** Both use a stable `@id`
+   (`${site.url}/#person`, `${site.url}/#website`). Any `author`/`publisher`
+   slot must *reference* that `@id` (use `personRef()` in `seo.ts`), never
+   recopy the full object. This is what lets engines reconcile every mention
+   into a single knowledge-graph entity.
+3. **Every page sets metadata**: a unique `title`, a `description`, and
+   `alternates.canonical`. No page ships without these.
+4. **Absolute URLs come from `site.url`.** Never hardcode the domain; it must
+   stay overridable via `NEXT_PUBLIC_SITE_URL` and consistent everywhere
+   (canonical, OG, sitemap, JSON-LD, llms.txt, RSS).
+5. **Keep `robots` open to AI crawlers.** Never add `noindex`/`nofollow` or
+   remove crawlers from the allow-list in `robots.ts` without an explicit ask.
+6. **Content must be original.** No scraped/duplicated text — duplicate content
+   gets de-ranked and is not cited. Cite outbound sources with real links.
+7. **Don't regress structured data.** If you change a page's content shape
+   (resume, bookshelf, blog), update the matching builder in `seo.ts` so the
+   schema still mirrors what's on the page.
+
+## Checklists
+
+### Adding a blog post
+1. Create `content/blog/<slug>.md`. `<slug>` becomes the URL `/blog/<slug>`.
+2. Frontmatter (all required except `draft`):
+   ```yaml
+   ---
+   title: "..."           # also the OG/Twitter title and <h1>
+   date: "YYYY-MM-DD"     # publish date; drives sitemap lastmod + RSS pubDate
+   excerpt: "..."         # one line; becomes meta description + OG description
+   tags: ["...", "..."]   # become keywords + JSON-LD keywords + RSS categories
+   draft: true            # optional; keeps it out of production builds
+   ---
+   ```
+3. Write original markdown (GFM). That's it — sitemap/llms.txt/RSS/schema update
+   themselves. Do not touch any other file.
+
+### Adding a new page / route
+1. Export `metadata` with a unique `title`, `description`, and
+   `alternates.canonical: "/the-path"`.
+2. Add it to `staticRoutes` in `src/app/sitemap.ts`.
+3. Add it to the `## Pages` list in `src/app/llms.txt/route.ts`.
+4. If it should appear in nav, add it to `navLinks` in `src/lib/site.ts`.
+5. If the page represents structured content (a person, list, article, FAQ…),
+   add a builder in `src/lib/seo.ts` and render it via `<JsonLd>` on the page,
+   reusing the shared Person `@id` where an author/owner is involved.
+
+### Changing identity / bio / skills / job
+- Edit `src/lib/site.ts` (and `src/lib/content.ts` for resume/bookshelf data).
+  Everything downstream — metadata, JSON-LD, llms.txt, OG — picks it up. Don't
+  edit the derived surfaces directly.
+
+## Verify before calling it done
+
+Run `npm run build`, then confirm the JSON-LD landed in the prerendered HTML,
+e.g.:
+```
+grep -o '"@type":"[A-Za-z]*"' .next/server/app/<route>.html | sort -u
+```
+A page that should have structured data but shows none is a regression.
+After deploy, spot-check changed pages in Google's Rich Results Test.

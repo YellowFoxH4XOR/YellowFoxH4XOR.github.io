@@ -33,8 +33,6 @@ npm start        # serve the production build
    with syntax highlighting all work).
 4. Commit and push. Coolify rebuilds and the post goes live.
 
-See `content/blog/markdown-cheatsheet.md` for a live reference.
-
 ## Editing site content
 
 - **Name, intro, nav, social links** — `src/lib/site.ts`
