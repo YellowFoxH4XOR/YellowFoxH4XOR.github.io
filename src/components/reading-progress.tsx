@@ -2,8 +2,9 @@
 
 import { useEffect, useState } from "react";
 
-// A thin brand-colored bar pinned to the top that fills as you scroll the
-// article — a small touch that signals "this is a long-read" and aids reading.
+// A thin brand-colored bar pinned to the LEFT edge that fills top-to-bottom as
+// you scroll the article. The faint track shows the portion still left to read,
+// so the reader can see at a glance how much of the page remains.
 export function ReadingProgress() {
   const [progress, setProgress] = useState(0);
 
@@ -24,10 +25,17 @@ export function ReadingProgress() {
   }, []);
 
   return (
-    <div className="fixed inset-x-0 top-0 z-[60] h-0.5 bg-transparent">
+    <div
+      className="fixed left-0 top-0 z-[60] h-screen w-[3px] bg-brand/10"
+      role="progressbar"
+      aria-label="Reading progress"
+      aria-valuenow={Math.round(progress)}
+      aria-valuemin={0}
+      aria-valuemax={100}
+    >
       <div
-        className="h-full bg-brand transition-[width] duration-150 ease-out"
-        style={{ width: `${progress}%` }}
+        className="w-full bg-brand transition-[height] duration-150 ease-out"
+        style={{ height: `${progress}%` }}
       />
     </div>
   );
