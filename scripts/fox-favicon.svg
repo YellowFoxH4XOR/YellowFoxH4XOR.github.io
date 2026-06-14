@@ -1,0 +1,38 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8f81ff"/>
+      <stop offset="1" stop-color="#634cd4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- rounded-square backdrop -->
+  <rect x="0" y="0" width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- fox head silhouette (white) -->
+  <path fill="#ffffff" d="
+    M120 200
+    L165 108
+    L212 198
+    L256 172
+    L300 198
+    L347 108
+    L392 200
+    L398 285
+    L300 360
+    L256 420
+    L212 360
+    L114 285
+    Z"/>
+
+  <!-- inner ears (cut to violet) -->
+  <path fill="#7960fb" d="M152 162 L186 168 L168 196 Z"/>
+  <path fill="#7960fb" d="M360 162 L326 168 L344 196 Z"/>
+
+  <!-- eyes -->
+  <path fill="#7960fb" d="M190 244 L246 264 L198 288 Z"/>
+  <path fill="#7960fb" d="M322 244 L266 264 L314 288 Z"/>
+
+  <!-- snout / nose -->
+  <path fill="#7960fb" d="M256 372 L240 348 L272 348 Z"/>
+</svg>
