@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Fira_Code } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -72,6 +72,13 @@ export const metadata: Metadata = {
     apple: "/favicon/apple-touch-icon.png",
   },
   manifest: "/favicon/site.webmanifest",
+};
+
+// Tints mobile browser chrome (address bar) to the brand violet. Matches the
+// PWA manifest theme_color; a single accent works across light/dark since the
+// site follows the system theme.
+export const viewport: Viewport = {
+  themeColor: "#7960fb",
 };
 
 export default function RootLayout({
