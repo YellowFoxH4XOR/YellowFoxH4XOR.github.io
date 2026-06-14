@@ -45,9 +45,9 @@ export const site = {
 export const navLinks = [
   { href: "/", label: "Home" },
   { href: "/blog", label: "Blog" },
-  { href: "/tech-blogs", label: "Tech Blogs" },
   { href: "/bookshelf", label: "Bookshelf" },
   { href: "/resume", label: "Resume" },
+  { href: "/tech-blogs", label: "Tech Blogs" },
 ] as const;
 
 export const socialLinks = [
