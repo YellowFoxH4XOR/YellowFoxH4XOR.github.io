@@ -1,12 +1,29 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
+import { createPortal } from "react-dom";
+
+// Hydration-safe "are we on the client?" check: false during SSR (so we never
+// touch `document`), true after mount — without a setState-in-effect flag.
+const emptySubscribe = () => () => {};
+function useMounted() {
+  return useSyncExternalStore(
+    emptySubscribe,
+    () => true,
+    () => false,
+  );
+}
 
 // A thin brand-colored bar pinned to the LEFT edge that fills top-to-bottom as
-// you scroll the article. The faint track shows the portion still left to read,
-// so the reader can see at a glance how much of the page remains.
+// you scroll the article. The faint track shows the portion still left to read.
+//
+// Rendered via a portal to <body> on purpose: the article wrapper uses a
+// transform-based entrance animation, and a transformed ancestor turns
+// `position: fixed` into `absolute` (relative to that ancestor). Portalling to
+// body keeps the bar truly viewport-fixed regardless of page layout.
 export function ReadingProgress() {
   const [progress, setProgress] = useState(0);
+  const mounted = useMounted();
 
   useEffect(() => {
     const update = () => {
@@ -24,9 +41,11 @@ export function ReadingProgress() {
     };
   }, []);
 
-  return (
+  if (!mounted) return null;
+
+  return createPortal(
     <div
-      className="fixed left-0 top-0 z-[60] h-screen w-[3px] bg-brand/10"
+      className="fixed left-0 top-0 z-[60] h-screen w-[3px] bg-foreground/10"
       role="progressbar"
       aria-label="Reading progress"
       aria-valuenow={Math.round(progress)}
@@ -34,9 +53,10 @@ export function ReadingProgress() {
       aria-valuemax={100}
     >
       <div
-        className="w-full bg-brand transition-[height] duration-150 ease-out"
+        className="w-full bg-brand shadow-[0_0_8px_var(--color-brand)] transition-[height] duration-150 ease-out"
         style={{ height: `${progress}%` }}
       />
-    </div>
+    </div>,
+    document.body,
   );
 }
