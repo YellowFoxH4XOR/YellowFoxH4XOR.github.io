@@ -22,8 +22,8 @@ be high.
 If you can enumerate the steps, write the branches. Ordinary code is fast,
 testable, and free to run. Even where natural language is involved, a single
 constrained LLM call — structured output, one round trip — is almost always
-better than a loop with tools. I covered the mechanics of keeping models
-contained in the [deterministic AI](/blog/deterministic-ai) post: the model
+better than a loop with tools. The mechanics of keeping models
+contained come down to one rule: the model
 interprets, code decides.
 
 "But what if the user input is complex?" Structure it. Give the model an enum and
@@ -118,7 +118,7 @@ call when you need language understanding. Reach for an agent only when the task
 genuinely needs iterative planning over live context. And when you do build one,
 keep it single-agent until you have a concrete reason to split it.
 
-The principle from the [deterministic AI](/blog/deterministic-ai) post holds even
+The same principle holds even
 inside an agentic system: let the model plan and interpret, let deterministic code
 enforce the side effects. The boundary between probabilistic and deterministic is
 where reliability lives, whether you're using one call or twenty.

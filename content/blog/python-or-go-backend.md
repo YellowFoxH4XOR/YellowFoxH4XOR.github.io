@@ -29,8 +29,8 @@ a second full-time job with no business justification.
 If the answer is **processing a high volume of events under strict latency constraints,
 serving thousands of concurrent connections with predictable tail latency, or shipping a
 self-contained binary that runs in a constrained environment** — Go earns its complexity
-tax fast. I chose Go for [the event pipeline I wrote about here](/blog/go-event-pipeline-scale),
-which was pushing ~100k events per day and needed sub-200ms end-to-end with predictable
+tax fast. I chose Go for a high-volume event pipeline
+that was pushing ~100k events per day and needed sub-200ms end-to-end with predictable
 p99 behavior. Python asyncio would have gotten close, but goroutines gave me a concurrency
 model that reasoned about clearly, and the single-binary deploy cut the operational surface
 area to almost nothing.
@@ -63,7 +63,7 @@ disappear.
 cooperative — one stalled coroutine can hold up the event loop. Go goroutines are
 preemptive, and the scheduler handles them correctly by default. For a service where a
 slow downstream call is a common case rather than an edge case, that difference shows up
-in your tail latency. It also showed up in my [Postgres query latency work](/blog/postgresql-query-latency),
+in your tail latency. It also showed up in database performance work,
 where the Go service's predictable scheduling made profiling much easier — what you measure
 is what's actually happening.
 

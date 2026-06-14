@@ -126,8 +126,8 @@ def score_faithfulness(context: str, answer: str, client: OpenAI) -> int:
 ```
 
 Run this over your eval set on each deploy. Track the mean score. Gate merges
-when it drops below a threshold. This is exactly the point I make in [evals as
-CI](/blog/evals-as-ci) — the eval isn't a one-time check, it's a signal that
+when it drops below a threshold. This is the whole idea behind treating evals as
+CI — the eval isn't a one-time check, it's a signal that
 lives in your pipeline and tells you when a model swap or prompt edit regressed
 quality.
 
@@ -139,7 +139,7 @@ most likely and the ones your golden retrieval tests won't catch.
 ## The model is the only non-deterministic part
 
 This is the framing that unlocks the whole thing. It's also the framing behind
-[context engineering](/blog/context-engineering): everything that goes into the
+context engineering: everything that goes into the
 model call — the retrieved docs, the assembled prompt, the system message — is
 deterministic. You control all of it. Test all of it. The model's output is a
 distribution you characterize with scoring, not a value you assert.

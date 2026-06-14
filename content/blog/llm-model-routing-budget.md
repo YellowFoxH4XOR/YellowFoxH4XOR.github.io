@@ -11,7 +11,7 @@ Those two questions are not equally hard. Treating them the same is waste.
 
 ## The model-tier problem
 
-The [LLM landscape in 2026](https://llm-stats.com/) has sprawled into tiers: frontier models (GPT-4o, Claude Opus, Gemini 1.5 Pro) that are slow and expensive but genuinely good at reasoning; smaller, faster models (Claude Haiku, GPT-4o-mini, Llama 3 70B) that handle well-structured, low-ambiguity queries just fine; and a growing middle tier of specialized fine-tunes. The gap between tiers is real but so is [the price gap](https://www.codingscape.com/blog/most-powerful-llms-large-language-models) — often 5–20x per token between the cheapest and most capable options.
+The [LLM landscape today](https://llm-stats.com/) has sprawled into tiers: frontier models (GPT-5.1, Claude Opus 4.5, Gemini 3) that are slow and expensive but genuinely good at reasoning; smaller, faster models (Claude Haiku, GPT-5 mini, Gemini Flash) that handle well-structured, low-ambiguity queries just fine; and a growing middle tier of specialized fine-tunes. The gap between tiers is real but so is [the price gap](https://www.codingscape.com/blog/most-powerful-llms-large-language-models) — often 5–20x per token between the cheapest and most capable options.
 
 Routing is the bet that you can classify a query's difficulty *before* you pay for the answer.
 
@@ -33,7 +33,7 @@ For uncached queries, the heuristic router was good enough to start. We briefly 
 
 The fallback behavior was the part that surprised me most. Before Portkey, we had a naive retry loop with exponential backoff. What we didn't have was clean *provider* fallback — if the frontier model's provider was rate-limiting us or having a partial outage, we'd just fail. With Portkey's fallback config, we defined a priority chain: try provider A, if that fails within N seconds or returns a rate-limit error, try provider B with the same model, then fall back to a smaller model with an acknowledgment in the response that it's best-effort.
 
-This is [closer to how you'd treat it like an agent decision](/blog/llm-agent-vs-code) — not a single call but a policy with fallback states. The difference is the policy lives in config, not in prompt chains.
+This is closer to how you'd treat it like an agent decision — not a single call but a policy with fallback states. The difference is the policy lives in config, not in prompt chains.
 
 The logging that Portkey gives you out of the box is what made the routing tunable. We could see exactly which queries were hitting which tier, what the cost per-query was, and where the small model was producing answers the ops team flagged as wrong. That last signal is what you need to tighten or loosen the routing threshold.
 
@@ -43,7 +43,7 @@ Routing adds latency. The classification step, even a fast heuristic, is a round
 
 Routing also fails if your query distribution is genuinely unpredictable. If every question from your users is novel and complex, routing everything to the frontier model is already the right answer. The signal that routing helps is a *bimodal* distribution: a mass of repetitive or simple queries, and a tail of hard ones.
 
-You also need to [treat evals like CI](/blog/evals-as-ci) before you touch the routing threshold. If you don't have a way to measure answer quality per tier, you'll optimize for cost and accidentally degrade the experience. We ran a manual eval on 100 queries per week for the first month, tagging which tier handled them and whether the answer was acceptable. That's how we discovered that "acceptable" on a small model meant "good enough for status lookups, not good enough for root-cause analysis."
+You also need to treat evals like CI before you touch the routing threshold. If you don't have a way to measure answer quality per tier, you'll optimize for cost and accidentally degrade the experience. We ran a manual eval on 100 queries per week for the first month, tagging which tier handled them and whether the answer was acceptable. That's how we discovered that "acceptable" on a small model meant "good enough for status lookups, not good enough for root-cause analysis."
 
 ## What actually changed
 

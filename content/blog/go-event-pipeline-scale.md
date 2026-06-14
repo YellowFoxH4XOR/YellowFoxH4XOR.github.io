@@ -58,7 +58,7 @@ func handleEvent(ctx context.Context, event Event) error {
 }
 ```
 
-This is the same principle I wrote about in the [deterministic AI post](/blog/deterministic-ai):
+This is the same principle behind any reliable system:
 side effects need to be safe to retry. A non-deterministic upstream — in that
 case a language model, here an at-least-once queue — makes retries inevitable.
 Your write layer has to absorb the duplicates without flinching.

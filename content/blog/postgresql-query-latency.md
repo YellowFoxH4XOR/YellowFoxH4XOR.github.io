@@ -164,5 +164,5 @@ The same careful approach applies when you're choosing the technology underneath
 the data layer — if you're weighing [Python or Go for a backend service](/blog/python-or-go-backend),
 the read/write access patterns on your database should be part of that decision.
 And if you're dealing with high-volume event streams that feed into reporting
-tables like this one, the architecture of [the Go event pipeline](/blog/go-event-pipeline-scale)
+tables like this one, the design of the upstream event pipeline
 shapes what your queries even look like at the end of the chain.

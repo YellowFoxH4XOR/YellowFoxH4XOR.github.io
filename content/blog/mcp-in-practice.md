@@ -91,7 +91,7 @@ A single internal Python service calling three internal functions isn't N×M
 anything. Wrapping those in an MCP server adds a transport layer, a schema
 serialization round-trip, and a new process to monitor, in exchange for
 interoperability you don't need yet. That's the kind of thing I'd consider
-[using a direct function call for instead of an agent abstraction at all](/blog/llm-agent-vs-code).
+using a direct function call for, rather than an agent abstraction at all.
 Build the server when a second host needs the tool, or when you genuinely expect
 that to happen. Not before.
 

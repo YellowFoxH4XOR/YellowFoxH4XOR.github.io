@@ -148,7 +148,7 @@ even if every CI check is green.
 
 ## The core principle
 
-You can't make the model deterministic — I covered that in [deterministic AI](/blog/deterministic-ai).
+You can't make the model deterministic — that is just the nature of the thing.
 But you can make its quality measurable and gated. That's the contract with
 evals as CI: every prompt change, model swap, or retrieval update has to pass
 the same bar as code changes always have. The feature either meets the rubric or
