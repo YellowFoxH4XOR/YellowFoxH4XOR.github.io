@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { getAllPosts } from "@/lib/blog";
 import { PostCard } from "@/components/post-card";
+import { JsonLd } from "@/components/json-ld";
+import { blogSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Blog",
@@ -13,6 +15,7 @@ export default function BlogIndexPage() {
 
   return (
     <div className="space-y-10 animate-fade-in-up">
+      {posts.length > 0 && <JsonLd data={blogSchema(posts)} />}
       <header>
         <h1 className="text-3xl font-bold tracking-tight text-gradient-brand pb-1">Blog</h1>
         <p className="mt-2 text-muted-foreground">

@@ -9,6 +9,8 @@ import {
   resumePdfUrl,
 } from "@/lib/content";
 import { Badge } from "@/components/ui/badge";
+import { JsonLd } from "@/components/json-ld";
+import { resumeSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Resume",
@@ -28,6 +30,7 @@ function SectionHeading({ children }: { children: React.ReactNode }) {
 export default function ResumePage() {
   return (
     <div className="mx-auto max-w-3xl space-y-12">
+      <JsonLd data={resumeSchema()} />
       <header className="flex items-center justify-between gap-4">
         <div>
           <h1 className="text-3xl font-bold tracking-tight text-gradient-brand pb-1">

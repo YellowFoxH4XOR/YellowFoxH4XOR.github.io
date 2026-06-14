@@ -3,11 +3,26 @@
 // is (a person, their writing) rather than guessing from prose.
 import { site } from "@/lib/site";
 import type { PostMeta } from "@/lib/blog";
+import { experience, education, skillGroups, books } from "@/lib/content";
+
+// Stable @id anchors. Giving the Person and WebSite one canonical id each lets
+// engines reconcile every mention across pages into a single entity instead of
+// treating each page's inline copy as a separate, unrelated node.
+const PERSON_ID = `${site.url}/#person`;
+const WEBSITE_ID = `${site.url}/#website`;
+
+// A lightweight reference to the canonical Person node. Used in author/publisher
+// slots so they point at the full Person (defined on the home page / resume)
+// rather than duplicating it everywhere.
+function personRef() {
+  return { "@type": "Person", "@id": PERSON_ID, name: site.name, url: site.url };
+}
 
 export function personSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Person",
+    "@id": PERSON_ID,
     name: site.name,
     url: site.url,
     image: `${site.url}/images/profile.jpg`,
@@ -23,11 +38,13 @@ export function websiteSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": WEBSITE_ID,
     name: site.name,
     url: site.url,
     description: site.description,
     inLanguage: "en",
-    author: { "@type": "Person", name: site.name, url: site.url },
+    author: personRef(),
+    publisher: personRef(),
   };
 }
 
@@ -45,16 +62,92 @@ export function blogPostingSchema(post: PostMeta) {
     image: `${postUrl}/opengraph-image`,
     keywords: post.tags.join(", "),
     inLanguage: "en",
-    author: {
+    isPartOf: { "@id": WEBSITE_ID },
+    author: personRef(),
+    publisher: personRef(),
+  };
+}
+
+// /blog index — a Blog node listing every post so an engine can enumerate the
+// writing without crawling each URL, and link it to the canonical author.
+export function blogSchema(posts: PostMeta[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "@id": `${site.url}/blog#blog`,
+    name: `${site.name} — Blog`,
+    url: `${site.url}/blog`,
+    description: "Writing about engineering, systems, and what I'm learning.",
+    inLanguage: "en",
+    isPartOf: { "@id": WEBSITE_ID },
+    author: personRef(),
+    publisher: personRef(),
+    blogPost: posts.map((post) => ({
+      "@type": "BlogPosting",
+      headline: post.title,
+      description: post.excerpt,
+      url: `${site.url}/blog/${post.slug}`,
+      datePublished: post.date,
+      keywords: post.tags.join(", "),
+    })),
+  };
+}
+
+// /resume — a ProfilePage whose mainEntity is the canonical Person, enriched
+// with employment history, education, and skills. This is what lets an agent
+// answer "what is Akshat's experience / background" structurally.
+export function resumeSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    url: `${site.url}/resume`,
+    mainEntity: {
       "@type": "Person",
+      "@id": PERSON_ID,
       name: site.name,
       url: site.url,
+      image: `${site.url}/images/profile.jpg`,
+      jobTitle: site.jobTitle,
+      description: site.description,
+      sameAs: site.sameAs,
+      worksFor: { "@type": "Organization", name: site.worksFor },
+      knowsAbout: skillGroups.flatMap((g) => g.items),
+      alumniOf: education.map((e) => ({
+        "@type": "EducationalOrganization",
+        name: e.school,
+      })),
+      // Each past role as an Occupation. Title, employer, and period are folded
+      // into the name (Occupation has no employer field) with the highlights as
+      // the description — enough for an engine to summarise the work history.
+      hasOccupation: experience.map((job) => ({
+        "@type": "Occupation",
+        name: `${job.title} · ${job.company} (${job.period})`,
+        description: job.highlights.join(" "),
+      })),
     },
-    publisher: {
-      "@type": "Person",
-      name: site.name,
-      url: site.url,
-    },
+  };
+}
+
+// /bookshelf — an ordered ItemList of Books so an engine can answer "what books
+// does Akshat recommend" without scraping the card layout.
+export function bookshelfSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: `${site.name} — Bookshelf`,
+    url: `${site.url}/bookshelf`,
+    numberOfItems: books.length,
+    itemListElement: books.map((book, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      item: {
+        "@type": "Book",
+        name: book.title,
+        author: { "@type": "Person", name: book.author },
+        image: `${site.url}${book.cover}`,
+        description: book.description,
+      },
+    })),
   };
 }
 
