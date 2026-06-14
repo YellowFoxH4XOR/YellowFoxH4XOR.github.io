@@ -1,0 +1,82 @@
+[
+  {
+    "company": "Airbnb",
+    "companySlug": "airbnb",
+    "title": "Scaling beyond one: How Airbnb evolved its data architecture for a multi-product world",
+    "url": "https://medium.com/airbnb-engineering/scaling-beyond-one-how-airbnb-evolved-its-data-architecture-for-a-multi-product-world-6125645d470c?source=rss----53c7c27702d5---4",
+    "date": "2026-06-09",
+    "summary": "How Airbnb’s data engineers and analytics engineers built a consistent and flexible data modeling framework to support the expansion into Homes, Experiences, and Services. By : Patrick Lam , Namrata Lamba , Jamie Stober…"
+  },
+  {
+    "company": "Airbnb",
+    "companySlug": "airbnb",
+    "title": "Sitar-agent: Building a reliable dynamic configuration sidecar at scale",
+    "url": "https://medium.com/airbnb-engineering/sitar-agent-building-a-reliable-dynamic-configuration-sidecar-at-scale-b7e00c152068?source=rss----53c7c27702d5---4",
+    "date": "2026-06-04",
+    "summary": "How Airbnb built a Kubernetes sidecar to deliver dynamic configuration reliably at scale. By : Bo Teng , Cosmo Qiu , Siyuan Zhou , Ankur Soni , Xin Huang , Willis Harvey Introduction In our previous post , we explored Ai…"
+  },
+  {
+    "company": "Airbnb",
+    "companySlug": "airbnb",
+    "title": "When history fails you, borrow from geography",
+    "url": "https://medium.com/airbnb-engineering/when-history-fails-you-borrow-from-geography-915a72b91b5c?source=rss----53c7c27702d5---4",
+    "date": "2026-06-02",
+    "summary": "How Airbnb used sequential geographic recovery signals and prior propagation to generate reliable corridor-level forecasts when local data was scarce. By: Harrison Katz The problem with unprecedented shocks Almost every…"
+  },
+  {
+    "company": "Airbnb",
+    "companySlug": "airbnb",
+    "title": "Scaling Airbnb’s identity graph with a unified knowledge graph infrastructure",
+    "url": "https://medium.com/airbnb-engineering/scaling-airbnbs-identity-graph-with-a-unified-knowledge-graph-infrastructure-ebac467b7836?source=rss----53c7c27702d5---4",
+    "date": "2026-05-19",
+    "summary": "How Airbnb shifts from PaaS to an internal knowledge graph infrastructure at scale. By: Lucen Zhao , Shukun Yang , Ashish Jain Knowledge graphs offer a natural and powerful way to represent relationships between entities…"
+  },
+  {
+    "company": "Airbnb",
+    "companySlug": "airbnb",
+    "title": "Viaduct 1.0 and the future of Airbnb’s data mesh",
+    "url": "https://medium.com/airbnb-engineering/viaduct-1-0-and-the-future-of-airbnbs-data-mesh-6bab4ec98b89?source=rss----53c7c27702d5---4",
+    "date": "2026-05-13",
+    "summary": "Moving from an internal tool to a community-driven, production-ready data mesh. By : Ryan Tanner , Raymie Stata , Adam Miskiewicz Introduction We’re excited to announce the 1.0 release of the Viaduct. This release marks…"
+  },
+  {
+    "company": "Airbnb",
+    "companySlug": "airbnb",
+    "title": "Monitoring reliably at scale",
+    "url": "https://medium.com/airbnb-engineering/monitoring-reliably-at-scale-ca6483040930?source=rss----53c7c27702d5---4",
+    "date": "2026-05-05",
+    "summary": "Designing monitoring that works when everything else doesn’t. By : Abdurrahman J. Allawala Introduction When an incident hits, teams lean on observability to answer the only questions that matter: what’s broken, and why?…"
+  },
+  {
+    "company": "Airbnb",
+    "companySlug": "airbnb",
+    "title": "Skipper: Building Airbnb’s embedded workflow engine",
+    "url": "https://medium.com/airbnb-engineering/skipper-building-airbnbs-embedded-workflow-engine-f6c34552146f?source=rss----53c7c27702d5---4",
+    "date": "2026-04-28",
+    "summary": "How Airbnb built a lightweight workflow engine to solve durable execution. By : Ricardo Gamba , Andriy Sergiyenko Introduction: The durable execution problem Picture this hypothetical flow: A host submits an insurance cl…"
+  },
+  {
+    "company": "Airbnb",
+    "companySlug": "airbnb",
+    "title": "Building a fault-tolerant metrics storage system at Airbnb",
+    "url": "https://medium.com/airbnb-engineering/building-a-fault-tolerant-metrics-storage-system-at-airbnb-26a01a6e7017?source=rss----53c7c27702d5---4",
+    "date": "2026-04-21",
+    "summary": "How we built a storage system that ingests 50 million samples per second and stores 2.5 petabytes of logical time series data. By : Rishabh Kumar Modern observability practice encourages instrumenting every meaningful co…"
+  },
+  {
+    "company": "Airbnb",
+    "companySlug": "airbnb",
+    "title": "Privacy-first connections: Empowering social experiences at Airbnb",
+    "url": "https://medium.com/airbnb-engineering/privacy-first-connections-empowering-social-experiences-at-airbnb-d7dec59ef960?source=rss----53c7c27702d5---4",
+    "date": "2026-04-14",
+    "summary": "Discover how Airbnb prioritizes user privacy while building a more connected community, empowering guests to engage socially, connect confidently, and maintain control of their personal data. By: Joy Jing ✨ Building a mo…"
+  },
+  {
+    "company": "Airbnb",
+    "companySlug": "airbnb",
+    "title": "Building a high-volume metrics pipeline with OpenTelemetry and vmagent",
+    "url": "https://medium.com/airbnb-engineering/building-a-high-volume-metrics-pipeline-with-opentelemetry-and-vmagent-c714d6910b45?source=rss----53c7c27702d5---4",
+    "date": "2026-04-07",
+    "summary": "A production-tested approach for moving a large-scale metrics pipeline from StatsD to OpenTelemetry and Prometheus. By: Eugene Ma , Natasha Aleksandrova When migrating to a new monitoring system, you’ll want to frontload…"
+  }
+]

@@ -26,6 +26,7 @@ ${site.intro}
 ## Pages
 - [Home](${site.url}/): Intro and latest writing.
 - [Blog](${site.url}/blog): Articles on engineering and systems.
+- [Tech Blogs](${site.url}/tech-blogs): Curated recent posts from big-tech engineering blogs and AI labs, plus latest AI research — aggregated from RSS feeds, linking to the originals.
 - [Bookshelf](${site.url}/bookshelf): Books that shaped my thinking.
 - [Resume](${site.url}/resume): Experience and skills.
 

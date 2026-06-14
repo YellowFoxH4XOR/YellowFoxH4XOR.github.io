@@ -1,0 +1,82 @@
+[
+  {
+    "company": "Grab",
+    "companySlug": "grab",
+    "title": "Scaling out Distroless adoption With AI",
+    "url": "https://engineering.grab.com/scaling-out-distroless-adoption-with-ai",
+    "date": "2026-06-12",
+    "summary": "Distroless adoption at Grab Grab is migrating from heavy base images to Distroless images to reduce security risks. By limiting each container to the application and its runtime dependencies, we shed non-essential binari…"
+  },
+  {
+    "company": "Grab",
+    "companySlug": "grab",
+    "title": "From decentralized Docs-as-Code to a centralized repository: Evolving Grab's documentation strategy",
+    "url": "https://engineering.grab.com/evolving-documentation-strategy",
+    "date": "2026-05-29",
+    "summary": "Introduction: The journey of documentation at Grab In early 2021, Grab adopted a Docs-as-Code approach to address gaps in our technical documentation processes, as illustrated in our blog post Embracing a Docs-as-Code .…"
+  },
+  {
+    "company": "Grab",
+    "companySlug": "grab",
+    "title": "The Hugo evolution: Engineering Grab's unified, one-click data ingestion platform with Apache Flink",
+    "url": "https://engineering.grab.com/one-click-data-ingestion-platform-with-apache-flink",
+    "date": "2026-05-22",
+    "summary": "Introduction Data drives every decision we make at Grab. As our operations scale, so does our need for robust, real-time data ingestion and processing frameworks. Enter Hugo: our self-service data platform that has long…"
+  },
+  {
+    "company": "Grab",
+    "companySlug": "grab",
+    "title": "Scaling developer experience: How we improved Android Studio in a large monorepo",
+    "url": "https://engineering.grab.com/how-we-improved-android-studio-in-large-monorepo",
+    "date": "2026-05-15",
+    "summary": "Introduction Long integrated development environment (IDE) sync/indexing times can quietly erode developer productivity, making code navigation sluggish, spiking memory usage, and slowing down Jetpack Compose preview upd…"
+  },
+  {
+    "company": "Grab",
+    "companySlug": "grab",
+    "title": "Enhancing Flink deployment with shadow testing",
+    "url": "https://engineering.grab.com/enchancing-flink-shadow-testing",
+    "date": "2026-05-07",
+    "summary": "Introduction Ensuring the reliability of Apache Flink deployments in Grab is crucial for the availability of our business-critical, real-time applications. While all applications are tested in a staging environment befor…"
+  },
+  {
+    "company": "Grab",
+    "companySlug": "grab",
+    "title": "Data Mesh at Grab (Part II): The foundational tools behind certification",
+    "url": "https://engineering.grab.com/data-mesh-part-2-the-foundational-tools-behind-certification",
+    "date": "2026-04-30",
+    "summary": "Introduction In Part I , we discussed why Grab is investing in a data mesh, referred to as the Signals Marketplace within Grab, as part of our evolving data culture. We also explained how data certification aids teams in…"
+  },
+  {
+    "company": "Grab",
+    "companySlug": "grab",
+    "title": "From firefighting to building: How AI agents restored our team’s core productivity",
+    "url": "https://engineering.grab.com/from-firefighting-to-building",
+    "date": "2026-03-19",
+    "summary": "Abstract Grab’s Analytics Data Warehouse (ADW) team supports over 1,000 users each month. These users support an extensive repository of more than 15,000 tables, which powers approximately 50% of all queries within our d…"
+  },
+  {
+    "company": "Grab",
+    "companySlug": "grab",
+    "title": "Enabling R8 optimization at scale with AI-assisted debugging",
+    "url": "https://engineering.grab.com/r8-optimization-at-scale-with-ai-assisted-debugging",
+    "date": "2026-03-12",
+    "summary": "Grab is Southeast Asia’s leading superapp, providing a suite of services that bring essential needs to users throughout the region. Its offerings include ride-hailing, food delivery, parcel delivery, mobile payments, and…"
+  },
+  {
+    "company": "Grab",
+    "companySlug": "grab",
+    "title": "Reclaiming Terabytes: Optimizing Android image caching with TLRU",
+    "url": "https://engineering.grab.com/reclaiming-tetabytes-optimizing-android-image-caching-with-tlru",
+    "date": "2026-03-06",
+    "summary": "Introduction In a previous post, we discussed Project Bonsai , our initiative to reduce the Grab app’s download size. We successfully reduced the Android Application Package (APK) download size by 26%. This reduction off…"
+  },
+  {
+    "company": "Grab",
+    "companySlug": "grab",
+    "title": "Cursor at Grab: Adoption and impact",
+    "url": "https://engineering.grab.com/cursor-at-grab-adoption-and-impact",
+    "date": "2026-01-29",
+    "summary": "Adoption overview The illustration below encapsulates how Cursor is scaled across Grab, achieving rapid and widespread adoption that accelerated software development and empowered non-technical teams to build solutions.…"
+  }
+]

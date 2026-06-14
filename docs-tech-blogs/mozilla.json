@@ -1,0 +1,162 @@
+[
+  {
+    "company": "Mozilla",
+    "companySlug": "mozilla",
+    "title": "Announcing Web Serial Support in Firefox",
+    "url": "https://hacks.mozilla.org/2026/05/web-serial-support-in-firefox/",
+    "date": "2026-05-21",
+    "summary": "Support for Web Serial in Firefox 151 for Desktop Firefox can now connect directly to microcontrollers, development boards, 3D printers, power meters, and other serial-connected hardware from the web. Starting in Firefox…"
+  },
+  {
+    "company": "Mozilla",
+    "companySlug": "mozilla",
+    "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
+    "url": "https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/",
+    "date": "2026-05-07",
+    "summary": "Two weeks ago we announced that we had identified and fixed an unprecedented number of latent security bugs in Firefox with the help of Claude Mythos Preview and other AI models. In this post, we’ll go into more detail a…"
+  },
+  {
+    "company": "Mozilla",
+    "companySlug": "mozilla",
+    "title": "Trustworthy JavaScript for the Open Web",
+    "url": "https://hacks.mozilla.org/2026/05/trustworthy-javascript-for-the-open-web/",
+    "date": "2026-05-05",
+    "summary": "The open web is a critical platform for applications that handle highly sensitive data, from private communications to financial transactions and medical records. Traditionally, servers are trusted to deliver the appropr…"
+  },
+  {
+    "company": "Mozilla",
+    "companySlug": "mozilla",
+    "title": "Firefox Developer Edition and Beta: Try out Mozilla&#8217;s .rpm package!",
+    "url": "https://hacks.mozilla.org/2026/03/firefox-developer-edition-and-beta-try-out-mozillas-rpm-package/",
+    "date": "2026-03-25",
+    "summary": "In January, we introduced our Nightly package for RPM-based Linux distributions. Today, we are thrilled to announce it is now available for Firefox Beta! Firefox Beta is great for testing your sites in a version of Firef…"
+  },
+  {
+    "company": "Mozilla",
+    "companySlug": "mozilla",
+    "title": "Why is WebAssembly a second-class language on the web?",
+    "url": "https://hacks.mozilla.org/2026/02/making-webassembly-a-first-class-language-on-the-web/",
+    "date": "2026-02-26",
+    "summary": "This post is an expanded version of a presentation I gave at the 2025 WebAssembly CG meeting in Munich. WebAssembly has come a long way since its first release in 2017. The first version of WebAssembly was already a grea…"
+  },
+  {
+    "company": "Mozilla",
+    "companySlug": "mozilla",
+    "title": "Goodbye innerHTML, Hello setHTML: Stronger XSS Protection in Firefox 148",
+    "url": "https://hacks.mozilla.org/2026/02/goodbye-innerhtml-hello-sethtml-stronger-xss-protection-in-firefox-148/",
+    "date": "2026-02-24",
+    "summary": "Cross-site scripting (XSS) remains one of the most prevalent vulnerabilities on the web. The new standardized Sanitizer API provides a straightforward way for web developers to sanitize untrusted HTML before inserting it…"
+  },
+  {
+    "company": "Mozilla",
+    "companySlug": "mozilla",
+    "title": "Launching Interop 2026",
+    "url": "https://hacks.mozilla.org/2026/02/launching-interop-2026/",
+    "date": "2026-02-12",
+    "summary": "The Interop Project is a cross-browser initiative to improve web compatibility in areas that offer the most benefit to both users and developers. The group, including Apple, Google, Igalia, Microsoft, and Mozilla, takes…"
+  },
+  {
+    "company": "Mozilla",
+    "companySlug": "mozilla",
+    "title": "CRLite: Fast, private, and comprehensive certificate revocation checking in Firefox",
+    "url": "https://hacks.mozilla.org/2025/08/crlite-fast-private-and-comprehensive-certificate-revocation-checking-in-firefox/",
+    "date": "2025-08-19",
+    "summary": "Firefox is now the first and the only browser to deploy fast and comprehensive certificate revocation checking that does not reveal your browsing activity to anyone (not even to Mozilla). Tens of millions of TLS server c…"
+  },
+  {
+    "company": "Mozilla",
+    "companySlug": "mozilla",
+    "title": "Improving Firefox Stability in the Enterprise by Reducing DLL Injection",
+    "url": "https://hacks.mozilla.org/2025/03/improving-firefox-stability-in-the-enterprise-by-reducing-dll-injection/",
+    "date": "2025-03-25",
+    "summary": "Beginning in version 138, Firefox will offer an alternative to DLL injection for Data Loss Prevention (DLP) deployments in enterprise environments. DLL Injection DLL injection into Firefox is a topic we’ve covered on the…"
+  },
+  {
+    "company": "Mozilla",
+    "companySlug": "mozilla",
+    "title": "Launching Interop 2025",
+    "url": "https://hacks.mozilla.org/2025/02/interop-2025/",
+    "date": "2025-02-13",
+    "summary": "Interop 2025 continues the mission to make the web more consistent across browsers, building on 2024’s 95% interoperability score. This year, 19 focus areas target key developer needs and long-standing issues, including…"
+  },
+  {
+    "company": "Mozilla",
+    "companySlug": "mozilla",
+    "title": "Introducing Uniffi for React Native: Rust-Powered Turbo Modules",
+    "url": "https://hacks.mozilla.org/2024/12/introducing-uniffi-for-react-native-rust-powered-turbo-modules/",
+    "date": "2024-12-04",
+    "summary": "Mozilla and Filament have introduced Uniffi for React Native, a tool that allows developers to leverage the safety and performance benefits of Rust in cross-platform React Native apps. The post Introducing Uniffi for Rea…"
+  },
+  {
+    "company": "Mozilla",
+    "companySlug": "mozilla",
+    "title": "Llamafile v0.8.14: a new UI, performance gains, and more",
+    "url": "https://hacks.mozilla.org/2024/10/llamafile-v0-8-14-a-new-ui-performance-gains-and-more/",
+    "date": "2024-10-16",
+    "summary": "Discover the latest release of Llamafile 0.8.14, an open-source AI tool by Mozilla Builders. With a new command-line chat interface, enhanced performance, and support for powerful models, Llamafile makes it easy to run l…"
+  },
+  {
+    "company": "Mozilla",
+    "companySlug": "mozilla",
+    "title": "0Din: A GenAI Bug Bounty Program – Securing Tomorrow’s AI Together",
+    "url": "https://hacks.mozilla.org/2024/08/0din-a-genai-bug-bounty-program-securing-tomorrows-ai-together/",
+    "date": "2024-08-08",
+    "summary": "As AI continues to evolve, so do the threats against it. As these GenAI systems become more sophisticated and widely adopted, ensuring their security and ethical use becomes paramount. 0Din is a groundbreaking GenAI bug…"
+  },
+  {
+    "company": "Mozilla",
+    "companySlug": "mozilla",
+    "title": "Announcing Official Puppeteer Support for Firefox",
+    "url": "https://hacks.mozilla.org/2024/08/puppeteer-support-for-firefox/",
+    "date": "2024-08-07",
+    "summary": "We’re pleased to announce that, as of version 23, the Puppeteer browser automation library now has first-class support for Firefox. This means that it’s now easy to write automation and perform end-to-end testing using P…"
+  },
+  {
+    "company": "Mozilla",
+    "companySlug": "mozilla",
+    "title": "Snapshots for IPC Fuzzing",
+    "url": "https://hacks.mozilla.org/2024/06/snapshots-for-ipc-fuzzing/",
+    "date": "2024-06-27",
+    "summary": "Process separation remains one of the most important parts of the Firefox security model and securing our IPC (Inter-Process Communication) interfaces is crucial to keep privileges in the different processes separated. W…"
+  },
+  {
+    "company": "Mozilla",
+    "companySlug": "mozilla",
+    "title": "Sponsoring sqlite-vec to enable more powerful Local AI applications",
+    "url": "https://hacks.mozilla.org/2024/06/sponsoring-sqlite-vec-to-enable-more-powerful-local-ai-applications/",
+    "date": "2024-06-25",
+    "summary": "Today we’re proud to announce the next Mozilla Builders project: sqlite-vec. Led by independent developer Alex Garcia, this project brings vector search functionality to the beloved SQLite embedded database. Alex has bee…"
+  },
+  {
+    "company": "Mozilla",
+    "companySlug": "mozilla",
+    "title": "Experimenting with local alt text generation in Firefox Nightly",
+    "url": "https://hacks.mozilla.org/2024/05/experimenting-with-local-alt-text-generation-in-firefox-nightly/",
+    "date": "2024-05-31",
+    "summary": "Firefox 130 will introduce an experimental new capability to automatically generate alt-text for images using a fully private on-device AI model. The feature will be available as part of Firefox’s built-in PDF editor, an…"
+  },
+  {
+    "company": "Mozilla",
+    "companySlug": "mozilla",
+    "title": "Llamafile’s progress, four months in",
+    "url": "https://hacks.mozilla.org/2024/04/llamafiles-progress-four-months-in/",
+    "date": "2024-04-25",
+    "summary": "When Mozilla’s Innovation group first launched the llamafile project late last year, we were thrilled by the immediate positive response from open source AI developers. It’s become one of Mozilla’s top three most-favorit…"
+  },
+  {
+    "company": "Mozilla",
+    "companySlug": "mozilla",
+    "title": "Porting a cross-platform GUI application to Rust",
+    "url": "https://hacks.mozilla.org/2024/04/porting-a-cross-platform-gui-application-to-rust/",
+    "date": "2024-04-23",
+    "summary": "In this blog post, we delve into the motivations for choosing Rust for our crash reporter, outline the unique challenges of designing an application that operates when the main browser has failed, and discuss the new arc…"
+  },
+  {
+    "company": "Mozilla",
+    "companySlug": "mozilla",
+    "title": "Prototype even faster with the Gradio UI for Figma component library",
+    "url": "https://hacks.mozilla.org/2024/04/prototype-even-faster-with-the-gradio-ui-for-figma-component-library/",
+    "date": "2024-04-11",
+    "summary": "In the fast-paced world of generative AI, staying ahead means moving swiftly and smartly. That's why we've embraced Gradio, the low-code prototyping toolkit from Hugging Face, as our go-to for bringing new ideas to life.…"
+  }
+]

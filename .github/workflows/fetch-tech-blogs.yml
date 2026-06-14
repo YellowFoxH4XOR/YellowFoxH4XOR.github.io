@@ -1,0 +1,45 @@
+name: Refresh tech blogs
+
+# Aggregates big-tech engineering blogs + AI research into docs-tech-blogs/*.json
+# and commits any changes. The push triggers a Coolify rebuild, which bakes the
+# fresh data into the static page. Builds themselves never hit the network.
+on:
+  schedule:
+    - cron: "0 6 * * *" # daily at 06:00 UTC
+  workflow_dispatch: {} # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+# Avoid overlapping runs if a fetch is slow.
+concurrency:
+  group: fetch-tech-blogs
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Fetch feeds
+        run: npm run fetch-tech-blogs
+
+      - name: Commit updated data
+        run: |
+          git config user.name "tech-blogs-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs-tech-blogs/
+          if git diff --staged --quiet; then
+            echo "No feed changes."
+          else
+            git commit -m "chore: refresh tech blogs [skip ci]"
+            git push
+          fi

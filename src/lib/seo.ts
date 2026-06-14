@@ -3,6 +3,7 @@
 // is (a person, their writing) rather than guessing from prose.
 import { site } from "@/lib/site";
 import type { PostMeta } from "@/lib/blog";
+import type { TechBlogEntry } from "@/lib/tech-blogs";
 import { experience, education, skillGroups, books } from "@/lib/content";
 
 // Stable @id anchors. Giving the Person and WebSite one canonical id each lets
@@ -148,6 +149,41 @@ export function bookshelfSchema() {
         description: book.description,
       },
     })),
+  };
+}
+
+// /tech-blogs — a CollectionPage curating external engineering-blog articles.
+// We are the maintainer (curator), not the author, and each item's publisher is
+// the originating company — so the markup never falsely claims authorship. Cap
+// the ItemList at 50 to keep the inline JSON-LD block lean.
+export function techBlogsCollectionSchema(entries: TechBlogEntry[]) {
+  const pageUrl = `${site.url}/tech-blogs`;
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${pageUrl}#collection`,
+    name: `${site.name} — Tech Blogs`,
+    url: pageUrl,
+    description:
+      "A curated aggregation of recent posts from big-tech engineering blogs, linked to the original sources.",
+    inLanguage: "en",
+    isPartOf: { "@id": WEBSITE_ID },
+    maintainer: personRef(),
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: entries.length,
+      itemListElement: entries.slice(0, 50).map((entry, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        item: {
+          "@type": "Article",
+          headline: entry.title,
+          url: entry.url,
+          datePublished: entry.date,
+          publisher: { "@type": "Organization", name: entry.company },
+        },
+      })),
+    },
   };
 }
 

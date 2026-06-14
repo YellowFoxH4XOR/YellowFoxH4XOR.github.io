@@ -74,10 +74,6 @@ export function getAllPosts(): PostMeta[] {
     );
 }
 
-export function formatDate(iso: string): string {
-  return new Date(iso).toLocaleDateString("en-US", {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  });
-}
+// Re-exported from utils (node-free) so client components can use it without
+// pulling this module's `node:fs` import into the client bundle.
+export { formatDate } from "@/lib/utils";

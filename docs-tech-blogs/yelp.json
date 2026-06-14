@@ -1,0 +1,82 @@
+[
+  {
+    "company": "Yelp",
+    "companySlug": "yelp",
+    "title": "Beyond the Menu Tree: How Yelp Built a Smarter Customer Success Chatbot with AI",
+    "url": "https://engineeringblog.yelp.com/2026/05/beyond-menu-tree.html",
+    "date": "2026-05-27",
+    "summary": "The Evolution of Support: From Fixed Phrases to Conversation At Yelp, delivering responsive and accurate customer support is a core priority. For years, our legacy Customer Success (CS) Chatbot provided support by guidin…"
+  },
+  {
+    "company": "Yelp",
+    "companySlug": "yelp",
+    "title": "How Partition Access Visualizations Reduced our Data Lake S3 Cost by 33%",
+    "url": "https://engineeringblog.yelp.com/2026/05/partition-access-visualizations.html",
+    "date": "2026-05-21",
+    "summary": "Introduction In large analytics environments, data teams often struggle to answer deceptively simple questions, like who their stakeholders are and how their data is being used. At Yelp, we address this by visualizing ac…"
+  },
+  {
+    "company": "Yelp",
+    "companySlug": "yelp",
+    "title": "Optimizing Our Build Times by Migrating from Webpack to Rspack",
+    "url": "https://engineeringblog.yelp.com/2026/05/optimizing-our-build-times-by-migrating-from-webpack-to-rspack.html",
+    "date": "2026-05-20",
+    "summary": "Over the years, Webpack has remained the bundler of choice for many JS projects, including here at Yelp. While it has served us well, its speed has increasingly become a bottleneck as our monorepo continues to grow. Fort…"
+  },
+  {
+    "company": "Yelp",
+    "companySlug": "yelp",
+    "title": "How Yelp Keeps Server-Driven UI Consistent Across Four Platforms",
+    "url": "https://engineeringblog.yelp.com/2026/04/keeping-server-driven-ui-consistent-across-platforms.html",
+    "date": "2026-04-22",
+    "summary": "If you’ve read our earlier post, you already know about CHAOS—the server-driven UI (SDUI) framework we built at Yelp that powers our dynamic views. Until now, we’ve explored its architecture, backend implementation, and…"
+  },
+  {
+    "company": "Yelp",
+    "companySlug": "yelp",
+    "title": "Zero downtime Upgrade: Yelp’s Cassandra 4.x Upgrade Story",
+    "url": "https://engineeringblog.yelp.com/2026/04/zero-downtime-upgrade-yelp-cassandra-upgrade-story.html",
+    "date": "2026-04-07",
+    "summary": "The Database Reliability Engineering team at Yelp seamlessly upgraded more than a thousand Cassandra nodes with zero downtime. This post takes you behind the scenes of our upgrade strategy, from planning sessions to flaw…"
+  },
+  {
+    "company": "Yelp",
+    "companySlug": "yelp",
+    "title": "Building Biz Ask Anything: From Prototype to Product",
+    "url": "https://engineeringblog.yelp.com/2026/03/building-baa-from-prototype-to-product.html",
+    "date": "2026-03-27",
+    "summary": "Introduction Users have access to a wealth of information on Yelp business pages – from reviews and photos to structured information, menus, and Ask the Community feature on the business page, a single business page can…"
+  },
+  {
+    "company": "Yelp",
+    "companySlug": "yelp",
+    "title": "How Yelp Built a Back-Testing Engine for Safer, Smarter Ad Budget Allocation",
+    "url": "https://engineeringblog.yelp.com/2026/02/how-yelp-built-a-back-testing-engine-for-safer-smarter-ad-budget-allocation.html",
+    "date": "2026-02-02",
+    "summary": "Introduction Modern advertising platforms are fast-paced and interconnected: even small adjustments can have ripple effects on how ads are shown, how budgets are spent, and the value advertisers get from their ad spend.…"
+  },
+  {
+    "company": "Yelp",
+    "companySlug": "yelp",
+    "title": "S3 server access logs at scale",
+    "url": "https://engineeringblog.yelp.com/2025/09/s3-server-access-logs-at-scale.html",
+    "date": "2025-09-26",
+    "summary": "Introduction Yelp heavily relies on Amazon S3 (Simple Storage Service) to store a wide variety of data, from images, logs, database backups, and more. Since data is stored on the cloud, we need to carefully manage how th…"
+  },
+  {
+    "company": "Yelp",
+    "companySlug": "yelp",
+    "title": "Exploring CHAOS: Building a Backend for Server-Driven UI",
+    "url": "https://engineeringblog.yelp.com/2025/07/chaos-inside-yelps-sdui-framework.html",
+    "date": "2025-07-08",
+    "summary": "A little while ago, we published a blog post on CHAOS: Yelp’s Unified Framework for Server-Driven UI. We strongly recommend reading that post first to gain a solid understanding of SDUI and the goals of CHAOS. This post…"
+  },
+  {
+    "company": "Yelp",
+    "companySlug": "yelp",
+    "title": "Revenue Automation Series: Testing an Integration with Third-Party System",
+    "url": "https://engineeringblog.yelp.com/2025/05/revenue-automation-series-testing-an-integration-with-third-party-system.html",
+    "date": "2025-05-27",
+    "summary": "Background As described in the second blog post of Revenue Automation series, Revenue Data Pipeline processes a large amount of data via complex logic transformations to recognize revenue. Thus, developing a robust produ…"
+  }
+]
