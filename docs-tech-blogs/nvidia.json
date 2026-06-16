@@ -2,6 +2,22 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
+    "title": "Fine-Tuning Biological Foundation Models with LoRA Using NVIDIA BioNeMo Recipes",
+    "url": "https://developer.nvidia.com/blog/fine-tuning-biological-foundation-models-with-lora-using-nvidia-bionemo-recipes/",
+    "date": "2026-06-15",
+    "summary": "Foundation models are reshaping computational biology. Pretrained on massive corpora of protein or genomic sequences, models such as ESM2 (a protein language..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "Boosting MoE Training Throughput with Advanced Fusion Kernels",
+    "url": "https://developer.nvidia.com/blog/boosting-moe-training-throughput-with-advanced-fusion-kernels/",
+    "date": "2026-06-15",
+    "summary": "Mixture-of-experts (MoE) models have quickly become a foundational component of modern, large-scale AI systems. They are widely adopted because they enable..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
     "title": "Pretrained to Imagine, Fine-Tuned to Act: The Rise of World-Action Models",
     "url": "https://developer.nvidia.com/blog/pretrained-to-imagine-fine-tuned-to-act-the-rise-of-world-action-models/",
     "date": "2026-06-15",
@@ -378,25 +394,9 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "Achieving Peak System and Workload Efficiency on NVIDIA GB200 NVL72 with Slurm Block Scheduling",
-    "url": "https://developer.nvidia.com/blog/achieving-peak-system-and-workload-efficiency-on-nvidia-gb200-nvl72-with-slurm-block-scheduling/",
-    "date": "2026-05-07",
-    "summary": "NVIDIA GB200 NVL72 introduces a fundamentally new way to build GPU clusters by extending NVIDIA NVLink coherence across an entire rack. This design enables..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
     "title": "Model Quantization: Post-Training Quantization Using NVIDIA Model Optimizer",
     "url": "https://developer.nvidia.com/blog/model-quantization-post-training-quantization-using-nvidia-model-optimizer/",
     "date": "2026-05-07",
     "summary": "Model quantization is an effective method to reduce VRAM usage and improve inference performance on consumer devices such as NVIDIA GeForce RTX GPUs. By..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "Real-Time Performance Monitoring and Faster Debugging with NCCL Inspector and Prometheus",
-    "url": "https://developer.nvidia.com/blog/real-time-performance-monitoring-and-faster-debugging-with-nccl-inspector-and-prometheus/",
-    "date": "2026-05-07",
-    "summary": "Distributed deep learning depends on fast, reliable GPU-to-GPU communication using the NVIDIA Collective Communication Library (NCCL). When training slows down,..."
   }
 ]
