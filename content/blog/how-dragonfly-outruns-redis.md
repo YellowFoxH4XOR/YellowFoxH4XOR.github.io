@@ -25,12 +25,10 @@ keeps the common case from paying for the machinery the hard cases need:
 4. **A VLL-based transaction model with an inline fast path** — multi-key
    atomicity when you need it, but most commands skip the coordination entirely.
 
-The rest of this post is a walkthrough of each, with the Redis/Valkey contrast
-woven in, ending with a trace of a single `SET key val` through the whole
-machine. Every reference is `file:line`, pinned to commit
-[`307b069`](https://github.com/dragonflydb/dragonfly/tree/307b06983ea6904d53f04d370aa63af2051b34a4)
-so the line numbers stay valid however far `master` has drifted by the time you
-read this.
+I'll walk through each one, weave in how Redis and Valkey do it differently, and
+finish by tracing a single `SET key val` all the way through the machine. The
+source files are linked as I go — they point straight at the Dragonfly repo, so
+you can open a tab and read along.
 
 ## Decision #1 — Don't share, and you don't need locks
 
@@ -42,7 +40,7 @@ No mutexes guard the hot path, because none are needed — there is no sharing.
 This is the single thing that unlocks everything else. Once data isn't shared,
 you don't need locks on the data path, and throughput scales roughly linearly
 with cores. You can see it being set up in `EngineShardSet::Init` at
-[`engine_shard_set.cc:106`](https://github.com/dragonflydb/dragonfly/blob/307b06983ea6904d53f04d370aa63af2051b34a4/src/server/engine_shard_set.cc#L106):
+[`engine_shard_set.cc:106`](https://github.com/dragonflydb/dragonfly/blob/main/src/server/engine_shard_set.cc#L106):
 
 ```cpp
 // engine_shard_set.cc:114 — trimmed
@@ -62,20 +60,20 @@ shard — there's no separate "I/O thread pool" vs "worker thread pool"
 distinction. One thread, many fibers, one shard.
 
 ```
- single process, N threads
- ┌──────────┬──────────┬──────────┬──────────┐
- │ Thread 0 │ Thread 1 │ Thread 2 │ Thread 3 │
- │ IO+shard │ IO+shard │ IO+shard │ IO+shard │
- │ fibers:  │ fibers:  │ fibers:  │ fibers:  │
- │  conn A  │  conn C  │   ...    │   ...    │
- │  conn B  │  conn D  │          │          │
- │  heartbeat fiber   │  │  │  │
- │  shard queue fiber │  │  │  │
- │  DbSlice[shard_id] │  │  │  │
- └──────────┴──────────┴──────────┴──────────┘
+ single process, N threads — each owns one shard and the fibers serving it
+ ┌────────────┬────────────┬────────────┬────────────┐
+ │  Thread 0  │  Thread 1  │  Thread 2  │  Thread 3  │
+ │  IO+shard  │  IO+shard  │  IO+shard  │  IO+shard  │
+ ├────────────┼────────────┼────────────┼────────────┤
+ │ conn A     │ conn C     │   ...      │   ...      │
+ │ conn B     │ conn D     │            │            │
+ │ heartbeat  │ heartbeat  │            │            │
+ │ shard-queue│ shard-queue│            │            │
+ │ DbSlice[0] │ DbSlice[1] │ DbSlice[2] │ DbSlice[3] │
+ └────────────┴────────────┴────────────┴────────────┘
 ```
 
-Contrast this with Redis. Redis is single-threaded by design: one core does
+Redis goes the other way. It's single-threaded by design: one core does
 all the work, in-memory operations are fast, and the simplicity gives you
 predictable latency and free atomicity for multi-key commands. The ceiling is
 one core's worth of throughput — call it ~100k QPS for non-pipelined commands on
@@ -97,11 +95,11 @@ real OS thread per connection. A few thousand connections × real threads means
 context-switch overhead and stack memory that eats you alive. The answer is
 **fibers**: lightweight, user-space coroutines that cooperatively yield to each
 other on a single OS thread. Fiber stacks are ~40KB (see `kFiberDefaultStackSize`
-in [`dfly_main.cc:165`](https://github.com/dragonflydb/dragonfly/blob/307b06983ea6904d53f04d370aa63af2051b34a4/src/server/dfly_main.cc#L165)), switching is a function call, and there can be thousands
+in [`dfly_main.cc:165`](https://github.com/dragonflydb/dragonfly/blob/main/src/server/dfly_main.cc#L165)), switching is a function call, and there can be thousands
 of them per thread.
 
 A connection's entire life runs inside one fiber. You can see the entry in
-`Connection::HandleRequests` at [`dragonfly_connection.cc:867`](https://github.com/dragonflydb/dragonfly/blob/307b06983ea6904d53f04d370aa63af2051b34a4/src/facade/dragonfly_connection.cc#L867): TLS handshake,
+`Connection::HandleRequests` at [`dragonfly_connection.cc:867`](https://github.com/dragonflydb/dragonfly/blob/main/src/facade/dragonfly_connection.cc#L867): TLS handshake,
 HTTP detection, then the main `ConnectionFlow` loop that reads, parses,
 dispatches, and replies — all in one fiber, all non-blocking.
 
@@ -116,8 +114,8 @@ yield the fiber instead of blocking the thread. (Dragonfly layers its own
 fiber-aware types on top of these too, like `Transaction::BatonBarrier` for
 blocking commands.)
 
-Contrast with Redis' single-threaded event loop. Redis sidesteps the
-blocking-thread problem by not having parallelism in the first place: there's
+Redis never has to think about any of this. Its single-threaded event loop
+sidesteps the blocking-thread problem by not having parallelism at all: there's
 one thread, one event loop, and every operation is non-blocking by construction.
 Dragonfly wants parallelism *and* non-blocking, so it layers fibers on top of a
 proactor (next section) and enforces the discipline through conventions and
@@ -141,7 +139,7 @@ poll loop is the thing `helio` actually provides; it's not something you can
 trivially assemble yourself from `boost::fibers` + liburing.
 
 There's an optional zero-copy path too: per-thread buffer rings
-(`RegisterBufRings` at [`dfly_main.cc:776`](https://github.com/dragonflydb/dragonfly/blob/307b06983ea6904d53f04d370aa63af2051b34a4/src/server/dfly_main.cc#L776)) let the kernel place received data
+(`RegisterBufRings` at [`dfly_main.cc:776`](https://github.com/dragonflydb/dragonfly/blob/main/src/server/dfly_main.cc#L776)) let the kernel place received data
 directly into a shared buffer that the fiber reads from, no copy. It's behind a
 flag and needs kernel 6.2+, but it's there for the throughput-obsessed.
 
@@ -149,8 +147,8 @@ On older kernels or macOS dev, Dragonfly falls back to epoll. You lose the
 batching and zero-copy wins but the programming model stays identical — the
 proactor abstraction hides the backend.
 
-Contrast, again, with Redis: Redis uses a traditional event loop (`epoll`/`kqueue`/`select`)
-with one syscall per operation. That's fine at ~100k QPS on one core. At
+Redis, meanwhile, sticks with a traditional event loop (`epoll`/`kqueue`/`select`)
+and one syscall per operation. That's fine at ~100k QPS on one core. At
 millions of QPS across many cores, the syscall overhead and context switches
 become real, and io_uring's batching is one of the levers Dragonfly pulls to
 get there.
@@ -182,7 +180,7 @@ So far, so 2012. The thing that makes Dragonfly fast is the optimization layered
 on top: **single-shard, uncontended commands run the callback inline during
 scheduling.** No TxId is allocated, no TxQueue insertion happens, the global
 atomic counter is never touched. You can see this in `Transaction::ScheduleInShard`
-at [`transaction.cc:1200`](https://github.com/dragonflydb/dragonfly/blob/307b06983ea6904d53f04d370aa63af2051b34a4/src/server/transaction.cc#L1200) — the `OPTIMISTIC_EXECUTION` flag is set, the callback
+at [`transaction.cc:1200`](https://github.com/dragonflydb/dragonfly/blob/main/src/server/transaction.cc#L1200) — the `OPTIMISTIC_EXECUTION` flag is set, the callback
 runs, locks are acquired and released immediately, and the function returns.
 
 This is the most important performance fact in the whole codebase: **the
@@ -202,7 +200,7 @@ coordinator fiber happens to be on the shard's own thread (gated on "the
 callback won't suspend," which has historically been a source of subtle bugs
 when new features violate it).
 
-Contrast: Redis gets multi-key atomicity for free from single-threading —
+Redis, remember, gets multi-key atomicity for free from single-threading —
 everything is atomic because nothing runs in parallel. Valkey's multi-threaded
 mode still serializes commands against each other. Dragonfly buys strict
 serializability *and* parallelism by making the common case skip the machinery
@@ -230,8 +228,8 @@ holding any Redis type: strings (with small-string optimization via
 Memory is accounted per type, which is what lets `INFO` and the heartbeat
 eviction logic do their jobs.
 
-Contrast: Redis' dict is a fine hash table for one thread hitting it. DashTable
-is a hash table built for the per-shard workload specifically. Neither is
+Redis' dict is a perfectly good hash table for one thread hitting it. DashTable
+is built for the per-shard workload specifically. Neither is
 magical; both are fit-for-purpose. Dragonfly's purpose just includes "N threads
 each hitting their own table at millions of QPS."
 
@@ -244,14 +242,14 @@ Time to see all four decisions compose. Here's what happens when a client sends
    thread (round-robin, or by source IP for affinity). A `Connection` fiber is
    spawned on that thread.
 2. **Parse.** `RedisParser` turns the RESP bytes into a `ParsedCommand`. The
-   fiber enters `ConnectionFlow` ([`dragonfly_connection.cc:1241`](https://github.com/dragonflydb/dragonfly/blob/307b06983ea6904d53f04d370aa63af2051b34a4/src/facade/dragonfly_connection.cc#L1241)), the
+   fiber enters `ConnectionFlow` ([`dragonfly_connection.cc:1241`](https://github.com/dragonflydb/dragonfly/blob/main/src/facade/dragonfly_connection.cc#L1241)), the
    recv→parse→dispatch→reply loop.
-3. **Dispatch.** `Service::DispatchCommand` at [`main_service.cc:1430`](https://github.com/dragonflydb/dragonfly/blob/307b06983ea6904d53f04d370aa63af2051b34a4/src/server/main_service.cc#L1430) looks up
+3. **Dispatch.** `Service::DispatchCommand` at [`main_service.cc:1430`](https://github.com/dragonflydb/dragonfly/blob/main/src/server/main_service.cc#L1430) looks up
    the `CommandId` for `SET` in the `CommandRegistry`, verifies state (ACL,
    cluster slot ownership, not in LOADING), and builds a `Transaction`.
 4. **Schedule + execute (inline).** The coordinator figures out which shard
    owns `key` (`hash(key) % N`), sends a hop there. Keys uncontended → **inline
-   fast path**: `DbSlice::AddOrFind` at [`db_slice.cc:687`](https://github.com/dragonflydb/dragonfly/blob/307b06983ea6904d53f04d370aa63af2051b34a4/src/server/db_slice.cc#L687) inserts into the
+   fast path**: `DbSlice::AddOrFind` at [`db_slice.cc:687`](https://github.com/dragonflydb/dragonfly/blob/main/src/server/db_slice.cc#L687) inserts into the
    DashTable, the command's callback writes the `CompactObj` value, intent
    locks are acquired and released in one step. No TxId, no TxQueue, no global
    counter.
@@ -265,7 +263,7 @@ shards, runs the hop in parallel across them, and waits on a `BlockingCounter`
 until both ack — a few extra round-trips, but strictly serializable.
 
 Here's the command registration pattern, which is the shape every Redis command
-takes in the source — [`string_family.cc:1832`](https://github.com/dragonflydb/dragonfly/blob/307b06983ea6904d53f04d370aa63af2051b34a4/src/server/string_family.cc#L1832):
+takes in the source — [`string_family.cc:1832`](https://github.com/dragonflydb/dragonfly/blob/main/src/server/string_family.cc#L1832):
 
 ```cpp
 // string_family.cc:1832 — trimmed
@@ -274,7 +272,7 @@ takes in the source — [`string_family.cc:1832`](https://github.com/dragonflydb
 ```
 
 And the API a family handler actually calls to run a transaction —
-[`transaction.h:195`](https://github.com/dragonflydb/dragonfly/blob/307b06983ea6904d53f04d370aa63af2051b34a4/src/server/transaction.h#L195):
+[`transaction.h:195`](https://github.com/dragonflydb/dragonfly/blob/main/src/server/transaction.h#L195):
 
 ```cpp
 // transaction.h:195 — trimmed
@@ -286,8 +284,8 @@ else in `*_family.cc` is parsing arguments and building the callback.
 
 ## The catch — what Dragonfly trades for this
 
-The blog wouldn't be honest without this section, and the repo's own docs are
-forthcoming about it.
+I'd be selling this short if I skipped the trade-offs — and to its credit,
+Dragonfly's own docs don't skip them either.
 
 - **Multi-key cross-shard commands pay extra hops.** A `MSET` across two shards
   costs a schedule round-trip plus an execute round-trip, where Redis'
