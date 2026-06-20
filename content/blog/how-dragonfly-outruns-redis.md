@@ -308,21 +308,3 @@ Dragonfly's own docs don't skip them either.
 Why the trade is worth it: real workloads are dominated by single-key commands
 on uncontended keys, so you trade a small per-multi-key cost for near-linear
 scaling across cores. For most cache and store workloads, that's a great deal.
-
-## Where to go next
-
-Three decisions — shared-nothing sharding, fibers, io_uring — plus a
-transaction model with an inline fast path that keeps the common case off the
-coordination path. That's where Dragonfly's throughput actually comes from.
-
-For the deep dives, the Dragonfly repo has
-[`docs/df-share-nothing.md`](https://github.com/dragonflydb/dragonfly/blob/main/docs/df-share-nothing.md)
-for the threading model and
-[`docs/transaction.md`](https://github.com/dragonflydb/dragonfly/blob/main/docs/transaction.md)
-for the full VLL adaptation. The source is readable C++20 and the file layout
-is honest about what's where — `src/server/` for the server, `src/core/` for
-the data structures, `src/facade/` for the protocol layer, `helio/` (a
-submodule) for the fiber + I/O library.
-
-The throughput isn't magic. It's the result of refusing to share, and then
-doing the engineering to make that work for the common case.
