@@ -2,401 +2,401 @@
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Learning Action Priors for Cross-embodiment Robot Manipulation",
-    "url": "https://arxiv.org/abs/2606.26095v1",
-    "date": "2026-06-24",
-    "summary": "Most Vision-Language-Action (VLA) models build on a Vision-Language Model (VLM) backbone by attaching an action module and optimizing the full policy jointly. This design inherits strong visual and linguistic priors from…"
+    "title": "Autoregressive Boltzmann Generators",
+    "url": "https://arxiv.org/abs/2606.27361v1",
+    "date": "2026-06-25",
+    "summary": "Efficient sampling of molecular systems at thermodynamic equilibrium is a hallmark challenge in statistical physics. This challenge has driven the development of Boltzmann Generators (BGs), which allow rapid generation o…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "On-Policy Self-Distillation with Sampled Demonstrations Reduces Output Diversity",
-    "url": "https://arxiv.org/abs/2606.26091v1",
-    "date": "2026-06-24",
-    "summary": "On-policy self-distillation achieves strong pass@1 accuracy by using a single model as both teacher and student, with the teacher conditioned on a correct demonstration to provide dense token-level feedback. We show that…"
+    "title": "Error-Conditioned Neural Solvers",
+    "url": "https://arxiv.org/abs/2606.27354v1",
+    "date": "2026-06-25",
+    "summary": "Neural surrogate models offer fast approximate mappings from PDE parameters to solutions, but they typically treat solving as a purely statistical task: once trained, they struggle to correct their own constraint violati…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents",
-    "url": "https://arxiv.org/abs/2606.26080v1",
-    "date": "2026-06-24",
-    "summary": "Process reward models enable fine-grained, step-level evaluation of LLMs, yet building them for agentic settings remains prohibitively difficult: long-horizon interactions, irreversible actions, and stochastic environmen…"
+    "title": "Understanding Domain-Aware Distribution Alignment in Budgeted Entity Matching",
+    "url": "https://arxiv.org/abs/2606.27342v1",
+    "date": "2026-06-25",
+    "summary": "Entity Matching (EM) is a core operation in the data integration pipeline, where records from different sources are compared to determine whether they refer to the same real-world entity. Recent work has incorporated dom…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "A cross-process welding penetration status prediction algorithm based on unsupervised domain adaptation in laser and TIG welding",
-    "url": "https://arxiv.org/abs/2606.26078v1",
-    "date": "2026-06-24",
-    "summary": "Supervised deep learning has been widely used for weld penetration state classification; however, its performance often degrades significantly under domain shift, such as when transferring models between welding processe…"
+    "title": "Language-Based Digital Twins for Elderly Cognitive Assistance",
+    "url": "https://arxiv.org/abs/2606.27334v1",
+    "date": "2026-06-25",
+    "summary": "Digital twins have emerged as a promising paradigm for personalized healthcare, enabling modeling of individual behavior and health trajectories. In cognitive health, early detection of Mild Cognitive Impairment (MCI) re…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Model Forensics: Investigating Whether Concerning Behavior Reflects Misalignment",
-    "url": "https://arxiv.org/abs/2606.26071v1",
-    "date": "2026-06-24",
-    "summary": "A central goal of safety research is determining whether a model is misaligned. Prior work has largely focused on detecting concerning behavior. But behavior alone does not establish misalignment: a concerning action can…"
+    "title": "Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning",
+    "url": "https://arxiv.org/abs/2606.27330v1",
+    "date": "2026-06-25",
+    "summary": "Multimodal web agents can assist humans in operating repetitive GUI tasks, where effective task planning is essential for decomposing complex tasks into executable actions. While small open source MLLMs are cost efficien…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "A welding penetration prediction model for laser welding process based on self-supervised learning using physics-informed neural networks",
-    "url": "https://arxiv.org/abs/2606.26059v1",
-    "date": "2026-06-24",
-    "summary": "The laser welding full-penetration is of critical importance, as it constitutes one of the fundamental factors in achieving defect-free welded joints. Accurate prediction of the penetration state is therefore essential f…"
+    "title": "Beyond the Hard Budget: Sparsity Regularizers for More Interpretable Top-k Sparse Autoencoders",
+    "url": "https://arxiv.org/abs/2606.27321v1",
+    "date": "2026-06-25",
+    "summary": "Sparse autoencoders (SAEs) have become a leading tool for interpreting the representations of vision foundation models, decomposing their polysemantic activations into a larger set of sparse, more monosemantic features.…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "The Unfireable Safety Kernel: Execution-Time AI Alignment for AI Agents and Other Escapable AI Systems",
-    "url": "https://arxiv.org/abs/2606.26057v1",
-    "date": "2026-06-24",
-    "summary": "AI agents are granted access to tools, APIs, and other infrastructure, making them active principals in those systems. The dominant approach places controls inside the agent's own runtime: system prompts, output filters,…"
+    "title": "AI Healthcare Chatbots as Information Infrastructure: A Large-Scale Study of User-Reported Breakdowns",
+    "url": "https://arxiv.org/abs/2606.27302v1",
+    "date": "2026-06-25",
+    "summary": "AI healthcare chatbots are increasingly used to support health information seeking and self-management, yet their performance and impact on users remains to be studied. This study examines over 15,000 user reviews from 5…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Natural Ungrokking: Asymmetric Control of Which Rules Survive Pretraining",
-    "url": "https://arxiv.org/abs/2606.26050v1",
-    "date": "2026-06-24",
-    "summary": "Midway through an ordinary pretraining run, a small language model learns the pronoun-gender rule: cued with a girl's name (\"Sue cried because\"), it resolves the next pronoun to she, generalizing to held-out probes (0.94…"
+    "title": "When Does Combining Language Models Help? A Co-Failure Ceiling on Routing, Voting, and Mixture-of-Agents Across 67 Frontier Models",
+    "url": "https://arxiv.org/abs/2606.27288v1",
+    "date": "2026-06-25",
+    "summary": "Multi-model LLM systems such as routing, voting, cascades, fusion, and mixture-of-agents are used to beat single-model accuracy. We show that their gain is capped by a quantity the field rarely reports. For any policy wh…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "TriViewBench: Controlled Complexity Scaling for Multi-View Structural Reasoning in MLLMs",
-    "url": "https://arxiv.org/abs/2606.26029v1",
-    "date": "2026-06-24",
-    "summary": "Multimodal Large Language Models (MLLMs) demonstrate strong performance on standard visual question answering benchmarks, yet their scalability under controlled structural complexity remains poorly understood. We introdu…"
+    "title": "Prompt Injection in Automated Résumé Screening with Large Language Models: Single and Multi-Injection Settings",
+    "url": "https://arxiv.org/abs/2606.27287v1",
+    "date": "2026-06-25",
+    "summary": "Large language models (LLMs) are increasingly used to screen and rank job applicants, creating incentives for candidates to strategically manipulate algorithmic hiring systems. We study prompt injection in automated résu…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Can Trustless Agents Be Trusted? An Empirical Study of the ERC-8004 Decentralized AI Agent Ecosystem",
-    "url": "https://arxiv.org/abs/2606.26028v1",
-    "date": "2026-06-24",
-    "summary": "As autonomous AI agents increasingly transact across organizational boundaries, a fundamental trust challenge emerges: how can an agent assess whether an unknown counterpart is trustworthy? The ERC-8004 protocol addresse…"
+    "title": "Simulation-based inference for rapid Bayesian parameter estimation in epidemiological models: a comparison with MCMC",
+    "url": "https://arxiv.org/abs/2606.27286v1",
+    "date": "2026-06-25",
+    "summary": "Mechanistic epidemiological models are widely used to support infectious disease forecasting and public-health decision making. Bayesian calibration of such models is commonly performed using Markov chain Monte Carlo (MC…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Privacy Vulnerabilities of Attention Layers in Tabular Foundation Models and Protection of High-Risk Queries",
-    "url": "https://arxiv.org/abs/2606.26021v1",
-    "date": "2026-06-24",
-    "summary": "Tabular foundation models are commonly assumed to present limited privacy concerns as they are often pre-trained on large collections of synthetic data. However, these models leverage in-context learning, where sensitive…"
+    "title": "EO-WM: A Physically Informed World Model for Probabilistic Earth Observation Forecasting",
+    "url": "https://arxiv.org/abs/2606.27277v1",
+    "date": "2026-06-25",
+    "summary": "Earth Observation (EO) forecasting aims to predict future Earth surface dynamics from satellite observations under changing meteorological conditions. In this paper, we view this task as a partially observed, weather-dri…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "FORCE: Efficient VLA Reinforcement Fine-Tuning via Value-Calibrated Warm-up and Self-Distillation",
-    "url": "https://arxiv.org/abs/2606.26006v1",
-    "date": "2026-06-24",
-    "summary": "Vision-Language-Action (VLA) models are often constrained by the imitation ceiling imposed by sub-optimal data. While Reinforcement Learning (RL) fine-tuning can surpass this limit, it is notoriously sample inefficient.…"
+    "title": "E-TTS: A New Embodied Test-Time Scaling Framework for Robotic Manipulation",
+    "url": "https://arxiv.org/abs/2606.27268v1",
+    "date": "2026-06-25",
+    "summary": "Recently, a few works have made early attempts to study test-time scaling for embodied tasks. However, two major challenges remain unsolved: (1) reasoning can effectively improve the performance of the policy, but its sc…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Hierarchical Reinforcement Learning for Neural Network Compression (HiReLC): Pruning and Quantization",
-    "url": "https://arxiv.org/abs/2606.26002v1",
-    "date": "2026-06-24",
-    "summary": "We present HiReLC, a hierarchical ensemble-reinforcement learning framework for automated joint quantization and structured pruning of deep neural networks. The framework decomposes the compression search across two leve…"
+    "title": "Advancing Omnimodal Embodied Agents from Isolated Skills to Everyday Physical Autonomy",
+    "url": "https://arxiv.org/abs/2606.27251v1",
+    "date": "2026-06-25",
+    "summary": "Building persistent embodied agents in unstructured environments demands unified orchestration of heterogeneous tools spanning both cyber (APIs, IoT) and physical (manipulation, navigation) domains, coupled with autonomo…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Variable Bound Tightening for Nash Equilibrium Computation in Multiplayer Imperfect-Information Games",
-    "url": "https://arxiv.org/abs/2606.25997v1",
-    "date": "2026-06-24",
-    "summary": "There has been significant recent progress in algorithms for approximation of Nash equilibrium in large two-player zero-sum imperfect-information games and exact computation of Nash equilibrium in multiplayer strategic-f…"
+    "title": "From Celebrities to Anyone: Characterizing AI Nudification Content, Technology, and Community Dynamics on 4chan",
+    "url": "https://arxiv.org/abs/2606.27234v1",
+    "date": "2026-06-25",
+    "summary": "AI nudification uses generative models to create synthetic non-consensual sexually explicit imagery (SNEACI) of real individuals. Prior work has examined dedicated nudification platforms and model repositories, finding t…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Autodata: An agentic data scientist to create high quality synthetic data",
-    "url": "https://arxiv.org/abs/2606.25996v1",
-    "date": "2026-06-24",
-    "summary": "We introduce Autodata, a general method that enables AI agents to act as data scientists who build high quality training and evaluation data. We show how to train (meta-optimize) such a data scientist agent, so that it l…"
+    "title": "Bridging Talk and Thought: Understanding Dialogue Dynamics Across Collaborative Problem-Solving Contexts",
+    "url": "https://arxiv.org/abs/2606.27233v1",
+    "date": "2026-06-25",
+    "summary": "We present a conceptual framework for analyzing dialogue in collaborative problem-solving contexts, with an emphasis on the emerging dynamics of human-AI and multi-agent collaboration. As intelligent systems become activ…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "SpeechEQ: Benchmarking Emotional Intelligence Quotient in Socially Aware Voice Conversational Models",
-    "url": "https://arxiv.org/abs/2606.25990v1",
-    "date": "2026-06-24",
-    "summary": "As multimodal conversational systems increasingly engage in spoken interaction, their ability to navigate paralinguistic social cues has become a critical bottleneck for natural human-AI communication. However, existing…"
+    "title": "CARVE: Content-Aware Recurrent with Value Efficiency for Chunk-Parallel Linear Attention",
+    "url": "https://arxiv.org/abs/2606.27229v1",
+    "date": "2026-06-25",
+    "summary": "Recurrent models must forget in order to remember, yet the state of the art decides what to erase without consulting what is stored -- the gate sees only the arriving token, not the memory it is about to modify. This mem…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Weave of Formal Thought",
-    "url": "https://arxiv.org/abs/2606.25987v1",
-    "date": "2026-06-24",
-    "summary": "Large language models (LLMs) attain remarkable surface fluency on code, yet they neither formally guarantee the syntactic validity of their output nor leverage the hierarchical structure defining the target language. Whi…"
+    "title": "Ask, Don't Judge: Binary Questions for Interpretable LLM Evaluation and Self-Improvement",
+    "url": "https://arxiv.org/abs/2606.27226v1",
+    "date": "2026-06-25",
+    "summary": "Evaluating LLM outputs remains a major bottleneck in NLP: human evaluation is expensive and slow, lexical metrics correlate poorly with human judgments on open-ended generation, and holistic LLM judges often produce opaq…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "InvestPhilBench: A Multi-Layer Dynamic Benchmark for Evaluating Large Language Model Procedural Reasoning in Expert Investment Philosophy",
-    "url": "https://arxiv.org/abs/2606.25984v1",
-    "date": "2026-06-24",
-    "summary": "Large language models are increasingly deployed as investment research assistants, yet no benchmark tests whether they can accurately reconstruct and apply the specific procedural decision frameworks of expert investors.…"
+    "title": "Vulnerability of Natural Language Classifiers to Evolutionary Generated Adversarial Text",
+    "url": "https://arxiv.org/abs/2606.27215v1",
+    "date": "2026-06-25",
+    "summary": "Deep learning models have achieved impressive performance across various fields but remain vulnerable to adversarial inputs, particularly in NLP, where such attacks can have significant real-world consequences. Adversari…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Multi-Agent Goal Recognition with Team- and Goal-Conditioned Reinforcement Learning and Factorized Branch-and-Bound",
-    "url": "https://arxiv.org/abs/2606.25978v1",
-    "date": "2026-06-24",
-    "summary": "Multi-agent goal recognition asks an observer to jointly infer which agents act together and what each team is trying to achieve, so the hypothesis space grows combinatorially with the number of team partitions and goals…"
+    "title": "A Process Harness for Uplifting Legacy Workflows to Agentic BPM: Design and Realization in CUGA FLO",
+    "url": "https://arxiv.org/abs/2606.27188v1",
+    "date": "2026-06-25",
+    "summary": "We introduce the process harness, a new mechanism for uplifting legacy workflows into Agentic Business Process Management (Agentic BPM) without replacing the underlying workflow engine. A process harness places a policy-…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Helpful or Harmful? Evaluating LLM-Assisted Vulnerability Patching via a Human Study",
-    "url": "https://arxiv.org/abs/2606.25973v1",
-    "date": "2026-06-24",
-    "summary": "Software vulnerability remediation is a cognitively demanding task that requires specialized security expertise often lacking in general developers. In the meantime, Large Language Models (LLMs) assisted tools show poten…"
+    "title": "Automating Potential-based Reward Shaping with Vision Language Model Guidance",
+    "url": "https://arxiv.org/abs/2606.27180v1",
+    "date": "2026-06-25",
+    "summary": "Sparse rewards are inherently challenging for reinforcement learning agents as they lack intermediate feedback to guide exploration and to correctly attribute the sparse success rewards to relevant parts of the trajector…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "WinDOM: Self-Family Distillation for Small-Model GUI Grounding",
-    "url": "https://arxiv.org/abs/2606.25964v1",
-    "date": "2026-06-24",
-    "summary": "Small ($\\sim$2B) GUI-grounding agents are attractive for on-device deployment, accessibility tooling, and low-cost iteration, but at this scale they face two open recipe questions: how to obtain bounding-box training dat…"
+    "title": "Learning to Fold: prizewinning solution at LeHome Challenge 2026 (1st place online, 2nd offline)",
+    "url": "https://arxiv.org/abs/2606.27163v1",
+    "date": "2026-06-25",
+    "summary": "I describe my solution to the LeHome Challenge 2026, an ICRA 2026 competition on bimanual garment folding. The system placed 1st of 62 teams in the online (simulation) round and 2nd in the real-world final. It improves a…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Agentic System as Compressor: Quantifying System Intelligence in Bits",
-    "url": "https://arxiv.org/abs/2606.25960v1",
-    "date": "2026-06-24",
-    "summary": "Large language models are turning from isolated predictors into agentic systems: they call tools, retrieve evidence, obey environment constraints, use verifiers, and complete tasks through search and multi-turn interacti…"
+    "title": "TOPS: First-Principles Visual Token Pruning via Constructing Token Optimal Preservation Sets for Efficient MLLM Inference",
+    "url": "https://arxiv.org/abs/2606.27161v1",
+    "date": "2026-06-25",
+    "summary": "Multimodal large language models (MLLMs) have achieved strong multimodal reasoning capabilities, but their efficiency is limited by the large number of visual tokens, which introduces substantial computational overhead.…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "SE-AGCNet: An End-to-End Framework for Joint Speech Enhancement and Loudness Control in Meeting Scenarios",
-    "url": "https://arxiv.org/abs/2606.25959v1",
-    "date": "2026-06-24",
-    "summary": "Conventional audio pipelines typically treat speech enhancement (SE) and automatic gain control (AGC) as discrete modules, which often limits overall performance. For instance, applying AGC before SE may inadvertently am…"
+    "title": "OpenRCA 2.0: From Outcome Labels to Causal Process Supervision",
+    "url": "https://arxiv.org/abs/2606.27154v1",
+    "date": "2026-06-25",
+    "summary": "Root cause analysis (RCA) poses a holistic test of LLM agentic capabilities, such as long-context understanding, multi-step reasoning, and tool use. However, existing datasets suffer from a fundamental gap: they label on…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Pulmonary Embolism Risk Stratification from CTPA and Medical Records: Vascular Graphs Are Not All You Need",
-    "url": "https://arxiv.org/abs/2606.25956v1",
-    "date": "2026-06-24",
-    "summary": "Risk stratification for pulmonary embolism (PE) is critical for clinical decision-making. Stratification guidelines are based on patient medical records, parameters measured from computed tomography pulmonary angiography…"
+    "title": "Safe Autoregressive Image Generation with Iterative Self-Improving Codebooks",
+    "url": "https://arxiv.org/abs/2606.27147v1",
+    "date": "2026-06-25",
+    "summary": "Unlike diffusion-based models that operate in continuous latent spaces, autoregressive unified multimodal models produce images by sequentially predicting discretized visual tokens. These tokens are derived from a codebo…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Measurable Majorities Are Not Finitely Axiomatizable",
-    "url": "https://arxiv.org/abs/2606.25954v1",
-    "date": "2026-06-24",
-    "summary": "This theoretical note studies the finite axiomatizability of strict majority reasoning in finite social decision frames. Moss and Pedersen (2026) introduce a coherence criterion that characterizes exactly when qualitativ…"
+    "title": "Joint Learning of Experiential Rules and Policies for Large Language Model Agents",
+    "url": "https://arxiv.org/abs/2606.27136v1",
+    "date": "2026-06-25",
+    "summary": "For LLM agents in multi-step interactive environments, a key challenge is to make effective use of accumulated interaction experience. Existing work has typically separated two uses of such experience: keeping it outside…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Explainable Control Framework (XCF) based on Fuzzy Model-Agnostic Explanation and LLM Agent-Supported Interface",
-    "url": "https://arxiv.org/abs/2606.25941v1",
-    "date": "2026-06-24",
-    "summary": "Increasing demand for precise and reliable control in complex scenarios has led to the development of increasingly sophisticated controllers, including data-driven approaches employing closed box models and mathematicall…"
+    "title": "Efficient foundation decoders for fault-tolerant quantum computing",
+    "url": "https://arxiv.org/abs/2606.27119v1",
+    "date": "2026-06-25",
+    "summary": "Foundation decoders, a class of high-capacity neural decoders, are leading candidates for fault-tolerant quantum computing, with accurate and efficient decoding at large code distances. However, their construction often…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Overview of HIPE-2026: Person-Place Relation Extraction from Multilingual Historical Texts",
-    "url": "https://arxiv.org/abs/2606.25935v1",
-    "date": "2026-06-24",
-    "summary": "Was this person ever at that place, and if so, when? Answering such questions from noisy, multilingual historical documents is the central challenge of HIPE-2026, the third edition of the HIPE evaluation series. Moving f…"
+    "title": "Heavy-Ball Q-Learning with Residual Weighting Correction",
+    "url": "https://arxiv.org/abs/2606.27112v1",
+    "date": "2026-06-25",
+    "summary": "This paper proposes a corrected heavy-ball Q-learning method for reinforcement learning (RL) and establishes its convergence. It also identifies conditions under which the method is theoretically guaranteed to converge f…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Enhancing Brain MRI Anomaly Detection and Reasoning with ROI Rethink and Synthetic Data",
-    "url": "https://arxiv.org/abs/2606.25894v1",
-    "date": "2026-06-24",
-    "summary": "Medical vision-language models typically generate diagnoses through single-pass inference without indicating which image regions support their conclusions. This lack of spatial grounding limits clinical utility: outputs…"
+    "title": "Application of LLMs to Threat Assessment of Foreign Peacekeeping Missions",
+    "url": "https://arxiv.org/abs/2606.27106v1",
+    "date": "2026-06-25",
+    "summary": "We present a novel approach for applying Large Language Models (LLMs) to threat assessment in the context of foreign peacekeeping missions. Building on the PINPOINT project and its use case, the EU Monitoring Mission in…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "AI-Assisted Computational Reproducibility on the FABRIC Testbed",
-    "url": "https://arxiv.org/abs/2606.25879v1",
-    "date": "2026-06-24",
-    "summary": "Computational reproducibility remains difficult despite being central to scientific research. In this paper, we show how the international FABRIC testbed, combined with large language model (LLM) coding assistants throug…"
+    "title": "Data-Free Reservoir Features for Efficient Long-Horizon Cold-Start Continual Learning",
+    "url": "https://arxiv.org/abs/2606.27095v1",
+    "date": "2026-06-25",
+    "summary": "Cold-start exemplar-free class-incremental learning requires learning a growing set of classes without replay, external pretraining, or a large initial task. Existing cold-start methods typically either train the backbon…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "AutoRelAnnotator: Calibrated Model Cascades for Cost-Efficient Relevance Evaluation in Sponsored Search",
-    "url": "https://arxiv.org/abs/2606.25871v1",
-    "date": "2026-06-24",
-    "summary": "How can we generate high-quality relevance annotations at scale without the cost and delays of human labeling? Relevance annotations are the backbone of search ranking systems which is needed for training data preparatio…"
+    "title": "Inherited Circuits, Learned Semantics: How Fine-Tuning Creates Evasion Vulnerabilities Invisible to Standard Evaluation",
+    "url": "https://arxiv.org/abs/2606.27091v1",
+    "date": "2026-06-25",
+    "summary": "LLMs fine-tuned for security classification are usually evaluated on held-out examples from the same distribution as their training data. We show that this can miss vulnerabilities introduced by fine-tuning itself: model…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Color Matters: Trigger Color Affects Success in Federated Backdoor Attacks",
-    "url": "https://arxiv.org/abs/2606.25858v1",
-    "date": "2026-06-24",
-    "summary": "Federated learning is vulnerable to backdoor attacks in which malicious clients inject poisoned updates while preserving benign-task performance. In this paper, we study a semantics-driven backdoor mechanism in which att…"
+    "title": "Beyond Global Divergences: A Local-Mass Perspective on Bayesian Inference",
+    "url": "https://arxiv.org/abs/2606.27090v1",
+    "date": "2026-06-25",
+    "summary": "Global objectives, such as KL divergence and ELBO, are widely used in Bayesian inference for measuring distributional discrepancy. This paper studies their local-mass behaviour that is not directly captured by such objec…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Semantic Consistency Policy Optimization for Reinforcement Learning of LLM Agents",
-    "url": "https://arxiv.org/abs/2606.25852v1",
-    "date": "2026-06-24",
-    "summary": "Group-based reinforcement learning effectively post-trains LLM agents for long-horizon, sparse-reward tasks by deriving step-level credit from trajectory outcomes. However, this ties a step's credit to its rollout's fina…"
+    "title": "Parametric Open Source Games",
+    "url": "https://arxiv.org/abs/2606.27068v1",
+    "date": "2026-06-25",
+    "summary": "Open-source game theory studies agents whose behavior may depend on one another's decision procedures, but most existing models use discrete or symbolic programs. We introduce parametric open-source games, a continuous a…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Edges Before Embeddings: A Confidence-Aware Blur Gate for Vision-Language Pipelines",
-    "url": "https://arxiv.org/abs/2606.25838v1",
-    "date": "2026-06-24",
-    "summary": "Production vision pipelines silently degrade on blurry input, wasting compute on downstream OCR, retrieval, and vision-language model (VLM) calls that cannot recover a usable output. We present MagikaDocumentFromPixel, a…"
+    "title": "How to evaluate clustering with ground truth?",
+    "url": "https://arxiv.org/abs/2606.27061v1",
+    "date": "2026-06-25",
+    "summary": "External indexes can be used for cluster evaluation when ground truth is available. We review the most common external validity indexes focusing on set-matching-based measures. We recommend centroid index (CI), because i…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "AI Snitches Get Glitches: Towards Evading Agentic Surveillance",
-    "url": "https://arxiv.org/abs/2606.25836v1",
-    "date": "2026-06-24",
-    "summary": "To better assist users with completing challenging tasks, AI agents mediate communications, access data, and interact with different APIs. Many employers (and even nation-states) already provide their users with this tec…"
+    "title": "NuclearQAv2: A Structured Benchmark for Evaluating Domain-Science Competence in Large Language Models",
+    "url": "https://arxiv.org/abs/2606.27047v1",
+    "date": "2026-06-25",
+    "summary": "Large language models (LLMs) have demonstrated strong performance across a wide range of tasks, but ensuring their reliability in highly technical domains remains a significant challenge. In nuclear engineering, problem…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "MiniOpt: Reasoning to Model and Solve General Optimization Problems with Limited Resources",
-    "url": "https://arxiv.org/abs/2606.25832v1",
-    "date": "2026-06-24",
-    "summary": "Achieving strong optimization generalization across diverse optimization problems while requiring limited training resources remains a challenging problem for optimization-oriented large language models (LLMs). Existing…"
+    "title": "The Spec Growth Engine: Spec-Anchored, Code-Coupled, Drift-Enforced Architecture for AI-Assisted Software Development",
+    "url": "https://arxiv.org/abs/2606.27045v1",
+    "date": "2026-06-25",
+    "summary": "AI coding agents dramatically accelerate implementation speed but introduce two structural failure modes that existing spec-driven approaches do not fully solve: (1) context explosion -- the agent must reason over an ent…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "SARA: Unlocking Multilingual Knowledge in Mixture-of-Experts via Semantically Anchored Routing Alignment",
-    "url": "https://arxiv.org/abs/2606.25821v1",
-    "date": "2026-06-24",
-    "summary": "Sparse Mixture-of-Experts (MoE) architectures have emerged as an increasingly influential paradigm as they offer a strategic balance between parameter scalability and computational efficiency. However, low-resource langu…"
+    "title": "State Representation Matters in Deep Reinforcement Learning: Application to Energy Trading",
+    "url": "https://arxiv.org/abs/2606.27032v1",
+    "date": "2026-06-25",
+    "summary": "Energy trading decisions depend not only on current market prices, but also on expected future market conditions, and operational constraints. This makes the state representation given to a reinforcement learning agent a…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Confidence Sequences for Online Statistical Model Checking of Markov Decision Processes",
-    "url": "https://arxiv.org/abs/2606.25797v1",
-    "date": "2026-06-24",
-    "summary": "Markov decision processes (MDPs) are a classic model of decision making under uncertainty, exhibiting both non-deterministic choice as well as probabilistic uncertainty. Traditionally, exact knowledge of the underlying p…"
+    "title": "ShareLock: A Stealthy Multi-Tool Threshold Poisoning Attack Against MCP",
+    "url": "https://arxiv.org/abs/2606.27027v1",
+    "date": "2026-06-25",
+    "summary": "With the rapid evolution of LLM-driven agents, Model Context Protocol (MCP), an open protocol bridging LLMs with external tools, has quickly become foundational to modern agent ecosystems. However, the expanding adoption…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Do Encoders Suffice? A Systematic Comparison of Encoder and Decoder Safety Judges for LLM Adversarial Evaluation",
-    "url": "https://arxiv.org/abs/2606.25782v1",
-    "date": "2026-06-24",
-    "summary": "With the widespread adoption of large language models (LLMs) in chatbots and everyday applications, companies increasingly need guardrails that are effective while remaining low-cost and low-latency. Safety evaluation of…"
+    "title": "On-board Remote-Sensing Foundation Models for Unsupervised Change Detection of Disaster Events",
+    "url": "https://arxiv.org/abs/2606.27018v1",
+    "date": "2026-06-25",
+    "summary": "Remote Sensing Foundation Models (RSFMs) have emerged as a powerful alternative to supervised models for Earth Observation, allowing satellites to autonomously trigger high-resolution captures or adjust tasking parameter…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Fuzzy Quantification over OWL Ontologies and Knowledge Graphs",
-    "url": "https://arxiv.org/abs/2606.25778v1",
-    "date": "2026-06-24",
-    "summary": "This paper presents a versatile framework for evaluating fuzzy quantification queries over both standard and fuzzy ontologies as well as knowledge graphs. The primary objective is the retrieval of individuals that satisf…"
+    "title": "Semantic Early-Stopping for Iterative LLM Agent Loops",
+    "url": "https://arxiv.org/abs/2606.27009v1",
+    "date": "2026-06-25",
+    "summary": "Multi-agent large language model (LLM) loops, for example a Writer that drafts and a Critic that revises, are almost always terminated by a fixed iteration cap (max_iterations). This is a syntactic kill-switch: it is bli…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Space-Efficient Language Generation in the Limit",
-    "url": "https://arxiv.org/abs/2606.25777v1",
-    "date": "2026-06-24",
-    "summary": "We initiate a resource-aware theory of \\textit{language generation in the limit} under the minimal constraint of space efficiency. In our framework, a learner observes an adversarial positive stream from a target languag…"
+    "title": "Adaptive Utility driven Resource Orchestration for Resilient AI (AURORA-AI)",
+    "url": "https://arxiv.org/abs/2606.27005v1",
+    "date": "2026-06-25",
+    "summary": "Modern AI systems are increasingly deployed under non-stationary computational, demographic, and operational conditions in which static resource allocation strategies degrade both predictive performance and human-centric…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "OncoSynth: Synthetic data generation for treatment effect estimation in oncology",
-    "url": "https://arxiv.org/abs/2606.25762v1",
-    "date": "2026-06-24",
-    "summary": "In oncology, access to patient-level data is often restricted. Synthetic data provides an alternative for analyzing treatment effectiveness, but existing methods for synthetic data generation fail to preserve the causal…"
+    "title": "Inverse Design of Compact and Wideband Inverted Doherty Power Amplifiers Using Deep Learning",
+    "url": "https://arxiv.org/abs/2606.27002v1",
+    "date": "2026-06-25",
+    "summary": "This paper presents a deep learning-assisted methodology for the inverse synthesis of a compact, wideband inverted Doherty power amplifier (PA). Convolutional neural networks (CNNs) and genetic algorithms (GAs) are joint…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Uncertainty Quantification for Computer-Use Agents: A Benchmark across Vision-Language Models and GUI Grounding Datasets",
-    "url": "https://arxiv.org/abs/2606.25760v1",
-    "date": "2026-06-24",
-    "summary": "Computer-use agents turn vision-language model (VLM) predictions into executable GUI clicks, so reliable uncertainty estimates are essential for rejection, calibration, miss-severity ranking, and spatial safety regions.…"
+    "title": "Event-Aware Instructed Assistant for Referring Video Segmentation",
+    "url": "https://arxiv.org/abs/2606.26994v1",
+    "date": "2026-06-25",
+    "summary": "Existing referring video segmentation methods often treat a video as a single event consisting of multiple images, overlooking the fact that a video typically contains multiple distinct events. Under such a mechanism, th…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Gradient-based inverse lithography for EUV masks via the waveguide method and a physics-informed neural operator",
-    "url": "https://arxiv.org/abs/2606.25753v1",
-    "date": "2026-06-24",
-    "summary": "Gradient-based inverse lithography technology~(ILT) for extreme ultraviolet~(EUV) masks is presented. A novel framework treats the differentiable waveguide method and the recently proposed waveguide neural operator~(WGNO…"
+    "title": "Decision-Aligned Evaluation of Uncertainty Quantification",
+    "url": "https://arxiv.org/abs/2606.26990v1",
+    "date": "2026-06-25",
+    "summary": "Uncertainty estimates in machine learning are typically evaluated using generic metrics such as the negative log-likelihood and expected calibration error, yet good performance on such metrics does not necessarily imply…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Point Cloud Diffusion with Global and Local Reconstruction for Instance-Level 3D Anomaly Detection",
-    "url": "https://arxiv.org/abs/2606.25740v1",
-    "date": "2026-06-24",
-    "summary": "3D anomaly detection in point clouds is critical for high-precision industrial manufacturing. Reconstruction-based methods have laid a strong foundation by detecting 3D anomalies through comparisons between defective inp…"
+    "title": "Where Do Models Find Happiness? Emotion Vectors in Open-Source LLMs",
+    "url": "https://arxiv.org/abs/2606.26987v1",
+    "date": "2026-06-25",
+    "summary": "Recent work identified emotion vectors in Claude Sonnet 4.5, which are internal representations that encode emotion concepts, causally influence behavior, and exhibit geometry mirroring human psychological structure. We…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Position Spaces and Graphs",
-    "url": "https://arxiv.org/abs/2606.25719v1",
-    "date": "2026-06-24",
-    "summary": "In this paper, we introduce position graphs, a graph-based reasoning framework based on the formalization of position spaces. This framework utilizes two strict partial orders, representing horizontal and vertical alignm…"
+    "title": "ReaORE: Reasoning-Guided Progressive Open Relation Extraction Empowered by Large Reasoning Models",
+    "url": "https://arxiv.org/abs/2606.26986v1",
+    "date": "2026-06-25",
+    "summary": "Open Relation Extraction (OpenRE) requires a model to extract unseen relations between head and tail entities from unstructured text for real-world applications. The core challenge of OpenRE lies in achieving reliable ge…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "GUI agent: Guided Exploration of User-Sensitive Screens",
-    "url": "https://arxiv.org/abs/2606.25705v1",
-    "date": "2026-06-24",
-    "summary": "LLM agents are increasingly being used to automate tasks for users within an open GUI environment. They inevitably encounter screens containing user-sensitive information, for which takeover of task execution by the user…"
+    "title": "Auditing Framing-Sensitive Behavioral Instability in Large Language Models for Mental Health Interactions",
+    "url": "https://arxiv.org/abs/2606.26982v1",
+    "date": "2026-06-25",
+    "summary": "Large language models (LLMs) are increasingly being integrated into mental health support tools and other psychologically sensitive conversational applications. In such settings, behavioral stability and consistency are…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Power-Budgeted Underwater Vehicle Control via Constrained Reinforcement Learning",
-    "url": "https://arxiv.org/abs/2606.25680v1",
-    "date": "2026-06-24",
-    "summary": "Underwater vehicles operate from a fixed onboard energy budget that propulsion rapidly depletes, so a controller that completes its task while drawing less thruster power directly extends mission range and endurance. Rei…"
+    "title": "In-Context Model Predictive Generation: Open-Vocabulary Motion Synthesis from Language Models to Physics",
+    "url": "https://arxiv.org/abs/2606.26981v1",
+    "date": "2026-06-25",
+    "summary": "Synthesizing human motion from textual descriptions is essential for immersive digital applications, yet existing methods face a persistent trade-off between semantic fidelity and physical realism. Large language model (…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Steering Vision-Language Models with Joint Sparse Autoencoders",
-    "url": "https://arxiv.org/abs/2606.25657v1",
-    "date": "2026-06-24",
-    "summary": "Sparse Autoencoders (SAEs) have shown promise for analyzing language models, but applying them to vision-language models (VLMs) often yields representations that are difficult to use as controllable cross-modal steering…"
+    "title": "XMSE-Aware Adaptive Empirical Bayes Estimation",
+    "url": "https://arxiv.org/abs/2606.26975v1",
+    "date": "2026-06-25",
+    "summary": "Empirical Bayes (EB) estimators can match the first-order asymptotic risk of maximum likelihood (ML) while behaving very differently at second order: recent excess mean squared error (XMSE) analysis shows that kernel-bas…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Is GraphRAG Needed? From Basic RAG to Graph-/Agentic Solutions with Context Optimization",
-    "url": "https://arxiv.org/abs/2606.25656v1",
-    "date": "2026-06-24",
-    "summary": "As advanced RAG variants like GraphRAG and Agentic RAG emerge, one leading question is when and how to use them. Here, we introduce a framework for different RAG scenarios evaluation and comparison on semi-structured kno…"
+    "title": "Einstein World Models",
+    "url": "https://arxiv.org/abs/2606.26969v1",
+    "date": "2026-06-25",
+    "summary": "Does intelligence require the ability to reason about phenomena beyond direct experience? It is natural to suspect that some complex thought cannot be captured through language alone. However, of particular concern to th…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Taxonomy of Risks on Automated Fact-Checking Systems Considering its Propagation",
-    "url": "https://arxiv.org/abs/2606.25645v1",
-    "date": "2026-06-24",
-    "summary": "In recent years, the posting of fake news including disinformation and misinformation on social networking services (SNS) has become a social problem. To combat this fake news, fact-checking that is the process of assess…"
+    "title": "Look-Before-Move: Narrative-Grounded World Visual Attention in Dynamic 3D Story Worlds",
+    "url": "https://arxiv.org/abs/2606.26964v1",
+    "date": "2026-06-25",
+    "summary": "As embodied AI and world models increasingly operate in dynamic 3D environments, visual perception must move beyond passively interpreting given observations toward actively deciding what to observe. We study this proble…"
   }
 ]
