@@ -2,6 +2,22 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
+    "title": "Deploy a Production-Ready NVIDIA AI-Q Blueprint on Oracle Cloud Infrastructure",
+    "url": "https://developer.nvidia.com/blog/deploy-a-production-ready-nvidia-ai-q-blueprint-on-oracle-cloud-infrastructure/",
+    "date": "2026-06-26",
+    "summary": "AI agents have changed a lot in the last two years. The first could only answer one question at a time. Then came multi-turn chat, where the model could keep..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "Creating the NVIDIA Nemotron 3 Ultra NVFP4 Checkpoint with NVIDIA Model Optimizer",
+    "url": "https://developer.nvidia.com/blog/creating-the-nvidia-nemotron-3-ultra-nvfp4-checkpoint-with-nvidia-model-optimizer/",
+    "date": "2026-06-26",
+    "summary": "As context windows grow longer, moving large model weights efficiently becomes critical to performance. A common way to address this is quantization, an..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
     "title": "Streamlining Resource Binding with End-to-End Support for Vulkan Descriptor Heaps",
     "url": "https://developer.nvidia.com/blog/streamlining-resource-binding-with-end-to-end-support-for-vulkan-descriptor-heaps/",
     "date": "2026-06-25",
@@ -14,6 +30,14 @@
     "url": "https://developer.nvidia.com/blog/scaling-ai-inference-across-multiple-gpus-using-nvidia-tensorrt-with-multi-device-inference-support/",
     "date": "2026-06-25",
     "summary": "Generative AI workloads are rapidly outgrowing the memory and compute budget of single GPUs. For inference developers building media generation pipelines, the..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "Q&A: How KRAFTON Built PUBG Ally, a Co-Playable Character Powered by NVIDIA ACE",
+    "url": "https://developer.nvidia.com/blog/how-krafton-built-pubg-ally-a-co-playable-character-powered-by-nvidia-ace/",
+    "date": "2026-06-25",
+    "summary": "AI companions in games have long been constrained by fixed dialogue. PUBG Ally is a different kind of system. Built by KRAFTON for PUBG: BATTLEGROUNDS, this AI..."
   },
   {
     "company": "NVIDIA",
@@ -374,29 +398,5 @@
     "url": "https://developer.nvidia.com/blog/nvidia-cuda-13-3-enhances-gpu-development-with-tile-programming-in-c-compiler-autotuning-and-python-updates/",
     "date": "2026-05-26",
     "summary": "NVIDIA CUDA 13.3 brings new capabilities and performance optimizations to developers across the CUDA ecosystem. The launch of NVIDIA CUDA Tile programming in..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "Run Key Genomics and Protein Folding Workloads Faster with NVIDIA RTX PRO 4500 Blackwell",
-    "url": "https://developer.nvidia.com/blog/run-key-genomics-and-protein-folding-workloads-faster-with-nvidia-rtx-pro-4500-blackwell/",
-    "date": "2026-05-26",
-    "summary": "Precision medicine depends on two fundamental capabilities: understanding disease at the genomic level and identifying treatments at the molecular level. ..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "Synthesize Realistic 3D Medical Images at Scale to Ship Pre‑Trained Models",
-    "url": "https://developer.nvidia.com/blog/synthesize-realistic-3d-medical-images-at-scale-to-ship-pre-trained-models/",
-    "date": "2026-05-22",
-    "summary": "High‑quality 3D medical imaging data is the foundation of modern radiology AI, but access to it is often constrained by data scarcity, privacy restrictions,..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "Unlock Exascale Performance on NVIDIA GB200 NVL72 with Slurm Topology-Aware Job Scheduling",
-    "url": "https://developer.nvidia.com/blog/unlock-exascale-performance-on-nvidia-gb200-nvl72-with-slurm-topology-aware-job-scheduling/",
-    "date": "2026-05-21",
-    "summary": "As AI models grow in scale and complexity, realizing the full performance of modern accelerated infrastructure depends as much on how workloads are placed as on..."
   }
 ]
