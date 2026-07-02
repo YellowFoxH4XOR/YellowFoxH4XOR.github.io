@@ -2,6 +2,14 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
+    "title": "GitLab Patch Release: 18.8.11",
+    "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-18-8-11-released/",
+    "date": "2026-07-01",
+    "summary": ""
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
     "title": "Claude Sonnet 5 on GitLab: More reliable, more efficient",
     "url": "https://about.gitlab.com/blog/claude-sonnet-5-on-gitlab/",
     "date": "2026-06-30",
@@ -109,7 +117,7 @@
     "title": "GitLab: Built for the agentic engineering era",
     "url": "https://about.gitlab.com/blog/gitlab-transcend-announcements/",
     "date": "2026-06-10",
-    "summary": "GitLab Transcend, our customer event showcasing our roadmap, success stories, and industry research just wrapped. Here s what we announced and demonstrated: Next-generation source code management , a Git engine rebuilt f…"
+    "summary": "GitLab Transcend, our customer event showcasing our roadmap, success stories, and industry research recently wrapped. Here s what we announced and demonstrated: Next-generation source code management , a Git engine rebui…"
   },
   {
     "company": "GitLab",
@@ -133,7 +141,15 @@
     "title": "Mythos-class Claude Fable 5 arrives on GitLab Duo Agent Platform",
     "url": "https://about.gitlab.com/blog/mythos-class-claude-fable-5-on-gitlab/",
     "date": "2026-06-09",
-    "summary": "Important note: As of June 12, 2026, Claude Fable 5 is unavailable on GitLab Duo Agent Platform. Anthropic has suspended access to this model for all customers to comply with a U.S. government directive. All other Claude…"
+    "summary": "Update - July 1, 2026: Fable 5 has been redeployed by Anthropic and is again available for customers on GitLab.com. Claude Fable 5, a Mythos-class model with robust safeguards from Anthropic, is now available on GitLab D…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "Agentic coding is only as good as its context",
+    "url": "https://about.gitlab.com/blog/agentic-coding-only-as-good-as-context/",
+    "date": "2026-05-28",
+    "summary": "Every week, another coding agent demo shows a prompt turning into a merge request in under five minutes. These demos often highlight a narrow use case not yet in production, and they skip everything that happens after th…"
   },
   {
     "company": "GitLab",
@@ -154,10 +170,10 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Agentic coding is only as good as its context",
-    "url": "https://about.gitlab.com/blog/agentic-coding-only-as-good-as-context/",
-    "date": "2026-05-28",
-    "summary": "Every week, another coding agent demo shows a prompt turning into a merge request in under five minutes. These demos often highlight a narrow use case not yet in production, and they skip everything that happens after th…"
+    "title": "Reduce supply chain risk with SBOM-based dependency scanning",
+    "url": "https://about.gitlab.com/blog/sbom-based-dependency-scanning/",
+    "date": "2026-05-26",
+    "summary": "Third-party code dominates most codebases, and four recent supply chain incidents show how a single compromised package can ripple into every project that depends on it. AI is compounding this problem: Research suggests…"
   },
   {
     "company": "GitLab",
@@ -170,34 +186,10 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Reduce supply chain risk with SBOM-based dependency scanning",
-    "url": "https://about.gitlab.com/blog/sbom-based-dependency-scanning/",
-    "date": "2026-05-26",
-    "summary": "Third-party code dominates most codebases, and four recent supply chain incidents show how a single compromised package can ripple into every project that depends on it. AI is compounding this problem: Research suggests…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "Track CI component usage across your organization",
-    "url": "https://about.gitlab.com/blog/track-ci-component-usage/",
+    "title": "Transform MRs from manual tasks to an automated workflow",
+    "url": "https://about.gitlab.com/blog/transform-mrs-to-automated-workflow/",
     "date": "2026-05-21",
-    "summary": "If your platform team publishes standardized pipeline components, you ve probably encountered this: once they re out in the wild, you lose visibility. You can t see if anyone’s actually using it, who s on which version,…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "GitLab 19.0 released",
-    "url": "https://docs.gitlab.com/releases/19/gitlab-19-0-released/",
-    "date": "2026-05-21",
-    "summary": ""
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "More AI models for GitLab Duo Agent Platform Self-Hosted",
-    "url": "https://about.gitlab.com/blog/more-ai-models-for-duo-agent-platform-self-hosted/",
-    "date": "2026-05-21",
-    "summary": "Customers running GitLab Duo Agent Platform Self-Hosted operate under constraints many software teams don t face: data residency mandates, air-gapped networks, and compliance regulations that prohibit sending source code…"
+    "summary": "AI made writing code dramatically faster, but the work between opening a merge request and merging it has stayed almost entirely manual. Assigning reviewers, addressing feedback round after round, untangling conflicts, r…"
   },
   {
     "company": "GitLab",
@@ -210,18 +202,34 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Transform MRs from manual tasks to an automated workflow",
-    "url": "https://about.gitlab.com/blog/transform-mrs-to-automated-workflow/",
+    "title": "More AI models for GitLab Duo Agent Platform Self-Hosted",
+    "url": "https://about.gitlab.com/blog/more-ai-models-for-duo-agent-platform-self-hosted/",
     "date": "2026-05-21",
-    "summary": "AI made writing code dramatically faster, but the work between opening a merge request and merging it has stayed almost entirely manual. Assigning reviewers, addressing feedback round after round, untangling conflicts, r…"
+    "summary": "Customers running GitLab Duo Agent Platform Self-Hosted operate under constraints many software teams don t face: data residency mandates, air-gapped networks, and compliance regulations that prohibit sending source code…"
   },
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "GitLab Dedicated for Government now GovRAMP-authorized",
-    "url": "https://about.gitlab.com/blog/govramp-gitlab-dedicated-for-government/",
+    "title": "GitLab 19.0 released",
+    "url": "https://docs.gitlab.com/releases/19/gitlab-19-0-released/",
+    "date": "2026-05-21",
+    "summary": ""
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "Track CI component usage across your organization",
+    "url": "https://about.gitlab.com/blog/track-ci-component-usage/",
+    "date": "2026-05-21",
+    "summary": "If your platform team publishes standardized pipeline components, you ve probably encountered this: once they re out in the wild, you lose visibility. You can t see if anyone’s actually using it, who s on which version,…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "Codex and GitLab: From code fix to production",
+    "url": "https://about.gitlab.com/blog/fix-bugs-with-codex-and-gitlab/",
     "date": "2026-05-18",
-    "summary": "State and local agencies now have a faster path to adopting secure, compliant DevSecOps. GitLab Dedicated for Government has achieved GovRAMP Authorization, removing a critical procurement barrier for agencies ready to m…"
+    "summary": "Codex, a coding agent, is a lot of fun when you are deep in the terminal. Point it at a repository, give it a focused task, and it gets to work fast. It reads the code, proposes a fix, runs commands, and helps you move f…"
   },
   {
     "company": "GitLab",
@@ -234,9 +242,9 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Codex and GitLab: From code fix to production",
-    "url": "https://about.gitlab.com/blog/fix-bugs-with-codex-and-gitlab/",
+    "title": "GitLab Dedicated for Government now GovRAMP-authorized",
+    "url": "https://about.gitlab.com/blog/govramp-gitlab-dedicated-for-government/",
     "date": "2026-05-18",
-    "summary": "Codex, a coding agent, is a lot of fun when you are deep in the terminal. Point it at a repository, give it a focused task, and it gets to work fast. It reads the code, proposes a fix, runs commands, and helps you move f…"
+    "summary": "State and local agencies now have a faster path to adopting secure, compliant DevSecOps. GitLab Dedicated for Government has achieved GovRAMP Authorization, removing a critical procurement barrier for agencies ready to m…"
   }
 ]
