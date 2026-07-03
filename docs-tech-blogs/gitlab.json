@@ -141,7 +141,7 @@
     "title": "Mythos-class Claude Fable 5 arrives on GitLab Duo Agent Platform",
     "url": "https://about.gitlab.com/blog/mythos-class-claude-fable-5-on-gitlab/",
     "date": "2026-06-09",
-    "summary": "Update - July 1, 2026: Fable 5 has been redeployed by Anthropic and is again available for customers on GitLab.com. Claude Fable 5, a Mythos-class model with robust safeguards from Anthropic, is now available on GitLab D…"
+    "summary": "Update - July 1, 2026: Fable 5 has been redeployed by Anthropic and is again available for customers on GitLab.com. Some routine coding and debugging tasks may temporarily route to Claude Opus 4.8 as Anthropic refines it…"
   },
   {
     "company": "GitLab",
@@ -170,14 +170,6 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Reduce supply chain risk with SBOM-based dependency scanning",
-    "url": "https://about.gitlab.com/blog/sbom-based-dependency-scanning/",
-    "date": "2026-05-26",
-    "summary": "Third-party code dominates most codebases, and four recent supply chain incidents show how a single compromised package can ripple into every project that depends on it. AI is compounding this problem: Research suggests…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
     "title": "Full security scanner coverage of your codebase in minutes",
     "url": "https://about.gitlab.com/blog/security-configuration-profiles/",
     "date": "2026-05-26",
@@ -186,34 +178,10 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Transform MRs from manual tasks to an automated workflow",
-    "url": "https://about.gitlab.com/blog/transform-mrs-to-automated-workflow/",
-    "date": "2026-05-21",
-    "summary": "AI made writing code dramatically faster, but the work between opening a merge request and merging it has stayed almost entirely manual. Assigning reviewers, addressing feedback round after round, untangling conflicts, r…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "Manage CI/CD credentials with GitLab Secrets Manager",
-    "url": "https://about.gitlab.com/blog/secrets-manager-in-public-beta/",
-    "date": "2026-05-21",
-    "summary": "Many credential leaks start with a developer who needs a credential, doesn’t have a good place to put it, and improvises. It lands in an over-scoped CI/CD variable, a config file, or a .env committed “just for a moment.”…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "More AI models for GitLab Duo Agent Platform Self-Hosted",
-    "url": "https://about.gitlab.com/blog/more-ai-models-for-duo-agent-platform-self-hosted/",
-    "date": "2026-05-21",
-    "summary": "Customers running GitLab Duo Agent Platform Self-Hosted operate under constraints many software teams don t face: data residency mandates, air-gapped networks, and compliance regulations that prohibit sending source code…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "GitLab 19.0 released",
-    "url": "https://docs.gitlab.com/releases/19/gitlab-19-0-released/",
-    "date": "2026-05-21",
-    "summary": ""
+    "title": "Reduce supply chain risk with SBOM-based dependency scanning",
+    "url": "https://about.gitlab.com/blog/sbom-based-dependency-scanning/",
+    "date": "2026-05-26",
+    "summary": "Third-party code dominates most codebases, and four recent supply chain incidents show how a single compromised package can ripple into every project that depends on it. AI is compounding this problem: Research suggests…"
   },
   {
     "company": "GitLab",
@@ -226,10 +194,42 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Codex and GitLab: From code fix to production",
-    "url": "https://about.gitlab.com/blog/fix-bugs-with-codex-and-gitlab/",
+    "title": "GitLab 19.0 released",
+    "url": "https://docs.gitlab.com/releases/19/gitlab-19-0-released/",
+    "date": "2026-05-21",
+    "summary": ""
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "More AI models for GitLab Duo Agent Platform Self-Hosted",
+    "url": "https://about.gitlab.com/blog/more-ai-models-for-duo-agent-platform-self-hosted/",
+    "date": "2026-05-21",
+    "summary": "Customers running GitLab Duo Agent Platform Self-Hosted operate under constraints many software teams don t face: data residency mandates, air-gapped networks, and compliance regulations that prohibit sending source code…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "Manage CI/CD credentials with GitLab Secrets Manager",
+    "url": "https://about.gitlab.com/blog/secrets-manager-in-public-beta/",
+    "date": "2026-05-21",
+    "summary": "Many credential leaks start with a developer who needs a credential, doesn’t have a good place to put it, and improvises. It lands in an over-scoped CI/CD variable, a config file, or a .env committed “just for a moment.”…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "Transform MRs from manual tasks to an automated workflow",
+    "url": "https://about.gitlab.com/blog/transform-mrs-to-automated-workflow/",
+    "date": "2026-05-21",
+    "summary": "AI made writing code dramatically faster, but the work between opening a merge request and merging it has stayed almost entirely manual. Assigning reviewers, addressing feedback round after round, untangling conflicts, r…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "GitLab Dedicated for Government now GovRAMP-authorized",
+    "url": "https://about.gitlab.com/blog/govramp-gitlab-dedicated-for-government/",
     "date": "2026-05-18",
-    "summary": "Codex, a coding agent, is a lot of fun when you are deep in the terminal. Point it at a repository, give it a focused task, and it gets to work fast. It reads the code, proposes a fix, runs commands, and helps you move f…"
+    "summary": "State and local agencies now have a faster path to adopting secure, compliant DevSecOps. GitLab Dedicated for Government has achieved GovRAMP Authorization, removing a critical procurement barrier for agencies ready to m…"
   },
   {
     "company": "GitLab",
@@ -242,9 +242,9 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "GitLab Dedicated for Government now GovRAMP-authorized",
-    "url": "https://about.gitlab.com/blog/govramp-gitlab-dedicated-for-government/",
+    "title": "Codex and GitLab: From code fix to production",
+    "url": "https://about.gitlab.com/blog/fix-bugs-with-codex-and-gitlab/",
     "date": "2026-05-18",
-    "summary": "State and local agencies now have a faster path to adopting secure, compliant DevSecOps. GitLab Dedicated for Government has achieved GovRAMP Authorization, removing a critical procurement barrier for agencies ready to m…"
+    "summary": "Codex, a coding agent, is a lot of fun when you are deep in the terminal. Point it at a repository, give it a focused task, and it gets to work fast. It reads the code, proposes a fix, runs commands, and helps you move f…"
   }
 ]
