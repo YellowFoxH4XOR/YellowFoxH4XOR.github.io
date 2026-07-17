@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { Menu, X } from "lucide-react";
+import { ArrowUpRight, Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { navLinks, site } from "@/lib/site";
 import { ThemeToggle } from "@/components/theme-toggle";
@@ -32,8 +32,11 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  const isExternal = (href: string) => href.startsWith("http");
+
   const isActive = (href: string) =>
-    href === "/" ? pathname === "/" : pathname.startsWith(href);
+    !isExternal(href) &&
+    (href === "/" ? pathname === "/" : pathname.startsWith(href));
 
   return (
     <header
@@ -57,32 +60,50 @@ export function Navbar() {
 
         {/* Desktop nav */}
         <nav className="hidden items-center gap-7 sm:flex">
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              aria-current={isActive(link.href) ? "page" : undefined}
-              className={cn(
-                "group relative font-mono text-[11px] font-medium uppercase tracking-[0.2em] transition-colors duration-300",
-                isActive(link.href)
-                  ? "text-foreground"
-                  : "text-muted-foreground hover:text-foreground",
-              )}
-            >
+          {navLinks.map((link) => {
+            const external = isExternal(link.href);
+            const active = isActive(link.href);
+            const content = (
               <span className="flex items-center gap-1.5">
                 <span
                   aria-hidden
                   className={cn(
                     "size-1 rounded-full bg-brand transition-all duration-300",
-                    isActive(link.href)
+                    active
                       ? "scale-100 opacity-100"
                       : "scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-60",
                   )}
                 />
                 {link.label}
+                {external && <ArrowUpRight aria-hidden className="size-3" />}
               </span>
-            </Link>
-          ))}
+            );
+            const className = cn(
+              "group relative font-mono text-[11px] font-medium uppercase tracking-[0.2em] transition-colors duration-300",
+              active ? "text-foreground" : "text-muted-foreground hover:text-foreground",
+            );
+
+            return external ? (
+              <a
+                key={link.href}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={className}
+              >
+                {content}
+              </a>
+            ) : (
+              <Link
+                key={link.href}
+                href={link.href}
+                aria-current={active ? "page" : undefined}
+                className={className}
+              >
+                {content}
+              </Link>
+            );
+          })}
           <ThemeToggle />
         </nav>
 
@@ -104,29 +125,48 @@ export function Navbar() {
       {/* Mobile menu */}
       {open && (
         <nav className="border-t border-border/60 px-6 py-4 sm:hidden">
-          {navLinks.map((link, i) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              onClick={() => setOpen(false)}
-              style={{ animationDelay: `${i * 50}ms` }}
-              className={cn(
-                "flex items-center gap-3 rounded-md px-2 py-2.5 font-mono text-xs font-medium uppercase tracking-[0.2em] opacity-0 animate-fade-in-up",
-                isActive(link.href)
-                  ? "text-brand"
-                  : "text-muted-foreground hover:text-foreground",
-              )}
-            >
-              <span
-                aria-hidden
-                className={cn(
-                  "size-1 rounded-full",
-                  isActive(link.href) ? "bg-brand" : "bg-border",
-                )}
-              />
-              {link.label}
-            </Link>
-          ))}
+          {navLinks.map((link, i) => {
+            const external = isExternal(link.href);
+            const active = isActive(link.href);
+            const className = cn(
+              "flex items-center gap-3 rounded-md px-2 py-2.5 font-mono text-xs font-medium uppercase tracking-[0.2em] opacity-0 animate-fade-in-up",
+              active ? "text-brand" : "text-muted-foreground hover:text-foreground",
+            );
+            const content = (
+              <>
+                <span
+                  aria-hidden
+                  className={cn("size-1 rounded-full", active ? "bg-brand" : "bg-border")}
+                />
+                {link.label}
+                {external && <ArrowUpRight aria-hidden className="size-3" />}
+              </>
+            );
+
+            return external ? (
+              <a
+                key={link.href}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setOpen(false)}
+                style={{ animationDelay: `${i * 50}ms` }}
+                className={className}
+              >
+                {content}
+              </a>
+            ) : (
+              <Link
+                key={link.href}
+                href={link.href}
+                onClick={() => setOpen(false)}
+                style={{ animationDelay: `${i * 50}ms` }}
+                className={className}
+              >
+                {content}
+              </Link>
+            );
+          })}
         </nav>
       )}
     </header>

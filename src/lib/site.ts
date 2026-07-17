@@ -22,6 +22,7 @@ export const site = {
   worksFor: "Commonwealth Bank (CBA India)",
   // Profiles that establish identity for search/AI engines (schema.org sameAs).
   sameAs: [
+    "https://projects.akshatkatiyar.com/",
     "https://github.com/YellowFoxH4XOR",
     "https://www.linkedin.com/in/akshat-katiyar/",
     "https://x.com/yellowfox_h4xor",
@@ -48,6 +49,8 @@ export const navLinks = [
   { href: "/bookshelf", label: "Bookshelf" },
   { href: "/resume", label: "Resume" },
   { href: "/tech-blogs", label: "Tech Blogs" },
+  // External: the projects index lives on its own subdomain.
+  { href: "https://projects.akshatkatiyar.com/", label: "Projects" },
 ] as const;
 
 export const socialLinks = [

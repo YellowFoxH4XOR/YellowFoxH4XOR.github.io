@@ -1,5 +1,4 @@
-import Link from "next/link";
-import { Rss } from "lucide-react";
+import { ArrowUpRight, Rss } from "lucide-react";
 import type { ComponentType, SVGProps } from "react";
 import { site, navLinks, socialLinks } from "@/lib/site";
 import { GithubIcon, LinkedinIcon, XIcon, SparkIcon } from "@/components/icons";
@@ -40,13 +39,21 @@ export function Footer() {
           <nav aria-label="Footer" className="flex flex-col gap-2.5">
             <p className="eyebrow mb-1">Pages</p>
             {navLinks.map((link) => (
-              <Link
+              <a
                 key={link.href}
                 href={link.href}
+                {...(link.href.startsWith("http")
+                  ? { target: "_blank", rel: "noopener noreferrer" }
+                  : {})}
                 className="w-fit font-mono text-xs text-muted-foreground transition-colors hover:text-brand"
               >
-                {link.label}
-              </Link>
+                <span className="inline-flex items-center gap-1.5">
+                  {link.label}
+                  {link.href.startsWith("http") && (
+                    <ArrowUpRight aria-hidden className="size-3" />
+                  )}
+                </span>
+              </a>
             ))}
           </nav>
 

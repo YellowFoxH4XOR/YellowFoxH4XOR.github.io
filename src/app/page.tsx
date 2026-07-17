@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { site } from "@/lib/site";
 import { getAllPosts } from "@/lib/blog";
 import { SocialLinks } from "@/components/social-links";
@@ -68,6 +68,29 @@ export default function HomePage() {
             No posts yet, check back soon.
           </p>
         )}
+      </Reveal>
+
+      {/* Projects */}
+      <Reveal className="mt-20 sm:mt-28" delay={120}>
+        <SectionHeading>Projects</SectionHeading>
+        <a
+          href="https://projects.akshatkatiyar.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group mt-2 grid gap-5 border-y border-border py-7 sm:grid-cols-[1fr_auto] sm:items-center sm:gap-10"
+        >
+          <span>
+            <span className="eyebrow block">Project index · built by hand</span>
+            <span className="mt-3 block text-2xl font-semibold tracking-tight transition-colors duration-300 group-hover:text-brand sm:text-3xl">
+              Small tools, made with care.
+            </span>
+            <span className="mt-2 block max-w-xl text-sm leading-6 text-muted-foreground">
+              An index of things I&apos;ve built: small tools, side projects, and
+              works in progress.
+            </span>
+          </span>
+          <ArrowUpRight className="size-6 text-muted-foreground transition-all duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:text-brand" />
+        </a>
       </Reveal>
 
       {/* Elsewhere */}
