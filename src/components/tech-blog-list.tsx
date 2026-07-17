@@ -20,14 +20,14 @@ export function TechBlogList({ entries, companies }: Props) {
 
   const chip = (active: boolean) =>
     cn(
-      "rounded-full border px-3 py-1 text-sm font-medium transition-colors",
+      "rounded-full border px-3.5 py-1.5 font-mono text-[11px] font-medium uppercase tracking-[0.12em] transition-all duration-300",
       active
-        ? "border-brand bg-brand text-white shadow-[0_0_10px_var(--color-brand)]"
-        : "border-border/40 text-muted-foreground hover:border-border hover:text-foreground",
+        ? "border-brand bg-brand text-brand-foreground shadow-[0_8px_24px_-10px_var(--color-brand)]"
+        : "border-border text-muted-foreground hover:border-brand/50 hover:text-foreground",
     );
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-8">
       <div role="group" aria-label="Filter by company" className="flex flex-wrap gap-2">
         <button
           type="button"
@@ -35,7 +35,7 @@ export function TechBlogList({ entries, companies }: Props) {
           aria-pressed={selected === null}
           className={chip(selected === null)}
         >
-          All <span className="ml-1.5 text-xs opacity-70">{entries.length}</span>
+          All <span className="ml-1.5 opacity-60">{entries.length}</span>
         </button>
         {companies.map((c) => (
           <button
@@ -45,13 +45,13 @@ export function TechBlogList({ entries, companies }: Props) {
             aria-pressed={selected === c.slug}
             className={chip(selected === c.slug)}
           >
-            {c.name} <span className="ml-1.5 text-xs opacity-70">{c.count}</span>
+            {c.name} <span className="ml-1.5 opacity-60">{c.count}</span>
           </button>
         ))}
       </div>
 
       {filtered.length > 0 ? (
-        <div className="grid gap-5 sm:grid-cols-2">
+        <div className="divide-y divide-border border-y border-border">
           {filtered.map((entry) => (
             <TechBlogCard key={`${entry.companySlug}-${entry.url}`} entry={entry} />
           ))}

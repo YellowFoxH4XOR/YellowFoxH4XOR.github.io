@@ -4,7 +4,6 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { getAllPosts, getPostBySlug, formatDate } from "@/lib/blog";
 import { Markdown } from "@/components/markdown";
-import { Badge } from "@/components/ui/badge";
 import { JsonLd } from "@/components/json-ld";
 import { blogPostingSchema, breadcrumbSchema } from "@/lib/seo";
 import { ReadingProgress } from "@/components/reading-progress";
@@ -59,69 +58,78 @@ export default async function PostPage({ params }: Params) {
   ];
 
   return (
-    <article className="mx-auto max-w-3xl space-y-8 animate-fade-in-up">
+    <article className="mx-auto max-w-3xl">
       <JsonLd data={blogPostingSchema(post)} />
       <JsonLd data={breadcrumbSchema(crumbs)} />
       <ReadingProgress />
-      <Link
-        href="/blog"
-        className="group inline-flex items-center gap-1.5 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
-      >
-        <ArrowLeft className="size-4 transition-transform group-hover:-translate-x-1" /> Back to blog
-      </Link>
 
-      <header className="space-y-3 border-b border-border/40 pb-8">
-        <div className="flex items-center gap-3 text-sm text-muted-foreground/80">
-          <time dateTime={post.date}>{formatDate(post.date)}</time>
-          <span aria-hidden>·</span>
-          <span>{post.readingTime}</span>
-        </div>
-        <h1 className="text-3xl font-bold tracking-tight sm:text-4xl text-gradient-brand pb-1">
-          {post.title}
-        </h1>
-        {post.tags.length > 0 && (
-          <div className="flex flex-wrap gap-1.5 pt-1">
-            {post.tags.map((tag) => (
-              <Badge key={tag} variant="secondary" className="font-mono text-xs bg-secondary/60 border border-border/20 backdrop-blur-md">
-                {tag}
-              </Badge>
-            ))}
-          </div>
-        )}
-      </header>
+      <div className="opacity-0 animate-fade-in-up [animation-fill-mode:forwards]">
+        <Link
+          href="/blog"
+          className="group inline-flex items-center gap-2 font-mono text-xs font-medium uppercase tracking-[0.2em] text-muted-foreground transition-colors hover:text-brand"
+        >
+          <ArrowLeft className="size-3.5 transition-transform duration-300 group-hover:-translate-x-1" />
+          All posts
+        </Link>
 
-      <Markdown content={post.content} />
+        <header className="mt-8 border-b border-border pb-10">
+          <p className="eyebrow flex items-center gap-3">
+            <time dateTime={post.date}>{formatDate(post.date)}</time>
+            <span aria-hidden className="text-brand">·</span>
+            <span>{post.readingTime}</span>
+          </p>
+          <h1 className="mt-5 text-[clamp(2rem,5vw,3.4rem)] font-bold leading-[1.05] tracking-[-0.03em]">
+            {post.title}
+          </h1>
+          {post.tags.length > 0 && (
+            <div className="mt-6 flex flex-wrap gap-2">
+              {post.tags.map((tag) => (
+                <span
+                  key={tag}
+                  className="rounded-full border border-border px-2.5 py-0.5 font-mono text-[11px] text-muted-foreground"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
+        </header>
+      </div>
+
+      <div className="mt-10 opacity-0 animate-fade-in-up animation-delay-200 [animation-fill-mode:forwards]">
+        <Markdown content={post.content} />
+      </div>
 
       {(newer || older) && (
-        <nav className="grid gap-4 border-t border-border/40 pt-8 sm:grid-cols-2">
-          {older ? (
+        <nav className="mt-16 divide-y divide-border border-y border-border">
+          {older && (
             <Link
               href={`/blog/${older.slug}`}
-              className="group rounded-xl glass-panel p-4 transition-colors hover:border-brand/40"
+              className="group flex items-baseline justify-between gap-6 py-5"
             >
-              <span className="flex items-center gap-1 text-xs text-muted-foreground">
-                <ArrowLeft className="size-3" /> Older
+              <span className="flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
+                <ArrowLeft className="size-3.5 transition-transform duration-300 group-hover:-translate-x-1" />
+                Older
               </span>
-              <span className="mt-1 block font-medium transition-colors group-hover:text-brand">
+              <span className="text-right font-medium tracking-tight transition-colors group-hover:text-brand">
                 {older.title}
               </span>
             </Link>
-          ) : (
-            <span />
           )}
-          {newer ? (
+          {newer && (
             <Link
               href={`/blog/${newer.slug}`}
-              className="group rounded-xl glass-panel p-4 text-right transition-colors hover:border-brand/40 sm:col-start-2"
+              className="group flex items-baseline justify-between gap-6 py-5"
             >
-              <span className="flex items-center justify-end gap-1 text-xs text-muted-foreground">
-                Newer <ArrowRight className="size-3" />
-              </span>
-              <span className="mt-1 block font-medium transition-colors group-hover:text-brand">
+              <span className="font-medium tracking-tight transition-colors group-hover:text-brand">
                 {newer.title}
               </span>
+              <span className="flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
+                Newer
+                <ArrowRight className="size-3.5 transition-transform duration-300 group-hover:translate-x-1" />
+              </span>
             </Link>
-          ) : null}
+          )}
         </nav>
       )}
     </article>

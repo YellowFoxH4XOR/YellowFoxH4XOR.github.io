@@ -1,63 +1,76 @@
 # Personal Developer Website Design Specification
 
-This document outlines the premium design system, custom utilities, animation behaviors, and color science used in the redesigned developer site. The system utilizes standard **Tailwind CSS v4** rules and modern **OKLCH** color spaces to deliver a high-end, sleek aesthetic.
+This document outlines the design system, custom utilities, animation behaviors, and color science used in the site. The system uses standard **Tailwind CSS v4** rules and modern **OKLCH** color spaces.
+
+---
+
+## 0. Concept: Ember & Ink
+
+The site's identity hook is the owner's handle (YellowFox). The aesthetic is a **fox den at night**: warm drafting paper by day, lamplit warm ink after dark, with a single committed **ember accent** (fox orange) carrying every brand moment. Surfaces are solid and calm; structure comes from hairline rules, index numerals, and mono metadata labels. No glassmorphism, no gradient text, no card grids by default.
+
+Voice words: precise, warm, crafted.
 
 ---
 
 ## 1. Color System (OKLCH)
 
-We transitioned the entire codebase to modern **OKLCH** color coordinates, providing perceptually uniform lightness steps, smooth gradient transitions, and high-fidelity colors. The color theme features a signature **amethyst / violet hue (285°)**.
+Neutrals are always warm-tinted (never pure black/white). One accent, used deliberately.
 
-### Light Theme
-- **Background**: `oklch(0.985 0.006 285)` — A premium warm, off-white background with a hint of purple hue.
-- **Foreground**: `oklch(0.16 0.02 285)` — Deep dark plum for readability.
-- **Cards/Panels**: `oklch(1 0 0 / 70%)` with backdrop blur for glassmorphism.
-- **Primary / Brand**: `oklch(0.60 0.22 285)` — Rich, high-chroma violet.
-- **Borders**: `oklch(0.90 0.015 285 / 70%)` — Semi-transparent boundaries.
+### Light Theme (drafting paper)
+- **Background**: `oklch(0.968 0.009 85)` — warm off-white paper.
+- **Foreground**: `oklch(0.25 0.025 55)` — warm ink, softer than black.
+- **Brand (ember)**: `oklch(0.58 0.165 48)` — burnt ember orange, enough contrast on paper.
+- **Borders**: `oklch(0.875 0.016 70)` — hairline rules.
+- **Code panels**: `--code-bg: oklch(0.19 0.018 55)` — warm ink in both themes.
 
-### Dark Theme
-- **Background**: `oklch(0.085 0.015 285)` — A deep, mysterious space midnight with purple-indigo undertones.
-- **Foreground**: `oklch(0.94 0.015 285)` — Soft violet-gray, ensuring high contrast without eye strain.
-- **Cards/Panels**: `oklch(0.12 0.02 285 / 60%)` with backdrop blur.
-- **Primary / Brand**: `oklch(0.68 0.19 285)` — A bright, glowing violet.
-- **Borders**: `oklch(0.20 0.02 285 / 50%)` — Translucent border lines.
+### Dark Theme (lamplit ink)
+- **Background**: `oklch(0.165 0.013 55)` — warm near-black.
+- **Foreground**: `oklch(0.915 0.014 75)` — warm paper white.
+- **Brand (ember)**: `oklch(0.76 0.15 62)` — glowing amber for dark rooms.
+- **Borders**: `oklch(0.29 0.022 55)`.
 
----
-
-## 2. Typography & Text Effects
-
-- **Font Stack**: System sans-serif for headings/body (`Geist`), paired with monospace (`Fira Code`) for technical subheads, badges, and codes.
-- **Brand Text Gradients**:
-  - `.text-gradient-brand`: Blends the custom brand violet, a soft rose/pink-magenta, and the theme's foreground color.
-  - `.text-gradient-cyber`: A three-stop cyberpunk gradient spanning cyan, violet, and magenta.
-- **Markdown Articles (`.article`)**:
-  - Heading tags (`h1`) feature the brand text gradient and a bottom border.
-  - Links feature a custom underline pseudo-element sliding out from the center-right on hover.
-  - Blockquotes feature a rounded background, thin brand border, and soft vertical accenting.
+### Ambient background (layout)
+1. `bg-grain` — SVG fractal-noise paper grain at ~3.5–5% opacity.
+2. `bg-dot-pattern` — 26px dot field, masked to fade out below the fold.
+3. Two static ember radial glows (top-right pulses slowly via `animate-pulse-slow`).
 
 ---
 
-## 3. Layout & Visual Utility Classes
+## 2. Typography
 
-### Background Grid Patterns
-- `.bg-grid-pattern`: 40px × 40px grid created using thin CSS linear-gradients tied to Tailwind's adaptive `--color-border` variable.
-- `.bg-dot-pattern`: 24px × 24px subtle dot array.
-- **Ambient Glows**: Configured in `RootLayout` with layered absolute elements that project blurred, pulsing circles (`bg-brand/8` and `bg-brand/5`) behind the content layout.
-
-### Glassmorphism
-- `.glass-panel`: Applies a semi-transparent, blurred backdrop effect using `backdrop-filter: blur(12px)` and color-mixed boundaries.
-- `.glass-card`: A comprehensive utility combining glass paneling, subtle shadow, and responsive hover scaling, lifting the card by 3px and deepening the shadow with brand-colored glowing accents.
+- **Display + body**: Bricolage Grotesque (`--font-sans`) — a crafted grotesque with character; weight and size contrast carry the hierarchy.
+- **Data/labels**: Spline Sans Mono (`--font-mono`) — eyebrows, metadata, chips, nav, code.
+- **Hero scale**: fluid `clamp(2.9rem, 7.5vw, 5.75rem)`, tight tracking (-0.035em). Page titles use `clamp(2.4rem, 6vw, 4.25rem)`.
+- **Eyebrows** (`.eyebrow`): mono, 0.72rem, uppercase, 0.22em tracking, muted.
+- **Signature**: every page title ends with an ember period; section headings pair the spark glyph with an eyebrow and a hairline rule (`SectionHeading`).
+- Blog posts open with an **ember drop cap** (`.article > p:first-of-type::first-letter`).
 
 ---
 
-## 4. Keyframe Animations
+## 3. Layout Language
 
-We defined premium keyframes in the `@theme inline` block of `globals.css`:
+- Editorial **index rows**, not card grids: numeral + title + metadata + arrow, divided by hairlines (`PostCard`, `TechBlogCard`, bookshelf, resume projects).
+- Left-aligned asymmetric compositions; content capped at `max-w-6xl`, articles at `max-w-3xl`.
+- `panel` utility (solid surface, hairline border, ember hover edge) exists for true cards; glass utilities were removed.
+- The ember spark (`SparkIcon`) is the brand mark: nav logo, eyebrows, marquee separators, footer.
+- Footer ends with a giant clipped name watermark.
 
-1. **Staggered Fade-In Up** (`animate-fade-in-up`):
-   - **Keyframes**: Fades from `opacity: 0; transform: translateY(24px)` to `opacity: 1; transform: translateY(0)`.
-   - **Staggering**: Controlled using utility classes like `animation-delay-100` to `animation-delay-400` to stagger load order on headers, links, and cards.
-2. **Ambient Pulse** (`animate-pulse-slow`):
-   - **Keyframes**: Gently pulses opacity of background glows between `0.35` and `0.75` over an 8-second loop.
-3. **Card Wiggle & Slide**:
-   - Arrows on lists/buttons translate horizontally (`translate-x-2` to `translate-x-0`) while fading in, giving interactive elements a responsive, tactile feedback.
+---
+
+## 4. Motion System
+
+All motion is transform/opacity with an exponential ease-out (`--ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1)`). No bounce, no elastic, no layout-property animation.
+
+1. **Hero choreography**: masked line-rise (`hero-mask` + `hero-line` with `--hero-delay`) for the display statement; staggered `fade-in-up` for eyebrow, intro, actions, status, portrait.
+2. **Pointer glow** (`HomeHero`): ember radial gradient trails the pointer, written straight to the DOM (no React re-renders).
+3. **Scroll reveal** (`Reveal`): IntersectionObserver adds `.is-visible`; 0.9s rise with per-instance `--reveal-delay` stagger. Markup is server-rendered; reduced-motion users get the final state instantly.
+4. **Marquee**: pure-CSS capability ticker (two copies, `translateX(-50%)`, 36s linear), pauses on hover.
+5. **Micro-interactions**: arrows nudge on hover, the nav spark rotates 90°, skill chips and rows tint ember, book covers tilt in 3D (`book-3d`).
+6. **Ambient**: `animate-pulse-slow` (glow), `animate-blink` (status dot), `animate-float` (scroll cue).
+7. `prefers-reduced-motion: reduce` neutralizes everything globally.
+
+---
+
+## 5. Invariants
+
+See `CLAUDE.md`. JSON-LD stays server-rendered via `<JsonLd>`; identity lives in `src/lib/site.ts`; sitemap/llms.txt/RSS derive from `getAllPosts()` and are never hand-edited.

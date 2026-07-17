@@ -40,3 +40,17 @@ export function XIcon(props: IconProps) {
     </Brand>
   );
 }
+
+// The ember spark: the site's signature mark (logo, eyebrows, separators).
+export function SparkIcon(props: IconProps) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden="true"
+      {...props}
+    >
+      <path d="M12 2l2.2 7.8L22 12l-7.8 2.2L12 22l-2.2-7.8L2 12l7.8-2.2L12 2z" />
+    </svg>
+  );
+}

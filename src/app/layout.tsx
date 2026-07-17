@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Fira_Code } from "next/font/google";
+import { Bricolage_Grotesque, Spline_Sans_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Navbar } from "@/components/navbar";
@@ -7,14 +7,15 @@ import { Footer } from "@/components/footer";
 import { ScrollToTop } from "@/components/scroll-to-top";
 import { site } from "@/lib/site";
 
-const geistSans = Geist({
+// Display + body voice: a crafted grotesque with real character.
+const bricolage = Bricolage_Grotesque({
   variable: "--font-sans",
   subsets: ["latin"],
 });
 
-// Fira Code carries over the monospace character of the original site.
-const firaCode = Fira_Code({
-  variable: "--font-geist-mono",
+// Data/labels voice: a quiet mono for eyebrows, metadata, and code.
+const splineMono = Spline_Sans_Mono({
+  variable: "--font-mono",
   subsets: ["latin"],
 });
 
@@ -74,11 +75,11 @@ export const metadata: Metadata = {
   manifest: "/favicon/site.webmanifest",
 };
 
-// Tints mobile browser chrome (address bar) to the brand violet. Matches the
+// Tints mobile browser chrome (address bar) to the ember accent. Matches the
 // PWA manifest theme_color; a single accent works across light/dark since the
 // site follows the system theme.
 export const viewport: Viewport = {
-  themeColor: "#7960fb",
+  themeColor: "#b85c26",
 };
 
 export default function RootLayout({
@@ -90,7 +91,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${geistSans.variable} ${firaCode.variable} h-full antialiased`}
+      className={`${bricolage.variable} ${splineMono.variable} h-full antialiased`}
     >
       <body className="relative flex min-h-full flex-col overflow-x-hidden bg-background text-foreground transition-colors duration-300">
         {/* Keyboard skip link — hidden until focused. */}
@@ -100,14 +101,15 @@ export default function RootLayout({
         >
           Skip to content
         </a>
-        {/* Background Ambient Grids & Glows — clipped to the viewport via a
-            fixed overflow-hidden wrapper so the off-edge glows can't cause
-            horizontal overflow (which made mobile browsers zoom out). */}
+        {/* Ambient room tone: paper grain, a faint dot field that fades down
+            the page, and two lamplit ember glows. Clipped to the viewport via
+            a fixed overflow-hidden wrapper so nothing causes horizontal
+            overflow on mobile. */}
         <div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
-          <div className="absolute inset-0 bg-grid-pattern opacity-[0.03] dark:opacity-[0.04]" />
-          <div className="absolute top-[-10%] left-[-10%] h-[600px] w-[600px] rounded-full bg-brand/8 blur-[130px] dark:bg-brand/5 animate-pulse-slow" />
-          <div className="absolute top-[35%] right-[-10%] h-[500px] w-[500px] rounded-full bg-brand/5 blur-[120px] dark:bg-[#d946ef]/3 animate-pulse-slow" />
-          <div className="absolute bottom-[10%] left-[-5%] h-[450px] w-[450px] rounded-full bg-brand/5 blur-[110px]" />
+          <div className="absolute inset-0 bg-grain opacity-[0.035] dark:opacity-[0.05]" />
+          <div className="absolute inset-0 bg-dot-pattern opacity-40 [mask-image:radial-gradient(ellipse_90%_60%_at_50%_0%,black,transparent)]" />
+          <div className="absolute -top-[15%] right-[-10%] h-[560px] w-[560px] rounded-full bg-brand/10 blur-[140px] dark:bg-brand/12 animate-pulse-slow" />
+          <div className="absolute bottom-[-20%] left-[-12%] h-[520px] w-[520px] rounded-full bg-brand/6 blur-[130px] dark:bg-brand/8" />
         </div>
 
         <ThemeProvider
