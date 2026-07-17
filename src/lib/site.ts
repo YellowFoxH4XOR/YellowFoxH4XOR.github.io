@@ -17,7 +17,7 @@ export const site = {
   // SEO / structured-data fields.
   locale: "en_US",
   twitterHandle: "@yellowfox_h4xor",
-  email: "abhisidds@gmail.com",
+  email: "akshatkatiyar4@gmail.com",
   jobTitle: "Senior Backend Engineer",
   worksFor: "Commonwealth Bank (CBA India)",
   // Profiles that establish identity for search/AI engines (schema.org sameAs).
