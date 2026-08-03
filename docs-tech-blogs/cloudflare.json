@@ -2,6 +2,14 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
+    "title": "Welcome to Agents Week",
+    "url": "https://blog.cloudflare.com/agents-week-welcome/",
+    "date": "2026-08-02",
+    "summary": "Agents Week explores how cloud infrastructure must evolve to serve autonomous agents rather than human browsers. Join us as we unpack the storage, execution, and security primitives needed for an agent-native web."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
     "title": "An API for MoQ: provision your own isolated relays",
     "url": "https://blog.cloudflare.com/moq-relays/",
     "date": "2026-07-31",
@@ -138,10 +146,10 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Content Independence Day, one year on: building the business model for the agentic Internet",
-    "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
+    "title": "Your site, your rules: new AI traffic options for all customers",
+    "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
     "date": "2026-07-01",
-    "summary": "One year after declaring Content Independence Day, a dynamic market for monetized content has officially emerged. In this report, we examine how the rise of autonomous AI agents is upending traditional search referrals a…"
+    "summary": "For our second Content Independence Day, we’re giving website owners finer options to manage AI traffic. Instead of a one-size-fits-all block, all customers can now easily distinguish and manage Search, Agent, and Traini…"
   },
   {
     "company": "Cloudflare",
@@ -150,6 +158,14 @@
     "url": "https://blog.cloudflare.com/monetization-gateway/",
     "date": "2026-07-01",
     "summary": "We're opening the waitlist for our Monetization Gateway, which will allow you to charge for any web page, dataset, API, or MCP tool behind Cloudflare. The charges will settle in stablecoins over the x402 open protocol, w…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Content Independence Day, one year on: building the business model for the agentic Internet",
+    "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
+    "date": "2026-07-01",
+    "summary": "One year after declaring Content Independence Day, a dynamic market for monetized content has officially emerged. In this report, we examine how the rise of autonomous AI agents is upending traditional search referrals a…"
   },
   {
     "company": "Cloudflare",
@@ -166,14 +182,6 @@
     "url": "https://blog.cloudflare.com/making-ai-search-smarter/",
     "date": "2026-07-01",
     "summary": "Search is how we find nearly everything on the web — creators, merchants, answers. AI is rewriting the rules, leaving creators caught between staying discoverable in an agentic era and getting paid for their work. Today…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Your site, your rules: new AI traffic options for all customers",
-    "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
-    "date": "2026-07-01",
-    "summary": "For our second Content Independence Day, we’re giving website owners finer options to manage AI traffic. Instead of a one-size-fits-all block, all customers can now easily distinguish and manage Search, Agent, and Traini…"
   },
   {
     "company": "Cloudflare",
@@ -218,14 +226,6 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Celebrating 12 years of Project Galileo",
-    "url": "https://blog.cloudflare.com/celebrating-12-years-of-project-galileo/",
-    "date": "2026-06-18",
-    "summary": "To mark the 12th anniversary of Project Galileo, Cloudflare has released its first comprehensive report analyzing cyberattacks against civil society."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
     "title": "Build your own vulnerability harness",
     "url": "https://blog.cloudflare.com/build-your-own-vulnerability-harness/",
     "date": "2026-06-18",
@@ -234,10 +234,10 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Introducing the Cloudflare One stack: agent-powered deployment",
-    "url": "https://blog.cloudflare.com/cloudflare-one-stack/",
-    "date": "2026-06-17",
-    "summary": "The Cloudflare One stack is a library of agent skills that gives any AI agent the knowledge it needs to plan, deploy, and manage a Zero Trust environment — no migration calls required."
+    "title": "Celebrating 12 years of Project Galileo",
+    "url": "https://blog.cloudflare.com/celebrating-12-years-of-project-galileo/",
+    "date": "2026-06-18",
+    "summary": "To mark the 12th anniversary of Project Galileo, Cloudflare has released its first comprehensive report analyzing cyberattacks against civil society."
   },
   {
     "company": "Cloudflare",
@@ -246,6 +246,14 @@
     "url": "https://blog.cloudflare.com/agents-platform-flue-sdk/",
     "date": "2026-06-17",
     "summary": "The Agents SDK is now a runtime any agent framework can build on. Today we're opening up the Agents SDK primitives, with Flue as a first framework targeting Agents SDK, and rolling out agents in the dashboard"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Introducing the Cloudflare One stack: agent-powered deployment",
+    "url": "https://blog.cloudflare.com/cloudflare-one-stack/",
+    "date": "2026-06-17",
+    "summary": "The Cloudflare One stack is a library of agent skills that gives any AI agent the knowledge it needs to plan, deploy, and manage a Zero Trust environment — no migration calls required."
   },
   {
     "company": "Cloudflare",
@@ -390,13 +398,5 @@
     "url": "https://blog.cloudflare.com/quic-death-spiral-fix/",
     "date": "2026-05-12",
     "summary": "We investigated a bug where CUBIC's congestion window became pinned at its minimum floor, causing a performance to plummet. The fix involved correctly measuring idle periods to distinguish RTT wait times from actual appl…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "How Cloudflare responded to the “Copy Fail” Linux vulnerability",
-    "url": "https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/",
-    "date": "2026-05-07",
-    "summary": "When a critical Linux kernel privilege escalation was publicly disclosed, Cloudflare's security and engineering teams detected, investigated, and mitigated the threat across our global fleet, confirming zero customer imp…"
   }
 ]
