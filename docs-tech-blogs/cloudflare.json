@@ -2,6 +2,62 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
+    "title": "The Agent Development Lifecycle has arrived on Cloudflare",
+    "url": "https://blog.cloudflare.com/agent-development-lifecycle/",
+    "date": "2026-08-04",
+    "summary": "Agents can write code faster than teams can review, deploy, and maintain it. Today we’re introducing the Agent Development Lifecycle and the Cloudflare primitives that underpin it"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Announcing Cloudflare Wallets: the programmable wallet for the agentic Internet",
+    "url": "https://blog.cloudflare.com/wallets/",
+    "date": "2026-08-04",
+    "summary": "Cloudflare Wallets will provide AI agents with native payments and verifiable identity on the web. Using the x402 protocol, agents can autonomously purchase APIs and content within clear safety guardrails."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Run CI/CD for millions of repos — on your platform, on Cloudflare",
+    "url": "https://blog.cloudflare.com/ci-workflows/",
+    "date": "2026-08-04",
+    "summary": "Learn how to build customizable, sandboxed CI/CD pipelines natively on Cloudflare using Workflows, Artifacts, and the CI SDK. We walk through replacing complex YAML configurations with TypeScript workflow steps and self-…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "How Cloudflare enforces engineering standards using AI",
+    "url": "https://blog.cloudflare.com/engineering-standards-enforcement/",
+    "date": "2026-08-04",
+    "summary": "We created the Cloudflare Codex, a governed body of engineering standards that AI agents consume across the development lifecycle. By pairing structured RFCs with agentic reviews, teams automatically enforce consistency…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Introducing: Cloudflare Agents",
+    "url": "https://blog.cloudflare.com/agents-on-cloudflare/",
+    "date": "2026-08-04",
+    "summary": "Cloudflare Agents brings all of your deployed agent sessions into a single experience, surfacing key information and insights into how your agents perform at scale."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Your agent can now debug Workers with local tracing",
+    "url": "https://blog.cloudflare.com/local-tracing/",
+    "date": "2026-08-04",
+    "summary": "wrangler dev now produces structured traces for every local request. Your coding agent can hit a single API to pinpoint exactly what failed and why — no deployment required."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "How we built a software factory to drive Astro’s GitHub issue count to zero",
+    "url": "https://blog.cloudflare.com/astro-issue-triage/",
+    "date": "2026-08-04",
+    "summary": "By replacing manual issue verification with isolated AI subagents running in GitHub Actions, the Astro maintainers reduced open issue count by 85%. This post explores the architecture behind automated bug reproduction, p…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
     "title": "Your agent needs a computer, not a container — introducing @cloudflare/computer",
     "url": "https://blog.cloudflare.com/cloudflare-computer/",
     "date": "2026-08-03",
@@ -186,26 +242,10 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Making AI search smarter",
-    "url": "https://blog.cloudflare.com/making-ai-search-smarter/",
+    "title": "Your site, your rules: new AI traffic options for all customers",
+    "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
     "date": "2026-07-01",
-    "summary": "Search is how we find nearly everything on the web — creators, merchants, answers. AI is rewriting the rules, leaving creators caught between staying discoverable in an agentic era and getting paid for their work. Today…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Unmasking the crawls with Attribution Business Insights",
-    "url": "https://blog.cloudflare.com/attribution-business-insights/",
-    "date": "2026-07-01",
-    "summary": "Cloudflare’s new Attribution Business Insights dashboard helps website owners understand crawler behavior, appetite, and potential value, fueling business-level conversations around crawl compensation."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Content Independence Day, one year on: building the business model for the agentic Internet",
-    "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
-    "date": "2026-07-01",
-    "summary": "One year after declaring Content Independence Day, a dynamic market for monetized content has officially emerged. In this report, we examine how the rise of autonomous AI agents is upending traditional search referrals a…"
+    "summary": "For our second Content Independence Day, we’re giving website owners finer options to manage AI traffic. Instead of a one-size-fits-all block, all customers can now easily distinguish and manage Search, Agent, and Traini…"
   },
   {
     "company": "Cloudflare",
@@ -218,10 +258,26 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Your site, your rules: new AI traffic options for all customers",
-    "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+    "title": "Content Independence Day, one year on: building the business model for the agentic Internet",
+    "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
     "date": "2026-07-01",
-    "summary": "For our second Content Independence Day, we’re giving website owners finer options to manage AI traffic. Instead of a one-size-fits-all block, all customers can now easily distinguish and manage Search, Agent, and Traini…"
+    "summary": "One year after declaring Content Independence Day, a dynamic market for monetized content has officially emerged. In this report, we examine how the rise of autonomous AI agents is upending traditional search referrals a…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Unmasking the crawls with Attribution Business Insights",
+    "url": "https://blog.cloudflare.com/attribution-business-insights/",
+    "date": "2026-07-01",
+    "summary": "Cloudflare’s new Attribution Business Insights dashboard helps website owners understand crawler behavior, appetite, and potential value, fueling business-level conversations around crawl compensation."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Making AI search smarter",
+    "url": "https://blog.cloudflare.com/making-ai-search-smarter/",
+    "date": "2026-07-01",
+    "summary": "Search is how we find nearly everything on the web — creators, merchants, answers. AI is rewriting the rules, leaving creators caught between staying discoverable in an agentic era and getting paid for their work. Today…"
   },
   {
     "company": "Cloudflare",
@@ -266,14 +322,6 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Celebrating 12 years of Project Galileo",
-    "url": "https://blog.cloudflare.com/celebrating-12-years-of-project-galileo/",
-    "date": "2026-06-18",
-    "summary": "To mark the 12th anniversary of Project Galileo, Cloudflare has released its first comprehensive report analyzing cyberattacks against civil society."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
     "title": "Build your own vulnerability harness",
     "url": "https://blog.cloudflare.com/build-your-own-vulnerability-harness/",
     "date": "2026-06-18",
@@ -282,10 +330,10 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Introducing the Cloudflare One stack: agent-powered deployment",
-    "url": "https://blog.cloudflare.com/cloudflare-one-stack/",
-    "date": "2026-06-17",
-    "summary": "The Cloudflare One stack is a library of agent skills that gives any AI agent the knowledge it needs to plan, deploy, and manage a Zero Trust environment — no migration calls required."
+    "title": "Celebrating 12 years of Project Galileo",
+    "url": "https://blog.cloudflare.com/celebrating-12-years-of-project-galileo/",
+    "date": "2026-06-18",
+    "summary": "To mark the 12th anniversary of Project Galileo, Cloudflare has released its first comprehensive report analyzing cyberattacks against civil society."
   },
   {
     "company": "Cloudflare",
@@ -294,6 +342,14 @@
     "url": "https://blog.cloudflare.com/agents-platform-flue-sdk/",
     "date": "2026-06-17",
     "summary": "The Agents SDK is now a runtime any agent framework can build on. Today we're opening up the Agents SDK primitives, with Flue as a first framework targeting Agents SDK, and rolling out agents in the dashboard"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Introducing the Cloudflare One stack: agent-powered deployment",
+    "url": "https://blog.cloudflare.com/cloudflare-one-stack/",
+    "date": "2026-06-17",
+    "summary": "The Cloudflare One stack is a library of agent skills that gives any AI agent the knowledge it needs to plan, deploy, and manage a Zero Trust environment — no migration calls required."
   },
   {
     "company": "Cloudflare",
@@ -342,61 +398,5 @@
     "url": "https://blog.cloudflare.com/realtime-threat-intel-waf-rules/",
     "date": "2026-06-08",
     "summary": "Cloudflare customers can now use Cloudforce One threat intelligence directly within the WAF to block high-risk traffic. By using new cf.intel fields, security teams can automate protection against specific threat actors…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Your AI bill is out of control. Cloudflare can fix it now.",
-    "url": "https://blog.cloudflare.com/ai-gateway-spend-limits/",
-    "date": "2026-06-05",
-    "summary": "AI Gateway now features real-time spend limits to prevent runaway token bills across multiple AI providers. By integrating with Cloudflare Access, companies can use identity-driven budgets and policies."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "VoidZero is joining Cloudflare",
-    "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
-    "date": "2026-06-04",
-    "summary": "VoidZero, the team behind Vite, Vitest, Rolldown, Oxc, and Vite+, is joining Cloudflare. Vite stays open source, vendor-agnostic, and built for everyone."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Enforcing the First AS in BGP AS_PATHs",
-    "url": "https://blog.cloudflare.com/enforce-first-as-bgp/",
-    "date": "2026-06-03",
-    "summary": "BGP is vulnerable to routing hijacks and path leaks that negatively impact traffic on the Internet. RPKI helps solve some of these problems, but for some forged paths, we need to rely on a simpler mechanism: First AS enf…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "How we reduced core unit boot time from hours to minutes",
-    "url": "https://blog.cloudflare.com/optimizing-core-unit-boot-time/",
-    "date": "2026-06-01",
-    "summary": "We investigated why firmware updates were causing our core servers to take four hours to reboot. By diving into UEFI data structures and iPXE automation, we eliminated unnecessary timeouts and cut boot times back down to…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "How we built Cloudflare's data platform and an AI agent on top of it",
-    "url": "https://blog.cloudflare.com/our-unified-data-platform/",
-    "date": "2026-05-28",
-    "summary": "Here’s how we built Town Lake, Cloudflare's unified analytics platform, alongside Skipper, an internal AI agent running on top of it."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Iran's Internet is partially restored, Cloudflare Radar data shows",
-    "url": "https://blog.cloudflare.com/iran-internet-partially-restored-may-2026/",
-    "date": "2026-05-27",
-    "summary": "Cloudflare Radar data confirms early indications of a partial Internet restoration in Iran, nearly three months after the shutdown began. Traffic spikes and DNS queries have risen, but network activity is currently just…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Announcing Claude Compliance API support with Cloudflare CASB",
-    "url": "https://blog.cloudflare.com/casb-anthropic-integration/",
-    "date": "2026-05-21",
-    "summary": "Cloudflare now integrates with the Claude Compliance API, so that security teams can monitor Claude Enterprise activity directly in the Cloudflare Dashboard."
   }
 ]
