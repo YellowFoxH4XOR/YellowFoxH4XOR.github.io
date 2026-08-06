@@ -2,6 +2,14 @@
   {
     "company": "AWS",
     "companySlug": "aws",
+    "title": "Amazon DynamoDB now supports real-time vector search at any scale",
+    "url": "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/",
+    "date": "2026-08-05",
+    "summary": "DynamoDB now supports native vector search with single-digit millisecond latency at 99%+ recall. It is designed for any scale, even trillions of vectors and requires zero infrastructure management."
+  },
+  {
+    "company": "AWS",
+    "companySlug": "aws",
     "title": "AWS Weekly Roundup: Price reduction of GPT models in Bedrock, CloudWatch managed collectors for Prometheus metrics, and more (August 3, 2026)",
     "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock-cloudwatch-managed-collectors-for-prometheus-metrics-and-more-august-3-2026/",
     "date": "2026-08-03",
@@ -122,6 +130,14 @@
   {
     "company": "AWS",
     "companySlug": "aws",
+    "title": "AWS DevOps Agent adds release management capabilities to assess code changes before production (preview)",
+    "url": "https://aws.amazon.com/blogs/aws/aws-devops-agent-adds-release-management-capabilities-to-assess-code-changes-before-production-preview/",
+    "date": "2026-06-17",
+    "summary": "AWS DevOps Agent now offers release management capability in preview, reviewing code changes for release readiness and running autonomous release testing to help you ship code to production safely and with confidence."
+  },
+  {
+    "company": "AWS",
+    "companySlug": "aws",
     "title": "AWS Security Agent adds threat modeling, Kiro power and Claude Code plugin, and more",
     "url": "https://aws.amazon.com/blogs/aws/aws-security-agent-adds-threat-modeling-kiro-power-and-claude-code-plugin-and-more/",
     "date": "2026-06-17",
@@ -162,14 +178,6 @@
   {
     "company": "AWS",
     "companySlug": "aws",
-    "title": "AWS DevOps Agent adds release management capabilities to assess code changes before production (preview)",
-    "url": "https://aws.amazon.com/blogs/aws/aws-devops-agent-adds-release-management-capabilities-to-assess-code-changes-before-production-preview/",
-    "date": "2026-06-17",
-    "summary": "AWS DevOps Agent now offers release management capability in preview, reviewing code changes for release readiness and running autonomous release testing to help you ship code to production safely and with confidence."
-  },
-  {
-    "company": "AWS",
-    "companySlug": "aws",
     "title": "Amazon S3 annotations: attach rich, queryable context directly to your objects",
     "url": "https://aws.amazon.com/blogs/aws/amazon-s3-annotations-attach-rich-queryable-context-directly-to-your-objects/",
     "date": "2026-06-16",
@@ -178,18 +186,18 @@
   {
     "company": "AWS",
     "companySlug": "aws",
-    "title": "AWS Weekly Roundup: AWS FinOps Agent in preview, Gemma 4 on Bedrock, Kiro Pro Max, and more (June 15, 2026)",
-    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-finops-agent-in-preview-gemma-4-on-bedrock-kiro-pro-max-and-more-june-15-2026/",
-    "date": "2026-06-15",
-    "summary": "This week, New York City is hosting AWS Summit, bringing together builders, customers, and AWS teams for a full day of announcements, demos, and technical sessions at the Javits Center. I wrote blog posts for some of the…"
-  },
-  {
-    "company": "AWS",
-    "companySlug": "aws",
     "title": "AWS WAF adds AI traffic monetization capability to help content owners charge AI bots for content access",
     "url": "https://aws.amazon.com/blogs/aws/aws-waf-adds-ai-traffic-monetization-capability-to-help-content-owners-charge-ai-bots-for-content-access/",
     "date": "2026-06-15",
     "summary": "AWS WAF launches AI traffic monetization, a new Bot Control capability that enables content providers and publishers price, meter, and collect payment from AI bots and agents accessing their content and APIs. AWS WAF now…"
+  },
+  {
+    "company": "AWS",
+    "companySlug": "aws",
+    "title": "AWS Weekly Roundup: AWS FinOps Agent in preview, Gemma 4 on Bedrock, Kiro Pro Max, and more (June 15, 2026)",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-finops-agent-in-preview-gemma-4-on-bedrock-kiro-pro-max-and-more-june-15-2026/",
+    "date": "2026-06-15",
+    "summary": "This week, New York City is hosting AWS Summit, bringing together builders, customers, and AWS teams for a full day of announcements, demos, and technical sessions at the Javits Center. I wrote blog posts for some of the…"
   },
   {
     "company": "AWS",
@@ -234,14 +242,6 @@
   {
     "company": "AWS",
     "companySlug": "aws",
-    "title": "AWS Weekly Roundup: Claude Opus 4.8 on AWS, Aurora MySQL with Kiro Powers, and more (June 1, 2026)",
-    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-opus-4-8-on-aws-aurora-mysql-with-kiro-powers-and-more-june-1-2026/",
-    "date": "2026-06-01",
-    "summary": "In my last Week in Review post, I shared what I’d been hearing from customers in the AI-Driven Development Lifecycle (AI-DLC) workshops I’ve been delivering. Last week I was back at it, this time in Denver for a two-day…"
-  },
-  {
-    "company": "AWS",
-    "companySlug": "aws",
     "title": "Get started with OpenAI GPT-5.5, GPT-5.4 models, and Codex on Amazon Bedrock",
     "url": "https://aws.amazon.com/blogs/aws/get-started-with-openai-gpt-5-5-gpt-5-4-models-and-codex-on-amazon-bedrock/",
     "date": "2026-06-01",
@@ -250,10 +250,10 @@
   {
     "company": "AWS",
     "companySlug": "aws",
-    "title": "Introducing the next generation of AWS Resilience Hub for generative AI-based SRE resilience journey",
-    "url": "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-aws-resilience-hub-for-generative-ai-based-sre-resilience-journey/",
-    "date": "2026-05-28",
-    "summary": "AWS launches the next generation of AWS Resilience Hub with a significantly expanded experience that brings together a new application model, dependency discovery assessment, generative AI-powered failure mode analysis,…"
+    "title": "AWS Weekly Roundup: Claude Opus 4.8 on AWS, Aurora MySQL with Kiro Powers, and more (June 1, 2026)",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-opus-4-8-on-aws-aurora-mysql-with-kiro-powers-and-more-june-1-2026/",
+    "date": "2026-06-01",
+    "summary": "In my last Week in Review post, I shared what I’d been hearing from customers in the AI-Driven Development Lifecycle (AI-DLC) workshops I’ve been delivering. Last week I was back at it, this time in Denver for a two-day…"
   },
   {
     "company": "AWS",
@@ -262,6 +262,14 @@
     "url": "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-amazon-opensearch-serverless-for-building-your-agentic-ai-applications/",
     "date": "2026-05-28",
     "summary": "AWS rebuilt Amazon OpenSearch Serverless from the ground up for agentic AI and dynamic workloads. Get instant autoscaling and up to 60% cost savings."
+  },
+  {
+    "company": "AWS",
+    "companySlug": "aws",
+    "title": "Introducing the next generation of AWS Resilience Hub for generative AI-based SRE resilience journey",
+    "url": "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-aws-resilience-hub-for-generative-ai-based-sre-resilience-journey/",
+    "date": "2026-05-28",
+    "summary": "AWS launches the next generation of AWS Resilience Hub with a significantly expanded experience that brings together a new application model, dependency discovery assessment, generative AI-powered failure mode analysis,…"
   },
   {
     "company": "AWS",
