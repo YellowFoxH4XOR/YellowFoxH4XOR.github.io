@@ -2,6 +2,54 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
+    "title": "Cloudflare AI Search: give your agents a search engine for your data",
+    "url": "https://blog.cloudflare.com/ai-search-easier/",
+    "date": "2026-08-06",
+    "summary": "AI Search makes search easier than ever, with no Cloudflare primitives to stitch together. Point it at your data to create a search for your own files and websites. We're also sharing a preview of our new pricing model."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "The next generation of MCP",
+    "url": "https://blog.cloudflare.com/mcp-v2/",
+    "date": "2026-08-06",
+    "summary": "The next version of MCP has a rewritten, stateless core that just works on Workers. We cover upgrades to the protocol, the new feature lifecycle and SDK migration path, and hear from early adopters already running it in…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "From ranking to recommended: get your site ready to thrive in the age of AI agents",
+    "url": "https://blog.cloudflare.com/aeo/",
+    "date": "2026-08-06",
+    "summary": "More than half of requests now come from machines, not people. Agent Readiness shows how well agents can discover and read your site, while Answer Engine Optimization tracks how often AI assistants recommend you."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Building an open Agentic Internet: readable, discoverable, callable, and payable",
+    "url": "https://blog.cloudflare.com/the-agentic-internet/",
+    "date": "2026-08-06",
+    "summary": "Agents are a new kind of visitor. They don't render CSS or click ads, but they have a paying human on the other end. Block them and you block your customer. We're building the open tools and protocols so publishers and a…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers",
+    "url": "https://blog.cloudflare.com/kitesurf/",
+    "date": "2026-08-06",
+    "summary": "We should be giving all agents tools that excel at what’s important for an AI model. Kitesurf is Cloudflare’s new stateless, highly scalable, and cost-effective web browser that runs entirely on top of Workers and was de…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Give any website a WebMCP interface",
+    "url": "https://blog.cloudflare.com/webmcp/",
+    "date": "2026-08-06",
+    "summary": "Today we're launching a developer preview of WebMCP on Cloudflare. With one switch, any site becomes usable by browser AI agents — no new APIs, no origin changes — while the human stays in control and creators keep their…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
     "title": "Cloudflare is the only vendor named a Visionary in 2026 SASE and SSE reports",
     "url": "https://blog.cloudflare.com/cloudflare-sase-sse-gartner-magic-quadrants-2026/",
     "date": "2026-08-05",
@@ -106,26 +154,10 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Your agent needs a computer, not a container — introducing @cloudflare/computer",
-    "url": "https://blog.cloudflare.com/cloudflare-computer/",
+    "title": "Workers RPC now works across Python and JavaScript",
+    "url": "https://blog.cloudflare.com/python-workers-rpc/",
     "date": "2026-08-03",
-    "summary": "Agents need more than just a container to scale. We're introducing @cloudflare/computer, an agent runtime that dynamically orchestrates between fast, efficient isolates and full Linux containers to give every agent a com…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Cloudflare Workers and Containers now support inbound TCP connections and gRPC",
-    "url": "https://blog.cloudflare.com/grpc-workers/",
-    "date": "2026-08-03",
-    "summary": "Cloudflare Workers now support inbound TCP connections via Spectrum, allowing direct socket forwarding to Durable Objects and Containers. Developers can run full-duplex gRPC applications or leverage automatic gRPC-to-gRP…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Introducing the Billable Usage API: programmatic cost visibility for Cloudflare",
-    "url": "https://blog.cloudflare.com/billable-usage-api/",
-    "date": "2026-08-03",
-    "summary": "Cloudflare has launched a new Billable Usage API for accounts, giving developers and FinOps teams single-endpoint programmatic visibility into cost and usage across all self-serve products. Built around the FOCUS specifi…"
+    "summary": "One coding agent can write a Python Worker and another can write a JavaScript Worker. At runtime, those Workers can exchange references to live objects and call their methods without defining APIs, schemas, or serializat…"
   },
   {
     "company": "Cloudflare",
@@ -138,10 +170,26 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Workers RPC now works across Python and JavaScript",
-    "url": "https://blog.cloudflare.com/python-workers-rpc/",
+    "title": "Introducing the Billable Usage API: programmatic cost visibility for Cloudflare",
+    "url": "https://blog.cloudflare.com/billable-usage-api/",
     "date": "2026-08-03",
-    "summary": "One coding agent can write a Python Worker and another can write a JavaScript Worker. At runtime, those Workers can exchange references to live objects and call their methods without defining APIs, schemas, or serializat…"
+    "summary": "Cloudflare has launched a new Billable Usage API for accounts, giving developers and FinOps teams single-endpoint programmatic visibility into cost and usage across all self-serve products. Built around the FOCUS specifi…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Cloudflare Workers and Containers now support inbound TCP connections and gRPC",
+    "url": "https://blog.cloudflare.com/grpc-workers/",
+    "date": "2026-08-03",
+    "summary": "Cloudflare Workers now support inbound TCP connections via Spectrum, allowing direct socket forwarding to Durable Objects and Containers. Developers can run full-duplex gRPC applications or leverage automatic gRPC-to-gRP…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Your agent needs a computer, not a container — introducing @cloudflare/computer",
+    "url": "https://blog.cloudflare.com/cloudflare-computer/",
+    "date": "2026-08-03",
+    "summary": "Agents need more than just a container to scale. We're introducing @cloudflare/computer, an agent runtime that dynamically orchestrates between fast, efficient isolates and full Linux containers to give every agent a com…"
   },
   {
     "company": "Cloudflare",
@@ -290,26 +338,10 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Making AI search smarter",
-    "url": "https://blog.cloudflare.com/making-ai-search-smarter/",
+    "title": "Your site, your rules: new AI traffic options for all customers",
+    "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
     "date": "2026-07-01",
-    "summary": "Search is how we find nearly everything on the web — creators, merchants, answers. AI is rewriting the rules, leaving creators caught between staying discoverable in an agentic era and getting paid for their work. Today…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Unmasking the crawls with Attribution Business Insights",
-    "url": "https://blog.cloudflare.com/attribution-business-insights/",
-    "date": "2026-07-01",
-    "summary": "Cloudflare’s new Attribution Business Insights dashboard helps website owners understand crawler behavior, appetite, and potential value, fueling business-level conversations around crawl compensation."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Content Independence Day, one year on: building the business model for the agentic Internet",
-    "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
-    "date": "2026-07-01",
-    "summary": "One year after declaring Content Independence Day, a dynamic market for monetized content has officially emerged. In this report, we examine how the rise of autonomous AI agents is upending traditional search referrals a…"
+    "summary": "For our second Content Independence Day, we’re giving website owners finer options to manage AI traffic. Instead of a one-size-fits-all block, all customers can now easily distinguish and manage Search, Agent, and Traini…"
   },
   {
     "company": "Cloudflare",
@@ -322,10 +354,26 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Your site, your rules: new AI traffic options for all customers",
-    "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+    "title": "Content Independence Day, one year on: building the business model for the agentic Internet",
+    "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
     "date": "2026-07-01",
-    "summary": "For our second Content Independence Day, we’re giving website owners finer options to manage AI traffic. Instead of a one-size-fits-all block, all customers can now easily distinguish and manage Search, Agent, and Traini…"
+    "summary": "One year after declaring Content Independence Day, a dynamic market for monetized content has officially emerged. In this report, we examine how the rise of autonomous AI agents is upending traditional search referrals a…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Unmasking the crawls with Attribution Business Insights",
+    "url": "https://blog.cloudflare.com/attribution-business-insights/",
+    "date": "2026-07-01",
+    "summary": "Cloudflare’s new Attribution Business Insights dashboard helps website owners understand crawler behavior, appetite, and potential value, fueling business-level conversations around crawl compensation."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Making AI search smarter",
+    "url": "https://blog.cloudflare.com/making-ai-search-smarter/",
+    "date": "2026-07-01",
+    "summary": "Search is how we find nearly everything on the web — creators, merchants, answers. AI is rewriting the rules, leaving creators caught between staying discoverable in an agentic era and getting paid for their work. Today…"
   },
   {
     "company": "Cloudflare",
@@ -350,53 +398,5 @@
     "url": "https://blog.cloudflare.com/post-quantum-eo-2026/",
     "date": "2026-06-23",
     "summary": "The new executive order sets a 2030 migration deadline and establishes a powerful foundation for post-quantum resilience. We look at what it gets right, where it can go further, and our migration playbook for government…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "How we found a bug in the hyper HTTP library",
-    "url": "https://blog.cloudflare.com/hyper-bug/",
-    "date": "2026-06-22",
-    "summary": "By rearchitecting the Images binding, we accidentally uncovered a bug that existed in the open-source hyper library across multiple major versions."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Temporary Cloudflare Accounts for AI agents",
-    "url": "https://blog.cloudflare.com/temporary-accounts/",
-    "date": "2026-06-19",
-    "summary": "The moment an agent needs to deploy something, it slams face-first into a wall built for humans. Today we're rolling out Temporary Accounts on Cloudflare Workers. Any agent can now run wrangler deploy — temporary and get…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Celebrating 12 years of Project Galileo",
-    "url": "https://blog.cloudflare.com/celebrating-12-years-of-project-galileo/",
-    "date": "2026-06-18",
-    "summary": "To mark the 12th anniversary of Project Galileo, Cloudflare has released its first comprehensive report analyzing cyberattacks against civil society."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Build your own vulnerability harness",
-    "url": "https://blog.cloudflare.com/build-your-own-vulnerability-harness/",
-    "date": "2026-06-18",
-    "summary": "We break down the technical architecture behind our multi-stage vulnerability discovery harness and automated triage loop. Learn how we manage state controls, squash false positives through adversarial review, and route…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Introducing the Cloudflare One stack: agent-powered deployment",
-    "url": "https://blog.cloudflare.com/cloudflare-one-stack/",
-    "date": "2026-06-17",
-    "summary": "The Cloudflare One stack is a library of agent skills that gives any AI agent the knowledge it needs to plan, deploy, and manage a Zero Trust environment — no migration calls required."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Bringing more agent harnesses and frameworks to Cloudflare, starting with Flue",
-    "url": "https://blog.cloudflare.com/agents-platform-flue-sdk/",
-    "date": "2026-06-17",
-    "summary": "The Agents SDK is now a runtime any agent framework can build on. Today we're opening up the Agents SDK primitives, with Flue as a first framework targeting Agents SDK, and rolling out agents in the dashboard"
   }
 ]

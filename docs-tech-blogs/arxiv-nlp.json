@@ -2,401 +2,401 @@
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Reasoning Core: Designing Broad Procedural Data for Completion-Supervised Reasoning Training",
-    "url": "https://arxiv.org/abs/2608.05148v1",
-    "date": "2026-08-05",
-    "summary": "Procedural generators produce useful verifiable reasoning problems at scale, but have received less attention as data for completion-supervised fine-tuning. We introduce Reasoning Core, a collection of 50 generators span…"
+    "title": "Learning When to Trust via Selective Context Preference Optimization",
+    "url": "https://arxiv.org/abs/2608.06377v1",
+    "date": "2026-08-06",
+    "summary": "Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong. The obvious remedy, training models to resist such signals, hides a failure mode: a m…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning",
-    "url": "https://arxiv.org/abs/2608.05139v1",
-    "date": "2026-08-05",
-    "summary": "Long-horizon reasoning in recent LLMs demands that the model switch between distinct skills inside a reasoning chain, such as first doing a math derivation, then using the result to plan a schedule. We call such problems…"
+    "title": "The Bitter Lesson of Tool Calling",
+    "url": "https://arxiv.org/abs/2608.06370v1",
+    "date": "2026-08-06",
+    "summary": "Tool use transforms LLMs into agents that act beyond their training data, and for code-capable models, programmatic tool calling extends this further by replacing rigid JSON calls with scripts that chain and parallelize…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Teaching Nemotron Greek: Mining a Corpus, Adapting Retrieval, and Grounding Generation for Modern Greek across Specialist Domains",
-    "url": "https://arxiv.org/abs/2608.05138v1",
-    "date": "2026-08-05",
-    "summary": "Modern Greek is absent from NVIDIA's Nemotron retrieval models and from major multilingual retrieval benchmarks, despite being important for retrieval-augmented generation (RAG) in legal, energy, financial, and medical a…"
+    "title": "AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games",
+    "url": "https://arxiv.org/abs/2608.06362v1",
+    "date": "2026-08-06",
+    "summary": "Deciding which of two agents is stronger means playing games until skill outweighs luck, and every game costs money, model inference, or expert time. Since the number of games needed is unknown, fixed-budget evaluations…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Spoken Function Calling: A New Perspective on Spoken Language Understanding for Large Audio Language Models",
-    "url": "https://arxiv.org/abs/2608.05126v1",
-    "date": "2026-08-05",
-    "summary": "Spoken Language Understanding (SLU) is the core component of task-oriented dialogue systems and a pivotal link in achieving seamless human-agent interaction. While traditional SLU can effectively extract user semantics f…"
+    "title": "CalibForge: Adversarial Solver Calibration for Scaling Learnable Terminal Tasks",
+    "url": "https://arxiv.org/abs/2608.06352v1",
+    "date": "2026-08-06",
+    "summary": "Training terminal agents requires executable and verifiable tasks that are not merely solvable, but appropriately challenging for learning. Executable validation establishes feasibility, yet does not reveal how a task be…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Chained Recursive Language Models for Multi-Iteration Reasoning",
-    "url": "https://arxiv.org/abs/2608.05124v1",
-    "date": "2026-08-05",
-    "summary": "Long context reasoning in large language models (LLMs) is usually constrained by the fact that a single inference trajectory has to simultaneously explore the context, store intermediate state, verify evidence, and produ…"
+    "title": "RP-OPSD: Reasoning-Pivot-Guided On-Policy Self-Distillation for Multilingual Reasoning Transfer",
+    "url": "https://arxiv.org/abs/2608.06347v1",
+    "date": "2026-08-06",
+    "summary": "Multilingual reasoning transfer is crucial for extending reasoning capabilities of large language models (LLMs) beyond high-resource languages. On-policy self-distillation (OPSD) and its variants have emerged as a promis…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Same Formulas, Different Semantics: Do Language Models Follow Modal Logic Specifications?",
-    "url": "https://arxiv.org/abs/2608.05097v1",
-    "date": "2026-08-05",
-    "summary": "Reasoning about necessity and possibility depends on assumptions about accessibility between worlds and about which objects exist at each one. The same inference may therefore hold under one modal system and fail under a…"
+    "title": "Benchmarking the Benchmarks: Evaluating Benchmarks for Conversational Agents",
+    "url": "https://arxiv.org/abs/2608.06329v1",
+    "date": "2026-08-06",
+    "summary": "Task-oriented conversational agents are evaluated using curated or automatically generated benchmarks, yet benchmark quality is rarely assessed. Poor benchmarks may contain inconsistent tasks, simplistic scenarios, or li…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Item Response Theory for AI Safety",
-    "url": "https://arxiv.org/abs/2608.05086v1",
-    "date": "2026-08-05",
-    "summary": "Language models differ in how safely they behave and these differences are measured by safety benchmarks. But aggregated benchmark scores are hard to trust and interpret, because benchmarks duplicate one another, correla…"
+    "title": "Benchmarking and Enhancing LLMs for Rule-Intensive Review of National Standard Documents",
+    "url": "https://arxiv.org/abs/2608.06312v1",
+    "date": "2026-08-06",
+    "summary": "Large language models (LLMs) increasingly support complex professional tasks, yet their capabilities in rule-intensive document review remain insufficiently evaluated. National standard documents, such as China GB/T stan…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Optimizing What Policies Learn From: Recoverability-aware Rollout Intervention Learning",
-    "url": "https://arxiv.org/abs/2608.05080v1",
-    "date": "2026-08-05",
-    "summary": "Critic-free group-based reinforcement learning has become a scalable approach for post-training large language models. However, most existing methods allocate the same number of rollouts to every task and trajectory stat…"
+    "title": "RRC: Unlocking Generative Reward Models in LLM Reinforcement Learning via Ranking-Based Reward Construction",
+    "url": "https://arxiv.org/abs/2608.06310v1",
+    "date": "2026-08-06",
+    "summary": "Recent advances in reward modeling show a paradigm shift from discriminative reward models to generative reward models. However, despite their strong capabilities in response ranking, generative reward models have not re…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "German parties shifted towards intuition-based rhetoric after the far right's parliamentary breakthrough",
-    "url": "https://arxiv.org/abs/2608.05075v1",
-    "date": "2026-08-05",
-    "summary": "The spread of misinformation is widely perceived as a threat to democratic deliberation, yet how political elites' rhetorical commitments to truth shift alongside the rise of populist actors remains poorly understood. An…"
+    "title": "Beyond Top-K: Replacing Black-Box Retrieval with Interpretable Agentic Operations",
+    "url": "https://arxiv.org/abs/2608.06305v1",
+    "date": "2026-08-06",
+    "summary": "Retrieval-augmented generation over long documents is dominated by one design: chunk the text, embed the chunks, and surface the top-k nearest neighbours of the query. We argue that for an important class of documents --…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Provable Limits and Certified Deferral for Verbalized Uncertainty in Small Language Models",
-    "url": "https://arxiv.org/abs/2608.05064v1",
-    "date": "2026-08-05",
-    "summary": "Small open-weight language models increasingly run in private, offline, and cost-sensitive settings, where the key deployment question is not only what a model answers but when it should defer to a human. We study whethe…"
+    "title": "HarnessOpt-Bench: Evaluating LLMs at Harness Optimization",
+    "url": "https://arxiv.org/abs/2608.06301v1",
+    "date": "2026-08-06",
+    "summary": "As LLMs are increasingly deployed within agentic systems, their capabilities depend not only on the model weights but also on the harness: the prompts, tools, control flow, memory, and orchestration code surrounding them…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "The Effect of Perceived Race and Gender on Police Language Use: Experimental Evidence from VR Simulations",
-    "url": "https://arxiv.org/abs/2608.05050v1",
-    "date": "2026-08-05",
-    "summary": "Against the backdrop of violence in police interactions with the U.S. public, we explore how deferentially police officers speak to virtual characters depicted as Black adult males in vir- tual reality (VR) simulations.…"
+    "title": "NeSy-RAG: Neuro-Symbolic RAG for Explainable Question Answering",
+    "url": "https://arxiv.org/abs/2608.06292v1",
+    "date": "2026-08-06",
+    "summary": "Retrieval-augmented generation (RAG) improves question answering by grounding large language models (LLMs) in external knowledge such as text corpora. However, its reasoning process remains largely opaque: intermediate r…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Gradient Immunity: Null-Space Resistance to Malicious Fine-Tuning",
-    "url": "https://arxiv.org/abs/2608.05045v1",
-    "date": "2026-08-05",
-    "summary": "Released aligned large language models remain vulnerable to malicious downstream finetuning. Existing defenses are largely designed for the fine-tuning-as-a-service (FTaaS) paradigm or rely on downstream users to follow…"
+    "title": "Routing Is Least Learnable Where It Is Most Valuable: Bounds on Representation Routing for Web Agents",
+    "url": "https://arxiv.org/abs/2608.06171v1",
+    "date": "2026-08-06",
+    "summary": "Web agents observe a browser through text, pixels, or both, and the choice is usually fixed once for all tasks. We measure six observation modes across eight site-model combinations (cells) on VisualWebArena and WebArena…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Language Models Generalize to Human-like Word Order Preferences",
-    "url": "https://arxiv.org/abs/2608.05028v1",
-    "date": "2026-08-05",
-    "summary": "A central question in language acquisition is whether linguistic biases can emerge from general learning mechanisms operating over underdetermined input. Artificial Language Learning (ALL) studies have shown that human l…"
+    "title": "Schema-Guided Hierarchical Information Extraction and Semantic Evaluation Using Generative AI",
+    "url": "https://arxiv.org/abs/2608.06167v1",
+    "date": "2026-08-06",
+    "summary": "We present a schema-based framework for extracting complex, structured information from unstructured text documents using generative AI, followed by automated semantic evaluation of the extracted information against a go…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "DelusionEval: Measuring Delusion-Linked Behaviors in AI Chatbots",
-    "url": "https://arxiv.org/abs/2608.05004v1",
-    "date": "2026-08-05",
-    "summary": "Mental health professionals have raised concerns about risks of psychological harm from interaction with large language models (LLMs), including \"delusional spirals\" in which concerning human and LLM behaviors reinforce…"
+    "title": "Decolonizing Linguistic Policies in Automated Speech Recognition: A Framework for Cross-Culturally Competent Speech AI",
+    "url": "https://arxiv.org/abs/2608.06141v1",
+    "date": "2026-08-06",
+    "summary": "This paper focuses on automatic speech recognition (ASR) and ASR-mediated voice interfaces that shape access to public services, healthcare, and education. We argue that persistent failures for low-resource, Indigenous,…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Protoreasoning in Tiny Transformers",
-    "url": "https://arxiv.org/abs/2608.04980v1",
-    "date": "2026-08-05",
-    "summary": "We show that tiny transformers can profitably employ a simple form of Chain of Thought, which we call protoreasoning, allowing us to study step-by-step reasoning on ~1M-parameter models and opening up opportunities for m…"
+    "title": "Poli-Bias: Understanding and Measuring Large Language Model Biases in International Political Conflicts",
+    "url": "https://arxiv.org/abs/2608.06123v1",
+    "date": "2026-08-06",
+    "summary": "Measuring political bias in large language models (LLMs) remains challenging as it can manifest through subtle differences in framing, argumentation, and legal reasoning that are difficult to capture with a single metric…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "SpecRoll: Fast-Slow Verifier-Feedback Adaptation for Speculative Reinforcement Learning Rollouts",
-    "url": "https://arxiv.org/abs/2608.04962v1",
-    "date": "2026-08-05",
-    "summary": "Reinforcement learning (RL) post-training improves the reasoning capabilities of large language models, but autoregressive rollout generation remains a major efficiency bottleneck. Speculative decoding can accelerate gen…"
+    "title": "Beyond Sequence Order: Syntax-Informed Positional Embeddings for Transformers",
+    "url": "https://arxiv.org/abs/2608.06111v1",
+    "date": "2026-08-06",
+    "summary": "Positional embeddings (PE) in Transformers encode token distance and order but are largely agnostic to \\textit{syntactic structure}. We introduce \\textbf{S}yntax-\\textbf{i}nformed \\textbf{P}ositional \\textbf{E}mbeddings…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "UG-UMRE: Uncertainty-Guided Modality Augmentation and Distributional Calibration for Unified Multimodal Relation Extraction",
-    "url": "https://arxiv.org/abs/2608.04949v1",
-    "date": "2026-08-05",
-    "summary": "Unified Multimodal Relation Extraction (UMRE) aims to identify intra-modal and cross-modal relations between textual entities and visual objects. However, existing UMRE studies still encounter two critical issues: ignori…"
+    "title": "From Siloed Algorithms to Compliance-First Agentic Platforms: A Multi-Layered Architecture for Hospital AI Systems",
+    "url": "https://arxiv.org/abs/2608.06112v1",
+    "date": "2026-08-06",
+    "summary": "Hospitals are rapidly adopting artificial intelligence for triage, imaging, scheduling etc., yet most deployments remain isolated point solutions locked inside departmental silos, resulting in duplicated effort, hidden r…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Reading Between the Frames: Interpreting Implicit and Non-literal Meaning in Social Media Videos",
-    "url": "https://arxiv.org/abs/2608.04939v1",
-    "date": "2026-08-05",
-    "summary": "Social media videos often communicate meanings that go beyond their visible actions, captions, or speech. A mundane clip may become humorous, ironic, or satire only through the interaction of multimodal cues and cultural…"
+    "title": "ECHO: A Locally-Deployable Agentic Health Assistant with Temporal Memory, Safety Guardrails, and Speech Assessment",
+    "url": "https://arxiv.org/abs/2608.06110v1",
+    "date": "2026-08-06",
+    "summary": "This paper presents ECHO (Enhanced Care \\& Health Observer), a locally-deployable conversational health assistant for long-term chronic care management. ECHO integrates three complementary software modules developed unde…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "State2State: Environment-Derived Mid-Training for LLM Agents",
-    "url": "https://arxiv.org/abs/2608.04934v1",
-    "date": "2026-08-05",
-    "summary": "Training LLM agents commonly relies on supervised fine-tuning from expert trajectories or online reinforcement learning over human-specified tasks with handcrafted verifiers. Though effective, both remain bottlenecked by…"
+    "title": "Training-Free Token-Level Steering for LLM Personalized Co-Writing",
+    "url": "https://arxiv.org/abs/2608.06069v1",
+    "date": "2026-08-06",
+    "summary": "While Large Language Models (LLMs) show great promise for personalization, they often lack specialized domain knowledge. Conventional solutions like fine-tuning struggle with high computational costs and rapid data updat…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Does Out-of-Sight Equal Out-of-Mind in CoT Monitorability?",
-    "url": "https://arxiv.org/abs/2608.04928v1",
-    "date": "2026-08-05",
-    "summary": "Chain-of-thought (CoT) reasoning offers a window into the decision-making of large language models (LLMs), which can be monitored for target behaviors by reading the reasoning trace, motivating work on CoT monitorability…"
+    "title": "LangChoiceBench: Measuring and Explaining Programming-Language Choice in LLMs",
+    "url": "https://arxiv.org/abs/2608.06041v1",
+    "date": "2026-08-06",
+    "summary": "Large language models (LLMs) have been shown to exhibit strong Python preferences when generating project-level code, but there is currently no systematic way to measure this behaviour across new models. To bridge this g…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Consistency-Driven Co-Evolution for Self-Supervised Cross-Representation Learning",
-    "url": "https://arxiv.org/abs/2608.04926v1",
-    "date": "2026-08-05",
-    "summary": "As chart images, tabular data, and visualization code play increasingly important roles across diverse domains, cross-representation understanding across these modalities poses fundamental challenges for AI systems: the…"
+    "title": "FormBharo: Designing and Evaluating a Voice Agent for Conversational Form Filling in Rural India",
+    "url": "https://arxiv.org/abs/2608.06027v1",
+    "date": "2026-08-06",
+    "summary": "In India, almost every social benefit starts with a form, yet the people who need these benefits most are often unable to read or write. Reaching them requires a spoken conversation. Today that work falls to frontline he…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Strengthening Target-Language Features: SAE-Based Steering for Multilingual Inference",
-    "url": "https://arxiv.org/abs/2608.04904v1",
-    "date": "2026-08-05",
-    "summary": "Multilingual large language models exhibit substantial performance differences across languages, while existing adaptation methods often require parameter updates and considerable multilingual training data. We propose a…"
+    "title": "EpiBench: Can LLMs Understand Epitopes for Antibody Drug Discovery?",
+    "url": "https://arxiv.org/abs/2608.06022v1",
+    "date": "2026-08-06",
+    "summary": "Epitopes determine where antibodies bind antigens and shape downstream therapeutic properties such as functional blockade and escape resistance, making epitope understanding central to antibody drug discovery. Although l…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Evaluation Pitfalls and Sparsity Limitations in LLM-based Confidence Estimates for Classification",
-    "url": "https://arxiv.org/abs/2608.04899v1",
-    "date": "2026-08-05",
-    "summary": "Confidence estimation is essential when LLMs are used for classification, indicating when predictions can be trusted. However, common approaches such as verbalization produce extremely sparse outputs. For instance, Qwen3…"
+    "title": "Clinical Communication Processing with Models Trained on LLM-Generated Synthetic Data: A Structured Survey and Novel Application Case Studies",
+    "url": "https://arxiv.org/abs/2608.05993v1",
+    "date": "2026-08-06",
+    "summary": "Much clinical value is conveyed not through structured records but through communication: exchanges in which patients describe symptoms, clinicians reason and give instructions, ambulances hand over to emergency departme…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Evaluating the Diagnostic Robustness of Vision-Language Models Under Visual and Textual Perturbations",
-    "url": "https://arxiv.org/abs/2608.04885v1",
-    "date": "2026-08-05",
-    "summary": "Standard accuracy metrics for VLMs often mask significant reliability failures in sensitive domains. In this work, we utilize a histopathology-validated brain MRI dataset to systematically assess the diagnostic robustnes…"
+    "title": "Causal Episodic Memory for Feedback-Driven Agent Repair",
+    "url": "https://arxiv.org/abs/2608.05906v1",
+    "date": "2026-08-06",
+    "summary": "LLM agents that repair failures often discard successful corrections, forcing later episodes to rediscover similar solutions. We study whether finalized repair outcomes can improve subsequent Text-to-SQL episodes without…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "A-SR: Self-Evolving Agentic LLMs for Symbolic Regression via Hierarchical Coordination",
-    "url": "https://arxiv.org/abs/2608.04872v1",
-    "date": "2026-08-05",
-    "summary": "Symbolic regression aims to discover closed-form equations from data, but existing LLM-guided methods often rely on a unified proposal loop that compresses heterogeneous search failures into a scalar score and a single p…"
+    "title": "AppDeltaWorld: Transition-Grounded Delta Code World Model for Mobile GUI Agents",
+    "url": "https://arxiv.org/abs/2608.05891v1",
+    "date": "2026-08-06",
+    "summary": "Mobile GUI agents can operate apps through pixel perception and touch actions, making them a promising interface for collecting and improving long-horizon mobile interaction policies. However, real trajectories are diffi…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Preverbal Uninflected and Underived Roots in Mapudungun. Wuno and Its Implications",
-    "url": "https://arxiv.org/abs/2608.04869v1",
-    "date": "2026-08-05",
-    "summary": "This study examines the grammatical status of preverbal uninflected and underived roots in Mapudungun, with particular focus on wuno 'return/re-'. Through a critical review of scholarly classifications--auxiliaries (Smee…"
+    "title": "The em-dash em-beds in Congress: A population-level rise in em-dash frequency in U.S. congressional press releases at the dawn of the large-language-model era, 2021-2025",
+    "url": "https://arxiv.org/abs/2608.05889v1",
+    "date": "2026-08-06",
+    "summary": "Large language models (LLMs) can leave small stylistic traces in text written with their help. The most discussed is the em-dash (U+2014), especially the unspaced form word---word, which is normal in typeset English pros…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Do Language Models Know Their Slang? Queer Slang Understanding in User-Generated Content",
-    "url": "https://arxiv.org/abs/2608.04847v1",
-    "date": "2026-08-05",
-    "summary": "Despite its cultural relevance and diffusion, queer slang remains underrepresented in Natural Language Processing research. Towards addressing this gap, we introduce Slang-Q, a manually curated dataset of naturally user-…"
+    "title": "The Vulnerability With No CVE: Managing Persistent Gaps Between Mandate and Authority in AI Coding Agents",
+    "url": "https://arxiv.org/abs/2608.05884v1",
+    "date": "2026-08-06",
+    "summary": "Existing guidance identifies excessive agency, excessive permission, weak task-bound authorization, and inadequate agent controls as important risks. Control frameworks also describe capabilities for constraining, author…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Skill-Use: Can LLMs Actually Use Skills in Agentic Harnesses?",
-    "url": "https://arxiv.org/abs/2608.04828v1",
-    "date": "2026-08-05",
-    "summary": "Large language model (LLM) agents increasingly rely on skills, structured documents that specify when to act, which procedure to follow, and which tools are allowed. Existing evaluations mostly judge the quality of a ski…"
+    "title": "Personalized Deep Research Query Refinement with Graph-Scaffolded Evidence Grounding",
+    "url": "https://arxiv.org/abs/2608.05876v1",
+    "date": "2026-08-06",
+    "summary": "User requests serve as research specifications for deep research agents, shaping what evidence to seek and how to synthesize it. In personalized deep research, these specifications must additionally reflect user goals, c…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "A Modular Part-of-Speech Tagger for Scottish Gaelic using spaCy",
-    "url": "https://arxiv.org/abs/2608.04808v1",
-    "date": "2026-08-05",
-    "summary": "Part-of-speech tagging for low-resource languages remains challenging due to limited annotated data, especially for linguistically complex languages. Gaidhlig (Scottish Gaelic) is a morphologically rich and endangered la…"
+    "title": "MACRO: Markov Chain Routing of Transformer Layers",
+    "url": "https://arxiv.org/abs/2608.05872v1",
+    "date": "2026-08-06",
+    "summary": "Standard Large Language Models (LLMs) execute layers sequentially. Dynamic layer routing, i.e. search for a different execution path through layers involving layer repetitions, skips and other moves, can improve performa…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Agentic Reinforcement Learning with Observation-Calibrated Self-Distillation",
-    "url": "https://arxiv.org/abs/2608.04788v1",
-    "date": "2026-08-05",
-    "summary": "Large language model agents are commonly trained through reinforcement learning with sparse trajectory-level rewards, which offer limited guidance on how strongly individual tokens should be updated. On-Policy Self-Disti…"
+    "title": "Mapping Similarity Spaces across Embedding Models with Synthetic Query Probing",
+    "url": "https://arxiv.org/abs/2608.05857v1",
+    "date": "2026-08-06",
+    "summary": "Retrieval-Augmented Generation systems rely on similarity scores to retrieve relevant content, yet scores are not directly comparable across embedding models due to differing geometric properties, complicating model migr…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Reachability in 3-VAS",
-    "url": "https://arxiv.org/abs/2608.04786v1",
-    "date": "2026-08-05",
-    "summary": "We settle the exact complexity of the reachability problem in (stateless) vector addition systems (VAS) in fixed low dimension. In dimensions 2-4 it has only been known to be sandwiched between NP and PSPACE. We prove PS…"
+    "title": "MameLoshnLM: Yiddish Language Model and Evaluation Benchmark",
+    "url": "https://arxiv.org/abs/2608.05850v1",
+    "date": "2026-08-06",
+    "summary": "We present MameLoshnLM, the first open-source 8B-parameter language model built specifically for Yiddish. Despite Yiddish's rich textual tradition, its limited digital presence and the scarcity of reliable evaluation res…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Guideline-as-Oracle: Zero-Annotation Training of an Ophthalmic Telephone Triage Agent",
-    "url": "https://arxiv.org/abs/2608.04772v1",
-    "date": "2026-08-05",
-    "summary": "Scaling supervision for multi-turn medical agents is difficult because expert dialogue annotation is costly and clinical conversations are privacy-restricted. We introduce Guideline-as-Oracle (GAO), which compiles Americ…"
+    "title": "Enhancing Social Intelligence in LLMs with Hierarchical Reasoning and Utterance-Level Goal Rewarding",
+    "url": "https://arxiv.org/abs/2608.05832v1",
+    "date": "2026-08-06",
+    "summary": "Large language models (LLMs) excel in structured tasks but struggle with dynamic social interactions, where success requires long-term goal coordination and rapid adaptation. Current methods often apply uniform goal-base…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "InsightEmb: Learning Action-Intent Embeddings for Agentic Insight Retrieval",
-    "url": "https://arxiv.org/abs/2608.04761v1",
-    "date": "2026-08-05",
-    "summary": "Self-improving agents accumulate reusable insights from prior trajectories, making retrieval increasingly important for turning accumulated experience into actionable guidance. At each decision step, retrieving the right…"
+    "title": "MoCA: Implicit Social Context Analysis",
+    "url": "https://arxiv.org/abs/2608.05825v1",
+    "date": "2026-08-06",
+    "summary": "Human social communication, such as affection and intent, is often conveyed in highly implicit ways, where underlying meanings are expressed through indirect, socially and culturally grounded signals rather than explicit…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Trace, Verify, and Correct: A Training-Free Framework for Spatial Reasoning in Multimodal LLMs",
-    "url": "https://arxiv.org/abs/2608.04759v1",
-    "date": "2026-08-05",
-    "summary": "Although Multimodal Large Language Models (MLLMs) have made substantial progress, their spatial reasoning may still produce intermediate judgments inconsistent with the input image, allowing errors to propagate through t…"
+    "title": "Decomposed Entailment for Factuality Checking and Hallucination Detection",
+    "url": "https://arxiv.org/abs/2608.05823v1",
+    "date": "2026-08-06",
+    "summary": "The reliability of Large Language Models (LLMs) is often compromised by factual inconsistencies, including hallucinations---cases where generated content is not supported by the underlying source. We present HallDetect,…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Simile Understanding in Text-to-Image Models: An Evaluation Framework",
-    "url": "https://arxiv.org/abs/2608.04750v1",
-    "date": "2026-08-05",
-    "summary": "Similes provide a compact and expressive way to describe visual characteristics in text prompts. Recent text-to-image models (t2i models) can produce visually compelling outputs from simile prompts, yet even frontier mod…"
+    "title": "M$^3$R-Bench: A Unified Benchmark for Evidence-Grounded Multimodal Metaphor Understanding",
+    "url": "https://arxiv.org/abs/2608.05817v1",
+    "date": "2026-08-06",
+    "summary": "Metaphor enables the understanding of abstract concepts through cross-domain mappings while conveying affective attitudes. In multimodal scenarios, visual and textual information jointly construct Target--Source mappings…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Caching for the Future: Scrub Jay Episodic Memory Principles for Agent Memory Systems",
-    "url": "https://arxiv.org/abs/2608.04746v1",
-    "date": "2026-08-05",
-    "summary": "LLM agents that persist across sessions accumulate stored memories whose validity varies enormously by content type, yet existing memory architectures treat all memories as equally persistent and systematically contamina…"
+    "title": "When Self-Evolution Backfires: Pre-Commit Gating against Skill Contamination in LLM Agents",
+    "url": "https://arxiv.org/abs/2608.05810v1",
+    "date": "2026-08-06",
+    "summary": "Self-evolving agents accumulate capability by distilling reusable skills from their execution trajectories, but we find this process is not monotonic: past a critical pool size, newly added skills degrade performance ins…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "EmpaAva: An Open-source Agentic 3D-Avatar Empathetic Live Chatbot",
-    "url": "https://arxiv.org/abs/2608.04709v1",
-    "date": "2026-08-05",
-    "summary": "This paper presents EmpaAva, to our knowledge the first open-source, agentic 3D-avatar empathetic chatbot, which carries empathetic response generation (ERG) from text-only exchanges into live, face-to-face interaction.…"
+    "title": "Hierarchical Latent Prediction for Language Models",
+    "url": "https://arxiv.org/abs/2608.05806v1",
+    "date": "2026-08-06",
+    "summary": "While standard Next-Token Prediction (NTP) lays the foundation of language model pre- training, its teacher-forced training paradigm may not be optimal for long-horizon reasoning and planning. Recent works such as Multi-…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "IslamicTurathBench: A Multi-Task, Multi-Discipline Benchmark for Evaluating Large Language Models on the Islamic Scholarly Tradition (turath)",
-    "url": "https://arxiv.org/abs/2608.04703v1",
-    "date": "2026-08-05",
-    "summary": "Large language models (LLMs) are increasingly used for question answering, education, and research, including in religious and cultural domains where answers depend on specialised source traditions. Yet in Islamic Studie…"
+    "title": "On-Policy Delta Distillation for Multilingual Math Reasoning",
+    "url": "https://arxiv.org/abs/2608.05802v1",
+    "date": "2026-08-06",
+    "summary": "On-Policy Distillation (OPD) is emerging as a promising alternative to reinforcement learning for LLM post-training, yet its effectiveness in multilingual settings remains underexplored. We study OPD and its advanced var…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Kathleen Writes: Autoregressive Generation and Data Scaling Without Attention",
-    "url": "https://arxiv.org/abs/2608.04678v1",
-    "date": "2026-08-05",
-    "summary": "Papers 1-2 of the Kathleen series showed that a byte-level, attention-free architecture built from a wavetable encoder and multi-scale reverberant state can match strong baselines on classification at ~450-700K parameter…"
+    "title": "Predicting Task Difficulty Without Rollouts",
+    "url": "https://arxiv.org/abs/2608.05797v1",
+    "date": "2026-08-06",
+    "summary": "Task difficulty dictates an agent's likelihood of success, and estimating it without rollouts means forecasting this directly from a task description before executing costly simulations in stateful environments. Reliable…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Easy to Complete, Hard to Choose: Investigating LLM Performance on the ProverbIT Benchmark",
-    "url": "https://arxiv.org/abs/2608.04670v1",
-    "date": "2026-08-05",
-    "summary": "Large Language Models (LLMs) have transformed computational linguistics and achieved remarkable performance across numerous natural language processing tasks, yet significant gaps persist in understanding how these syste…"
+    "title": "Task-Conditional Flow Matching for Balanced Multilingual Text Embedding Adaptation",
+    "url": "https://arxiv.org/abs/2608.05785v1",
+    "date": "2026-08-06",
+    "summary": "Multilingual text embedding models are commonly adapted using a single training objective across diverse tasks, despite different tasks requiring fundamentally different optimization strategies. We introduce Task-Conditi…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Evaluating Theory of Mind in Reasoning Models: Robustness over Reasoning",
-    "url": "https://arxiv.org/abs/2608.04646v1",
-    "date": "2026-08-05",
-    "summary": "Large language models (LLMs) have recently shown strong performance on Theory of Mind (ToM) tests, prompting debate about the nature and validity of the underlying capabilities. At the same time, reasoning-oriented LLMs…"
+    "title": "GROM: Gradient-Free Rapid One-Shot Machine Unlearning",
+    "url": "https://arxiv.org/abs/2608.05783v1",
+    "date": "2026-08-06",
+    "summary": "Machine unlearning has become a critical capability for safely removing specific, sensitive knowledge from large language models (LLMs). Current state-of-the-art approaches primarily rely on iterative, training-time unle…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "AI Literacy for Legal Translation: Developing Digital Resilience",
-    "url": "https://arxiv.org/abs/2608.04641v1",
-    "date": "2026-08-05",
-    "summary": "Generative AI is transforming legal translation by introducing opportunities alongside linguistic, technical, legal, ethical and cognitive risks. This chapter examines the implications of AI for professional legal transl…"
+    "title": "How to Recognize New Words: A Comparison Between Context Biasing Methods and Speech LLMs",
+    "url": "https://arxiv.org/abs/2608.05759v1",
+    "date": "2026-08-06",
+    "summary": "Recognizing new and rare words - named entities, acronyms, domain specific special words, and other items scarce in training data - remains a key challenge for automatic speech recognition (ASR). We compare two strategie…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "When Absence Is Evidence: Evaluating Completeness-Sensitive Negative Reasoning in Large Language Models",
-    "url": "https://arxiv.org/abs/2608.04591v1",
-    "date": "2026-08-05",
-    "summary": "Large language models (LLMs) are often asked whether something is absent from a record, list, or retrieved context. Yet non-observation licenses a negative answer only when evidence completely covers the query scope; oth…"
+    "title": "Once a Response, Always a Response: Detecting LLM-generated Text via Latent Prompt Restoration",
+    "url": "https://arxiv.org/abs/2608.05741v1",
+    "date": "2026-08-06",
+    "summary": "Large language models (LLMs) can generate fluent and convincing text at scale, creating growing risks for misinformation dissemination, educational misuse, and platform governance. These concerns make robust detection of…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "EASy: Towards Efficient LLM-Based Agentic System",
-    "url": "https://arxiv.org/abs/2608.04588v1",
-    "date": "2026-08-05",
-    "summary": "Agentic systems have emerged as a promising paradigm for solving complex tasks by coordinating specialized LLM-based agents. However, most existing systems primarily optimize task success while giving limited considerati…"
+    "title": "Unified Agent: Managing Interactions across Devices",
+    "url": "https://arxiv.org/abs/2608.05729v1",
+    "date": "2026-08-06",
+    "summary": "As capabilities rapidly increase, AI agents can move from running inside one app to acting across a user's devices over time. Yet existing agent systems still fall short in this scenario. This is because observations are…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Breaking the Curse ofMultilinguality inMany-to-Many Speech-to-Text Translation via a Resource-AwareMixture of Speech Encoders",
-    "url": "https://arxiv.org/abs/2608.04586v1",
-    "date": "2026-08-05",
-    "summary": "Multimodal large language models (MLLMs) have achieved significant success in speech-to-text translation (S2TT). However, when processing multilingual speech inputs, a single speech encoder shared across all languages su…"
+    "title": "Mitigating Scoring Bias in LLM-as-a-Judge via Random Number Generation",
+    "url": "https://arxiv.org/abs/2608.05726v1",
+    "date": "2026-08-06",
+    "summary": "Large Language Models (LLMs) are often used as evaluators of text quality, known as LLM-as-a-Judge, which can outperform conventional automatic evaluation metrics that rely on reference texts. However, LLM evaluators ten…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Causal Evidence Extraction and Triangulation in Crisis Reports using Large Language Models: A ReliefWeb-based Study",
-    "url": "https://arxiv.org/abs/2608.04576v1",
-    "date": "2026-08-05",
-    "summary": "Humanitarian reports are long, noisy, and multi-topic, making it difficult to consolidate decision-relevant causal evidence. We present a ReliefWeb study (2000-2024) and a two-stage Large Language Model (LLM) pipeline th…"
+    "title": "Sparse Mutual Information Graph Averaging for Improving Random Indexing Embeddings",
+    "url": "https://arxiv.org/abs/2608.05724v1",
+    "date": "2026-08-06",
+    "summary": "Sparse word embedding pipelines can avoid dense co-occurrence matrix materialization, dense factorization, and gradient training while still relying on sparse global corpus statistics. This paper studies Random Indexing…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "When Memory Lies: An Empirical Study of Spatial Memory Staleness in VLM Agents",
-    "url": "https://arxiv.org/abs/2608.04574v1",
-    "date": "2026-08-05",
-    "summary": "Memory-augmented VLM agents act on persistent spatial knowledge, yet that knowledge silently goes stale as the environment changes. We ask what happens when an agent must reconcile a confident memory claim with a contrad…"
+    "title": "DreamGuard: Efficient Runtime Guardrail for LLM Agents via Risk-Aware World Model",
+    "url": "https://arxiv.org/abs/2608.05695v1",
+    "date": "2026-08-06",
+    "summary": "As large language model (LLM) agents increasingly invoke external tools and interact with real-world systems, unsafe actions may cause irreversible consequences on external states, user data, and downstream services. Rec…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "The Personalization Mirage: How LLMs Fabricate User Profiles, and Why Self-Monitoring Misleads",
-    "url": "https://arxiv.org/abs/2608.04570v1",
-    "date": "2026-08-05",
-    "summary": "Personalized LLMs with persistent memory are increasingly deployed, yet the faithfulness of their user models remains unexamined. We study over-inference (OI): the phenomenon where LLMs fabricate user attributes beyond w…"
+    "title": "Answer First, Reason Later: Commitment Order in Diffusion LLMs",
+    "url": "https://arxiv.org/abs/2608.05687v1",
+    "date": "2026-08-06",
+    "summary": "Masked diffusion language models (dLLMs) can commit tokens in any order -- a freedom marketed as their core advantage over autoregressive decoding. We show that on reasoning tasks this freedom is instead the axis of fail…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "Relevant but Incomplete: Referential Dangling as a Paradigm-Level Failure Mode in Hard Prompt Compression",
-    "url": "https://arxiv.org/abs/2608.04569v1",
-    "date": "2026-08-05",
-    "summary": "Hard prompt compression reduces long-context inference cost by independently scoring tokens, sentences, or chunks and retaining the highest-scoring units under a budget. We identify a structural failure in this procedure…"
+    "title": "Reasoning Errors Have a Region and a Direction in the Residual-Stream Trajectory of LLMs",
+    "url": "https://arxiv.org/abs/2608.05660v1",
+    "date": "2026-08-06",
+    "summary": "As language models are increasingly used for tasks that require verifiable reasoning, reliably distinguishing sound reasoning from flawed reasoning has become an important practical problem. Recent trajectory-based metho…"
   },
   {
     "company": "arXiv · NLP",
     "companySlug": "arxiv-nlp",
-    "title": "STRIVE: Probing Reasoning Limits in Graded Plausibility Generation and Evaluation",
-    "url": "https://arxiv.org/abs/2608.04567v1",
-    "date": "2026-08-05",
-    "summary": "Event knowledge concerns who does what to whom. Psycholinguists use event-plausibility judgments to examine how this knowledge supports human language processing. To isolate plausibility effects, these studies require co…"
+    "title": "Relay, Don't Route: Adaptive Population Handoff for Cost-Efficient LLM-Driven Evolution",
+    "url": "https://arxiv.org/abs/2608.05651v1",
+    "date": "2026-08-06",
+    "summary": "Large language model (LLM)-driven evolution has shown promise for program search and algorithm discovery, but relying on strong models throughout long evolutionary runs is costly. A natural alternative is to combine chea…"
   }
 ]
