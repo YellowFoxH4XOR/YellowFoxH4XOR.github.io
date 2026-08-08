@@ -2,6 +2,38 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
+    "title": "Unveiling good and bad behaviors on the Agentic Internet",
+    "url": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/",
+    "date": "2026-08-07",
+    "summary": "Cloudflare is shifting bot mitigation from point-in-time Risk assessment to continuous Trust evaluation. Learn how new good and bad behaviors from bots and agents are assessed by our systems, including BotBase and Precur…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
+    "url": "https://blog.cloudflare.com/introducing-radar-researcher/",
+    "date": "2026-08-07",
+    "summary": "Cloudflare Radar Researcher is a new AI-powered tool that lets you explore global Internet trends and traffic data using plain language. Built entirely on Cloudflare's Developer Platform, it turns natural language querie…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding",
+    "url": "https://blog.cloudflare.com/community-program-refresh/",
+    "date": "2026-08-07",
+    "summary": "We are launching updated community programs, including Cloudflare Ambassadors and Community Engineers, backed by $1M in open-source funding. Learn how we are supporting maintainers and scaling our developer community."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Unifying Workers AI and AI Gateway into a single AI control plane",
+    "url": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
+    "date": "2026-08-07",
+    "summary": "Cloudflare is unifying AI Gateway and Workers AI into a single control plane, giving developers observability, billing, and dynamic routing across both managed GPUs and external providers. Learn how unified bindings and…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
     "title": "Cloudflare AI Search: give your agents a search engine for your data",
     "url": "https://blog.cloudflare.com/ai-search-easier/",
     "date": "2026-08-06",
@@ -98,6 +130,30 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
+    "title": "How we built a software factory to drive Astro’s GitHub issue count to zero",
+    "url": "https://blog.cloudflare.com/astro-issue-triage/",
+    "date": "2026-08-04",
+    "summary": "By replacing manual issue verification with isolated AI subagents running in GitHub Actions, the Astro maintainers reduced open issue count by 85%. This post explores the architecture behind automated bug reproduction, p…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Your agent can now debug Workers with local tracing",
+    "url": "https://blog.cloudflare.com/local-tracing/",
+    "date": "2026-08-04",
+    "summary": "wrangler dev now produces structured traces for every local request. Your coding agent can hit a single API to pinpoint exactly what failed and why — no deployment required."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Introducing: Cloudflare Agents",
+    "url": "https://blog.cloudflare.com/agents-on-cloudflare/",
+    "date": "2026-08-04",
+    "summary": "Cloudflare Agents brings all of your deployed agent sessions into a single experience, surfacing key information and insights into how your agents perform at scale."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
     "title": "The Agent Development Lifecycle has arrived on Cloudflare",
     "url": "https://blog.cloudflare.com/agent-development-lifecycle/",
     "date": "2026-08-04",
@@ -130,50 +186,10 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Introducing: Cloudflare Agents",
-    "url": "https://blog.cloudflare.com/agents-on-cloudflare/",
-    "date": "2026-08-04",
-    "summary": "Cloudflare Agents brings all of your deployed agent sessions into a single experience, surfacing key information and insights into how your agents perform at scale."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Your agent can now debug Workers with local tracing",
-    "url": "https://blog.cloudflare.com/local-tracing/",
-    "date": "2026-08-04",
-    "summary": "wrangler dev now produces structured traces for every local request. Your coding agent can hit a single API to pinpoint exactly what failed and why — no deployment required."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "How we built a software factory to drive Astro’s GitHub issue count to zero",
-    "url": "https://blog.cloudflare.com/astro-issue-triage/",
-    "date": "2026-08-04",
-    "summary": "By replacing manual issue verification with isolated AI subagents running in GitHub Actions, the Astro maintainers reduced open issue count by 85%. This post explores the architecture behind automated bug reproduction, p…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Workers RPC now works across Python and JavaScript",
-    "url": "https://blog.cloudflare.com/python-workers-rpc/",
+    "title": "Your agent needs a computer, not a container — introducing @cloudflare/computer",
+    "url": "https://blog.cloudflare.com/cloudflare-computer/",
     "date": "2026-08-03",
-    "summary": "One coding agent can write a Python Worker and another can write a JavaScript Worker. At runtime, those Workers can exchange references to live objects and call their methods without defining APIs, schemas, or serializat…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Smaller, faster, safer: running Kimi and GLM at scale",
-    "url": "https://blog.cloudflare.com/smaller-faster-safer-models/",
-    "date": "2026-08-03",
-    "summary": "Serving frontier models like Kimi and GLM means fighting for GPU memory. Here's how we quantize KV caches, compress model weights, and add integrity checks to serve them faster, cheaper, and safely."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Introducing the Billable Usage API: programmatic cost visibility for Cloudflare",
-    "url": "https://blog.cloudflare.com/billable-usage-api/",
-    "date": "2026-08-03",
-    "summary": "Cloudflare has launched a new Billable Usage API for accounts, giving developers and FinOps teams single-endpoint programmatic visibility into cost and usage across all self-serve products. Built around the FOCUS specifi…"
+    "summary": "Agents need more than just a container to scale. We're introducing @cloudflare/computer, an agent runtime that dynamically orchestrates between fast, efficient isolates and full Linux containers to give every agent a com…"
   },
   {
     "company": "Cloudflare",
@@ -186,10 +202,26 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Your agent needs a computer, not a container — introducing @cloudflare/computer",
-    "url": "https://blog.cloudflare.com/cloudflare-computer/",
+    "title": "Introducing the Billable Usage API: programmatic cost visibility for Cloudflare",
+    "url": "https://blog.cloudflare.com/billable-usage-api/",
     "date": "2026-08-03",
-    "summary": "Agents need more than just a container to scale. We're introducing @cloudflare/computer, an agent runtime that dynamically orchestrates between fast, efficient isolates and full Linux containers to give every agent a com…"
+    "summary": "Cloudflare has launched a new Billable Usage API for accounts, giving developers and FinOps teams single-endpoint programmatic visibility into cost and usage across all self-serve products. Built around the FOCUS specifi…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Smaller, faster, safer: running Kimi and GLM at scale",
+    "url": "https://blog.cloudflare.com/smaller-faster-safer-models/",
+    "date": "2026-08-03",
+    "summary": "Serving frontier models like Kimi and GLM means fighting for GPU memory. Here's how we quantize KV caches, compress model weights, and add integrity checks to serve them faster, cheaper, and safely."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Workers RPC now works across Python and JavaScript",
+    "url": "https://blog.cloudflare.com/python-workers-rpc/",
+    "date": "2026-08-03",
+    "summary": "One coding agent can write a Python Worker and another can write a JavaScript Worker. At runtime, those Workers can exchange references to live objects and call their methods without defining APIs, schemas, or serializat…"
   },
   {
     "company": "Cloudflare",
@@ -338,26 +370,10 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Your site, your rules: new AI traffic options for all customers",
-    "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+    "title": "Making AI search smarter",
+    "url": "https://blog.cloudflare.com/making-ai-search-smarter/",
     "date": "2026-07-01",
-    "summary": "For our second Content Independence Day, we’re giving website owners finer options to manage AI traffic. Instead of a one-size-fits-all block, all customers can now easily distinguish and manage Search, Agent, and Traini…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402",
-    "url": "https://blog.cloudflare.com/monetization-gateway/",
-    "date": "2026-07-01",
-    "summary": "We're opening the waitlist for our Monetization Gateway, which will allow you to charge for any web page, dataset, API, or MCP tool behind Cloudflare. The charges will settle in stablecoins over the x402 open protocol, w…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Content Independence Day, one year on: building the business model for the agentic Internet",
-    "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
-    "date": "2026-07-01",
-    "summary": "One year after declaring Content Independence Day, a dynamic market for monetized content has officially emerged. In this report, we examine how the rise of autonomous AI agents is upending traditional search referrals a…"
+    "summary": "Search is how we find nearly everything on the web — creators, merchants, answers. AI is rewriting the rules, leaving creators caught between staying discoverable in an agentic era and getting paid for their work. Today…"
   },
   {
     "company": "Cloudflare",
@@ -370,33 +386,17 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Making AI search smarter",
-    "url": "https://blog.cloudflare.com/making-ai-search-smarter/",
+    "title": "Content Independence Day, one year on: building the business model for the agentic Internet",
+    "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
     "date": "2026-07-01",
-    "summary": "Search is how we find nearly everything on the web — creators, merchants, answers. AI is rewriting the rules, leaving creators caught between staying discoverable in an agentic era and getting paid for their work. Today…"
+    "summary": "One year after declaring Content Independence Day, a dynamic market for monetized content has officially emerged. In this report, we examine how the rise of autonomous AI agents is upending traditional search referrals a…"
   },
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "How we built saga rollbacks for Cloudflare Workflows",
-    "url": "https://blog.cloudflare.com/rollbacks-for-workflows/",
-    "date": "2026-06-25",
-    "summary": "Cloudflare Workflows, our durable execution engine for multi-step applications, now supports saga-style rollbacks, allowing developers to specify a compensating action for each step.do()."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Unlocking the Cloudflare app ecosystem with OAuth for all",
-    "url": "https://blog.cloudflare.com/oauth-for-all/",
-    "date": "2026-06-24",
-    "summary": "Self-Managed OAuth is now available to all developers on Cloudflare. Here's how we executed a zero-downtime migration of our core OAuth engine to make it happen."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "The White House's post-quantum executive order is an important milestone. It’s time to get to work",
-    "url": "https://blog.cloudflare.com/post-quantum-eo-2026/",
-    "date": "2026-06-23",
-    "summary": "The new executive order sets a 2030 migration deadline and establishes a powerful foundation for post-quantum resilience. We look at what it gets right, where it can go further, and our migration playbook for government…"
+    "title": "Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402",
+    "url": "https://blog.cloudflare.com/monetization-gateway/",
+    "date": "2026-07-01",
+    "summary": "We're opening the waitlist for our Monetization Gateway, which will allow you to charge for any web page, dataset, API, or MCP tool behind Cloudflare. The charges will settle in stablecoins over the x402 open protocol, w…"
   }
 ]
