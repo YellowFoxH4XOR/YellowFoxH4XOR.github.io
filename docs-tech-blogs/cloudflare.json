@@ -130,10 +130,10 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Introducing: Cloudflare Agents",
-    "url": "https://blog.cloudflare.com/agents-on-cloudflare/",
+    "title": "How we built a software factory to drive Astro’s GitHub issue count to zero",
+    "url": "https://blog.cloudflare.com/astro-issue-triage/",
     "date": "2026-08-04",
-    "summary": "Cloudflare Agents brings all of your deployed agent sessions into a single experience, surfacing key information and insights into how your agents perform at scale."
+    "summary": "By replacing manual issue verification with isolated AI subagents running in GitHub Actions, the Astro maintainers reduced open issue count by 85%. This post explores the architecture behind automated bug reproduction, p…"
   },
   {
     "company": "Cloudflare",
@@ -146,10 +146,10 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "How we built a software factory to drive Astro’s GitHub issue count to zero",
-    "url": "https://blog.cloudflare.com/astro-issue-triage/",
+    "title": "Introducing: Cloudflare Agents",
+    "url": "https://blog.cloudflare.com/agents-on-cloudflare/",
     "date": "2026-08-04",
-    "summary": "By replacing manual issue verification with isolated AI subagents running in GitHub Actions, the Astro maintainers reduced open issue count by 85%. This post explores the architecture behind automated bug reproduction, p…"
+    "summary": "Cloudflare Agents brings all of your deployed agent sessions into a single experience, surfacing key information and insights into how your agents perform at scale."
   },
   {
     "company": "Cloudflare",
@@ -186,26 +186,10 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Workers RPC now works across Python and JavaScript",
-    "url": "https://blog.cloudflare.com/python-workers-rpc/",
+    "title": "Your agent needs a computer, not a container — introducing @cloudflare/computer",
+    "url": "https://blog.cloudflare.com/cloudflare-computer/",
     "date": "2026-08-03",
-    "summary": "One coding agent can write a Python Worker and another can write a JavaScript Worker. At runtime, those Workers can exchange references to live objects and call their methods without defining APIs, schemas, or serializat…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Smaller, faster, safer: running Kimi and GLM at scale",
-    "url": "https://blog.cloudflare.com/smaller-faster-safer-models/",
-    "date": "2026-08-03",
-    "summary": "Serving frontier models like Kimi and GLM means fighting for GPU memory. Here's how we quantize KV caches, compress model weights, and add integrity checks to serve them faster, cheaper, and safely."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Introducing the Billable Usage API: programmatic cost visibility for Cloudflare",
-    "url": "https://blog.cloudflare.com/billable-usage-api/",
-    "date": "2026-08-03",
-    "summary": "Cloudflare has launched a new Billable Usage API for accounts, giving developers and FinOps teams single-endpoint programmatic visibility into cost and usage across all self-serve products. Built around the FOCUS specifi…"
+    "summary": "Agents need more than just a container to scale. We're introducing @cloudflare/computer, an agent runtime that dynamically orchestrates between fast, efficient isolates and full Linux containers to give every agent a com…"
   },
   {
     "company": "Cloudflare",
@@ -218,10 +202,26 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Your agent needs a computer, not a container — introducing @cloudflare/computer",
-    "url": "https://blog.cloudflare.com/cloudflare-computer/",
+    "title": "Introducing the Billable Usage API: programmatic cost visibility for Cloudflare",
+    "url": "https://blog.cloudflare.com/billable-usage-api/",
     "date": "2026-08-03",
-    "summary": "Agents need more than just a container to scale. We're introducing @cloudflare/computer, an agent runtime that dynamically orchestrates between fast, efficient isolates and full Linux containers to give every agent a com…"
+    "summary": "Cloudflare has launched a new Billable Usage API for accounts, giving developers and FinOps teams single-endpoint programmatic visibility into cost and usage across all self-serve products. Built around the FOCUS specifi…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Smaller, faster, safer: running Kimi and GLM at scale",
+    "url": "https://blog.cloudflare.com/smaller-faster-safer-models/",
+    "date": "2026-08-03",
+    "summary": "Serving frontier models like Kimi and GLM means fighting for GPU memory. Here's how we quantize KV caches, compress model weights, and add integrity checks to serve them faster, cheaper, and safely."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Workers RPC now works across Python and JavaScript",
+    "url": "https://blog.cloudflare.com/python-workers-rpc/",
+    "date": "2026-08-03",
+    "summary": "One coding agent can write a Python Worker and another can write a JavaScript Worker. At runtime, those Workers can exchange references to live objects and call their methods without defining APIs, schemas, or serializat…"
   },
   {
     "company": "Cloudflare",
@@ -370,18 +370,10 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402",
-    "url": "https://blog.cloudflare.com/monetization-gateway/",
+    "title": "Making AI search smarter",
+    "url": "https://blog.cloudflare.com/making-ai-search-smarter/",
     "date": "2026-07-01",
-    "summary": "We're opening the waitlist for our Monetization Gateway, which will allow you to charge for any web page, dataset, API, or MCP tool behind Cloudflare. The charges will settle in stablecoins over the x402 open protocol, w…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Content Independence Day, one year on: building the business model for the agentic Internet",
-    "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
-    "date": "2026-07-01",
-    "summary": "One year after declaring Content Independence Day, a dynamic market for monetized content has officially emerged. In this report, we examine how the rise of autonomous AI agents is upending traditional search referrals a…"
+    "summary": "Search is how we find nearly everything on the web — creators, merchants, answers. AI is rewriting the rules, leaving creators caught between staying discoverable in an agentic era and getting paid for their work. Today…"
   },
   {
     "company": "Cloudflare",
@@ -394,9 +386,17 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Making AI search smarter",
-    "url": "https://blog.cloudflare.com/making-ai-search-smarter/",
+    "title": "Content Independence Day, one year on: building the business model for the agentic Internet",
+    "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
     "date": "2026-07-01",
-    "summary": "Search is how we find nearly everything on the web — creators, merchants, answers. AI is rewriting the rules, leaving creators caught between staying discoverable in an agentic era and getting paid for their work. Today…"
+    "summary": "One year after declaring Content Independence Day, a dynamic market for monetized content has officially emerged. In this report, we examine how the rise of autonomous AI agents is upending traditional search referrals a…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402",
+    "url": "https://blog.cloudflare.com/monetization-gateway/",
+    "date": "2026-07-01",
+    "summary": "We're opening the waitlist for our Monetization Gateway, which will allow you to charge for any web page, dataset, API, or MCP tool behind Cloudflare. The charges will settle in stablecoins over the x402 open protocol, w…"
   }
 ]
