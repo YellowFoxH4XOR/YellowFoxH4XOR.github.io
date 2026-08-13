@@ -154,34 +154,10 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Announcing Cloudflare Wallets: the programmable wallet for the agentic Internet",
-    "url": "https://blog.cloudflare.com/wallets/",
+    "title": "How Cloudflare enforces engineering standards using AI",
+    "url": "https://blog.cloudflare.com/engineering-standards-enforcement/",
     "date": "2026-08-04",
-    "summary": "Cloudflare Wallets will provide AI agents with native payments and verifiable identity on the web. Using the x402 protocol, agents can autonomously purchase APIs and content within clear safety guardrails."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "How we built a software factory to drive Astro’s GitHub issue count to zero",
-    "url": "https://blog.cloudflare.com/astro-issue-triage/",
-    "date": "2026-08-04",
-    "summary": "By replacing manual issue verification with isolated AI subagents running in GitHub Actions, the Astro maintainers reduced open issue count by 85%. This post explores the architecture behind automated bug reproduction, p…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Your agent can now debug Workers with local tracing",
-    "url": "https://blog.cloudflare.com/local-tracing/",
-    "date": "2026-08-04",
-    "summary": "wrangler dev now produces structured traces for every local request. Your coding agent can hit a single API to pinpoint exactly what failed and why — no deployment required."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Introducing: Cloudflare Agents",
-    "url": "https://blog.cloudflare.com/agents-on-cloudflare/",
-    "date": "2026-08-04",
-    "summary": "Cloudflare Agents brings all of your deployed agent sessions into a single experience, surfacing key information and insights into how your agents perform at scale."
+    "summary": "We created the Cloudflare Codex, a governed body of engineering standards that AI agents consume across the development lifecycle. By pairing structured RFCs with agentic reviews, teams automatically enforce consistency…"
   },
   {
     "company": "Cloudflare",
@@ -194,10 +170,34 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "How Cloudflare enforces engineering standards using AI",
-    "url": "https://blog.cloudflare.com/engineering-standards-enforcement/",
+    "title": "Introducing: Cloudflare Agents",
+    "url": "https://blog.cloudflare.com/agents-on-cloudflare/",
     "date": "2026-08-04",
-    "summary": "We created the Cloudflare Codex, a governed body of engineering standards that AI agents consume across the development lifecycle. By pairing structured RFCs with agentic reviews, teams automatically enforce consistency…"
+    "summary": "Cloudflare Agents brings all of your deployed agent sessions into a single experience, surfacing key information and insights into how your agents perform at scale."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Your agent can now debug Workers with local tracing",
+    "url": "https://blog.cloudflare.com/local-tracing/",
+    "date": "2026-08-04",
+    "summary": "wrangler dev now produces structured traces for every local request. Your coding agent can hit a single API to pinpoint exactly what failed and why — no deployment required."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "How we built a software factory to drive Astro’s GitHub issue count to zero",
+    "url": "https://blog.cloudflare.com/astro-issue-triage/",
+    "date": "2026-08-04",
+    "summary": "By replacing manual issue verification with isolated AI subagents running in GitHub Actions, the Astro maintainers reduced open issue count by 85%. This post explores the architecture behind automated bug reproduction, p…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Announcing Cloudflare Wallets: the programmable wallet for the agentic Internet",
+    "url": "https://blog.cloudflare.com/wallets/",
+    "date": "2026-08-04",
+    "summary": "Cloudflare Wallets will provide AI agents with native payments and verifiable identity on the web. Using the x402 protocol, agents can autonomously purchase APIs and content within clear safety guardrails."
   },
   {
     "company": "Cloudflare",
@@ -210,26 +210,10 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Your agent needs a computer, not a container — introducing @cloudflare/computer",
-    "url": "https://blog.cloudflare.com/cloudflare-computer/",
+    "title": "Workers RPC now works across Python and JavaScript",
+    "url": "https://blog.cloudflare.com/python-workers-rpc/",
     "date": "2026-08-03",
-    "summary": "Agents need more than just a container to scale. We're introducing @cloudflare/computer, an agent runtime that dynamically orchestrates between fast, efficient isolates and full Linux containers to give every agent a com…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Cloudflare Workers and Containers now support inbound TCP connections and gRPC",
-    "url": "https://blog.cloudflare.com/grpc-workers/",
-    "date": "2026-08-03",
-    "summary": "Cloudflare Workers now support inbound TCP connections via Spectrum, allowing direct socket forwarding to Durable Objects and Containers. Developers can run full-duplex gRPC applications or leverage automatic gRPC-to-gRP…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Introducing the Billable Usage API: programmatic cost visibility for Cloudflare",
-    "url": "https://blog.cloudflare.com/billable-usage-api/",
-    "date": "2026-08-03",
-    "summary": "Cloudflare has launched a new Billable Usage API for accounts, giving developers and FinOps teams single-endpoint programmatic visibility into cost and usage across all self-serve products. Built around the FOCUS specifi…"
+    "summary": "One coding agent can write a Python Worker and another can write a JavaScript Worker. At runtime, those Workers can exchange references to live objects and call their methods without defining APIs, schemas, or serializat…"
   },
   {
     "company": "Cloudflare",
@@ -242,10 +226,26 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Workers RPC now works across Python and JavaScript",
-    "url": "https://blog.cloudflare.com/python-workers-rpc/",
+    "title": "Introducing the Billable Usage API: programmatic cost visibility for Cloudflare",
+    "url": "https://blog.cloudflare.com/billable-usage-api/",
     "date": "2026-08-03",
-    "summary": "One coding agent can write a Python Worker and another can write a JavaScript Worker. At runtime, those Workers can exchange references to live objects and call their methods without defining APIs, schemas, or serializat…"
+    "summary": "Cloudflare has launched a new Billable Usage API for accounts, giving developers and FinOps teams single-endpoint programmatic visibility into cost and usage across all self-serve products. Built around the FOCUS specifi…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Cloudflare Workers and Containers now support inbound TCP connections and gRPC",
+    "url": "https://blog.cloudflare.com/grpc-workers/",
+    "date": "2026-08-03",
+    "summary": "Cloudflare Workers now support inbound TCP connections via Spectrum, allowing direct socket forwarding to Durable Objects and Containers. Developers can run full-duplex gRPC applications or leverage automatic gRPC-to-gRP…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Your agent needs a computer, not a container — introducing @cloudflare/computer",
+    "url": "https://blog.cloudflare.com/cloudflare-computer/",
+    "date": "2026-08-03",
+    "summary": "Agents need more than just a container to scale. We're introducing @cloudflare/computer, an agent runtime that dynamically orchestrates between fast, efficient isolates and full Linux containers to give every agent a com…"
   },
   {
     "company": "Cloudflare",

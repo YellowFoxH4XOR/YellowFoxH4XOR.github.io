@@ -2,6 +2,30 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
+    "title": "How GitLab tracks vulnerabilities through refactors and reformatting",
+    "url": "https://about.gitlab.com/blog/improved-scope-offset-fingerprinting/",
+    "date": "2026-08-12",
+    "summary": "Every day, security scans face the same problem: an agent or a developer adds a comment, reformats a file, or moves a function, and a naive vulnerability tracker suddenly reports the same finding twice. Security teams en…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "GitLab Patch Release: 19.2.2, 19.1.4, 19.0.6",
+    "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-2-2-released/",
+    "date": "2026-08-12",
+    "summary": ""
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "A sandbox is only as closed as what an AI agent can reach",
+    "url": "https://about.gitlab.com/blog/ai-agent-sandbox/",
+    "date": "2026-08-12",
+    "summary": "In July, OpenAI and Hugging Face responsibly disclosed an OpenAI model under internal evaluation escaped its sandbox, reached the open internet, and accessed Hugging Face’s internal production infrastructure. The agent t…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
     "title": "GitLab Secrets Manager adds ESO, Terraform, API support",
     "url": "https://about.gitlab.com/blog/gitlab-secrets-manager-add-eso-terraform-api-support/",
     "date": "2026-08-06",
@@ -138,18 +162,18 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "GitLab Patch Release: 19.1.2, 19.0.4, 18.11.7",
-    "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-1-2-released/",
-    "date": "2026-07-08",
-    "summary": ""
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
     "title": "How we used AI agents to migrate GitLab rate limiting",
     "url": "https://about.gitlab.com/blog/ai-agents-for-migrating-rate-limiting-system/",
     "date": "2026-07-08",
     "summary": "A small team at GitLab spent the past few weeks running an experiment: Could we use AI agents to migrate part of our legacy rate-limiting system without dropping the safety bar? Short answer: yes. AI agents do work. They…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "GitLab Patch Release: 19.1.2, 19.0.4, 18.11.7",
+    "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-1-2-released/",
+    "date": "2026-07-08",
+    "summary": ""
   },
   {
     "company": "GitLab",
@@ -202,10 +226,10 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "AI Catalog updates for governance and operations",
-    "url": "https://about.gitlab.com/blog/ai-catalog-updates-for-governance-and-operations/",
+    "title": "One vulnerability view: From scanner coverage to AI governance",
+    "url": "https://about.gitlab.com/blog/one-vulnerability-view/",
     "date": "2026-06-18",
-    "summary": "Enterprise AI adoption often stalls not because the technology isn t ready, but because admins can t answer the question their security team is asking: What s actually running in our environment, and who put it there? Gi…"
+    "summary": "Most enterprises use a handful of different security scanners, each configured and enforced, project by project. With no single view of what scanners run where, policies drift, blind spots go undetected, and important pr…"
   },
   {
     "company": "GitLab",
@@ -218,26 +242,10 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "One vulnerability view: From scanner coverage to AI governance",
-    "url": "https://about.gitlab.com/blog/one-vulnerability-view/",
+    "title": "AI Catalog updates for governance and operations",
+    "url": "https://about.gitlab.com/blog/ai-catalog-updates-for-governance-and-operations/",
     "date": "2026-06-18",
-    "summary": "Most enterprises use a handful of different security scanners, each configured and enforced, project by project. With no single view of what scanners run where, policies drift, blind spots go undetected, and important pr…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "GitLab and Capgemini accelerate DevSecOps transformation",
-    "url": "https://about.gitlab.com/blog/gitlab-and-capgemini-global-alliance-partnership/",
-    "date": "2026-06-17",
-    "summary": "We re excited to share that GitLab and Capgemini have signed a global alliance partnership agreement. As a GitLab Select Partner, Capgemini will leverage the GitLab portfolio for clients globally, including GitLab Duo Ag…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "GitLab named a Leader in the 2026 Gartner® Magic Quadrant™ for DevSecOps Platforms",
-    "url": "https://about.gitlab.com/blog/gitlab-leader-2026-gartner-mq-devsecops-platforms/",
-    "date": "2026-06-17",
-    "summary": "For the fourth year running, Gartner has named GitLab a Leader in the 2026 Gartner® Magic Quadrant™ for DevSecOps Platforms . We believe this recognition reflects what our customers already see: The work of building soft…"
+    "summary": "Enterprise AI adoption often stalls not because the technology isn t ready, but because admins can t answer the question their security team is asking: What s actually running in our environment, and who put it there? Gi…"
   },
   {
     "company": "GitLab",
@@ -250,34 +258,26 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
+    "title": "GitLab named a Leader in the 2026 Gartner® Magic Quadrant™ for DevSecOps Platforms",
+    "url": "https://about.gitlab.com/blog/gitlab-leader-2026-gartner-mq-devsecops-platforms/",
+    "date": "2026-06-17",
+    "summary": "For the fourth year running, Gartner has named GitLab a Leader in the 2026 Gartner® Magic Quadrant™ for DevSecOps Platforms . We believe this recognition reflects what our customers already see: The work of building soft…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "GitLab and Capgemini accelerate DevSecOps transformation",
+    "url": "https://about.gitlab.com/blog/gitlab-and-capgemini-global-alliance-partnership/",
+    "date": "2026-06-17",
+    "summary": "We re excited to share that GitLab and Capgemini have signed a global alliance partnership agreement. As a GitLab Select Partner, Capgemini will leverage the GitLab portfolio for clients globally, including GitLab Duo Ag…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
     "title": "GitLab Patch Release: 19.0.2, 18.11.5, 18.10.8",
     "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-0-2-released/",
     "date": "2026-06-11",
     "summary": ""
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "GitLab on Google Cloud: Fully managed, compliant, and AI-ready",
-    "url": "https://about.gitlab.com/blog/gitlab-expands-google-model-support/",
-    "date": "2026-06-10",
-    "summary": "You can now run GitLab as a fully managed platform on Google Cloud, delivered by GitLab-certified managed service providers (MSPs) — with the latest Google AI models built in. Through MSP partners, including Beyond and D…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "GitLab: Built for the agentic engineering era",
-    "url": "https://about.gitlab.com/blog/gitlab-transcend-announcements/",
-    "date": "2026-06-10",
-    "summary": "GitLab Transcend, our customer event showcasing our roadmap, success stories, and industry research recently wrapped. Here s what we announced and demonstrated: Next-generation source code management , a Git engine rebui…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "GitLab Flex: Commit once, reshape your seats and AI spend",
-    "url": "https://about.gitlab.com/blog/introducing-gitlab-flex/",
-    "date": "2026-06-10",
-    "summary": "The agentic era made your needs harder to predict, and the way you buy software hasn t caught up. Six months out, you don t know how many seats you ll need, how much AI your teams will consume, or which new capabilities…"
   },
   {
     "company": "GitLab",
@@ -290,10 +290,26 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Mythos-class Claude Fable 5 arrives on GitLab Duo Agent Platform",
-    "url": "https://about.gitlab.com/blog/mythos-class-claude-fable-5-on-gitlab/",
-    "date": "2026-06-09",
-    "summary": "Update - July 1, 2026: Fable 5 has been redeployed by Anthropic and is again available for customers on GitLab.com. Some routine coding and debugging tasks may temporarily route to Claude Opus 4.8 as Anthropic refines it…"
+    "title": "GitLab Flex: Commit once, reshape your seats and AI spend",
+    "url": "https://about.gitlab.com/blog/introducing-gitlab-flex/",
+    "date": "2026-06-10",
+    "summary": "The agentic era made your needs harder to predict, and the way you buy software hasn t caught up. Six months out, you don t know how many seats you ll need, how much AI your teams will consume, or which new capabilities…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "GitLab: Built for the agentic engineering era",
+    "url": "https://about.gitlab.com/blog/gitlab-transcend-announcements/",
+    "date": "2026-06-10",
+    "summary": "GitLab Transcend, our customer event showcasing our roadmap, success stories, and industry research recently wrapped. Here s what we announced and demonstrated: Next-generation source code management , a Git engine rebui…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "GitLab on Google Cloud: Fully managed, compliant, and AI-ready",
+    "url": "https://about.gitlab.com/blog/gitlab-expands-google-model-support/",
+    "date": "2026-06-10",
+    "summary": "You can now run GitLab as a fully managed platform on Google Cloud, delivered by GitLab-certified managed service providers (MSPs) — with the latest Google AI models built in. Through MSP partners, including Beyond and D…"
   },
   {
     "company": "GitLab",
@@ -306,18 +322,10 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "GitLab Patch Release: 19.0.1, 18.11.4, 18.10.7",
-    "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-0-1-released/",
-    "date": "2026-05-28",
-    "summary": ""
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "Claude Opus 4.8 on GitLab: Complex agentic work, less disruption",
-    "url": "https://about.gitlab.com/blog/claude-opus-4-8-on-gitlab/",
-    "date": "2026-05-28",
-    "summary": "Anthropic s latest model on GitLab is built for precise execution across complex multi-step agent work. Agents fail most often on complex, multi-step work: tasks that span multiple tools and go from intent to production…"
+    "title": "Mythos-class Claude Fable 5 arrives on GitLab Duo Agent Platform",
+    "url": "https://about.gitlab.com/blog/mythos-class-claude-fable-5-on-gitlab/",
+    "date": "2026-06-09",
+    "summary": "Update - July 1, 2026: Fable 5 has been redeployed by Anthropic and is again available for customers on GitLab.com. Some routine coding and debugging tasks may temporarily route to Claude Opus 4.8 as Anthropic refines it…"
   },
   {
     "company": "GitLab",
@@ -330,10 +338,18 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Full security scanner coverage of your codebase in minutes",
-    "url": "https://about.gitlab.com/blog/security-configuration-profiles/",
-    "date": "2026-05-26",
-    "summary": "Across the industry, every CI/CD platform faces the same challenge: As organizations grow, manually configuring scanners to run across every pipeline definition file isn t scalable. AI is accelerating how fast teams ship…"
+    "title": "Claude Opus 4.8 on GitLab: Complex agentic work, less disruption",
+    "url": "https://about.gitlab.com/blog/claude-opus-4-8-on-gitlab/",
+    "date": "2026-05-28",
+    "summary": "Anthropic s latest model on GitLab is built for precise execution across complex multi-step agent work. Agents fail most often on complex, multi-step work: tasks that span multiple tools and go from intent to production…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "GitLab Patch Release: 19.0.1, 18.11.4, 18.10.7",
+    "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-0-1-released/",
+    "date": "2026-05-28",
+    "summary": ""
   },
   {
     "company": "GitLab",
@@ -346,34 +362,10 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Track CI component usage across your organization",
-    "url": "https://about.gitlab.com/blog/track-ci-component-usage/",
-    "date": "2026-05-21",
-    "summary": "If your platform team publishes standardized pipeline components, you ve probably encountered this: once they re out in the wild, you lose visibility. You can t see if anyone’s actually using it, who s on which version,…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "GitLab 19.0 released",
-    "url": "https://docs.gitlab.com/releases/19/gitlab-19-0-released/",
-    "date": "2026-05-21",
-    "summary": ""
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "More AI models for GitLab Duo Agent Platform Self-Hosted",
-    "url": "https://about.gitlab.com/blog/more-ai-models-for-duo-agent-platform-self-hosted/",
-    "date": "2026-05-21",
-    "summary": "Customers running GitLab Duo Agent Platform Self-Hosted operate under constraints many software teams don t face: data residency mandates, air-gapped networks, and compliance regulations that prohibit sending source code…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "Manage CI/CD credentials with GitLab Secrets Manager",
-    "url": "https://about.gitlab.com/blog/secrets-manager-in-public-beta/",
-    "date": "2026-05-21",
-    "summary": "Many credential leaks start with a developer who needs a credential, doesn’t have a good place to put it, and improvises. It lands in an over-scoped CI/CD variable, a config file, or a .env committed “just for a moment.”…"
+    "title": "Full security scanner coverage of your codebase in minutes",
+    "url": "https://about.gitlab.com/blog/security-configuration-profiles/",
+    "date": "2026-05-26",
+    "summary": "Across the industry, every CI/CD platform faces the same challenge: As organizations grow, manually configuring scanners to run across every pipeline definition file isn t scalable. AI is accelerating how fast teams ship…"
   },
   {
     "company": "GitLab",
@@ -386,17 +378,25 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Beyond BYOK: Why governance matters for AI agents",
-    "url": "https://about.gitlab.com/blog/gitlab-duo-cli-governance/",
-    "date": "2026-05-18",
-    "summary": "GitHub recently announced that Copilot CLI now supports bring-your-own-key (BYOK) and locally running models. Developers can route CLI requests through their own model provider or run a local model entirely offline. But…"
+    "title": "Manage CI/CD credentials with GitLab Secrets Manager",
+    "url": "https://about.gitlab.com/blog/secrets-manager-in-public-beta/",
+    "date": "2026-05-21",
+    "summary": "Many credential leaks start with a developer who needs a credential, doesn’t have a good place to put it, and improvises. It lands in an over-scoped CI/CD variable, a config file, or a .env committed “just for a moment.”…"
   },
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Codex and GitLab: From code fix to production",
-    "url": "https://about.gitlab.com/blog/fix-bugs-with-codex-and-gitlab/",
-    "date": "2026-05-18",
-    "summary": "Codex, a coding agent, is a lot of fun when you are deep in the terminal. Point it at a repository, give it a focused task, and it gets to work fast. It reads the code, proposes a fix, runs commands, and helps you move f…"
+    "title": "More AI models for GitLab Duo Agent Platform Self-Hosted",
+    "url": "https://about.gitlab.com/blog/more-ai-models-for-duo-agent-platform-self-hosted/",
+    "date": "2026-05-21",
+    "summary": "Customers running GitLab Duo Agent Platform Self-Hosted operate under constraints many software teams don t face: data residency mandates, air-gapped networks, and compliance regulations that prohibit sending source code…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "GitLab 19.0 released",
+    "url": "https://docs.gitlab.com/releases/19/gitlab-19-0-released/",
+    "date": "2026-05-21",
+    "summary": ""
   }
 ]
