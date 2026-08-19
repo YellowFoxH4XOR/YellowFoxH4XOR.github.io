@@ -2,6 +2,22 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
+    "title": "How AI Coding Agents Can Unlock Materials Simulation with NVIDIA ALCHEMI Toolkit",
+    "url": "https://developer.nvidia.com/blog/how-ai-coding-agents-can-unlock-materials-simulation-with-nvidia-alchemi-toolkit/",
+    "date": "2026-08-18",
+    "summary": "Atomistic simulation requires three things: knowledge of the science, compute-efficient implementation of simulations, and accessible interfaces to the..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "Run Massive-Scale UMAP in Minutes Using Multiple GPUs—Without Losing Accuracy",
+    "url": "https://developer.nvidia.com/blog/run-massive-scale-umap-in-minutes-using-multiple-gpus-without-losing-accuracy/",
+    "date": "2026-08-18",
+    "summary": "Uniform Manifold Approximation and Projection (UMAP) is a dimensionality reduction technique widely used for visualization and feature extraction. Applications..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
     "title": "Developing Nemotron 3.5 Lightning NVFP4 with QAD Using NVIDIA Model Optimizer",
     "url": "https://developer.nvidia.com/blog/developing-nemotron-3-5-lightning-nvfp4-with-qad-using-nvidia-model-optimizer/",
     "date": "2026-08-17",
@@ -74,18 +90,18 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "How to Run Isolated Tenant Kubernetes Clusters on Shared GPU Infrastructure",
-    "url": "https://developer.nvidia.com/blog/how-to-run-isolated-tenant-kubernetes-clusters-on-shared-gpu-infrastructure/",
-    "date": "2026-08-03",
-    "summary": "Running a dedicated Kubernetes cluster per team often results in more isolation than an organization requires. While one cluster can be successfully shared..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
     "title": "NVIDIA Vera Storage Benchmarks: Faster Encryption, Compression, Integrity Checking, and Recovery for AI-Native Storage",
     "url": "https://developer.nvidia.com/blog/nvidia-vera-storage-benchmarks-faster-encryption-compression-integrity-checking-and-recovery-for-ai-native-storage/",
     "date": "2026-08-03",
     "summary": "Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data,..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "How to Run Isolated Tenant Kubernetes Clusters on Shared GPU Infrastructure",
+    "url": "https://developer.nvidia.com/blog/how-to-run-isolated-tenant-kubernetes-clusters-on-shared-gpu-infrastructure/",
+    "date": "2026-08-03",
+    "summary": "Running a dedicated Kubernetes cluster per team often results in more isolation than an organization requires. While one cluster can be successfully shared..."
   },
   {
     "company": "NVIDIA",
@@ -382,21 +398,5 @@
     "url": "https://developer.nvidia.com/blog/synthetic-data-generation-for-financial-ai-research-with-nvidia-nemo/",
     "date": "2026-07-09",
     "summary": "Fine-tuning LLMs for financial natural language processing (NLP) is constrained by limited, imbalanced data. Real-world financial news overrepresents earnings..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "A Practical Guide to GPU-Initiated Communication for Molecular Dynamics at Scale",
-    "url": "https://developer.nvidia.com/blog/a-practical-guide-to-gpu-initiated-communication-for-molecular-dynamics-at-scale/",
-    "date": "2026-07-09",
-    "summary": "Molecular dynamics (MD) simulations are among the most demanding workloads in computational science. Using them, researchers can observe atomic behavior in..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance",
-    "url": "https://developer.nvidia.com/blog/create-a-langchain-deep-agents-harness-profile-for-nvidia-nemotron-3-ultra-to-improve-performance/",
-    "date": "2026-07-08",
-    "summary": "Agentic systems often face a trade-off between accuracy and cost. The highest-performing proprietary frontier models and harnesses provide top accuracy but are..."
   }
 ]
