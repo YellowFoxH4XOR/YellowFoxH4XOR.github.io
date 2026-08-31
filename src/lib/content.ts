@@ -2,7 +2,7 @@
 // stay presentational. Resume content mirrors akshat_katiyar_resume.pdf.
 
 export const summary =
-  "Senior Backend Engineer with 7+ years shipping production Python and Go services, REST APIs, and PostgreSQL-backed platforms end to end. Builds GenAI products (RAG, LLM agents, OpenAI, LiteLLM/Portkey routing, Qdrant) and uses Claude daily to accelerate delivery while maintaining code-review discipline. Proven in global, regulated environments (banking, observability) with strong DevOps and full-stack (Angular) delivery.";
+  "Senior platform engineer with 7+ years building developer infrastructure, automation, and distributed backend systems in Python and Go. Built CBA's internal AI development platform \u2014 coding-agent workspaces, MCP integrations, an LLM compatibility gateway, and evaluation telemetry \u2014 adopted by 200+ engineers.";
 
 export type Job = {
   title: string;
@@ -16,38 +16,38 @@ export type Job = {
 export const experience: Job[] = [
   {
     title: "Senior Software Engineer",
-    company: "CBA India (Commonwealth Bank)",
+    company: "Commonwealth Bank of Australia (CBA India)",
     location: "Bengaluru",
-    period: "May 2023 – Present",
+    period: "May 2023 \u2013 Present",
     highlights: [
-      "Prototyped a GenAI network chatbot with LiteLLM multi-model routing and Portkey observability, cutting domain Q&A resolution time by 30% for network operations.",
-      "Built and published 'cbapysnow', a reusable Python package for ServiceNow integration that reduced script development time by 25% across teams.",
-      "Led backend architecture and API design in Python and Go for business-critical platforms; shipped features through code review, testing, and release cycles.",
-      "Delivered an F5 automation POC (FastAPI, Airflow, AWS) end to end, demonstrating a 40% reduction in manual operational tasks.",
-      "Shipped F5Portal (Python backend, JavaScript UI) end to end, reducing operational data retrieval time by 30%.",
+      "Built and own CBA's internal AI developer platform, combining Claude Code, Codex and Pi with task routing, LLM gateway routing and automated code review; adopted by 200+ engineers and earned 140 internal GitHub stars.",
+      "Built a FastMCP server exposing F5 load-balancer configuration to coding agents through four tools \u2014 read, write, search and validate \u2014 so engineers change and verify config without leaving their development environment.",
+      "Built a Node.js/LiteLLM compatibility gateway normalizing agent payloads across AWS Bedrock endpoints, isolating 200+ engineers from provider-specific API changes.",
+      "Instrumented agent traffic with Langfuse and HoneyHive to track adoption, evaluation quality, cost and DORA metrics across teams on the platform.",
+      "Built a secure self-service deployment platform using Ping OIDC, Vault, Terraform, Ansible, GitHub Actions and Artifactory.",
+      "Built network-operations automation \u2014 a stateful LangGraph diagnostic agent plus Python/Go F5 services with cross-site PostgreSQL replication, Airflow orchestration and deployment safety gates.",
     ],
   },
   {
     title: "Software Engineer III",
     company: "AppDynamics (Cisco)",
     location: "Bengaluru",
-    period: "Nov 2022 – May 2023",
+    period: "Nov 2022 \u2013 May 2023",
     highlights: [
-      "Owned production-quality improvements on the Python Agent, shipping fixes for customer-facing observability at scale.",
-      "Built Ansible-based agent lifecycle automation (install/upgrade/rollback/uninstall) across VMs, cutting deployment time by 50%+ and improving release reliability.",
-      "Built high-throughput IPC with ZeroMQ between core services, improving data throughput by 20% for real-time monitoring pipelines.",
+      "Engineered an Ansible role for full agent lifecycle (install, upgrade, rollback, uninstall) across customer fleets of 1,000+ VMs, cloud and on-premise \u2014 cut deployment time 50%+.",
+      "Implemented OpenTelemetry instrumentation in the AppDynamics Python agent and built the ZeroMQ IPC channel carrying agent-to-controller traffic.",
     ],
   },
   {
-    title: "Software Engineering Specialist",
+    title: "Senior Software Engineer",
     company: "Societe Generale Solution Center",
     location: "Bengaluru",
-    period: "Jan 2019 – Nov 2022",
+    period: "Jan 2019 \u2013 Nov 2022",
+    team: "Promoted from Intern (Jan 2019) to Software Engineer (Apr 2019) to Senior Software Engineer (Jul 2022)",
     highlights: [
-      "Promoted to Senior Software Engineer (July 2022) for consistent delivery and technical leadership.",
-      "Built and deployed FTS Portal (Angular frontend, Flask REST APIs, PostgreSQL) end to end, used by teams across 6 global regions for ticket escalation and async handoffs.",
-      "Architected Alert Management, an ML-driven application for proactive incident detection, reducing MTTR for critical incidents by 25%.",
-      "Developed Marley Automation (Ansible-backed APIs, Jenkins CI/CD, Kibana dashboards), automating 80%+ of routine Cisco switch configuration tasks.",
+      "Architected an ML-driven network-troubleshooting platform that reduced MTTR on critical incidents.",
+      "Built a global ticket-escalation platform (Angular, Flask, PostgreSQL) used by teams across 6 regions.",
+      "Automated over 80% of Cisco, Infoblox and Netshot configuration workflows using Ansible/AWX, reducing DNS-processing time by 70%.",
     ],
   },
 ];
@@ -57,60 +57,52 @@ export type SkillGroup = { label: string; items: string[] };
 export const skillGroups: SkillGroup[] = [
   {
     label: "Languages",
+    items: ["Python", "Go", "TypeScript / JavaScript", "SQL"],
+  },
+  {
+    label: "AI & Developer Infrastructure",
     items: [
-      "Python (FastAPI, Flask, Django, asyncio)",
-      "Go",
-      "JavaScript",
-      "TypeScript",
-      "SQL",
+      "Claude Code",
+      "Codex",
+      "MCP / FastMCP",
+      "LangGraph",
+      "LiteLLM",
+      "Portkey",
+      "AWS Bedrock",
+      "Langfuse",
+      "HoneyHive",
+    ],
+  },
+  {
+    label: "Platform & Cloud",
+    items: [
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "Ansible / AWX",
+      "GitHub Actions",
+      "Jenkins",
+      "Airflow",
+      "Vault",
+      "OIDC",
+      "CI/CD",
+      "OpenTelemetry",
     ],
   },
   {
     label: "Backend & Data",
     items: [
-      "REST / gRPC APIs",
+      "FastAPI",
+      "Node.js",
+      "REST",
+      "gRPC",
       "PostgreSQL",
-      "SQLAlchemy",
       "MongoDB",
       "Redis",
-      "DynamoDB",
       "RabbitMQ",
-      "System Design",
+      "ZeroMQ",
     ],
-  },
-  {
-    label: "AI / ML",
-    items: [
-      "Claude",
-      "Cursor",
-      "OpenAI",
-      "LangChain",
-      "LiteLLM",
-      "Portkey",
-      "RAG",
-      "Prompt Engineering",
-      "FAISS",
-      "Qdrant",
-      "MCP",
-      "TensorFlow",
-      "PyTorch",
-    ],
-  },
-  {
-    label: "DevOps & Cloud",
-    items: [
-      "Docker",
-      "Kubernetes",
-      "CI/CD (Jenkins, TeamCity, GitHub Actions)",
-      "Ansible",
-      "Terraform",
-      "Airflow",
-      "AWS (Lambda, S3, RDS, SQS, EKS, SageMaker, Bedrock)",
-    ],
-  },
-  {
-    label: "Observability & Tools",
-    items: ["OpenTelemetry", "F5", "LDAP", "ZeroMQ", "Agile / Scrum"],
   },
 ];
 
@@ -121,27 +113,28 @@ export type Project = {
   impact: string;
 };
 
+// Open-source contributions and side projects, as listed on the PDF resume.
 export const projects: Project[] = [
   {
-    name: "GenAI Document Q&A (RAG)",
-    stack: "Python, LangChain, OpenAI, LiteLLM, Portkey, FAISS, Qdrant",
+    name: "vLLM",
+    stack: "Python",
     description:
-      "RAG pipeline with LangChain, OpenAI embeddings, FAISS and Qdrant retrieval, and LiteLLM/Portkey for model routing and gateway observability; answer relevance evaluated end to end.",
-    impact: "85% better relevance on complex queries; 60% faster retrieval.",
+      "Bugfix for multimodal image-size handling in the vLLM inference engine.",
+    impact: "Merged upstream.",
   },
   {
-    name: "Scalable Event Processing Service",
-    stack: "Go, AWS Lambda, SQS, DynamoDB",
+    name: "Omnigent",
+    stack: "Python, Google IAP",
     description:
-      "Serverless backend ingesting events via SQS, transforming in Lambda, and persisting to DynamoDB.",
-    impact: "100k events/day · sub-200ms latency · 99.99% uptime.",
+      "Agent workspace attachments and Google IAP header authentication.",
+    impact: "Merged upstream.",
   },
   {
-    name: "Cloud Log Analysis Pipeline",
-    stack: "Go, AWS S3, Elasticsearch, Kibana",
+    name: "Deckle",
+    stack: "Swift, SwiftUI, AppKit",
     description:
-      "Scalable log ingestion and search backend with ELK visualization.",
-    impact: "40% faster log queries vs. the prior system.",
+      "Notarized macOS menu-bar app, distributed through a Homebrew tap.",
+    impact: "Shipped and notarized.",
   },
 ];
 
@@ -151,12 +144,17 @@ export const education: Education[] = [
   {
     degree: "M.Tech, Software Engineering",
     school: "BITS Pilani, Rajasthan",
-    period: "Jul 2021 – Jun 2023",
+    period: "Jul 2021 \u2013 Jun 2023",
   },
   {
     degree: "B.E., Computer Science",
     school: "PSG College of Technology, Coimbatore",
-    period: "Aug 2014 – May 2019",
+    period: "Aug 2014 \u2013 May 2019",
+  },
+  {
+    degree: "AWS Certified Solutions Architect \u2013 Associate",
+    school: "Amazon Web Services",
+    period: "Credential",
   },
 ];
 

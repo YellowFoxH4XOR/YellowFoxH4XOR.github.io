@@ -4,22 +4,22 @@
 
 export const site = {
   name: "Akshat Katiyar",
-  role: "Senior Backend Engineer",
+  role: "Senior Platform Engineer",
   // Used for absolute URLs in metadata / Open Graph. Override in prod via env.
   // This must match the host the site is actually served on (canonical domain).
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://site.akshatkatiyar.com",
   description:
-    "Senior Backend Engineer with 7+ years building production Python and Go services, REST APIs, and GenAI products (RAG, LLM agents). Writing about engineering, systems, and the books I read.",
+    "Senior platform engineer with 7+ years building developer infrastructure, automation, and distributed backend systems in Python and Go. Writing about engineering, systems, and the books I read.",
   intro:
-    "I'm a Senior Backend Engineer with 7+ years building production Python and Go services, REST APIs, and PostgreSQL-backed platforms end to end. Lately I build GenAI products — RAG pipelines, LLM agents, and model routing — alongside DevOps and full-stack delivery. Currently at Commonwealth Bank (CBA India).",
+    "I'm a senior platform engineer with 7+ years building developer infrastructure, automation, and distributed backend systems in Python and Go. At Commonwealth Bank I built the internal AI developer platform — coding-agent workspaces, MCP integrations, an LLM compatibility gateway, and evaluation telemetry — now used by 200+ engineers.",
   greeting: "Hey, I'm Akshat",
 
   // SEO / structured-data fields.
   locale: "en_US",
   twitterHandle: "@yellowfox_h4xor",
   email: "akshatkatiyar4@gmail.com",
-  jobTitle: "Senior Backend Engineer",
-  worksFor: "Commonwealth Bank (CBA India)",
+  jobTitle: "Senior Platform Engineer",
+  worksFor: "Commonwealth Bank of Australia (CBA India)",
   // Profiles that establish identity for search/AI engines (schema.org sameAs).
   sameAs: [
     "https://projects.akshatkatiyar.com/",
@@ -29,15 +29,16 @@ export const site = {
   ],
   keywords: [
     "Akshat Katiyar",
-    "senior backend engineer",
+    "senior platform engineer",
+    "developer infrastructure",
+    "AI developer platform",
     "backend engineer",
-    "GenAI engineer",
     "Python",
     "Go",
     "FastAPI",
-    "RAG",
-    "LLM",
-    "LangChain",
+    "MCP",
+    "LLM gateway",
+    "LangGraph",
     "distributed systems",
     "engineering blog",
   ],

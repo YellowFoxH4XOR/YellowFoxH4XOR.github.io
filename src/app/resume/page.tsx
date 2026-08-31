@@ -17,7 +17,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Resume",
   description:
-    "Senior Backend Engineer (AI & Platform) — 7+ years of Python/Go, GenAI, and DevOps. Experience, skills, projects, and education.",
+    "Senior platform engineer — 7+ years of Python/Go, developer infrastructure, AI tooling, and cloud automation. Experience, skills, open source, and education.",
   alternates: { canonical: "/resume" },
 };
 
@@ -32,10 +32,10 @@ export default function ResumePage() {
           <h1 className="mt-4 text-[clamp(2.2rem,5.5vw,3.75rem)] font-bold leading-[1.02] tracking-[-0.03em]">
             Seven years of shipping
             <br />
-            backend systems<span className="text-brand">.</span>
+            developer platforms<span className="text-brand">.</span>
           </h1>
           <p className="mt-4 font-mono text-xs uppercase tracking-[0.2em] text-muted-foreground">
-            Senior Backend Engineer · AI &amp; Platform
+            Senior Platform Engineer · AI &amp; Developer Infrastructure
           </p>
         </div>
         {resumePdfUrl && (
@@ -99,7 +99,7 @@ export default function ResumePage() {
 
       {/* Selected Projects */}
       <Reveal className="mt-16">
-        <SectionHeading>Selected projects</SectionHeading>
+        <SectionHeading>Open source &amp; side projects</SectionHeading>
         <div className="mt-2 divide-y divide-border border-b border-border">
           {projects.map((project, i) => (
             <article
@@ -158,7 +158,7 @@ export default function ResumePage() {
 
       {/* Education */}
       <Reveal className="mt-16">
-        <SectionHeading>Education</SectionHeading>
+        <SectionHeading>Education &amp; certifications</SectionHeading>
         <div className="mt-2 divide-y divide-border border-b border-border">
           {education.map((edu) => (
             <div
