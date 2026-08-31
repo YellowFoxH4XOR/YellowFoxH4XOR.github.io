@@ -24,7 +24,7 @@ export function HomeHero() {
   return (
     <section
       onPointerMove={onPointerMove}
-      className="relative -mx-6 overflow-hidden px-6 pb-16 pt-10 sm:pb-24 sm:pt-16 lg:-mx-8 lg:px-8"
+      className="relative -mx-6 overflow-hidden px-6 pb-4 pt-8 sm:pt-12 lg:-mx-8 lg:px-8"
     >
       {/* Pointer glow */}
       <div
@@ -37,7 +37,7 @@ export function HomeHero() {
         }}
       />
 
-      <div className="relative grid items-center gap-12 lg:grid-cols-[1fr_auto] lg:gap-16">
+      <div className="relative grid items-center gap-12 lg:grid-cols-[minmax(0,1fr)_auto] lg:gap-16">
         <div>
           {/* Eyebrow */}
           <p
@@ -49,7 +49,7 @@ export function HomeHero() {
           </p>
 
           {/* Statement */}
-          <h1 className="mt-6 text-[clamp(2.9rem,7.5vw,5.75rem)] font-bold leading-[1.0] tracking-[-0.035em]">
+          <h1 className="mt-6 text-mega font-bold">
             <span className="hero-mask">
               <span className="hero-line" style={{ "--hero-delay": "120ms" } as CSSProperties}>
                 I build the pipes
@@ -72,8 +72,8 @@ export function HomeHero() {
 
           {/* Intro */}
           <p
-            className="mt-7 max-w-xl text-base leading-7 text-muted-foreground opacity-0 animate-fade-in-up"
-            style={{ animationDelay: "420ms" }}
+            className="mt-7 max-w-[54ch] text-lead text-muted-foreground opacity-0 animate-fade-in-up"
+            style={{ animationDelay: "340ms" }}
           >
             {site.intro}
           </p>
@@ -81,28 +81,28 @@ export function HomeHero() {
           {/* Actions */}
           <div
             className="mt-9 flex flex-wrap items-center gap-4 opacity-0 animate-fade-in-up"
-            style={{ animationDelay: "520ms" }}
+            style={{ animationDelay: "420ms" }}
           >
             <Link
               href="/blog"
-              className="group inline-flex items-center gap-2 rounded-md bg-brand px-5 py-2.5 text-sm font-semibold text-brand-foreground shadow-[0_10px_30px_-12px_var(--color-brand)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_16px_36px_-12px_var(--color-brand)]"
+              className="group inline-flex items-center gap-2 rounded-md bg-brand px-5 py-2.5 text-sm font-semibold text-brand-foreground shadow-[0_12px_32px_-14px_var(--color-brand)] transition-all duration-200 ease-[cubic-bezier(0.25,1,0.5,1)] hover:-translate-y-0.5 hover:shadow-[0_20px_44px_-16px_var(--color-brand)]"
             >
               Read the blog
-              <ArrowRight className="size-4 transition-transform duration-300 group-hover:translate-x-0.5" />
+              <ArrowRight className="size-4 transition-transform duration-200 group-hover:translate-x-0.5" />
             </Link>
             <Link
               href="/resume"
-              className="group inline-flex items-center gap-2 rounded-md border border-border px-5 py-2.5 text-sm font-semibold text-foreground transition-colors duration-300 hover:border-brand/60 hover:text-brand"
+              className="group inline-flex items-center gap-2 rounded-md border border-border px-5 py-2.5 text-sm font-semibold text-foreground transition-colors duration-200 hover:border-brand/60 hover:text-brand"
             >
               Resume
-              <ArrowUpRight className="size-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+              <ArrowUpRight className="size-4 transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
             </Link>
           </div>
 
           {/* Status */}
           <p
-            className="mt-10 flex items-center gap-2.5 font-mono text-xs text-muted-foreground opacity-0 animate-fade-in-up"
-            style={{ animationDelay: "620ms" }}
+            className="mt-10 flex items-center gap-2.5 font-mono text-meta text-muted-foreground opacity-0 animate-fade-in-up"
+            style={{ animationDelay: "500ms" }}
           >
             <span className="relative flex size-2">
               <span className="absolute inline-flex size-full animate-blink rounded-full bg-brand" />
@@ -114,7 +114,7 @@ export function HomeHero() {
         {/* Portrait */}
         <figure
           className="relative mx-auto w-44 shrink-0 opacity-0 animate-fade-in-up sm:w-52 lg:mx-0 lg:w-60"
-          style={{ animationDelay: "460ms" }}
+          style={{ animationDelay: "380ms" }}
         >
           <div className="group relative -rotate-2 transition-transform duration-500 ease-out hover:rotate-0">
             {/* Corner ticks */}
@@ -140,10 +140,10 @@ export function HomeHero() {
       {/* Scroll cue */}
       <div
         aria-hidden
-        className="mt-16 hidden items-center gap-3 opacity-0 animate-fade-in-up sm:flex"
-        style={{ animationDelay: "760ms" }}
+        className="mt-10 hidden items-center gap-3 opacity-0 animate-fade-in-up sm:flex"
+        style={{ animationDelay: "580ms" }}
       >
-        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-muted-foreground/70">
+        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-subtle">
           Scroll
         </span>
         <span className="h-px w-16 bg-border" />

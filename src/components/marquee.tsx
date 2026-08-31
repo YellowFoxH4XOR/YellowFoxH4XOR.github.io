@@ -17,7 +17,7 @@ export function Marquee({ items }: { items: string[] }) {
                 <span className="font-mono text-xs font-medium uppercase tracking-[0.25em] text-muted-foreground">
                   {item}
                 </span>
-                <SparkIcon className="size-2.5 text-brand/60" />
+                <SparkIcon className="size-2.5 text-brand" />
               </span>
             ))}
           </div>

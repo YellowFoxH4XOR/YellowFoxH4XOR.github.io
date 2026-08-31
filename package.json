@@ -7,11 +7,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "fetch-tech-blogs": "node scripts/fetch-tech-blogs.mjs"
+    "fetch-tech-blogs": "node scripts/fetch-tech-blogs.mjs",
+    "design-check": "node scripts/design-check.mjs"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "github-slugger": "^2.0.0",
     "gray-matter": "^4.0.3",
     "lucide-react": "^1.18.0",
     "next": "16.2.9",

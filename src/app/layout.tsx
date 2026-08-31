@@ -101,15 +101,21 @@ export default function RootLayout({
         >
           Skip to content
         </a>
-        {/* Ambient room tone: paper grain, a faint dot field that fades down
-            the page, and two lamplit ember glows. Clipped to the viewport via
-            a fixed overflow-hidden wrapper so nothing causes horizontal
-            overflow on mobile. */}
+        {/* Ambient room tone. Three layers, all clipped to the viewport by a
+            fixed overflow-hidden wrapper so nothing can cause horizontal
+            overflow on a phone:
+              1. paper grain, so flat colour never reads as flat plastic
+              2. a dot field that fades out as the page goes down
+              3. two lamplit ember pools, warmer at the top of the page
+            Opacities are deliberately low; this should be felt, not seen. */}
         <div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
-          <div className="absolute inset-0 bg-grain opacity-[0.035] dark:opacity-[0.05]" />
-          <div className="absolute inset-0 bg-dot-pattern opacity-40 [mask-image:radial-gradient(ellipse_90%_60%_at_50%_0%,black,transparent)]" />
-          <div className="absolute -top-[15%] right-[-10%] h-[560px] w-[560px] rounded-full bg-brand/10 blur-[140px] dark:bg-brand/12 animate-pulse-slow" />
-          <div className="absolute bottom-[-20%] left-[-12%] h-[520px] w-[520px] rounded-full bg-brand/6 blur-[130px] dark:bg-brand/8" />
+          <div className="absolute inset-0 bg-grain opacity-[0.055] dark:opacity-[0.075]" />
+          <div className="absolute inset-0 bg-dot-pattern opacity-55 [mask-image:radial-gradient(ellipse_85%_55%_at_50%_0%,black,transparent)] dark:opacity-40" />
+          <div className="absolute -top-[18%] right-[-12%] h-[620px] w-[620px] rounded-full bg-brand/16 blur-[130px] animate-pulse-slow dark:bg-brand/14" />
+          <div className="absolute bottom-[-22%] left-[-14%] h-[560px] w-[560px] rounded-full bg-brand/10 blur-[125px] dark:bg-brand/9" />
+          {/* A vignette pulls the corners down so the centre of the page reads
+              as the lit part of the room. */}
+          <div className="absolute inset-0 [background:radial-gradient(120%_85%_at_50%_10%,transparent_45%,color-mix(in_oklch,var(--color-foreground)_9%,transparent)_100%)] dark:[background:radial-gradient(120%_85%_at_50%_10%,transparent_40%,oklch(0_0_0/0.4)_100%)]" />
         </div>
 
         <ThemeProvider

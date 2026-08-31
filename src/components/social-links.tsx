@@ -24,9 +24,9 @@ export function SocialLinks() {
             href={link.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="group inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 font-mono text-xs font-medium uppercase tracking-[0.15em] text-muted-foreground transition-all duration-300 hover:-translate-y-0.5 hover:border-brand/60 hover:text-foreground"
+            className="group inline-flex items-center gap-2 rounded-full border border-hairline px-4 py-2 font-mono text-micro font-medium uppercase tracking-[0.15em] text-muted-foreground transition-all duration-200 ease-[cubic-bezier(0.25,1,0.5,1)] hover:-translate-y-0.5 hover:border-brand/60 hover:text-foreground"
           >
-            <Icon className="size-3.5 transition-colors duration-300 group-hover:text-brand" />
+            <Icon className="size-3.5 transition-colors duration-200 group-hover:text-brand" />
             {link.label}
           </a>
         );

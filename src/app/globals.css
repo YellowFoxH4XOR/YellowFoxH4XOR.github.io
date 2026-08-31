@@ -9,6 +9,12 @@
   --color-foreground: var(--foreground);
   --color-brand: var(--brand);
   --color-brand-foreground: var(--brand-foreground);
+  --color-subtle: var(--subtle);
+  --color-ink: var(--ink);
+  --color-ink-foreground: var(--ink-foreground);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-border: var(--ink-border);
+  --color-hairline: var(--hairline);
   --font-sans: var(--font-sans);
   --font-mono: var(--font-mono);
   --font-heading: var(--font-sans);
@@ -49,8 +55,32 @@
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
 
-  /* Motion: exponential ease-out everywhere. No bounce, no elastic. */
+  /* ---------------------------------------------------------------- */
+  /* Fluid modular type scale. Ratio ~1.28 mobile → ~1.34 desktop, so   */
+  /* every step is a visible jump. Nothing on the site sizes itself     */
+  /* outside this scale.                                                */
+  /* ---------------------------------------------------------------- */
+  --text-micro: clamp(0.66rem, 0.64rem + 0.08vw, 0.7rem);
+  --text-meta: clamp(0.75rem, 0.73rem + 0.1vw, 0.8rem);
+  --text-body: clamp(1rem, 0.97rem + 0.14vw, 1.075rem);
+  --text-lead: clamp(1.15rem, 1.06rem + 0.42vw, 1.4rem);
+  --text-title: clamp(1.4rem, 1.24rem + 0.72vw, 1.9rem);
+  --text-headline: clamp(1.8rem, 1.5rem + 1.35vw, 2.6rem);
+  --text-display: clamp(2.3rem, 1.75rem + 2.3vw, 3.45rem);
+  --text-mega: clamp(3rem, 1.85rem + 5.4vw, 6.25rem);
+
+  /* Deliberate spacing rhythm: unrelated sections breathe far apart,
+     related blocks group tight. Never one uniform gap everywhere. */
+  --space-section: clamp(4.5rem, 3rem + 5.5vw, 8rem);
+  --space-block: clamp(2.25rem, 1.8rem + 2vw, 3.5rem);
+  --space-group: clamp(1.25rem, 1.05rem + 0.8vw, 1.85rem);
+
+  /* Motion: exponential ease-out everywhere. No bounce, no elastic.
+     Hovers are fast (150-220ms); entrances are slow and cinematic. */
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+  --dur-hover: 180ms;
+  --dur-enter: 900ms;
   --animate-fade-in-up: fade-in-up 0.7s var(--ease-out-expo) forwards;
   --animate-rise: rise 0.9s var(--ease-out-expo) forwards;
   --animate-pulse-slow: pulse-slow 9s ease-in-out infinite;
@@ -127,35 +157,48 @@
   --card-foreground: oklch(0.25 0.025 55);
   --popover: oklch(0.985 0.007 85);
   --popover-foreground: oklch(0.25 0.025 55);
-  --primary: oklch(0.58 0.165 48);
+  --primary: oklch(0.55 0.17 46);
   --primary-foreground: oklch(0.975 0.01 85);
   --secondary: oklch(0.935 0.014 75);
   --secondary-foreground: oklch(0.33 0.04 50);
   --muted: oklch(0.94 0.012 78);
   --muted-foreground: oklch(0.47 0.03 55);
+  /* The quietest tier that still clears WCAG AA (4.67:1 here). Replaces the
+     old habit of fading --muted-foreground to 60-80% opacity, which dropped
+     small metadata to 2.6-3.9:1. Hierarchy comes from size, weight and
+     family; never from making text harder to read. */
+  --subtle: oklch(0.54 0.028 58);
   --accent: oklch(0.925 0.02 70);
   --accent-foreground: oklch(0.35 0.06 45);
   --destructive: oklch(0.58 0.19 28);
   --border: oklch(0.875 0.016 70);
   --input: oklch(0.875 0.016 70);
-  --ring: oklch(0.58 0.165 48 / 45%);
-  --chart-1: oklch(0.58 0.165 48);
+  --ring: oklch(0.55 0.17 46 / 45%);
+  --chart-1: oklch(0.55 0.17 46);
   --chart-2: oklch(0.5 0.12 150);
   --chart-3: oklch(0.62 0.14 25);
   --chart-4: oklch(0.68 0.13 85);
   --chart-5: oklch(0.5 0.1 230);
   --radius: 0.5rem;
-  --brand: oklch(0.58 0.165 48);
+  --brand: oklch(0.55 0.17 46);
   --brand-foreground: oklch(0.975 0.01 85);
   --code-bg: oklch(0.19 0.018 55);
+  /* Deep ink surface: the one anchored, high-contrast moment per page.
+     Gives the warm-paper palette something to push against. */
+  --ink: oklch(0.228 0.024 50);
+  --ink-foreground: oklch(0.952 0.014 78);
+  --ink-muted: oklch(0.735 0.028 66);
+  --ink-border: oklch(0.325 0.028 52);
+  /* Hairline rule, lighter than --border, for internal divisions. */
+  --hairline: oklch(0.885 0.014 72);
   --sidebar: oklch(0.985 0.007 85);
   --sidebar-foreground: oklch(0.25 0.025 55);
-  --sidebar-primary: oklch(0.58 0.165 48);
+  --sidebar-primary: oklch(0.55 0.17 46);
   --sidebar-primary-foreground: oklch(0.975 0.01 85);
   --sidebar-accent: oklch(0.935 0.014 75);
   --sidebar-accent-foreground: oklch(0.33 0.04 50);
   --sidebar-border: oklch(0.875 0.016 70);
-  --sidebar-ring: oklch(0.58 0.165 48 / 45%);
+  --sidebar-ring: oklch(0.55 0.17 46 / 45%);
 }
 
 .dark {
@@ -172,6 +215,8 @@
   --secondary-foreground: oklch(0.9 0.015 70);
   --muted: oklch(0.225 0.018 55);
   --muted-foreground: oklch(0.66 0.025 60);
+  /* Dark-theme counterpart of --subtle: 4.66:1 on the page background. */
+  --subtle: oklch(0.59 0.024 60);
   --accent: oklch(0.26 0.025 52);
   --accent-foreground: oklch(0.93 0.02 70);
   --destructive: oklch(0.62 0.19 28);
@@ -186,6 +231,13 @@
   --brand: oklch(0.76 0.15 62);
   --brand-foreground: oklch(0.17 0.02 50);
   --code-bg: oklch(0.155 0.015 50);
+  /* In dark mode the ink surface lifts instead of sinking, so it still
+     reads as a distinct plane rather than disappearing into the page. */
+  --ink: oklch(0.243 0.022 54);
+  --ink-foreground: oklch(0.945 0.014 78);
+  --ink-muted: oklch(0.72 0.026 65);
+  --ink-border: oklch(0.345 0.028 54);
+  --hairline: oklch(0.265 0.02 55);
   --sidebar: oklch(0.19 0.016 55);
   --sidebar-foreground: oklch(0.915 0.014 75);
   --sidebar-primary: oklch(0.76 0.15 62);
@@ -202,9 +254,34 @@
   }
   body {
     @apply bg-background text-foreground selection:bg-brand/25 selection:text-foreground;
+    font-size: var(--text-body);
+    /* Real kerning + contextual alternates: the difference between type
+       that is merely rendered and type that is set. */
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+    text-rendering: optimizeLegibility;
   }
   html {
     @apply font-sans scroll-smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Figures never jitter when they change: dates, indices, counters and
+     durations all sit on a fixed advance width. */
+  .font-mono,
+  time,
+  [class*="tabular"] {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Headings get balanced ragging; body copy gets orphan protection. */
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
   }
 
   /* Warm scrollbar */
@@ -222,6 +299,100 @@
   ::-webkit-scrollbar-thumb:hover {
     background: color-mix(in oklch, var(--color-brand) 60%, var(--color-border));
   }
+}
+
+/* ---------------------------------- */
+/* Editorial layout system             */
+/* ---------------------------------- */
+
+/* Two-track editorial spread: a narrow rail carrying mono metadata (label,
+   count, year) and a wide main column carrying the content. The rail sticks
+   while its section scrolls, so the page always tells you where you are.
+   Below lg the rail collapses to a normal stacked header. */
+@utility spread {
+  display: grid;
+  row-gap: var(--space-group);
+
+  @media (width >= 64rem) {
+    grid-template-columns: minmax(0, 12.5rem) minmax(0, 1fr);
+    column-gap: clamp(2.5rem, 4vw, 4.5rem);
+    row-gap: 0;
+  }
+}
+
+@utility spread-rail {
+  @media (width >= 64rem) {
+    position: sticky;
+    top: 7rem;
+    align-self: start;
+  }
+}
+
+/* Deliberate vertical rhythm. Sections are far apart; blocks inside them
+   are close. Uniform gaps everywhere read as a template. */
+@utility section-gap {
+  margin-top: var(--space-section);
+}
+
+@utility block-gap {
+  margin-top: var(--space-block);
+}
+
+/* Full-bleed escape from the page container, for rules, tickers and ink
+   panels that should touch the viewport edges. `bleed` restores the page
+   gutter as padding; `bleed-flush` runs truly edge to edge. */
+@utility bleed {
+  margin-inline: calc(50% - 50vw);
+  padding-inline: calc(50vw - 50% + 1.5rem);
+}
+
+@utility bleed-flush {
+  width: 100vw;
+  margin-inline: calc(50% - 50vw);
+}
+
+/* ---------------------------------- */
+/* Type scale utilities                */
+/* ---------------------------------- */
+
+@utility text-mega {
+  font-size: var(--text-mega);
+  line-height: 0.94;
+  letter-spacing: -0.038em;
+}
+
+@utility text-display {
+  font-size: var(--text-display);
+  line-height: 1.02;
+  letter-spacing: -0.032em;
+}
+
+@utility text-headline {
+  font-size: var(--text-headline);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+}
+
+@utility text-title {
+  font-size: var(--text-title);
+  line-height: 1.18;
+  letter-spacing: -0.018em;
+}
+
+@utility text-lead {
+  font-size: var(--text-lead);
+  line-height: 1.55;
+  letter-spacing: -0.011em;
+}
+
+@utility text-meta {
+  font-size: var(--text-meta);
+  line-height: 1.5;
+}
+
+@utility text-micro {
+  font-size: var(--text-micro);
+  line-height: 1.4;
 }
 
 /* ---------------------------------- */
@@ -246,16 +417,64 @@
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   transition:
-    transform 0.45s var(--ease-out-expo),
-    border-color 0.45s var(--ease-out-expo),
-    box-shadow 0.45s var(--ease-out-expo);
+    transform var(--dur-hover) var(--ease-out-quart),
+    border-color var(--dur-hover) var(--ease-out-quart),
+    box-shadow var(--dur-hover) var(--ease-out-quart);
 
   &:hover {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
     border-color: color-mix(in oklch, var(--color-brand) 55%, var(--color-border));
+    /* Large blur, low opacity — the shape of an expensive shadow. */
     box-shadow:
       0 1px 0 color-mix(in oklch, var(--color-brand) 30%, transparent),
-      0 16px 40px -18px color-mix(in oklch, var(--color-brand) 35%, transparent);
+      0 24px 48px -24px color-mix(in oklch, var(--color-foreground) 34%, transparent);
+  }
+}
+
+/* The anchored dark plane. One per page, maximum: it is what the warm
+   paper pushes against, and it stops working the moment it repeats. */
+@utility ink-panel {
+  background-color: var(--color-ink);
+  color: var(--color-ink-foreground);
+  border: 1px solid var(--color-ink-border);
+  border-radius: var(--radius-xl);
+}
+
+/* Long index lists (the tech-blogs feed is ~1200 rows) keep every row in the
+   DOM — crawlers and answer engines must see the whole list — but skip the
+   layout, paint and style cost of rows that are off screen. The intrinsic
+   size is the measured median row height, so the scrollbar stays honest and
+   nothing jumps as rows come into view. */
+@utility defer-offscreen {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 11.5rem;
+}
+
+/* Repeated index rows (posts, books, feed entries). The hover is a warm
+   wash that bleeds past the text column plus a rule that lights up, so the
+   whole row responds rather than just the title. */
+@utility index-row {
+  position: relative;
+  isolation: isolate;
+  transition: color var(--dur-hover) var(--ease-out-quart);
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0 -1rem;
+    z-index: -1;
+    border-radius: var(--radius-md);
+    background: linear-gradient(
+      to right,
+      color-mix(in oklch, var(--color-brand) 9%, transparent),
+      transparent 72%
+    );
+    opacity: 0;
+    transition: opacity var(--dur-hover) var(--ease-out-quart);
+  }
+
+  &:hover::before {
+    opacity: 1;
   }
 }
 
@@ -266,8 +485,8 @@
   background-position: 0 100%;
   background-repeat: no-repeat;
   transition:
-    background-size 0.45s var(--ease-out-expo),
-    color 0.3s ease;
+    background-size 0.4s var(--ease-out-quart),
+    color var(--dur-hover) ease;
 
   &:hover {
     background-size: 100% 1px;
@@ -277,10 +496,11 @@
 /* Mono eyebrow label used above section content. */
 @utility eyebrow {
   font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: var(--text-micro);
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
+  font-variant-numeric: tabular-nums;
   color: var(--color-muted-foreground);
 }
 
@@ -299,15 +519,24 @@
   }
 }
 
-/* Scroll-reveal primitive (driven by the Reveal component). */
-.reveal {
-  opacity: 0;
-  transform: translateY(22px);
-  transition:
-    opacity 0.9s var(--ease-out-expo),
-    transform 0.9s var(--ease-out-expo);
-  transition-delay: var(--reveal-delay, 0ms);
-  will-change: opacity, transform;
+/* Scroll-reveal primitive (driven by the Reveal component).
+
+   The hidden start state is scoped to `scripting: enabled`. Without that
+   guard, a browser with JavaScript off (or a script that failed to load)
+   leaves every revealed section permanently at opacity 0 — the markup is
+   server-rendered and present, but a human sees a blank page. Guarding the
+   rule gives no-JS readers the final state immediately, and everyone else
+   still gets the animation. */
+@media (scripting: enabled) {
+  .reveal {
+    opacity: 0;
+    transform: translateY(22px);
+    transition:
+      opacity 0.9s var(--ease-out-expo),
+      transform 0.9s var(--ease-out-expo);
+    transition-delay: var(--reveal-delay, 0ms);
+    will-change: opacity, transform;
+  }
 }
 .reveal.is-visible {
   opacity: 1;
@@ -345,7 +574,21 @@
 /* ---------------------------------- */
 
 .article {
-  @apply text-[0.975rem] leading-7 text-foreground/90 break-words;
+  @apply text-foreground/90 break-words;
+  font-size: var(--text-body);
+  line-height: 1.75;
+}
+/* Cap the measure on everything that is read left-to-right. Code blocks,
+   tables and images are scanned, not read, so they keep the full column and
+   stay legible without wrapping. Roughly 68-72 characters at body size. */
+.article > p,
+.article > ul,
+.article > ol,
+.article > blockquote,
+.article > h1,
+.article > h2,
+.article > h3 {
+  max-width: 40rem;
 }
 .article > * + * {
   @apply mt-5;
@@ -368,10 +611,10 @@
   @apply font-medium text-brand link-ember;
 }
 .article ul {
-  @apply list-disc pl-6 marker:text-brand/80;
+  @apply list-disc pl-6 marker:text-brand;
 }
 .article ol {
-  @apply list-decimal pl-6 marker:text-brand/80;
+  @apply list-decimal pl-6 marker:text-brand;
 }
 .article li + li {
   @apply mt-2;
@@ -382,7 +625,7 @@
 }
 .article blockquote::before {
   content: "\201C";
-  @apply absolute -top-3 left-2 font-sans text-4xl font-bold not-italic text-brand/70;
+  @apply absolute -top-3 left-2 font-sans text-4xl font-bold not-italic text-brand;
 }
 .article :not(pre) > code {
   @apply rounded border border-border bg-muted px-1.5 py-0.5 font-mono text-[0.85em] text-foreground;
@@ -422,9 +665,15 @@
 .article li.task-list-item {
   @apply list-none;
 }
-/* Ember drop cap opens every post. */
-.article > p:first-of-type::first-letter {
-  @apply float-left mr-3 mt-1 font-sans text-[3.4rem] leading-[0.85] font-bold text-brand;
+/* The opening paragraph carries the weight instead of a drop cap. A drop cap
+   is only ever as good as its first letter, and "I" or an opening quote
+   renders as a stray stroke that reads like a stripe. Scale is the robust
+   version of the same emphasis. */
+.article > p:first-of-type {
+  font-size: var(--text-lead);
+  line-height: 1.62;
+  letter-spacing: -0.011em;
+  color: var(--color-foreground);
 }
 
 /* Respect users who prefer reduced motion. */
@@ -441,6 +690,144 @@
   .hero-line {
     opacity: 1;
     transform: none;
+  }
+}
+
+/* ---------------------------------- */
+/* Print                               */
+/* ---------------------------------- */
+
+/* People print the resume and the occasional long post. Without this they get
+   the ambient glow layers, a sticky header stamped across the first page, and
+   ember text rendered as mud on a mono printer. */
+@media print {
+  @page {
+    margin: 16mm 14mm;
+  }
+
+  /* Force the light token set in both themes. Setting only `body { color }`
+     is not enough: every element carries an explicit token-backed colour
+     class, so a reader printing while in dark mode gets near-white text on
+     white paper. Overriding the variables fixes the whole tree at once. */
+  :root,
+  .dark {
+    --background: #ffffff;
+    --foreground: #16120f;
+    --card: #ffffff;
+    --card-foreground: #16120f;
+    --popover: #ffffff;
+    --popover-foreground: #16120f;
+    --muted: #f4f2ef;
+    --muted-foreground: #3d3733;
+    --subtle: #4a443f;
+    --accent: #f4f2ef;
+    --accent-foreground: #16120f;
+    --secondary: #f4f2ef;
+    --secondary-foreground: #16120f;
+    --border: #c9c3bc;
+    --hairline: #d8d2cb;
+    --input: #c9c3bc;
+    --brand: #8a3d12;
+    --brand-foreground: #ffffff;
+    --primary: #8a3d12;
+    --primary-foreground: #ffffff;
+    --ink: #ffffff;
+    --ink-foreground: #16120f;
+    --ink-muted: #3d3733;
+    --ink-border: #c9c3bc;
+    --code-bg: #f4f2ef;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+    color: #16120f !important;
+  }
+
+  /* Chrome and Safari otherwise drop backgrounds and lighten text. */
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* Code panels are warm ink on screen; on paper that is a toner sink. */
+  .article pre {
+    background: #f4f2ef !important;
+    color: #16120f !important;
+    border: 1px solid #c9c3bc !important;
+  }
+
+  /* Screen-only furniture: navigation, ambience, and controls. Targeted by
+     attribute rather than by tag, because `header` is also the page masthead
+     and hiding that drops the page title off the printout. */
+  footer,
+  nav[aria-label="On this page"],
+  .bg-grain,
+  .bg-dot-pattern,
+  [data-print-hide],
+  button {
+    display: none !important;
+  }
+
+  /* Print-only blocks, kept off screen with the `hidden` utility. */
+  [data-print-only] {
+    display: block !important;
+  }
+
+  /* The fixed ambience wrapper and the reading-progress bar. */
+  body > div.fixed,
+  body > .fixed {
+    display: none !important;
+  }
+
+  main {
+    max-width: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Reveal/entrance states must never hide content on paper. */
+  .reveal,
+  .hero-line,
+  [class*="animate-fade-in-up"] {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+  }
+
+  /* Sticky rails become normal blocks so nothing overlaps across pages. */
+  .spread-rail,
+  .sticky {
+    position: static !important;
+  }
+
+  /* Keep an entry and its heading together. */
+  article,
+  li,
+  .index-row {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  h1,
+  h2,
+  h3 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  /* Off-screen deferral would leave blank pages in the printout. */
+  .defer-offscreen {
+    content-visibility: visible !important;
+  }
+
+  /* Spell out link targets, which are otherwise lost on paper. Internal and
+     javascript/mailto hrefs stay quiet to avoid noise. */
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.75em;
+    word-break: break-all;
   }
 }
 

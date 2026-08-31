@@ -14,8 +14,8 @@ const icons: Record<string, IconCmp> = {
 
 export function Footer() {
   return (
-    <footer className="relative mt-24 overflow-hidden border-t border-border/70">
-      <div className="mx-auto w-full max-w-6xl px-6 pb-12 pt-14 lg:px-8">
+    <footer className="relative mt-[var(--space-block)] overflow-hidden border-t border-hairline">
+      <div className="mx-auto w-full max-w-6xl px-6 pb-10 pt-14 lg:px-8">
         <div className="flex flex-col gap-10 sm:flex-row sm:items-start sm:justify-between">
           {/* Identity */}
           <div>
@@ -29,15 +29,15 @@ export function Footer() {
             </p>
             <a
               href={`mailto:${site.email}`}
-              className="mt-3 inline-block font-mono text-xs text-muted-foreground link-ember hover:text-foreground"
+              className="mt-2 inline-block py-1.5 font-mono text-meta text-muted-foreground link-ember hover:text-foreground"
             >
               {site.email}
             </a>
           </div>
 
           {/* Site map */}
-          <nav aria-label="Footer" className="flex flex-col gap-2.5">
-            <p className="eyebrow mb-1">Pages</p>
+          <nav aria-label="Footer" className="flex flex-col gap-0.5">
+            <p className="eyebrow mb-2">Pages</p>
             {navLinks.map((link) => (
               <a
                 key={link.href}
@@ -45,7 +45,7 @@ export function Footer() {
                 {...(link.href.startsWith("http")
                   ? { target: "_blank", rel: "noopener noreferrer" }
                   : {})}
-                className="w-fit font-mono text-xs text-muted-foreground transition-colors hover:text-brand"
+                className="w-fit py-1.5 font-mono text-meta text-muted-foreground transition-colors duration-200 hover:text-brand"
               >
                 <span className="inline-flex items-center gap-1.5">
                   {link.label}
@@ -58,8 +58,8 @@ export function Footer() {
           </nav>
 
           {/* Social */}
-          <div className="flex flex-col gap-2.5">
-            <p className="eyebrow mb-1">Profiles</p>
+          <div className="flex flex-col gap-0.5">
+            <p className="eyebrow mb-2">Profiles</p>
             {socialLinks.map((link) => {
               const Icon = icons[link.icon] ?? Rss;
               const external = link.href.startsWith("http");
@@ -70,9 +70,9 @@ export function Footer() {
                   {...(external
                     ? { target: "_blank", rel: "noopener noreferrer" }
                     : {})}
-                  className="group flex w-fit items-center gap-2.5 font-mono text-xs text-muted-foreground transition-colors hover:text-brand"
+                  className="group flex w-fit items-center gap-2.5 py-1.5 font-mono text-meta text-muted-foreground transition-colors duration-200 hover:text-brand"
                 >
-                  <Icon className="size-3.5 transition-colors group-hover:text-brand" />
+                  <Icon className="size-3.5 transition-colors duration-200 group-hover:text-brand" />
                   {link.label}
                 </a>
               );
@@ -80,20 +80,23 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-14 flex flex-col items-start justify-between gap-3 border-t border-border/60 pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center">
+        <div className="mt-14 flex flex-col items-start justify-between gap-3 border-t border-hairline pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center">
           <p>
             © {new Date().getFullYear()} {site.name}. All rights reserved.
           </p>
-          <p className="font-mono text-[11px] tracking-wider text-muted-foreground/70">
-            Built with Next.js · Set in Bricolage Grotesque
+          <p className="font-mono text-micro tracking-wider text-subtle">
+            Next.js · Tailwind · set in Bricolage Grotesque &amp; Spline Sans
+            Mono
           </p>
         </div>
       </div>
 
-      {/* Watermark */}
+      {/* Watermark. The name is meant to run off the bottom of the page, so it
+          is masked to dissolve rather than stopped mid-stroke by the viewport
+          edge, which reads as a rendering accident. */}
       <div
         aria-hidden
-        className="pointer-events-none select-none text-center font-bold leading-[0.72] tracking-[-0.04em] text-foreground/[0.045] dark:text-foreground/[0.05]"
+        className="pointer-events-none -mb-[3vw] select-none text-center font-bold leading-[0.78] tracking-[-0.045em] text-foreground/[0.05] [mask-image:linear-gradient(to_bottom,black_35%,transparent_92%)] dark:text-foreground/[0.055]"
         style={{ fontSize: "clamp(4rem, 17vw, 15rem)" }}
       >
         akshat
