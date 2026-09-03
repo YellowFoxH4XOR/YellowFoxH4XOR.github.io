@@ -2,6 +2,22 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
+    "title": "The Modern CUDA Toolbox in Practice: A Step-by-Step Optimization Walkthrough",
+    "url": "https://developer.nvidia.com/blog/the-modern-cuda-toolbox-in-practice-a-step-by-step-optimization-walkthrough/",
+    "date": "2026-09-02",
+    "summary": "NVIDIA CUDA remains the foundation of GPU-accelerated computing, powering everything from scientific simulations to large-scale AI training. But writing..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference",
+    "url": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/",
+    "date": "2026-09-02",
+    "summary": "This post is the third in a series on AI model co-design. It explores how to accelerate LLM inference while maintaining accuracy using speculative decoding and..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
     "title": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
     "url": "https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron/",
     "date": "2026-09-01",
@@ -178,18 +194,18 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "Evaluating AI Agent Skill Performance with NVIDIA SkillEvaluator",
-    "url": "https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator/",
-    "date": "2026-08-19",
-    "summary": "AI agents are only as effective as the context they receive. Even with capable models and well-documented NVIDIA libraries, agents can spend extra steps finding..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
     "title": "Post-Train NVIDIA Cosmos 3 Edge for On-Device Robot Control",
     "url": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control/",
     "date": "2026-08-19",
     "summary": "Robots need policies that can adapt to their sensors, environments, and tasks while running on onboard computing hardware. World models offer a foundation for..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "Evaluating AI Agent Skill Performance with NVIDIA SkillEvaluator",
+    "url": "https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator/",
+    "date": "2026-08-19",
+    "summary": "AI agents are only as effective as the context they receive. Even with capable models and well-documented NVIDIA libraries, agents can spend extra steps finding..."
   },
   {
     "company": "NVIDIA",
@@ -382,21 +398,5 @@
     "url": "https://developer.nvidia.com/blog/advancing-semiconductor-innovation-across-materials-engineering-and-manufacturing/",
     "date": "2026-07-27",
     "summary": "As AI workloads increase, explosive compute demand is pushing the semiconductor industry to meet unprecedented performance targets. Even small delays can have..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "ModelExpress: Distributing Model Artifacts at the Speed of Light",
-    "url": "https://developer.nvidia.com/blog/modelexpress-distributing-model-artifacts-at-the-speed-of-light/",
-    "date": "2026-07-24",
-    "summary": "Every byte moved has a cost. As model checkpoints grow to hundreds of gigabytes or even a terabyte, that cost adds up quickly. To make things even worse, moving..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "Debugging Ray Tracing Applications Using NVIDIA OptiX Toolkit",
-    "url": "https://developer.nvidia.com/blog/debugging-ray-tracing-applications-using-nvidia-optix-toolkit/",
-    "date": "2026-07-23",
-    "summary": "NVIDIA OptiX ray tracing engine is an application framework for achieving optimal ray tracing performance on the GPU. Applications using OptiX can fail in ways..."
   }
 ]
