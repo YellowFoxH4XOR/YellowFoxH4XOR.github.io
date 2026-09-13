@@ -98,10 +98,10 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "Multilingual Knowledge Transfer under Data Constraints via Lexical Interventions",
-    "url": "https://machinelearning.apple.com/research/multilingual-knowledge-transfer-lexical-interventions",
+    "title": "Scaling Laws for Mixture Pretraining Under Data Constraints",
+    "url": "https://machinelearning.apple.com/research/scaling-laws-mixture-pretraining",
     "date": "2026-08-20",
-    "summary": "Cross-lingual knowledge transfer is critical for building high-performing multilingual language models for languages with insufficient training data. When target language data is scarce, the knowledge required for many d…"
+    "summary": "As language models scale, the amount of data they require grows – yet many target data sources, such as low-resource languages or specialized domains, are inherently limited in size. A common strategy is to mix this scar…"
   },
   {
     "company": "Apple",
@@ -114,18 +114,10 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "Scaling Laws for Mixture Pretraining Under Data Constraints",
-    "url": "https://machinelearning.apple.com/research/scaling-laws-mixture-pretraining",
+    "title": "Multilingual Knowledge Transfer under Data Constraints via Lexical Interventions",
+    "url": "https://machinelearning.apple.com/research/multilingual-knowledge-transfer-lexical-interventions",
     "date": "2026-08-20",
-    "summary": "As language models scale, the amount of data they require grows – yet many target data sources, such as low-resource languages or specialized domains, are inherently limited in size. A common strategy is to mix this scar…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
-    "title": "Examining Human-Like Behaviors in LLMs: A Multi-Dimensional Analysis of Model Behaviors, User Factors, and System Prompts",
-    "url": "https://machinelearning.apple.com/research/human-like-behaviors-llms",
-    "date": "2026-08-19",
-    "summary": "Large language models (LLMs) exhibit a wide range of human-like behaviors, from expressing thoughts and emotions, to engaging in relationship-building with users, to refusing requests and maintaining boundaries. Despite…"
+    "summary": "Cross-lingual knowledge transfer is critical for building high-performing multilingual language models for languages with insufficient training data. When target language data is scarce, the knowledge required for many d…"
   },
   {
     "company": "Apple",
@@ -138,18 +130,10 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "A Specialized Semismooth Newton Method for Kernel-Based Optimal Transport",
-    "url": "https://machinelearning.apple.com/research/semismooth-newton-optimal-transport",
-    "date": "2026-08-18",
-    "summary": "Kernel-based optimal transport (OT) estimators offer an alternative, functional estimation procedure to address OT problems from samples. Recent works suggest that these estimators are more statistically efficient than p…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
-    "title": "MVICAD2: Multi-View Independent Component Analysis with Delays and Dilations",
-    "url": "https://machinelearning.apple.com/research/mvicad2-delays-dilations",
-    "date": "2026-08-18",
-    "summary": "Machine learning techniques in multi-view settings face significant challenges, particularly when integrating heterogeneous data, aligning feature spaces, and managing view-specific biases. These issues are prominent in…"
+    "title": "Examining Human-Like Behaviors in LLMs: A Multi-Dimensional Analysis of Model Behaviors, User Factors, and System Prompts",
+    "url": "https://machinelearning.apple.com/research/human-like-behaviors-llms",
+    "date": "2026-08-19",
+    "summary": "Large language models (LLMs) exhibit a wide range of human-like behaviors, from expressing thoughts and emotions, to engaging in relationship-building with users, to refusing requests and maintaining boundaries. Despite…"
   },
   {
     "company": "Apple",
@@ -162,26 +146,26 @@
   {
     "company": "Apple",
     "companySlug": "apple",
+    "title": "MVICAD2: Multi-View Independent Component Analysis with Delays and Dilations",
+    "url": "https://machinelearning.apple.com/research/mvicad2-delays-dilations",
+    "date": "2026-08-18",
+    "summary": "Machine learning techniques in multi-view settings face significant challenges, particularly when integrating heterogeneous data, aligning feature spaces, and managing view-specific biases. These issues are prominent in…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
+    "title": "A Specialized Semismooth Newton Method for Kernel-Based Optimal Transport",
+    "url": "https://machinelearning.apple.com/research/semismooth-newton-optimal-transport",
+    "date": "2026-08-18",
+    "summary": "Kernel-based optimal transport (OT) estimators offer an alternative, functional estimation procedure to address OT problems from samples. Recent works suggest that these estimators are more statistically efficient than p…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
     "title": "When Unlearning Is Free: Leveraging Low Influence Points to Reduce Computational Costs",
     "url": "https://machinelearning.apple.com/research/unlearning-low-influence-points",
     "date": "2026-08-13",
     "summary": "As concerns around data privacy in machine learning grow, the ability to unlearn, or remove, specific data points from trained models becomes increasingly important. While state of the art unlearning methods have emerged…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
-    "title": "Scaling Categorical Flow Maps",
-    "url": "https://machinelearning.apple.com/research/scaling-categorical-flow-maps",
-    "date": "2026-08-07",
-    "summary": "Continuous diffusion and flow matching models could represent a powerful alternative to autoregressive approaches for language modelling (LM), as they unlock a host of advantages currently reserved for continuous modalit…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
-    "title": "Arbitrage: Efficient Reasoning via Advantage-Aware Speculation",
-    "url": "https://machinelearning.apple.com/research/arbitrage-efficient-reasoning",
-    "date": "2026-08-07",
-    "summary": "Modern Large Language Models achieve impressive reasoning capabilities with long Chain of Thoughts, but they incur substantial computational cost during inference, and this motivates techniques to improve the performance…"
   },
   {
     "company": "Apple",
@@ -194,10 +178,18 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "Locking Pretrained Weights via Deep Low-Rank Residual Distillation",
-    "url": "https://machinelearning.apple.com/research/locking-pretrained-weights",
-    "date": "2026-08-06",
-    "summary": "The quality of open-weight language models has dramatically improved in recent years. Sharing weights greatly facilitates model adoption by enabling their use across diverse hardware and software platforms. They also all…"
+    "title": "Arbitrage: Efficient Reasoning via Advantage-Aware Speculation",
+    "url": "https://machinelearning.apple.com/research/arbitrage-efficient-reasoning",
+    "date": "2026-08-07",
+    "summary": "Modern Large Language Models achieve impressive reasoning capabilities with long Chain of Thoughts, but they incur substantial computational cost during inference, and this motivates techniques to improve the performance…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
+    "title": "Scaling Categorical Flow Maps",
+    "url": "https://machinelearning.apple.com/research/scaling-categorical-flow-maps",
+    "date": "2026-08-07",
+    "summary": "Continuous diffusion and flow matching models could represent a powerful alternative to autoregressive approaches for language modelling (LM), as they unlock a host of advantages currently reserved for continuous modalit…"
   },
   {
     "company": "Apple",
@@ -206,6 +198,14 @@
     "url": "https://machinelearning.apple.com/research/deepambigqa-multihop-questions",
     "date": "2026-08-06",
     "summary": "Large language models (LLMs) with integrated search tools show strong promise in open-domain question answering (QA), yet they often struggle to produce complete answer set to complex questions such as “Which actor from…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
+    "title": "Locking Pretrained Weights via Deep Low-Rank Residual Distillation",
+    "url": "https://machinelearning.apple.com/research/locking-pretrained-weights",
+    "date": "2026-08-06",
+    "summary": "The quality of open-weight language models has dramatically improved in recent years. Sharing weights greatly facilitates model adoption by enabling their use across diverse hardware and software platforms. They also all…"
   },
   {
     "company": "Apple",
@@ -226,18 +226,18 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "MoMo: Dial Motion Mode in Robot Manipulation with Spatiotemporal Action Tokenization",
-    "url": "https://machinelearning.apple.com/research/momo-motion-mode-manipulation",
-    "date": "2026-07-30",
-    "summary": "To operate effectively across diverse contexts, robots must not only perform manipulation tasks accurately but also adapt how their actions unfold to the task, object, and interaction setting. We ask whether this executi…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
     "title": "Dimensionality Reduction Meets Network Science: Sensemaking on UMAP’s kNN Graph",
     "url": "https://machinelearning.apple.com/research/umap-knn-graph-sensemaking",
     "date": "2026-07-30",
     "summary": "While UMAP is widely used for exploring high-dimensional data, typical workflows focus on its lower-dimensional embedding, largely overlooking the rich k-nearest-neighbor (kNN) graph that UMAP constructs internally. This…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
+    "title": "MoMo: Dial Motion Mode in Robot Manipulation with Spatiotemporal Action Tokenization",
+    "url": "https://machinelearning.apple.com/research/momo-motion-mode-manipulation",
+    "date": "2026-07-30",
+    "summary": "To operate effectively across diverse contexts, robots must not only perform manipulation tasks accurately but also adapt how their actions unfold to the task, object, and interaction setting. We ask whether this executi…"
   },
   {
     "company": "Apple",
@@ -266,14 +266,6 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "Accelerating Text-to-Video Generation with Calibrated Sparse Attention",
-    "url": "https://machinelearning.apple.com/research/calibrated-sparse-attention",
-    "date": "2026-07-21",
-    "summary": "Recent diffusion models enable high-quality video generation, but suffer from slow runtimes. The large transformer-based backbones used in these models are bottlenecked by spatiotemporal attention. In this paper, we iden…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
     "title": "Environment-free Synthetic Data Generation for API-Calling Agents",
     "url": "https://machinelearning.apple.com/research/environment-free",
     "date": "2026-07-21",
@@ -282,18 +274,10 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "RayRoPE: Projective Ray Positional Encoding for Multi-View Attention",
-    "url": "https://machinelearning.apple.com/research/rayrope-projective-ray",
-    "date": "2026-07-20",
-    "summary": "We study positional encodings for multi-view transformers that process tokens from a set of posed input images, and seek a mechanism that encodes patches uniquely, allows SE(3)-invariant attention with multi-frequency si…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
-    "title": "Length Value Model: Scalable Value Pretraining for Token-Level Length Modeling",
-    "url": "https://machinelearning.apple.com/research/length-value-model",
-    "date": "2026-07-20",
-    "summary": "Token serves as the fundamental unit of computation in modern autoregressive models, and generation length directly influences both inference cost and reasoning performance. Despite its importance, existing approaches la…"
+    "title": "Accelerating Text-to-Video Generation with Calibrated Sparse Attention",
+    "url": "https://machinelearning.apple.com/research/calibrated-sparse-attention",
+    "date": "2026-07-21",
+    "summary": "Recent diffusion models enable high-quality video generation, but suffer from slow runtimes. The large transformer-based backbones used in these models are bottlenecked by spatiotemporal attention. In this paper, we iden…"
   },
   {
     "company": "Apple",
@@ -306,10 +290,18 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "When Unlearning Is Free: Leveraging Low Influence Points to Reduce Computational Costs",
-    "url": "https://machinelearning.apple.com/research/unlearning-free-low-influence",
-    "date": "2026-07-17",
-    "summary": "As concerns around data privacy in machine learning grow, the ability to unlearn—or remove—specific data points from trained models becomes increasingly important. While state-of-the-art unlearning methods have emerged i…"
+    "title": "Length Value Model: Scalable Value Pretraining for Token-Level Length Modeling",
+    "url": "https://machinelearning.apple.com/research/length-value-model",
+    "date": "2026-07-20",
+    "summary": "Token serves as the fundamental unit of computation in modern autoregressive models, and generation length directly influences both inference cost and reasoning performance. Despite its importance, existing approaches la…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
+    "title": "RayRoPE: Projective Ray Positional Encoding for Multi-View Attention",
+    "url": "https://machinelearning.apple.com/research/rayrope-projective-ray",
+    "date": "2026-07-20",
+    "summary": "We study positional encodings for multi-view transformers that process tokens from a set of posed input images, and seek a mechanism that encodes patches uniquely, allows SE(3)-invariant attention with multi-frequency si…"
   },
   {
     "company": "Apple",
@@ -322,34 +314,10 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "Interactive Proofs for General Distribution Properties",
-    "url": "https://machinelearning.apple.com/research/interactive-proofs-distribution-properties",
-    "date": "2026-07-16",
-    "summary": "Suppose Alice has collected a small number of samples from an unknown distribution, and would like to learn about the distribution. Bob, an untrusted data analyst, claims to have run a sophisticated data analysis on the…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
-    "title": "Embarrassingly Simple Self-Distillation Improves Code Generation",
-    "url": "https://machinelearning.apple.com/research/simple-self-distillation",
-    "date": "2026-07-16",
-    "summary": "Can a large language model (LLM) improve at code generation using only its own raw outputs, without a verifier, a teacher model, or reinforcement learning? We answer in the affirmative with simple self-distillation (SSD)…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
-    "title": "Personalizing Incremental Video Search with Hybrid Text and ID Embeddings",
-    "url": "https://machinelearning.apple.com/research/personalizing-incremental-video-search",
-    "date": "2026-07-16",
-    "summary": "Incremental video search requires high-quality ranking after each keystroke, where intent is often underspecified (e.g., 1–3 character prefixes). We present a personalization system for Apple TV search that combines comp…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
-    "title": "Doubly Sub-linear Interactive Proofs of Proximity",
-    "url": "https://machinelearning.apple.com/research/doubly-sublinear-interactive-proofs",
-    "date": "2026-07-16",
-    "summary": "We study doubly sub-linear interactive proofs of proximity (dsIPPs): proofs that are ultra-fast to generate, and can be used to prove approximate assertions about a huge input. Proof generation is ultra-fast in the sense…"
+    "title": "When Unlearning Is Free: Leveraging Low Influence Points to Reduce Computational Costs",
+    "url": "https://machinelearning.apple.com/research/unlearning-free-low-influence",
+    "date": "2026-07-17",
+    "summary": "As concerns around data privacy in machine learning grow, the ability to unlearn—or remove—specific data points from trained models becomes increasingly important. While state-of-the-art unlearning methods have emerged i…"
   },
   {
     "company": "Apple",
@@ -362,18 +330,34 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "One Layer Is Enough: Adapting Pretrained Visual Encoders for Image Generation",
-    "url": "https://machinelearning.apple.com/research/adapting-pretrained-visual-encoders",
-    "date": "2026-07-15",
-    "summary": "Visual generative models (e.g., diffusion models) typically operate in compressed latent spaces to balance training efficiency and sample quality. In parallel, there has been growing interest in leveraging high-quality p…"
+    "title": "Doubly Sub-linear Interactive Proofs of Proximity",
+    "url": "https://machinelearning.apple.com/research/doubly-sublinear-interactive-proofs",
+    "date": "2026-07-16",
+    "summary": "We study doubly sub-linear interactive proofs of proximity (dsIPPs): proofs that are ultra-fast to generate, and can be used to prove approximate assertions about a huge input. Proof generation is ultra-fast in the sense…"
   },
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "CLaRa: Bridging Retrieval and Generation with Continuous Latent Reasoning",
-    "url": "https://machinelearning.apple.com/research/clara-latent-reasoning",
-    "date": "2026-07-15",
-    "summary": "Retrieval-augmented generation (RAG) enhances large language models (LLMs) with external knowledge but still suffers from long contexts and disjoint retrieval–generation optimization. In this work, we propose CLaRa (Cont…"
+    "title": "Personalizing Incremental Video Search with Hybrid Text and ID Embeddings",
+    "url": "https://machinelearning.apple.com/research/personalizing-incremental-video-search",
+    "date": "2026-07-16",
+    "summary": "Incremental video search requires high-quality ranking after each keystroke, where intent is often underspecified (e.g., 1–3 character prefixes). We present a personalization system for Apple TV search that combines comp…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
+    "title": "Embarrassingly Simple Self-Distillation Improves Code Generation",
+    "url": "https://machinelearning.apple.com/research/simple-self-distillation",
+    "date": "2026-07-16",
+    "summary": "Can a large language model (LLM) improve at code generation using only its own raw outputs, without a verifier, a teacher model, or reinforcement learning? We answer in the affirmative with simple self-distillation (SSD)…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
+    "title": "Interactive Proofs for General Distribution Properties",
+    "url": "https://machinelearning.apple.com/research/interactive-proofs-distribution-properties",
+    "date": "2026-07-16",
+    "summary": "Suppose Alice has collected a small number of samples from an unknown distribution, and would like to learn about the distribution. Bob, an untrusted data analyst, claims to have run a sophisticated data analysis on the…"
   },
   {
     "company": "Apple",
@@ -386,10 +370,18 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "Multilingual Semantic Retrieval for Apple Music Search",
-    "url": "https://machinelearning.apple.com/research/multilingual-semantic-retrieval",
-    "date": "2026-07-14",
-    "summary": "Apple Music serves listeners across 150+ storefronts in dozens of languages, with a catalog that grows by hundreds of thousands of new tracks daily. At this scale, search recall on misspelled, transliterated, and cross-l…"
+    "title": "CLaRa: Bridging Retrieval and Generation with Continuous Latent Reasoning",
+    "url": "https://machinelearning.apple.com/research/clara-latent-reasoning",
+    "date": "2026-07-15",
+    "summary": "Retrieval-augmented generation (RAG) enhances large language models (LLMs) with external knowledge but still suffers from long contexts and disjoint retrieval–generation optimization. In this work, we propose CLaRa (Cont…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
+    "title": "One Layer Is Enough: Adapting Pretrained Visual Encoders for Image Generation",
+    "url": "https://machinelearning.apple.com/research/adapting-pretrained-visual-encoders",
+    "date": "2026-07-15",
+    "summary": "Visual generative models (e.g., diffusion models) typically operate in compressed latent spaces to balance training efficiency and sample quality. In parallel, there has been growing interest in leveraging high-quality p…"
   },
   {
     "company": "Apple",
@@ -398,5 +390,13 @@
     "url": "https://machinelearning.apple.com/research/proactive-agent-research-environment",
     "date": "2026-07-14",
     "summary": "Proactive agents that anticipate user needs and autonomously execute tasks hold great promise as digital assistants, yet the lack of realistic user simulation frameworks hinders their development. Existing approaches mod…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
+    "title": "Multilingual Semantic Retrieval for Apple Music Search",
+    "url": "https://machinelearning.apple.com/research/multilingual-semantic-retrieval",
+    "date": "2026-07-14",
+    "summary": "Apple Music serves listeners across 150+ storefronts in dozens of languages, with a catalog that grows by hundreds of thousands of new tracks daily. At this scale, search recall on misspelled, transliterated, and cross-l…"
   }
 ]
