@@ -2,6 +2,30 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
+    "title": "How to Use AI Agents to Prepare 3D Scenes for Simulation",
+    "url": "https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/",
+    "date": "2026-09-16",
+    "summary": "Agentic AI workflows can be used to prepare and validate digital twins for physical AI systems. Agents can inspect 3D scenes, author simulation-relevant data in..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
+    "url": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor/",
+    "date": "2026-09-16",
+    "summary": "AI agents are moving from cloud data centers to vehicles, robots, and other edge devices. Unlike a chatbot that answers a single prompt, an agent works through..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "Translating CUDA Tile Operations from Python to Rust Using Agentic AI",
+    "url": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai/",
+    "date": "2026-09-16",
+    "summary": "cuTile Rust (cutile-rs) is a tile-based system for safe, idiomatic GPU kernel authoring in the Rust programming language. Extending the Rust ownership model to..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
     "title": "Dense vs. MoE Models: Active Parameters, Throughput, and When to Choose Each",
     "url": "https://developer.nvidia.com/blog/dense-vs-moe-models-active-parameters-throughput-and-when-to-choose-each/",
     "date": "2026-09-15",
@@ -370,33 +394,9 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "NVIDIA JetPack 7.2.1 Adds Agentic Video Skills and T3000 Emulation",
-    "url": "https://developer.nvidia.com/blog/nvidia-jetpack-7-2-1-adds-agentic-video-skills-and-t3000-emulation/",
-    "date": "2026-08-11",
-    "summary": "Video is a core data path across NVIDIA Jetson applications, from robotics and intelligent video analytics to industrial automation, healthcare, media..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
     "title": "NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents",
     "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-lightning-delivers-fast-accurate-specialized-task-execution-for-long-running-agents/",
     "date": "2026-08-11",
     "summary": "Long-running AI agents spend most of their time on high-volume execution: tool calls, result validation, and subagent delegation. Using a frontier reasoning..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "Route AI Agent Workloads Across Models with NVIDIA NeMo Switchyard",
-    "url": "https://developer.nvidia.com/blog/route-ai-agent-workloads-across-models-with-nvidia-nemo-switchyard/",
-    "date": "2026-08-11",
-    "summary": "Building an AI agent does not end with choosing a single model. Each model has its own strengths, weaknesses, and cost profile, which can shift from one..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA",
-    "url": "https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/",
-    "date": "2026-08-10",
-    "summary": "Meta returns to the open source ecosystem with the release of Muse Glimmer, a 30B open-weight dense model with a 120K+ context window built for local AI..."
   }
 ]

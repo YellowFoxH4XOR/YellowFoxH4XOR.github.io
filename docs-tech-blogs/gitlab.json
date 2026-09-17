@@ -2,6 +2,14 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
+    "title": "When to use SAST versus an LLM security scanner",
+    "url": "https://about.gitlab.com/blog/sast-vs-llm-security-scanner/",
+    "date": "2026-09-16",
+    "summary": "You re probably running some version of this experiment already: Point a frontier model at a merge request and ask it to double as a vulnerability scanner. On a single merge request, it often works well. The model reads…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
     "title": "GitLab Dedicated: Compliance for a new regulatory era",
     "url": "https://about.gitlab.com/blog/gitlab-dedicated-compliance/",
     "date": "2026-09-14",
@@ -130,6 +138,14 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
+    "title": "GitLab 19.3 released",
+    "url": "https://docs.gitlab.com/releases/19/gitlab-19-3-released/",
+    "date": "2026-08-20",
+    "summary": ""
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
     "title": "When your backlog outgrows your team, GitLab scales remediation",
     "url": "https://about.gitlab.com/blog/gitlab-scales-remediation/",
     "date": "2026-08-20",
@@ -154,26 +170,10 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "GitLab 19.3 released",
-    "url": "https://docs.gitlab.com/releases/19/gitlab-19-3-released/",
-    "date": "2026-08-20",
-    "summary": ""
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
     "title": "From chaos to context: Building an AI dev workflow",
     "url": "https://about.gitlab.com/blog/building-an-ai-dev-workflow/",
     "date": "2026-08-19",
     "summary": "There s a particular kind of frustration that happens when prompting an AI assistant with the same correction multiple times in a single session. The marvels of modern large language models (LLMs) make it so you re worki…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "Avoid the massive end-to-end tax of default full history clones",
-    "url": "https://about.gitlab.com/blog/git-clone-override-policy/",
-    "date": "2026-08-18",
-    "summary": "It s easy to think of git clone as a client-side operation, but the settings of this operation impact the server side and all networks in between. When you run a default full history clone, the server has to walk the ent…"
   },
   {
     "company": "GitLab",
@@ -186,10 +186,10 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "GitLab Critical Patch Release: 19.2.4, 19.1.6, 19.0.8, 18.11.11",
-    "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-2-4-released/",
-    "date": "2026-08-17",
-    "summary": ""
+    "title": "Avoid the massive end-to-end tax of default full history clones",
+    "url": "https://about.gitlab.com/blog/git-clone-override-policy/",
+    "date": "2026-08-18",
+    "summary": "It s easy to think of git clone as a client-side operation, but the settings of this operation impact the server side and all networks in between. When you run a default full history clone, the server has to walk the ent…"
   },
   {
     "company": "GitLab",
@@ -202,26 +202,18 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "How I built a demo generator with GitLab Duo Agent Platform",
-    "url": "https://about.gitlab.com/blog/agentic-click-through-demo/",
-    "date": "2026-08-13",
-    "summary": "A demo used to take me days to build — screenshots, narration, stitching it together in an external tool, chasing feedback — and every time the feature changed I d have to start over. A few months ago, I handed most of t…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "GitLab Patch Release: 19.2.2, 19.1.4, 19.0.6",
-    "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-2-2-released/",
-    "date": "2026-08-12",
+    "title": "GitLab Critical Patch Release: 19.2.4, 19.1.6, 19.0.8, 18.11.11",
+    "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-2-4-released/",
+    "date": "2026-08-17",
     "summary": ""
   },
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "A sandbox is only as closed as what an AI agent can reach",
-    "url": "https://about.gitlab.com/blog/ai-agent-sandbox/",
-    "date": "2026-08-12",
-    "summary": "In July, OpenAI and Hugging Face responsibly disclosed an OpenAI model under internal evaluation escaped its sandbox, reached the open internet, and accessed Hugging Face’s internal production infrastructure. The agent t…"
+    "title": "How I built a demo generator with GitLab Duo Agent Platform",
+    "url": "https://about.gitlab.com/blog/agentic-click-through-demo/",
+    "date": "2026-08-13",
+    "summary": "A demo used to take me days to build — screenshots, narration, stitching it together in an external tool, chasing feedback — and every time the feature changed I d have to start over. A few months ago, I handed most of t…"
   },
   {
     "company": "GitLab",
@@ -234,10 +226,18 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "GitLab Secrets Manager adds ESO, Terraform, API support",
-    "url": "https://about.gitlab.com/blog/gitlab-secrets-manager-add-eso-terraform-api-support/",
-    "date": "2026-08-06",
-    "summary": "Today, you might maintain separate secret stores for CI/CD, Kubernetes, and Terraform. However, that leaves multiple tools to manage, access models to keep in sync, and audit trails to correlate when something goes wrong…"
+    "title": "A sandbox is only as closed as what an AI agent can reach",
+    "url": "https://about.gitlab.com/blog/ai-agent-sandbox/",
+    "date": "2026-08-12",
+    "summary": "In July, OpenAI and Hugging Face responsibly disclosed an OpenAI model under internal evaluation escaped its sandbox, reached the open internet, and accessed Hugging Face’s internal production infrastructure. The agent t…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "GitLab Patch Release: 19.2.2, 19.1.4, 19.0.6",
+    "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-2-2-released/",
+    "date": "2026-08-12",
+    "summary": ""
   },
   {
     "company": "GitLab",
@@ -246,6 +246,14 @@
     "url": "https://about.gitlab.com/blog/confidential-ai-for-gitlab-self-hosted/",
     "date": "2026-08-06",
     "summary": "Your developers want AI coding agents. Your source code is regulated IP that can t be sent to a third-party AI service, and your compliance team has said so in writing. The usual escape hatch, standing up your own GPU cl…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "GitLab Secrets Manager adds ESO, Terraform, API support",
+    "url": "https://about.gitlab.com/blog/gitlab-secrets-manager-add-eso-terraform-api-support/",
+    "date": "2026-08-06",
+    "summary": "Today, you might maintain separate secret stores for CI/CD, Kubernetes, and Terraform. However, that leaves multiple tools to manage, access models to keep in sync, and audit trails to correlate when something goes wrong…"
   },
   {
     "company": "GitLab",
@@ -266,18 +274,18 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Why GitLab signed the Open Weights and American AI Leadership letter",
-    "url": "https://about.gitlab.com/blog/open-weight-model-letter/",
-    "date": "2026-07-29",
-    "summary": "This week GitLab signed the Open Weights and American AI Leadership letter , joining a long list of other technology companies that support a strong, open AI ecosystem. The letter argues that open weights spur innovation…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
     "title": "GitLab Patch Release: 19.2.1, 19.1.3, 19.0.5",
     "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-2-1-released/",
     "date": "2026-07-29",
     "summary": ""
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "Why GitLab signed the Open Weights and American AI Leadership letter",
+    "url": "https://about.gitlab.com/blog/open-weight-model-letter/",
+    "date": "2026-07-29",
+    "summary": "This week GitLab signed the Open Weights and American AI Leadership letter , joining a long list of other technology companies that support a strong, open AI ecosystem. The letter argues that open weights spur innovation…"
   },
   {
     "company": "GitLab",
@@ -298,14 +306,6 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "GitLab Transcend Hackathon: What developers built on GitLab Orbit",
-    "url": "https://about.gitlab.com/blog/gitlab-transcend-hackathon-orbit/",
-    "date": "2026-07-20",
-    "summary": "We gave a few thousand developers GitLab Orbit. Then we got out of the way. The community responded with creative solutions to real production problems slowing down their teams. The same problems you hit every week: What…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
     "title": "Automate work item assignment with a \"Work item created\" trigger",
     "url": "https://about.gitlab.com/blog/how-to-use-a-work-item-created-trigger/",
     "date": "2026-07-20",
@@ -314,42 +314,10 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Turn multi-step software delivery into agentic flows you can trust",
-    "url": "https://about.gitlab.com/blog/multi-step-software-delivery-with-agentic-flows/",
-    "date": "2026-07-16",
-    "summary": "Knowing what to do next in software development is rarely the hard part. Doing it again in the exact same steps — implement an issue, fix a pipeline, review a merge request — is. Chat that only provides answers still lea…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "Forrester Consulting: GitLab Duo Agent Platform delivers 400% ROI",
-    "url": "https://about.gitlab.com/blog/gitlab-duo-agent-platform-delivers-400-percent-roi/",
-    "date": "2026-07-16",
-    "summary": "A new Forrester Consulting Total Economic Impact™ study found that organizations using GitLab Duo Agent Platform achieve a 400% return on investment and $7.5 million in net present value over three years — with payback i…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "Bring GitLab Duo Agent Platform to your terminal",
-    "url": "https://about.gitlab.com/blog/gitlab-duo-cli-generally-available/",
-    "date": "2026-07-16",
-    "summary": "Most of the work for software delivery doesn’t happen only in the editor. Pipelines fail. Tests break. Vulnerabilities show up. And a lot of that work starts and ends at the command line. Agentic AI in the terminal that…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "GitLab 19.2 released",
-    "url": "https://docs.gitlab.com/releases/19/gitlab-19-2-released/",
-    "date": "2026-07-16",
-    "summary": ""
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "When a version bump breaks your build, GitLab fixes it",
-    "url": "https://about.gitlab.com/blog/dependency-scanning-auto-remediation/",
-    "date": "2026-07-16",
-    "summary": "AI is writing more code and pulling in more dependencies, increasing application risk. Most of that exposure isn t from code your team actively chose. A 2025 study of the Maven ecosystem found vulnerabilities reaching ro…"
+    "title": "GitLab Transcend Hackathon: What developers built on GitLab Orbit",
+    "url": "https://about.gitlab.com/blog/gitlab-transcend-hackathon-orbit/",
+    "date": "2026-07-20",
+    "summary": "We gave a few thousand developers GitLab Orbit. Then we got out of the way. The community responded with creative solutions to real production problems slowing down their teams. The same problems you hit every week: What…"
   },
   {
     "company": "GitLab",
@@ -362,18 +330,50 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Green DevOps: Why carbon measurement belongs in your CI/CD pipeline",
-    "url": "https://about.gitlab.com/blog/green-devops-carbon-measurement-cicd-pipeline/",
-    "date": "2026-07-09",
-    "summary": "A typical software team runs hundreds of CI/CD jobs a day. Each one runs on compute and burns energy that doesn t show up in your pipeline logs, including its carbon impact. That invisibility is exactly the problem. You…"
+    "title": "When a version bump breaks your build, GitLab fixes it",
+    "url": "https://about.gitlab.com/blog/dependency-scanning-auto-remediation/",
+    "date": "2026-07-16",
+    "summary": "AI is writing more code and pulling in more dependencies, increasing application risk. Most of that exposure isn t from code your team actively chose. A 2025 study of the Maven ecosystem found vulnerabilities reaching ro…"
   },
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "How we used AI agents to migrate GitLab rate limiting",
-    "url": "https://about.gitlab.com/blog/ai-agents-for-migrating-rate-limiting-system/",
-    "date": "2026-07-08",
-    "summary": "A small team at GitLab spent the past few weeks running an experiment: Could we use AI agents to migrate part of our legacy rate-limiting system without dropping the safety bar? Short answer: yes. AI agents do work. They…"
+    "title": "GitLab 19.2 released",
+    "url": "https://docs.gitlab.com/releases/19/gitlab-19-2-released/",
+    "date": "2026-07-16",
+    "summary": ""
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "Bring GitLab Duo Agent Platform to your terminal",
+    "url": "https://about.gitlab.com/blog/gitlab-duo-cli-generally-available/",
+    "date": "2026-07-16",
+    "summary": "Most of the work for software delivery doesn’t happen only in the editor. Pipelines fail. Tests break. Vulnerabilities show up. And a lot of that work starts and ends at the command line. Agentic AI in the terminal that…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "Forrester Consulting: GitLab Duo Agent Platform delivers 400% ROI",
+    "url": "https://about.gitlab.com/blog/gitlab-duo-agent-platform-delivers-400-percent-roi/",
+    "date": "2026-07-16",
+    "summary": "A new Forrester Consulting Total Economic Impact™ study found that organizations using GitLab Duo Agent Platform achieve a 400% return on investment and $7.5 million in net present value over three years — with payback i…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "Turn multi-step software delivery into agentic flows you can trust",
+    "url": "https://about.gitlab.com/blog/multi-step-software-delivery-with-agentic-flows/",
+    "date": "2026-07-16",
+    "summary": "Knowing what to do next in software development is rarely the hard part. Doing it again in the exact same steps — implement an issue, fix a pipeline, review a merge request — is. Chat that only provides answers still lea…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "Green DevOps: Why carbon measurement belongs in your CI/CD pipeline",
+    "url": "https://about.gitlab.com/blog/green-devops-carbon-measurement-cicd-pipeline/",
+    "date": "2026-07-09",
+    "summary": "A typical software team runs hundreds of CI/CD jobs a day. Each one runs on compute and burns energy that doesn t show up in your pipeline logs, including its carbon impact. That invisibility is exactly the problem. You…"
   },
   {
     "company": "GitLab",
@@ -386,17 +386,17 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Keep your GitLab seats in check with restricted access",
-    "url": "https://about.gitlab.com/blog/gitlab-restricted-access-improvements/",
-    "date": "2026-07-06",
-    "summary": "GitLab restricted access for instance admins, group owners, and billing managers enables predictable seat costs with less manual gatekeeping. The feature has been significantly improved and is now more complete for the w…"
+    "title": "How we used AI agents to migrate GitLab rate limiting",
+    "url": "https://about.gitlab.com/blog/ai-agents-for-migrating-rate-limiting-system/",
+    "date": "2026-07-08",
+    "summary": "A small team at GitLab spent the past few weeks running an experiment: Could we use AI agents to migrate part of our legacy rate-limiting system without dropping the safety bar? Short answer: yes. AI agents do work. They…"
   },
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "GitLab Patch Release: 18.8.11",
-    "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-18-8-11-released/",
-    "date": "2026-07-01",
-    "summary": ""
+    "title": "Keep your GitLab seats in check with restricted access",
+    "url": "https://about.gitlab.com/blog/gitlab-restricted-access-improvements/",
+    "date": "2026-07-06",
+    "summary": "GitLab restricted access for instance admins, group owners, and billing managers enables predictable seat costs with less manual gatekeeping. The feature has been significantly improved and is now more complete for the w…"
   }
 ]
