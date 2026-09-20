@@ -186,18 +186,10 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "GitLab 19.3 released",
-    "url": "https://docs.gitlab.com/releases/19/gitlab-19-3-released/",
+    "title": "Build custom flows in minutes with the Flow Creator agent",
+    "url": "https://about.gitlab.com/blog/flow-creator-agent/",
     "date": "2026-08-20",
-    "summary": ""
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "When your backlog outgrows your team, GitLab scales remediation",
-    "url": "https://about.gitlab.com/blog/gitlab-scales-remediation/",
-    "date": "2026-08-20",
-    "summary": "Security teams have historically struggled to keep up with triage and remediation when development was happening at human speed. Today, that challenge is exacerbated by developers writing and shipping code at machine spe…"
+    "summary": "Custom Flows already let teams turn manual, multi-step work into automation that runs on GitLab events. But writing one meant learning the Flow Registry schema first. That requirement is a real barrier. The people who un…"
   },
   {
     "company": "GitLab",
@@ -210,10 +202,18 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Build custom flows in minutes with the Flow Creator agent",
-    "url": "https://about.gitlab.com/blog/flow-creator-agent/",
+    "title": "When your backlog outgrows your team, GitLab scales remediation",
+    "url": "https://about.gitlab.com/blog/gitlab-scales-remediation/",
     "date": "2026-08-20",
-    "summary": "Custom Flows already let teams turn manual, multi-step work into automation that runs on GitLab events. But writing one meant learning the Flow Registry schema first. That requirement is a real barrier. The people who un…"
+    "summary": "Security teams have historically struggled to keep up with triage and remediation when development was happening at human speed. Today, that challenge is exacerbated by developers writing and shipping code at machine spe…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "GitLab 19.3 released",
+    "url": "https://docs.gitlab.com/releases/19/gitlab-19-3-released/",
+    "date": "2026-08-20",
+    "summary": ""
   },
   {
     "company": "GitLab",
@@ -226,14 +226,6 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "From OpenTofu to Argo CD: GitLab as your AWS control plane",
-    "url": "https://about.gitlab.com/blog/gitlab-as-your-aws-control-plane/",
-    "date": "2026-08-18",
-    "summary": "Configuring cloud-based environments is complex, as it requires considering networking, subscriptions, services, and all the components that make up the underlying infrastructure. Manual setup is error-prone, inconsisten…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
     "title": "Avoid the massive end-to-end tax of default full history clones",
     "url": "https://about.gitlab.com/blog/git-clone-override-policy/",
     "date": "2026-08-18",
@@ -242,10 +234,10 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Critical remote code execution in Serena, a popular MCP coding agent",
-    "url": "https://about.gitlab.com/blog/critical-rce-in-serena/",
-    "date": "2026-08-17",
-    "summary": "Serena, one of the most widely used AI coding agents, ran attacker-supplied code the moment a developer opened a project. GitLab s Threat Research Group found a critical server-side template injection ( GHSA-pp25-4cg4-qc…"
+    "title": "From OpenTofu to Argo CD: GitLab as your AWS control plane",
+    "url": "https://about.gitlab.com/blog/gitlab-as-your-aws-control-plane/",
+    "date": "2026-08-18",
+    "summary": "Configuring cloud-based environments is complex, as it requires considering networking, subscriptions, services, and all the components that make up the underlying infrastructure. Manual setup is error-prone, inconsisten…"
   },
   {
     "company": "GitLab",
@@ -258,26 +250,18 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
+    "title": "Critical remote code execution in Serena, a popular MCP coding agent",
+    "url": "https://about.gitlab.com/blog/critical-rce-in-serena/",
+    "date": "2026-08-17",
+    "summary": "Serena, one of the most widely used AI coding agents, ran attacker-supplied code the moment a developer opened a project. GitLab s Threat Research Group found a critical server-side template injection ( GHSA-pp25-4cg4-qc…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
     "title": "How I built a demo generator with GitLab Duo Agent Platform",
     "url": "https://about.gitlab.com/blog/agentic-click-through-demo/",
     "date": "2026-08-13",
     "summary": "A demo used to take me days to build — screenshots, narration, stitching it together in an external tool, chasing feedback — and every time the feature changed I d have to start over. A few months ago, I handed most of t…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "How GitLab tracks vulnerabilities through refactors and reformatting",
-    "url": "https://about.gitlab.com/blog/improved-scope-offset-fingerprinting/",
-    "date": "2026-08-12",
-    "summary": "Every day, security scans face the same problem: an agent or a developer adds a comment, reformats a file, or moves a function, and a naive vulnerability tracker suddenly reports the same finding twice. Security teams en…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "A sandbox is only as closed as what an AI agent can reach",
-    "url": "https://about.gitlab.com/blog/ai-agent-sandbox/",
-    "date": "2026-08-12",
-    "summary": "In July, OpenAI and Hugging Face responsibly disclosed an OpenAI model under internal evaluation escaped its sandbox, reached the open internet, and accessed Hugging Face’s internal production infrastructure. The agent t…"
   },
   {
     "company": "GitLab",
@@ -290,10 +274,18 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Confidential AI for GitLab Self-Hosted",
-    "url": "https://about.gitlab.com/blog/confidential-ai-for-gitlab-self-hosted/",
-    "date": "2026-08-06",
-    "summary": "Your developers want AI coding agents. Your source code is regulated IP that can t be sent to a third-party AI service, and your compliance team has said so in writing. The usual escape hatch, standing up your own GPU cl…"
+    "title": "A sandbox is only as closed as what an AI agent can reach",
+    "url": "https://about.gitlab.com/blog/ai-agent-sandbox/",
+    "date": "2026-08-12",
+    "summary": "In July, OpenAI and Hugging Face responsibly disclosed an OpenAI model under internal evaluation escaped its sandbox, reached the open internet, and accessed Hugging Face’s internal production infrastructure. The agent t…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "How GitLab tracks vulnerabilities through refactors and reformatting",
+    "url": "https://about.gitlab.com/blog/improved-scope-offset-fingerprinting/",
+    "date": "2026-08-12",
+    "summary": "Every day, security scans face the same problem: an agent or a developer adds a comment, reformats a file, or moves a function, and a naive vulnerability tracker suddenly reports the same finding twice. Security teams en…"
   },
   {
     "company": "GitLab",
@@ -302,6 +294,14 @@
     "url": "https://about.gitlab.com/blog/gitlab-secrets-manager-add-eso-terraform-api-support/",
     "date": "2026-08-06",
     "summary": "Today, you might maintain separate secret stores for CI/CD, Kubernetes, and Terraform. However, that leaves multiple tools to manage, access models to keep in sync, and audit trails to correlate when something goes wrong…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "Confidential AI for GitLab Self-Hosted",
+    "url": "https://about.gitlab.com/blog/confidential-ai-for-gitlab-self-hosted/",
+    "date": "2026-08-06",
+    "summary": "Your developers want AI coding agents. Your source code is regulated IP that can t be sent to a third-party AI service, and your compliance team has said so in writing. The usual escape hatch, standing up your own GPU cl…"
   },
   {
     "company": "GitLab",
@@ -322,18 +322,18 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "GitLab Patch Release: 19.2.1, 19.1.3, 19.0.5",
-    "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-2-1-released/",
-    "date": "2026-07-29",
-    "summary": ""
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
     "title": "Why GitLab signed the Open Weights and American AI Leadership letter",
     "url": "https://about.gitlab.com/blog/open-weight-model-letter/",
     "date": "2026-07-29",
     "summary": "This week GitLab signed the Open Weights and American AI Leadership letter , joining a long list of other technology companies that support a strong, open AI ecosystem. The letter argues that open weights spur innovation…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "GitLab Patch Release: 19.2.1, 19.1.3, 19.0.5",
+    "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-2-1-released/",
+    "date": "2026-07-29",
+    "summary": ""
   },
   {
     "company": "GitLab",
@@ -354,14 +354,6 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Automate work item assignment with a \"Work item created\" trigger",
-    "url": "https://about.gitlab.com/blog/how-to-use-a-work-item-created-trigger/",
-    "date": "2026-07-20",
-    "summary": "A new, event-driven trigger in GitLab Duo Agent Platform lets flows fire the moment a work item is created, turning triage and assignment from a manual, all-day chore into automation that runs in seconds. This comprehens…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
     "title": "GitLab Transcend Hackathon: What developers built on GitLab Orbit",
     "url": "https://about.gitlab.com/blog/gitlab-transcend-hackathon-orbit/",
     "date": "2026-07-20",
@@ -370,18 +362,18 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "When a version bump breaks your build, GitLab fixes it",
-    "url": "https://about.gitlab.com/blog/dependency-scanning-auto-remediation/",
-    "date": "2026-07-16",
-    "summary": "AI is writing more code and pulling in more dependencies, increasing application risk. Most of that exposure isn t from code your team actively chose. A 2025 study of the Maven ecosystem found vulnerabilities reaching ro…"
+    "title": "Automate work item assignment with a \"Work item created\" trigger",
+    "url": "https://about.gitlab.com/blog/how-to-use-a-work-item-created-trigger/",
+    "date": "2026-07-20",
+    "summary": "A new, event-driven trigger in GitLab Duo Agent Platform lets flows fire the moment a work item is created, turning triage and assignment from a manual, all-day chore into automation that runs in seconds. This comprehens…"
   },
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "GitLab 19.2 released",
-    "url": "https://docs.gitlab.com/releases/19/gitlab-19-2-released/",
+    "title": "Forrester Consulting: GitLab Duo Agent Platform delivers 400% ROI",
+    "url": "https://about.gitlab.com/blog/gitlab-duo-agent-platform-delivers-400-percent-roi/",
     "date": "2026-07-16",
-    "summary": ""
+    "summary": "A new Forrester Consulting Total Economic Impact™ study found that organizations using GitLab Duo Agent Platform achieve a 400% return on investment and $7.5 million in net present value over three years — with payback i…"
   },
   {
     "company": "GitLab",
@@ -394,9 +386,17 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Forrester Consulting: GitLab Duo Agent Platform delivers 400% ROI",
-    "url": "https://about.gitlab.com/blog/gitlab-duo-agent-platform-delivers-400-percent-roi/",
+    "title": "GitLab 19.2 released",
+    "url": "https://docs.gitlab.com/releases/19/gitlab-19-2-released/",
     "date": "2026-07-16",
-    "summary": "A new Forrester Consulting Total Economic Impact™ study found that organizations using GitLab Duo Agent Platform achieve a 400% return on investment and $7.5 million in net present value over three years — with payback i…"
+    "summary": ""
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "When a version bump breaks your build, GitLab fixes it",
+    "url": "https://about.gitlab.com/blog/dependency-scanning-auto-remediation/",
+    "date": "2026-07-16",
+    "summary": "AI is writing more code and pulling in more dependencies, increasing application risk. Most of that exposure isn t from code your team actively chose. A 2025 study of the Maven ecosystem found vulnerabilities reaching ro…"
   }
 ]
