@@ -2,6 +2,38 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
+    "title": "Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning",
+    "url": "https://developer.nvidia.com/blog/introducing-nv-reason-ct-open-3d-ct-vlm-for-radiologist-chain-of-thought-reasoning/",
+    "date": "2026-09-23",
+    "summary": "Radiology AI has made remarkable strides in detecting abnormalities across chest X-rays, pathology slides, and 2D scans. Yet one of the most clinically rich and..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "Validate GPU Cluster Readiness Before AI Workloads Land",
+    "url": "https://developer.nvidia.com/blog/validate-gpu-cluster-readiness-before-ai-workloads-land/",
+    "date": "2026-09-23",
+    "summary": "A GPU cluster can pass every health check and still fail to run an AI workload. Even when every GPU, network link, and pod reports healthy, a 512-GPU training..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "Manage Kubernetes Node Fleets with NodeWright",
+    "url": "https://developer.nvidia.com/blog/manage-kubernetes-node-fleets-with-nodewright/",
+    "date": "2026-09-23",
+    "summary": "Kubernetes manages what runs on your nodes. Managing the nodes themselves is the challenge: kernel settings, system packages, storage layouts, security agents,..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "How SWE-Serve Exposes the Gap Between Local Tests and Live Serving",
+    "url": "https://developer.nvidia.com/blog/how-swe-serve-exposes-the-gap-between-local-tests-and-live-serving/",
+    "date": "2026-09-23",
+    "summary": "An AI coding agent’s patch can pass tests yet fail when the server loads a real model and handles requests. Evaluating changes to inference-serving software..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
     "title": "Enabling Private High-Performance Production AI Inference with NVIDIA Confidential Computing",
     "url": "https://developer.nvidia.com/blog/enabling-private-high-performance-production-ai-inference-with-nvidia-confidential-computing/",
     "date": "2026-09-22",
@@ -322,14 +354,6 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "Maximizing AI Factory Performance per Watt with NVIDIA DSX MaxLPS",
-    "url": "https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps/",
-    "date": "2026-08-24",
-    "summary": "AI factories are power-constrained industrial systems. The question is no longer how many GPUs fit in a data center, but how much AI output each available..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
     "title": "NVIDIA BlueField-4 Powers New Scale-In Network Infrastructure for Agentic AI Factories",
     "url": "https://developer.nvidia.com/blog/nvidia-bluefield-4-powers-new-scale-in-network-infrastructure-for-agentic-ai-factories/",
     "date": "2026-08-24",
@@ -354,6 +378,14 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
+    "title": "Maximizing AI Factory Performance per Watt with NVIDIA DSX MaxLPS",
+    "url": "https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps/",
+    "date": "2026-08-24",
+    "summary": "AI factories are power-constrained industrial systems. The question is no longer how many GPUs fit in a data center, but how much AI output each available..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
     "title": "GPU-Accelerated Clustering for Financial Instruments at Scale",
     "url": "https://developer.nvidia.com/blog/gpu-accelerated-clustering-for-financial-instruments-at-scale/",
     "date": "2026-08-21",
@@ -366,37 +398,5 @@
     "url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/",
     "date": "2026-08-21",
     "summary": "A frontier language model is only one component of an AI agent. The surrounding agent system—often called a harness—determines how the model receives..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "Where Security Fits in an AI Agent Stack",
-    "url": "https://developer.nvidia.com/blog/where-security-fits-in-an-ai-agent-stack/",
-    "date": "2026-08-21",
-    "summary": "As AI agents become more capable and operate over longer horizons, building security and trust into the applications they power becomes increasingly important...."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "How Generative Recommenders Are Redefining RecSys at Scale",
-    "url": "https://developer.nvidia.com/blog/how-generative-recommenders-are-redefining-recsys-at-scale/",
-    "date": "2026-08-20",
-    "summary": "Recommender systems (RecSys) are one of the most ubiquitous machine learning problems in the consumer internet industry yet notoriously difficult to train and..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "Building Federated Multimodal AI Workflows with NVIDIA FLARE",
-    "url": "https://developer.nvidia.com/blog/building-federated-multimodal-ai-workflows-with-nvidia-flare/",
-    "date": "2026-08-19",
-    "summary": "Modern vision-language models (VLMs) can support tasks such as visual question answering, captioning, and image-text reasoning. In practice, however, the data..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "Developing NVIDIA Holoscan Applications with CLI, Skills, and AI Coding Agents",
-    "url": "https://developer.nvidia.com/blog/developing-nvidia-holoscan-applications-with-cli-skills-and-ai-coding-agents/",
-    "date": "2026-08-19",
-    "summary": "NVIDIA Holoscan is a platform for building real-time AI applications at the edge, from medical imaging to robotics. HoloHub is its companion repository: a..."
   }
 ]
