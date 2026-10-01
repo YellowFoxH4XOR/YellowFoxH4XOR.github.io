@@ -2,6 +2,38 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
+    "title": "Fine-Tuning NVIDIA Nemotron for Saudi Arabic Dialects, with a Path to Other Languages",
+    "url": "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-for-saudi-arabic-dialects-with-a-path-to-other-languages/",
+    "date": "2026-10-01",
+    "summary": "Automatic speech recognition must handle how people actually speak, not only the languages and styles that dominate pretraining data. Regional dialects and..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "Deploying an HSTU Generative Recommender with NVIDIA Dynamo-Triton",
+    "url": "https://developer.nvidia.com/blog/deploying-an-hstu-generative-recommender-with-nvidia-dynamo-triton/",
+    "date": "2026-09-30",
+    "summary": "Generative recommender (GR) systems are emerging as a powerful new approach for large-scale personalization. Instead of treating recommendation as a set of..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "Expanding AI Storage Access with NVIDIA cuObject and the NVIDIA SCADA Server SDK",
+    "url": "https://developer.nvidia.com/blog/expanding-ai-storage-access-with-nvidia-cuobject-and-the-nvidia-scada-server-sdk/",
+    "date": "2026-09-30",
+    "summary": "AI infrastructure engineers, storage developers, and cloud service providers need fast and secure access to high-capacity file and object storage to support AI..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "Tracing Agent Harness Behavior with NVIDIA NeMo Relay",
+    "url": "https://developer.nvidia.com/blog/tracing-agent-harness-behavior-with-nvidia-nemo-relay/",
+    "date": "2026-09-30",
+    "summary": "An agent can finish a task and still take an inefficient path. A failed search can trigger another search. A truncated file read can lead to a command fetching..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
     "title": "AI Native by Design: Lessons Learned from Building NVIDIA TensorRT Model Connect",
     "url": "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect/",
     "date": "2026-09-29",
@@ -366,37 +398,5 @@
     "url": "https://developer.nvidia.com/blog/experiment-with-qwen3-8-flash-next-on-nvidia-gb300-nvl72-for-agentic-coding/",
     "date": "2026-08-26",
     "summary": "Alibaba released the model weights for Qwen3.8-Flash-Next as a preview of the upcoming Qwen4 architecture for developers to experiment with and evaluate. It’s..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo",
-    "url": "https://developer.nvidia.com/blog/restore-llm-inference-capacity-in-seconds-with-shadow-engine-recovery-in-nvidia-dynamo/",
-    "date": "2026-08-25",
-    "summary": "When an LLM engine process fails, the standard recovery path involves a cold restart. This requires loading weights into HBM from storage, compiling kernels,..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "CUDA Python 1.0: Stable APIs, One Foundation, Full Platform Access",
-    "url": "https://developer.nvidia.com/blog/cuda-python-1-0-stable-apis-one-foundation-full-platform-access/",
-    "date": "2026-08-25",
-    "summary": "For years, a Python developer who needed a GPU had two realistic choices: Learn NVIDIA CUDA C++ well enough to write an extension, set up a build toolchain, and..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "NVIDIA BlueField-4 Powers New Scale-In Network Infrastructure for Agentic AI Factories",
-    "url": "https://developer.nvidia.com/blog/nvidia-bluefield-4-powers-new-scale-in-network-infrastructure-for-agentic-ai-factories/",
-    "date": "2026-08-24",
-    "summary": "Traditional cloud infrastructure was designed for predictable, general-purpose workloads and standard interfaces. Agentic AI factories connect diverse users,..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "Maximizing AI Factory Performance per Watt with NVIDIA DSX MaxLPS",
-    "url": "https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps/",
-    "date": "2026-08-24",
-    "summary": "AI factories are power-constrained industrial systems. The question is no longer how many GPUs fit in a data center, but how much AI output each available..."
   }
 ]

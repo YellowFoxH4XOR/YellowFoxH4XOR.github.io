@@ -2,6 +2,78 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
+    "title": "Cloudflare Impact reaches $100 million in donations",
+    "url": "https://blog.cloudflare.com/100-million-donations/",
+    "date": "2026-09-30",
+    "summary": "This week, Cloudflare's Impact programs will reach $100 million in donated services. This milestone means that thousands of entities including journalists, civil society, state and local governments, election management…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Cut your AI spend with AI Gateway's Auto Router",
+    "url": "https://blog.cloudflare.com/auto-router/",
+    "date": "2026-09-30",
+    "summary": "Cloudflare AI Gateway now features a model router that evaluates request complexity using an edge-deployed classifier to select the optimal model. By balancing expected output quality against token costs, organizations c…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Detect and send production issues straight to your agent",
+    "url": "https://blog.cloudflare.com/real-time-issue-detection/",
+    "date": "2026-09-30",
+    "summary": "You can now use built-in error monitoring in Cloudflare Workers to group production failures and send stack traces, logs, traces, and application context directly to a coding agent to investigate further and open a pull…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Simplifying domains for people and agents",
+    "url": "https://blog.cloudflare.com/simplifying-domains/",
+    "date": "2026-09-30",
+    "summary": "Cloudflare Registrar’s new search delivers fast, transparent results across 420+ extensions using Workers, Durable Objects, and WebSockets. Its expanded API and cf CLI also let agents search, register, and transfer domai…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Monetization Gateway beta: charge AI agents for consumption with HTTP 402",
+    "url": "https://blog.cloudflare.com/monetization-gateway-beta/",
+    "date": "2026-09-30",
+    "summary": "Cloudflare’s AI Gateway, Ceramic.ai, Stocktwits, and more are using the Cloudflare Monetization Gateway today to charge agents for access to tokens, APIs, and MCP tools. U.S.-based sellers can now apply for access to the…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Pay Per Use: when AI uses your work, you should get paid",
+    "url": "https://blog.cloudflare.com/pay-per-use/",
+    "date": "2026-09-30",
+    "summary": "Pay Per Use is now in beta. AI companies report when they use publishers’ content, and Cloudflare handles billing, payouts, and reporting, so our customers are paid according to use."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Identify AI model overuse with User Insights",
+    "url": "https://blog.cloudflare.com/ai-model-overuse-user-insights/",
+    "date": "2026-09-30",
+    "summary": "AI Gateway User Insights now adds task, model, turn, and user categories to help teams understand AI adoption and make better model decisions. This is available free to AI Gateway users."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Cloudflare Containers, rebuilt to scale agent sandboxes",
+    "url": "https://blog.cloudflare.com/faster-agent-sandboxes/",
+    "date": "2026-09-30",
+    "summary": "Cloudflare Containers now start 6x faster, let your agent choose each sandbox's image and instance type at runtime, and support filesystem snapshots in public beta, all controlled from a Durable Object."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "The Internet has a second audience",
+    "url": "https://blog.cloudflare.com/agentic-web/",
+    "date": "2026-09-30",
+    "summary": "More than half the traffic reaching sites on Cloudflare is now automated, and AI agents are the fastest-growing part of it. We're giving site owners the tools to see who's visiting, decide who gets in, and charge for acc…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
     "title": "Using AI to chart a course for our post-quantum migration",
     "url": "https://blog.cloudflare.com/ai-driven-cryptography-discovery/",
     "date": "2026-09-29",
@@ -74,58 +146,10 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
-    "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+    "title": "Supporting native Rust in Workers with the new Emscripten target for wasm-bindgen",
+    "url": "https://blog.cloudflare.com/rust-workers-emscripten-target/",
     "date": "2026-09-28",
-    "summary": "We are releasing cf, our new command-line tool that mirrors the entire Cloudflare API and supports programmatic TypeScript configuration. We are also open-sourcing Forge, our internal SDK generator."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Next.js applications, powered by Vite: introducing Vinext 1.0",
-    "url": "https://blog.cloudflare.com/vinext-nextjs-on-vite/",
-    "date": "2026-09-28",
-    "summary": "Vinext 1.0 graduates from an AI experiment to a production-ready framework, letting developers run Next.js apps on Vite. This release brings advanced cache warming, broader compatibility, and an automated testing pipelin…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "How fast is the web? Explore billions of real-user measurements with BEACON",
-    "url": "https://blog.cloudflare.com/how-fast-is-the-web/",
-    "date": "2026-09-28",
-    "summary": "Cloudflare is open-sourcing the BEACON dataset, making billions of anonymized Real User Monitoring (RUM) performance records publicly available on Google BigQuery. Explore real-world Core Web Vitals, soft navigation metr…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
-    "url": "https://blog.cloudflare.com/voidzero-update/",
-    "date": "2026-09-28",
-    "summary": "Since joining Cloudflare, VoidZero has delivered more than 80 releases that drastically speed up JavaScript compilation, linting, and testing. From a 10x faster React compiler to Vite+ 1.0, here’s how we are building fas…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Introducing Forge: the open source pipeline for generating SDKs, CLIs, docs, and more",
-    "url": "https://blog.cloudflare.com/forge-open-source-generation-pipeline/",
-    "date": "2026-09-28",
-    "summary": "Forge is a pluggable, open-source pipeline that runs in CI to generate SDKs, CLIs, and documentation directly from API definitions. By shifting generation upstream into individual team repositories, Forge keeps developer…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "The road to the agentic browser: A Kitesurf update",
-    "url": "https://blog.cloudflare.com/kitesurf-update/",
-    "date": "2026-09-28",
-    "summary": "We’ve updated Kitesurf, our Workers-based browser for AI agents, with WebMCP support, improved DOM performance, and terminal-based rendering. With over 730,000 Web Platform subtests passing, agents can now navigate compl…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Introducing The Cold Start: pitch your startup live at Cloudflare Connect",
-    "url": "https://blog.cloudflare.com/introducing-the-cold-start/",
-    "date": "2026-09-28",
-    "summary": "Cloudflare is launching The Cold Start, a startup competition giving five early-stage companies five minutes on stage at Cloudflare Connect. Grand Prize winner receives $500,000 in credits, a San Francisco billboard, and…"
+    "summary": "With the new experimental support for the Emscripten target in Rust Workers, many previously unsupported Rust libraries and applications can now be built and deployed directly to Cloudflare’s global Workers platform, inc…"
   },
   {
     "company": "Cloudflare",
@@ -138,10 +162,58 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Supporting native Rust in Workers with the new Emscripten target for wasm-bindgen",
-    "url": "https://blog.cloudflare.com/rust-workers-emscripten-target/",
+    "title": "Introducing The Cold Start: pitch your startup live at Cloudflare Connect",
+    "url": "https://blog.cloudflare.com/introducing-the-cold-start/",
     "date": "2026-09-28",
-    "summary": "With the new experimental support for the Emscripten target in Rust Workers, many previously unsupported Rust libraries and applications can now be built and deployed directly to Cloudflare’s global Workers platform, inc…"
+    "summary": "Cloudflare is launching The Cold Start, a startup competition giving five early-stage companies five minutes on stage at Cloudflare Connect. Grand Prize winner receives $500,000 in credits, a San Francisco billboard, and…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "The road to the agentic browser: A Kitesurf update",
+    "url": "https://blog.cloudflare.com/kitesurf-update/",
+    "date": "2026-09-28",
+    "summary": "We’ve updated Kitesurf, our Workers-based browser for AI agents, with WebMCP support, improved DOM performance, and terminal-based rendering. With over 730,000 Web Platform subtests passing, agents can now navigate compl…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Introducing Forge: the open source pipeline for generating SDKs, CLIs, docs, and more",
+    "url": "https://blog.cloudflare.com/forge-open-source-generation-pipeline/",
+    "date": "2026-09-28",
+    "summary": "Forge is a pluggable, open-source pipeline that runs in CI to generate SDKs, CLIs, and documentation directly from API definitions. By shifting generation upstream into individual team repositories, Forge keeps developer…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
+    "url": "https://blog.cloudflare.com/voidzero-update/",
+    "date": "2026-09-28",
+    "summary": "Since joining Cloudflare, VoidZero has delivered more than 80 releases that drastically speed up JavaScript compilation, linting, and testing. From a 10x faster React compiler to Vite+ 1.0, here’s how we are building fas…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "How fast is the web? Explore billions of real-user measurements with BEACON",
+    "url": "https://blog.cloudflare.com/how-fast-is-the-web/",
+    "date": "2026-09-28",
+    "summary": "Cloudflare is open-sourcing the BEACON dataset, making billions of anonymized Real User Monitoring (RUM) performance records publicly available on Google BigQuery. Explore real-world Core Web Vitals, soft navigation metr…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
+    "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+    "date": "2026-09-28",
+    "summary": "We are releasing cf, our new command-line tool that mirrors the entire Cloudflare API and supports programmatic TypeScript configuration. We are also open-sourcing Forge, our internal SDK generator."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Next.js applications, powered by Vite: introducing Vinext 1.0",
+    "url": "https://blog.cloudflare.com/vinext-nextjs-on-vite/",
+    "date": "2026-09-28",
+    "summary": "Vinext 1.0 graduates from an AI experiment to a production-ready framework, letting developers run Next.js apps on Vite. This release brings advanced cache warming, broader compatibility, and an automated testing pipelin…"
   },
   {
     "company": "Cloudflare",
@@ -170,18 +242,18 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Introducing Worker Previews: Isolated preview environments for every change your agent makes",
-    "url": "https://blog.cloudflare.com/worker-previews/",
-    "date": "2026-09-22",
-    "summary": "Worker Previews gives every branch its own URL, configuration, state, and observability, so you and your agents can test changes in parallel without affecting production."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
     "title": "We just shipped support for the ugliest part of HTTP: Vary",
     "url": "https://blog.cloudflare.com/vary-support/",
     "date": "2026-09-22",
     "summary": "Vary support is now available in Cache Rules on every plan. You can normalize known negotiation headers, pass exact values through to the origin when those small differences matter, or bypass cache when the variation is…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Introducing Worker Previews: Isolated preview environments for every change your agent makes",
+    "url": "https://blog.cloudflare.com/worker-previews/",
+    "date": "2026-09-22",
+    "summary": "Worker Previews gives every branch its own URL, configuration, state, and observability, so you and your agents can test changes in parallel without affecting production."
   },
   {
     "company": "Cloudflare",
@@ -210,18 +282,18 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Give every teammate and agent the right level of access to your Workers",
-    "url": "https://blog.cloudflare.com/workers-granular-authorization/",
-    "date": "2026-09-15",
-    "summary": "You can now scope access to individual Workers and assign narrower Developer Platform roles, so teammates, CI tokens, and agents get only the access they need to debug, deploy, or monitor safely."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
     "title": "Have it both ways: stay discoverable in search while disallowing AI training",
     "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
     "date": "2026-09-15",
     "summary": "Cloudflare is giving site owners a way to stay discoverable while disallowing AI training. New controls and an Accountable designation establish a shared model with Apple, Google, and Microsoft."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Give every teammate and agent the right level of access to your Workers",
+    "url": "https://blog.cloudflare.com/workers-granular-authorization/",
+    "date": "2026-09-15",
+    "summary": "You can now scope access to individual Workers and assign narrower Developer Platform roles, so teammates, CI tokens, and agents get only the access they need to debug, deploy, or monitor safely."
   },
   {
     "company": "Cloudflare",
@@ -326,77 +398,5 @@
     "url": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
     "date": "2026-08-19",
     "summary": "In 2024 and 2025, we reassessed remote Spectre attacks on our Workers infrastructure. We share details about the new attack primitives like Spectre gadgets, remote timers, achieving co-location and how new defenses furth…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "BGP Role model: tracking the adoption of RFC 9234",
-    "url": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
-    "date": "2026-08-18",
-    "summary": "RFC 9234 lets routers reject route leaks on their own, using BGP Roles and the Only to Customer attribute. We measured who has deployed it, and found two Tier 1 networks unexpectedly stripping OTC."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Secure all your internal vibe-coded applications — in one click",
-    "url": "https://blog.cloudflare.com/workers-protected-by-access/",
-    "date": "2026-08-14",
-    "summary": "Introducing Cloudflare Access for Workers. Attach an Access policy directly to a Worker and it applies everywhere that Worker runs — routes, custom domains, workers.dev, and previews — automatically."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "How Cloudflare detects MCP traffic and helps secure it",
-    "url": "https://blog.cloudflare.com/mcp-security-updates/",
-    "date": "2026-08-14",
-    "summary": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics. Security teams can use that signal to find shadow MCP traffic, enforce Portal-only access for approved servers, and block direct connections on…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Certificate Transparency Monitoring is now generally available",
-    "url": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga/",
-    "date": "2026-08-13",
-    "summary": "Cloudflare's Certificate Transparency Monitoring is now generally available. The biggest change: we no longer email you about certificates Cloudflare issued for your domain, so when an alert lands in your inbox, it's wor…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal",
-    "url": "https://blog.cloudflare.com/total-eclipse-internet-traffic-iceland-spain-portugal/",
-    "date": "2026-08-13",
-    "summary": "Cloudflare's data shows a clear impact on Internet traffic from Iceland to Spain and Portugal, following the path of totality of the total solar eclipse that occurred on August 12, 2026."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave",
-    "url": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
-    "date": "2026-08-11",
-    "summary": "In the first half of 2026, Cloudflare detected a 519% surge in hyper-volumetric DDos attacks across its network. These attacks were driven heavily by DNS and CLDAP reflection vectors. This report breaks down how major ge…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Everything we launched during Agents Week",
-    "url": "https://blog.cloudflare.com/agents-week-review-august-2026/",
-    "date": "2026-08-10",
-    "summary": "Our latest Agents Week has come to a close. Here’s a recap of all the announcements we made from Wallets to Radar."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Serving the most critical missions: Cloudflare for Government achieves FedRAMP Class D (High) Certified status",
-    "url": "https://blog.cloudflare.com/fedramp-class-d-certification/",
-    "date": "2026-08-10",
-    "summary": "Cloudflare for Government achieves FedRAMP Class D (High) Certified status. We also announce our commitment to pursue DoD IL4 authorization. Cloudflare brings world-class security, performance, and developer products to…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
-    "url": "https://blog.cloudflare.com/introducing-radar-researcher/",
-    "date": "2026-08-07",
-    "summary": "Cloudflare Radar Researcher is a new AI-powered tool that lets you explore global Internet trends and traffic data using plain language. Built entirely on Cloudflare's Developer Platform, it turns natural language querie…"
   }
 ]
