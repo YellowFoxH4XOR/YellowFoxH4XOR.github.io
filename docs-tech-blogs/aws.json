@@ -2,6 +2,14 @@
   {
     "company": "AWS",
     "companySlug": "aws",
+    "title": "AWS Weekly Roundup: Amazon Bedrock Managed Agents powered by OpenAI, Q3 service availability updates, Kiro workflows, and more (October 5, 2026)",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026/",
+    "date": "2026-10-05",
+    "summary": "Last week, we announced a public preview of Amazon Bedrock Managed Agents powered by OpenAI, built on a customized version of OpenAI’s Agents API engineered to be AWS-native and integrated with AWS resources. You can now…"
+  },
+  {
+    "company": "AWS",
+    "companySlug": "aws",
     "title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
     "url": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview/",
     "date": "2026-10-01",
@@ -234,18 +242,18 @@
   {
     "company": "AWS",
     "companySlug": "aws",
-    "title": "AWS Weekly Roundup: AWS Builder Center at 1 year, Network Scanning in Security Hub, Loom for AWS, and more (July 13, 2026)",
-    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-at-one-year-network-scanning-in-security-hub-loom-for-aws-and-more-july-13-2026/",
-    "date": "2026-07-13",
-    "summary": "AWS Builder Center turned one year old last week. Launched on July 9, 2025, the platform has grown from a community hub with Wishlist voting, community profiles, and a toolbox into a full ecosystem with sandbox environme…"
-  },
-  {
-    "company": "AWS",
-    "companySlug": "aws",
     "title": "Amazon SQS turns 20: Two decades of reliable messaging at scale",
     "url": "https://aws.amazon.com/blogs/aws/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale/",
     "date": "2026-07-13",
     "summary": "On July 13, 2006, we launched Amazon Simple Queue Service (Amazon SQS) as one of the first three services available to customers, alongside Amazon EC2 and Amazon S3. We had learned firsthand that distributed systems need…"
+  },
+  {
+    "company": "AWS",
+    "companySlug": "aws",
+    "title": "AWS Weekly Roundup: AWS Builder Center at 1 year, Network Scanning in Security Hub, Loom for AWS, and more (July 13, 2026)",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-at-one-year-network-scanning-in-security-hub-loom-for-aws-and-more-july-13-2026/",
+    "date": "2026-07-13",
+    "summary": "AWS Builder Center turned one year old last week. Launched on July 9, 2025, the platform has grown from a community hub with Wishlist voting, community profiles, and a toolbox into a full ecosystem with sandbox environme…"
   },
   {
     "company": "AWS",
@@ -266,10 +274,10 @@
   {
     "company": "AWS",
     "companySlug": "aws",
-    "title": "Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode",
-    "url": "https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/",
+    "title": "Automate public TLS certificate issuance with ACME support in AWS Certificate Manager",
+    "url": "https://aws.amazon.com/blogs/aws/automate-public-tls-certificate-issuance-with-acme-support-in-aws-certificate-manager/",
     "date": "2026-06-30",
-    "summary": "AWS CloudFormation speeds up infrastructure deployment with Express mode, enabling AI agents and developers to receive deployment confirmation in seconds and iterate faster. Available in all commercial Regions at no addi…"
+    "summary": "AWS Certificate Manager now supports the ACME protocol for public TLS certificates, enabling automated issuance and renewal through any ACMEv2-compatible client on any workload. Administrators get centralized governance,…"
   },
   {
     "company": "AWS",
@@ -282,10 +290,10 @@
   {
     "company": "AWS",
     "companySlug": "aws",
-    "title": "Automate public TLS certificate issuance with ACME support in AWS Certificate Manager",
-    "url": "https://aws.amazon.com/blogs/aws/automate-public-tls-certificate-issuance-with-acme-support-in-aws-certificate-manager/",
+    "title": "Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode",
+    "url": "https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/",
     "date": "2026-06-30",
-    "summary": "AWS Certificate Manager now supports the ACME protocol for public TLS certificates, enabling automated issuance and renewal through any ACMEv2-compatible client on any workload. Administrators get centralized governance,…"
+    "summary": "AWS CloudFormation speeds up infrastructure deployment with Express mode, enabling AI agents and developers to receive deployment confirmation in seconds and iterate faster. Available in all commercial Regions at no addi…"
   },
   {
     "company": "AWS",
@@ -298,14 +306,6 @@
   {
     "company": "AWS",
     "companySlug": "aws",
-    "title": "Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs",
-    "url": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
-    "date": "2026-06-22",
-    "summary": "AWS launches a new serverless compute primitive, AWS Lambda MicroVMs. VM-level, isolated sandboxes with no shared kernel or resources between sessions. Rapid launch and resume, full lifecycle control, state preservation…"
-  },
-  {
-    "company": "AWS",
-    "companySlug": "aws",
     "title": "AWS Weekly Roundup: NY Summit recap, Local Zone in Hanoi, Grok 4.3 in Bedrock, price reductions, and more (June 22, 2026)",
     "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ny-summit-recap-local-zone-in-hanoi-grok-4-3-in-bedrock-price-reductions-and-more-june-22-2026/",
     "date": "2026-06-22",
@@ -314,10 +314,10 @@
   {
     "company": "AWS",
     "companySlug": "aws",
-    "title": "Amazon ECS introduces new high-resolution metrics for faster service auto scaling",
-    "url": "https://aws.amazon.com/blogs/aws/amazon-ecs-introduces-new-high-resolution-metrics-for-faster-service-auto-scaling/",
-    "date": "2026-06-18",
-    "summary": "Amazon Elastic Container Service (Amazon ECS) service auto scaling automatically adjusts task counts to meet workload demand with comprehensive scaling policies, including predictive scaling for recurring traffic pattern…"
+    "title": "Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs",
+    "url": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
+    "date": "2026-06-22",
+    "summary": "AWS launches a new serverless compute primitive, AWS Lambda MicroVMs. VM-level, isolated sandboxes with no shared kernel or resources between sessions. Rapid launch and resume, full lifecycle control, state preservation…"
   },
   {
     "company": "AWS",
@@ -330,42 +330,10 @@
   {
     "company": "AWS",
     "companySlug": "aws",
-    "title": "Introducing Amazon Bedrock Managed Knowledge Base for faster, more accurate enterprise AI applications",
-    "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-managed-knowledge-base-for-faster-more-accurate-enterprise-ai-applications/",
-    "date": "2026-06-17",
-    "summary": "Amazon Bedrock's new Fully Managed Knowledge Bases simplifies building enterprise RAG pipelines by providing native data connectors Smart Parsing for automatic multi-format data preparation, and an Agentic Retriever for…"
-  },
-  {
-    "company": "AWS",
-    "companySlug": "aws",
-    "title": "AWS DevOps Agent adds release management capabilities to assess code changes before production (preview)",
-    "url": "https://aws.amazon.com/blogs/aws/aws-devops-agent-adds-release-management-capabilities-to-assess-code-changes-before-production-preview/",
-    "date": "2026-06-17",
-    "summary": "AWS DevOps Agent now offers release management capability in preview, reviewing code changes for release readiness and running autonomous release testing to help you ship code to production safely and with confidence."
-  },
-  {
-    "company": "AWS",
-    "companySlug": "aws",
-    "title": "AWS Security Agent adds threat modeling, Kiro power and Claude Code plugin, and more",
-    "url": "https://aws.amazon.com/blogs/aws/aws-security-agent-adds-threat-modeling-kiro-power-and-claude-code-plugin-and-more/",
-    "date": "2026-06-17",
-    "summary": "AWS Security Agent now adds STRIDE-based threat modeling, full repo and PR code scanning with remediation across major Git platforms, and IDE integrations via Kiro power, Claude Code plugin, and MCP — letting developers…"
-  },
-  {
-    "company": "AWS",
-    "companySlug": "aws",
-    "title": "Proactively reduce tech debt autonomously with AWS Transform – continuous modernization (preview)",
-    "url": "https://aws.amazon.com/blogs/aws/proactively-reduce-tech-debt-autonomously-with-aws-transform-continuous-modernization-preview/",
-    "date": "2026-06-17",
-    "summary": "AWS Transform – continuous modernization (preview) automatically scans code repositories to detect, prioritize, and remediate technical debt at scale."
-  },
-  {
-    "company": "AWS",
-    "companySlug": "aws",
-    "title": "Announcing Web Search on Amazon Bedrock AgentCore: Ground your AI agents in current, accurate web knowledge",
-    "url": "https://aws.amazon.com/blogs/aws/announcing-web-search-on-amazon-bedrock-agentcore-ground-your-ai-agents-in-current-accurate-web-knowledge/",
-    "date": "2026-06-17",
-    "summary": "AWS introduces Web Search on Amazon Bedrock AgentCore, a fully managed tool that enables agents to ground responses in current, cited web knowledge with zero data egress from customer's secured AWS environment. You can f…"
+    "title": "Amazon ECS introduces new high-resolution metrics for faster service auto scaling",
+    "url": "https://aws.amazon.com/blogs/aws/amazon-ecs-introduces-new-high-resolution-metrics-for-faster-service-auto-scaling/",
+    "date": "2026-06-18",
+    "summary": "Amazon Elastic Container Service (Amazon ECS) service auto scaling automatically adjusts task counts to meet workload demand with comprehensive scaling policies, including predictive scaling for recurring traffic pattern…"
   },
   {
     "company": "AWS",
@@ -378,18 +346,50 @@
   {
     "company": "AWS",
     "companySlug": "aws",
-    "title": "Amazon S3 annotations: attach rich, queryable context directly to your objects",
-    "url": "https://aws.amazon.com/blogs/aws/amazon-s3-annotations-attach-rich-queryable-context-directly-to-your-objects/",
-    "date": "2026-06-16",
-    "summary": "Amazon S3 now lets you attach up to 1 GB of rich, mutable, and queryable context directly to your objects using annotations, purpose-built for AI agents and autonomous workflows that need to discover, understand, and act…"
+    "title": "Announcing Web Search on Amazon Bedrock AgentCore: Ground your AI agents in current, accurate web knowledge",
+    "url": "https://aws.amazon.com/blogs/aws/announcing-web-search-on-amazon-bedrock-agentcore-ground-your-ai-agents-in-current-accurate-web-knowledge/",
+    "date": "2026-06-17",
+    "summary": "AWS introduces Web Search on Amazon Bedrock AgentCore, a fully managed tool that enables agents to ground responses in current, cited web knowledge with zero data egress from customer's secured AWS environment. You can f…"
   },
   {
     "company": "AWS",
     "companySlug": "aws",
-    "title": "AWS WAF adds AI traffic monetization capability to help content owners charge AI bots for content access",
-    "url": "https://aws.amazon.com/blogs/aws/aws-waf-adds-ai-traffic-monetization-capability-to-help-content-owners-charge-ai-bots-for-content-access/",
-    "date": "2026-06-15",
-    "summary": "AWS WAF launches AI traffic monetization, a new Bot Control capability that enables content providers and publishers price, meter, and collect payment from AI bots and agents accessing their content and APIs. AWS WAF now…"
+    "title": "Proactively reduce tech debt autonomously with AWS Transform – continuous modernization (preview)",
+    "url": "https://aws.amazon.com/blogs/aws/proactively-reduce-tech-debt-autonomously-with-aws-transform-continuous-modernization-preview/",
+    "date": "2026-06-17",
+    "summary": "AWS Transform – continuous modernization (preview) automatically scans code repositories to detect, prioritize, and remediate technical debt at scale."
+  },
+  {
+    "company": "AWS",
+    "companySlug": "aws",
+    "title": "AWS Security Agent adds threat modeling, Kiro power and Claude Code plugin, and more",
+    "url": "https://aws.amazon.com/blogs/aws/aws-security-agent-adds-threat-modeling-kiro-power-and-claude-code-plugin-and-more/",
+    "date": "2026-06-17",
+    "summary": "AWS Security Agent now adds STRIDE-based threat modeling, full repo and PR code scanning with remediation across major Git platforms, and IDE integrations via Kiro power, Claude Code plugin, and MCP — letting developers…"
+  },
+  {
+    "company": "AWS",
+    "companySlug": "aws",
+    "title": "AWS DevOps Agent adds release management capabilities to assess code changes before production (preview)",
+    "url": "https://aws.amazon.com/blogs/aws/aws-devops-agent-adds-release-management-capabilities-to-assess-code-changes-before-production-preview/",
+    "date": "2026-06-17",
+    "summary": "AWS DevOps Agent now offers release management capability in preview, reviewing code changes for release readiness and running autonomous release testing to help you ship code to production safely and with confidence."
+  },
+  {
+    "company": "AWS",
+    "companySlug": "aws",
+    "title": "Introducing Amazon Bedrock Managed Knowledge Base for faster, more accurate enterprise AI applications",
+    "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-managed-knowledge-base-for-faster-more-accurate-enterprise-ai-applications/",
+    "date": "2026-06-17",
+    "summary": "Amazon Bedrock's new Fully Managed Knowledge Bases simplifies building enterprise RAG pipelines by providing native data connectors Smart Parsing for automatic multi-format data preparation, and an Agentic Retriever for…"
+  },
+  {
+    "company": "AWS",
+    "companySlug": "aws",
+    "title": "Amazon S3 annotations: attach rich, queryable context directly to your objects",
+    "url": "https://aws.amazon.com/blogs/aws/amazon-s3-annotations-attach-rich-queryable-context-directly-to-your-objects/",
+    "date": "2026-06-16",
+    "summary": "Amazon S3 now lets you attach up to 1 GB of rich, mutable, and queryable context directly to your objects using annotations, purpose-built for AI agents and autonomous workflows that need to discover, understand, and act…"
   },
   {
     "company": "AWS",
