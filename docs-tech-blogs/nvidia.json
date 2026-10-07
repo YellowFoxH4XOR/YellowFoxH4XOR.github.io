@@ -2,6 +2,30 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
+    "title": "How DOCA GPUNetIO Unifies GPU-Initiated Networking Across the NVIDIA Software Stack",
+    "url": "https://developer.nvidia.com/blog/doca-gpunetio-gda-ki-unified-gpu-networking/",
+    "date": "2026-10-06",
+    "summary": "GPU applications increasingly need networking and data movement to behave like first-class GPU-controlled operations rather than host-driven services. When the..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "AICR v1.0: Open, stable, and verifiable GPU cluster configuration",
+    "url": "https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration/",
+    "date": "2026-10-06",
+    "summary": "GPU-accelerated Kubernetes clusters depend on compatible versions across dozens of components, each on its own release cycle: host kernels, GPU drivers,..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "Control How Your GPU Shares Work with Green Contexts",
+    "url": "https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts/",
+    "date": "2026-10-06",
+    "summary": "GPU applications increasingly consist of multiple independent components running at the same time within a single process: a latency-sensitive operator..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
     "title": "Build Applications on NVIDIA BlueField Faster with NVIDIA DOCA Agent Skills",
     "url": "https://developer.nvidia.com/blog/build-applications-on-nvidia-bluefield-faster-with-nvidia-doca-agent-skills/",
     "date": "2026-10-01",
@@ -374,29 +398,5 @@
     "url": "https://developer.nvidia.com/blog/run-nvidia-bionemo-nim-microservices-for-protein-structure-prediction-in-claude-science/",
     "date": "2026-08-31",
     "summary": "Agentic AI is changing how research is done. AI scientists can read papers, propose hypotheses, call models, and determine which experiments to prioritize next...."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "Scale AV Perception Across Vehicle Platforms with NVIDIA Omniverse NuRec",
-    "url": "https://developer.nvidia.com/blog/scale-av-perception-across-vehicle-platforms-with-nvidia-omniverse-nurec/",
-    "date": "2026-08-31",
-    "summary": "A perception stack is shaped by the vehicle that carries it. Move the same software to a new carline—for example, from an SUV to a sedan or another vehicle..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "Deploy an Open Model from Checkpoint to Inference in Two Commands with NVIDIA TensorRT Model Connect",
-    "url": "https://developer.nvidia.com/blog/deploy-an-open-model-from-checkpoint-to-inference-in-two-commands-with-nvidia-tensorrt-model-connect/",
-    "date": "2026-08-28",
-    "summary": "Open AI models are evolving faster than ever, but bringing them into native applications can still require model-specific conversion, preprocessing,..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "How to Train a Cross-Embodiment Robot Navigation Policy with AI Agents",
-    "url": "https://developer.nvidia.com/blog/how-to-train-a-cross-embodiment-robot-navigation-policy-with-ai-agents/",
-    "date": "2026-08-26",
-    "summary": "Navigation enables a robot to turn perception and motion into purposeful autonomy. Unlike locomotion, which produces stable movement, navigation must be used to..."
   }
 ]
