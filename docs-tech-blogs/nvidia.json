@@ -2,10 +2,10 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "How DOCA GPUNetIO Unifies GPU-Initiated Networking Across the NVIDIA Software Stack",
-    "url": "https://developer.nvidia.com/blog/doca-gpunetio-gda-ki-unified-gpu-networking/",
+    "title": "Control How Your GPU Shares Work with Green Contexts",
+    "url": "https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts/",
     "date": "2026-10-06",
-    "summary": "GPU applications increasingly need networking and data movement to behave like first-class GPU-controlled operations rather than host-driven services. When the..."
+    "summary": "GPU applications increasingly consist of multiple independent components running at the same time within a single process: a latency-sensitive operator..."
   },
   {
     "company": "NVIDIA",
@@ -18,26 +18,10 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "Control How Your GPU Shares Work with Green Contexts",
-    "url": "https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts/",
+    "title": "How DOCA GPUNetIO Unifies GPU-Initiated Networking Across the NVIDIA Software Stack",
+    "url": "https://developer.nvidia.com/blog/doca-gpunetio-gda-ki-unified-gpu-networking/",
     "date": "2026-10-06",
-    "summary": "GPU applications increasingly consist of multiple independent components running at the same time within a single process: a latency-sensitive operator..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "Build Applications on NVIDIA BlueField Faster with NVIDIA DOCA Agent Skills",
-    "url": "https://developer.nvidia.com/blog/build-applications-on-nvidia-bluefield-faster-with-nvidia-doca-agent-skills/",
-    "date": "2026-10-01",
-    "summary": "AI agents are becoming a standard part of development workflows, but general-purpose agents weren't built with specialized infrastructure software such as..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "Build Local AI Apps with C++ and NVIDIA TensorRT RTX Samples",
-    "url": "https://developer.nvidia.com/blog/build-local-ai-apps-with-c-and-nvidia-tensorrt-rtx-samples/",
-    "date": "2026-10-01",
-    "summary": "Adding AI models to local applications requires a portable model format, a reliable runtime, and acceleration that works across target systems. Do Inference Now..."
+    "summary": "GPU applications increasingly need networking and data movement to behave like first-class GPU-controlled operations rather than host-driven services. When the..."
   },
   {
     "company": "NVIDIA",
@@ -50,18 +34,18 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "Deploying an HSTU Generative Recommender with NVIDIA Dynamo-Triton",
-    "url": "https://developer.nvidia.com/blog/deploying-an-hstu-generative-recommender-with-nvidia-dynamo-triton/",
-    "date": "2026-09-30",
-    "summary": "Generative recommender (GR) systems are emerging as a powerful new approach for large-scale personalization. Instead of treating recommendation as a set of..."
+    "title": "Build Local AI Apps with C++ and NVIDIA TensorRT RTX Samples",
+    "url": "https://developer.nvidia.com/blog/build-local-ai-apps-with-c-and-nvidia-tensorrt-rtx-samples/",
+    "date": "2026-10-01",
+    "summary": "Adding AI models to local applications requires a portable model format, a reliable runtime, and acceleration that works across target systems. Do Inference Now..."
   },
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "Expanding AI Storage Access with NVIDIA cuObject and the NVIDIA SCADA Server SDK",
-    "url": "https://developer.nvidia.com/blog/expanding-ai-storage-access-with-nvidia-cuobject-and-the-nvidia-scada-server-sdk/",
-    "date": "2026-09-30",
-    "summary": "AI infrastructure engineers, storage developers, and cloud service providers need fast and secure access to high-capacity file and object storage to support AI..."
+    "title": "Build Applications on NVIDIA BlueField Faster with NVIDIA DOCA Agent Skills",
+    "url": "https://developer.nvidia.com/blog/build-applications-on-nvidia-bluefield-faster-with-nvidia-doca-agent-skills/",
+    "date": "2026-10-01",
+    "summary": "AI agents are becoming a standard part of development workflows, but general-purpose agents weren't built with specialized infrastructure software such as..."
   },
   {
     "company": "NVIDIA",
@@ -74,10 +58,18 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "AI Native by Design: Lessons Learned from Building NVIDIA TensorRT Model Connect",
-    "url": "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect/",
-    "date": "2026-09-29",
-    "summary": "Parallel work, model-family isolation, reversible changes, and GPU-backed validation shaped an open source project designed around coding agents NVIDIA TensorRT..."
+    "title": "Expanding AI Storage Access with NVIDIA cuObject and the NVIDIA SCADA Server SDK",
+    "url": "https://developer.nvidia.com/blog/expanding-ai-storage-access-with-nvidia-cuobject-and-the-nvidia-scada-server-sdk/",
+    "date": "2026-09-30",
+    "summary": "AI infrastructure engineers, storage developers, and cloud service providers need fast and secure access to high-capacity file and object storage to support AI..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "Deploying an HSTU Generative Recommender with NVIDIA Dynamo-Triton",
+    "url": "https://developer.nvidia.com/blog/deploying-an-hstu-generative-recommender-with-nvidia-dynamo-triton/",
+    "date": "2026-09-30",
+    "summary": "Generative recommender (GR) systems are emerging as a powerful new approach for large-scale personalization. Instead of treating recommendation as a set of..."
   },
   {
     "company": "NVIDIA",
@@ -90,18 +82,10 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "NVIDIA Open Agent Safety Platform: A Reference for Continuous In-Silicon Agent Monitoring",
-    "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/",
-    "date": "2026-09-28",
-    "summary": "To understand where agentic AI stands today, consider the last seismic shift in technology: the rise of the internet in the 90s. It was new and full of..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "Add Runtime Controls to AI Agents with NVIDIA OpenShell",
-    "url": "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell/",
-    "date": "2026-09-28",
-    "summary": "AI agents can be given a goal, write code, use tools, and keep working as new information becomes available. This opens the door to applications that..."
+    "title": "AI Native by Design: Lessons Learned from Building NVIDIA TensorRT Model Connect",
+    "url": "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect/",
+    "date": "2026-09-29",
+    "summary": "Parallel work, model-family isolation, reversible changes, and GPU-backed validation shaped an open source project designed around coding agents NVIDIA TensorRT..."
   },
   {
     "company": "NVIDIA",
@@ -114,34 +98,26 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
+    "title": "Add Runtime Controls to AI Agents with NVIDIA OpenShell",
+    "url": "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell/",
+    "date": "2026-09-28",
+    "summary": "AI agents can be given a goal, write code, use tools, and keep working as new information becomes available. This opens the door to applications that..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "NVIDIA Open Agent Safety Platform: A Reference for Continuous In-Silicon Agent Monitoring",
+    "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/",
+    "date": "2026-09-28",
+    "summary": "To understand where agentic AI stands today, consider the last seismic shift in technology: the rise of the internet in the 90s. It was new and full of..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
     "title": "Efficient MoE Training for Biological Foundation Models",
     "url": "https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models/",
     "date": "2026-09-24",
     "summary": "As language models grow, scaling dense architectures becomes increasingly expensive. In a dense transformer, every token passes through every layer, so adding..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning",
-    "url": "https://developer.nvidia.com/blog/introducing-nv-reason-ct-open-3d-ct-vlm-for-radiologist-chain-of-thought-reasoning/",
-    "date": "2026-09-23",
-    "summary": "Radiology AI has made remarkable strides in detecting abnormalities across chest X-rays, pathology slides, and 2D scans. Yet one of the most clinically rich and..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "Validate GPU Cluster Readiness Before AI Workloads Land",
-    "url": "https://developer.nvidia.com/blog/validate-gpu-cluster-readiness-before-ai-workloads-land/",
-    "date": "2026-09-23",
-    "summary": "A GPU cluster can pass every health check and still fail to run an AI workload. Even when every GPU, network link, and pod reports healthy, a 512-GPU training..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "Manage Kubernetes Node Fleets with NodeWright",
-    "url": "https://developer.nvidia.com/blog/manage-kubernetes-node-fleets-with-nodewright/",
-    "date": "2026-09-23",
-    "summary": "Kubernetes manages what runs on your nodes. Managing the nodes themselves is the challenge: kernel settings, system packages, storage layouts, security agents,..."
   },
   {
     "company": "NVIDIA",
@@ -154,26 +130,26 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "Enabling Private High-Performance Production AI Inference with NVIDIA Confidential Computing",
-    "url": "https://developer.nvidia.com/blog/enabling-private-high-performance-production-ai-inference-with-nvidia-confidential-computing/",
-    "date": "2026-09-22",
-    "summary": "As large language model (LLM) inference increasingly processes sensitive information and proprietary model context across personal, enterprise, and regulated..."
+    "title": "Manage Kubernetes Node Fleets with NodeWright",
+    "url": "https://developer.nvidia.com/blog/manage-kubernetes-node-fleets-with-nodewright/",
+    "date": "2026-09-23",
+    "summary": "Kubernetes manages what runs on your nodes. Managing the nodes themselves is the challenge: kernel settings, system packages, storage layouts, security agents,..."
   },
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "Topology-Aware Workload Scheduling with NVIDIA Topograph",
-    "url": "https://developer.nvidia.com/blog/topology-aware-workload-scheduling-with-nvidia-topograph/",
-    "date": "2026-09-22",
-    "summary": "AI factories are power-limited systems that deliver maximum value when fully optimized. GPU workload placement is a key optimization. Poor workload placement..."
+    "title": "Validate GPU Cluster Readiness Before AI Workloads Land",
+    "url": "https://developer.nvidia.com/blog/validate-gpu-cluster-readiness-before-ai-workloads-land/",
+    "date": "2026-09-23",
+    "summary": "A GPU cluster can pass every health check and still fail to run an AI workload. Even when every GPU, network link, and pod reports healthy, a 512-GPU training..."
   },
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "What’s New for Game Developers: DLSS 5 with 3D-Guided Neural Rendering, NVIDIA ACE Updates, and New RTX Kit Capabilities",
-    "url": "https://developer.nvidia.com/blog/whats-new-for-game-developers-dlss-5-with-3d-guided-neural-rendering-nvidia-ace-updates-and-new-rtx-kit-capabilities/",
-    "date": "2026-09-22",
-    "summary": "NVIDIA DLSS 5 introduces DLSS 3D-Guided Neural Rendering and granular controls that help game developers add lifelike lighting and material detail while..."
+    "title": "Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning",
+    "url": "https://developer.nvidia.com/blog/introducing-nv-reason-ct-open-3d-ct-vlm-for-radiologist-chain-of-thought-reasoning/",
+    "date": "2026-09-23",
+    "summary": "Radiology AI has made remarkable strides in detecting abnormalities across chest X-rays, pathology slides, and 2D scans. Yet one of the most clinically rich and..."
   },
   {
     "company": "NVIDIA",
@@ -186,18 +162,26 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "Simplifying Model Serving Across Multiple GPUs with NVIDIA TensorRT Multi-Device Integration in NVIDIA Dynamo-Triton",
-    "url": "https://developer.nvidia.com/blog/simplifying-model-serving-across-multiple-gpus-with-nvidia-tensorrt-multi-device-integration-in-nvidia-dynamo-triton/",
-    "date": "2026-09-21",
-    "summary": "The compute and memory demands of generative AI increasingly exceed what a single GPU can provide. NVIDIA TensorRT multi-device inference is a new capability..."
+    "title": "What’s New for Game Developers: DLSS 5 with 3D-Guided Neural Rendering, NVIDIA ACE Updates, and New RTX Kit Capabilities",
+    "url": "https://developer.nvidia.com/blog/whats-new-for-game-developers-dlss-5-with-3d-guided-neural-rendering-nvidia-ace-updates-and-new-rtx-kit-capabilities/",
+    "date": "2026-09-22",
+    "summary": "NVIDIA DLSS 5 introduces DLSS 3D-Guided Neural Rendering and granular controls that help game developers add lifelike lighting and material detail while..."
   },
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "How to Evaluate AI Agents From Tool Calls to Task Completion",
-    "url": "https://developer.nvidia.com/blog/how-to-evaluate-ai-agents-from-tool-calls-to-task-completion/",
-    "date": "2026-09-21",
-    "summary": "When you ship an AI agent, the key question is whether it can execute a chain of work across dozens of sequential tool calls against a live environment, and..."
+    "title": "Topology-Aware Workload Scheduling with NVIDIA Topograph",
+    "url": "https://developer.nvidia.com/blog/topology-aware-workload-scheduling-with-nvidia-topograph/",
+    "date": "2026-09-22",
+    "summary": "AI factories are power-limited systems that deliver maximum value when fully optimized. GPU workload placement is a key optimization. Poor workload placement..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "Enabling Private High-Performance Production AI Inference with NVIDIA Confidential Computing",
+    "url": "https://developer.nvidia.com/blog/enabling-private-high-performance-production-ai-inference-with-nvidia-confidential-computing/",
+    "date": "2026-09-22",
+    "summary": "As large language model (LLM) inference increasingly processes sensitive information and proprietary model context across personal, enterprise, and regulated..."
   },
   {
     "company": "NVIDIA",
@@ -210,26 +194,26 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
+    "title": "How to Evaluate AI Agents From Tool Calls to Task Completion",
+    "url": "https://developer.nvidia.com/blog/how-to-evaluate-ai-agents-from-tool-calls-to-task-completion/",
+    "date": "2026-09-21",
+    "summary": "When you ship an AI agent, the key question is whether it can execute a chain of work across dozens of sequential tool calls against a live environment, and..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "Simplifying Model Serving Across Multiple GPUs with NVIDIA TensorRT Multi-Device Integration in NVIDIA Dynamo-Triton",
+    "url": "https://developer.nvidia.com/blog/simplifying-model-serving-across-multiple-gpus-with-nvidia-tensorrt-multi-device-integration-in-nvidia-dynamo-triton/",
+    "date": "2026-09-21",
+    "summary": "The compute and memory demands of generative AI increasingly exceed what a single GPU can provide. NVIDIA TensorRT multi-device inference is a new capability..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
     "title": "Benchmarking LLM Inference at Scale with AIPerf",
     "url": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf/",
     "date": "2026-09-18",
     "summary": "You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question: Is this fast? Your instincts might lead you to send..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "How to Use AI Agents to Prepare 3D Scenes for Simulation",
-    "url": "https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/",
-    "date": "2026-09-16",
-    "summary": "Agentic AI workflows can be used to prepare and validate digital twins for physical AI systems. Agents can inspect 3D scenes, author simulation-relevant data in..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
-    "url": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor/",
-    "date": "2026-09-16",
-    "summary": "AI agents are moving from cloud data centers to vehicles, robots, and other edge devices. Unlike a chatbot that answers a single prompt, an agent works through..."
   },
   {
     "company": "NVIDIA",
@@ -242,26 +226,18 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "Dense vs. MoE Models: Active Parameters, Throughput, and When to Choose Each",
-    "url": "https://developer.nvidia.com/blog/dense-vs-moe-models-active-parameters-throughput-and-when-to-choose-each/",
-    "date": "2026-09-15",
-    "summary": "How can a 30B-parameter model activate only 3B parameters per token, and still use the capacity of the larger model? Nemotron 3.5 Lightning illustrates the..."
+    "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
+    "url": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor/",
+    "date": "2026-09-16",
+    "summary": "AI agents are moving from cloud data centers to vehicles, robots, and other edge devices. Unlike a chatbot that answers a single prompt, an agent works through..."
   },
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "How NVIDIA Groq 3 LPX Deterministic Execution Drives Power-Efficient High-Interactivity Inference on NVIDIA Vera Rubin",
-    "url": "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-deterministic-execution-drives-power-efficient-high-interactivity-inference-on-nvidia-vera-rubin/",
-    "date": "2026-09-15",
-    "summary": "Power is a defining constraint for AI factories. As AI workloads demand a full compute platform to serve them, each component of that platform must maximize..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "How NVIDIA NVLink 6 Delivers Multi-Layer Resiliency for AI Factories",
-    "url": "https://developer.nvidia.com/blog/how-nvidia-nvlink-6-delivers-multi-layer-resiliency-for-ai-factories/",
-    "date": "2026-09-15",
-    "summary": "For operators of large-scale AI factories, maximizing continuous output is essential for productivity. In massive-scale AI training, every GPU in the cluster..."
+    "title": "How to Use AI Agents to Prepare 3D Scenes for Simulation",
+    "url": "https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/",
+    "date": "2026-09-16",
+    "summary": "Agentic AI workflows can be used to prepare and validate digital twins for physical AI systems. Agents can inspect 3D scenes, author simulation-relevant data in..."
   },
   {
     "company": "NVIDIA",
@@ -274,26 +250,34 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
+    "title": "How NVIDIA NVLink 6 Delivers Multi-Layer Resiliency for AI Factories",
+    "url": "https://developer.nvidia.com/blog/how-nvidia-nvlink-6-delivers-multi-layer-resiliency-for-ai-factories/",
+    "date": "2026-09-15",
+    "summary": "For operators of large-scale AI factories, maximizing continuous output is essential for productivity. In massive-scale AI training, every GPU in the cluster..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "How NVIDIA Groq 3 LPX Deterministic Execution Drives Power-Efficient High-Interactivity Inference on NVIDIA Vera Rubin",
+    "url": "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-deterministic-execution-drives-power-efficient-high-interactivity-inference-on-nvidia-vera-rubin/",
+    "date": "2026-09-15",
+    "summary": "Power is a defining constraint for AI factories. As AI workloads demand a full compute platform to serve them, each component of that platform must maximize..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "Dense vs. MoE Models: Active Parameters, Throughput, and When to Choose Each",
+    "url": "https://developer.nvidia.com/blog/dense-vs-moe-models-active-parameters-throughput-and-when-to-choose-each/",
+    "date": "2026-09-15",
+    "summary": "How can a 30B-parameter model activate only 3B parameters per token, and still use the capacity of the larger model? Nemotron 3.5 Lightning illustrates the..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
     "title": "Accelerating Dropless MoE Training in JAX with NVIDIA Transformer Engine",
     "url": "https://developer.nvidia.com/blog/accelerating-dropless-moe-training-in-jax-with-nvidia-transformer-engine/",
     "date": "2026-09-14",
     "summary": "Mixture of experts (MoE) has become one of the defining architectural trends in large-scale AI model training. DeepSeek, Qwen, and Mixtral are examples of MoE..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "How Full-Stack NIM Optimizations Deliver 2.5x More Users on Nemotron 3 Ultra",
-    "url": "https://developer.nvidia.com/blog/how-full-stack-nim-optimizations-deliver-2-5x-more-users-on-nemotron-3-ultra/",
-    "date": "2026-09-10",
-    "summary": "Deploying a large language model is only the first step toward production-ready serving. Production teams also need to serve as many concurrent users as..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "High-Throughput Structure Prediction with BioNeMo Inference Runtime",
-    "url": "https://developer.nvidia.com/blog/high-throughput-structure-prediction-with-bionemo-inference-runtime/",
-    "date": "2026-09-10",
-    "summary": "Biomolecular structure prediction is now often run at proteome scale, where the goal is to move an entire worklist through the pipeline efficiently. NVIDIA..."
   },
   {
     "company": "NVIDIA",
@@ -306,10 +290,18 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "When to Use Encode-Prefill-Decode Disaggregation to Accelerate Multimodal Model Serving",
-    "url": "https://developer.nvidia.com/blog/when-to-use-encode-prefill-decode-disaggregation-to-accelerate-multimodal-model-serving/",
-    "date": "2026-09-09",
-    "summary": "Encode-prefill-decode (EPD) disaggregation is an inference optimization technique for multimodal models that separates the vision encoder stage from the prefill..."
+    "title": "High-Throughput Structure Prediction with BioNeMo Inference Runtime",
+    "url": "https://developer.nvidia.com/blog/high-throughput-structure-prediction-with-bionemo-inference-runtime/",
+    "date": "2026-09-10",
+    "summary": "Biomolecular structure prediction is now often run at proteome scale, where the goal is to move an entire worklist through the pipeline efficiently. NVIDIA..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "How Full-Stack NIM Optimizations Deliver 2.5x More Users on Nemotron 3 Ultra",
+    "url": "https://developer.nvidia.com/blog/how-full-stack-nim-optimizations-deliver-2-5x-more-users-on-nemotron-3-ultra/",
+    "date": "2026-09-10",
+    "summary": "Deploying a large language model is only the first step toward production-ready serving. Production teams also need to serve as many concurrent users as..."
   },
   {
     "company": "NVIDIA",
@@ -322,18 +314,18 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels",
-    "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
-    "date": "2026-09-08",
-    "summary": "In September 2026, NVIDIA announced it is leaning into native GPU programming in Rust. CUDA C++ and CUDA Python are mature, enterprise-grade toolchains, and..."
+    "title": "When to Use Encode-Prefill-Decode Disaggregation to Accelerate Multimodal Model Serving",
+    "url": "https://developer.nvidia.com/blog/when-to-use-encode-prefill-decode-disaggregation-to-accelerate-multimodal-model-serving/",
+    "date": "2026-09-09",
+    "summary": "Encode-prefill-decode (EPD) disaggregation is an inference optimization technique for multimodal models that separates the vision encoder stage from the prefill..."
   },
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "Building a Memory-Driven Agent with NVIDIA NemoClaw",
-    "url": "https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw/",
-    "date": "2026-09-04",
-    "summary": "Enterprise work spans messages, decisions, projects, and obligations that change over time. An AI agent that starts without this context must reconstruct it..."
+    "title": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels",
+    "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+    "date": "2026-09-08",
+    "summary": "In September 2026, NVIDIA announced it is leaning into native GPU programming in Rust. CUDA C++ and CUDA Python are mature, enterprise-grade toolchains, and..."
   },
   {
     "company": "NVIDIA",
@@ -346,10 +338,10 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "How to Carry User Identity Across Federated Kubernetes and AI Platforms",
-    "url": "https://developer.nvidia.com/blog/how-to-carry-user-identity-across-federated-kubernetes-and-ai-platforms/",
-    "date": "2026-09-03",
-    "summary": "Modern AI platforms are no longer a single application behind one login screen. A user may start in a central portal, open a governed dataset, launch a notebook..."
+    "title": "Building a Memory-Driven Agent with NVIDIA NemoClaw",
+    "url": "https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw/",
+    "date": "2026-09-04",
+    "summary": "Enterprise work spans messages, decisions, projects, and obligations that change over time. An AI agent that starts without this context must reconstruct it..."
   },
   {
     "company": "NVIDIA",
@@ -362,10 +354,10 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "The Modern CUDA Toolbox in Practice: A Step-by-Step Optimization Walkthrough",
-    "url": "https://developer.nvidia.com/blog/the-modern-cuda-toolbox-in-practice-a-step-by-step-optimization-walkthrough/",
-    "date": "2026-09-02",
-    "summary": "NVIDIA CUDA remains the foundation of GPU-accelerated computing, powering everything from scientific simulations to large-scale AI training. But writing..."
+    "title": "How to Carry User Identity Across Federated Kubernetes and AI Platforms",
+    "url": "https://developer.nvidia.com/blog/how-to-carry-user-identity-across-federated-kubernetes-and-ai-platforms/",
+    "date": "2026-09-03",
+    "summary": "Modern AI platforms are no longer a single application behind one login screen. A user may start in a central portal, open a governed dataset, launch a notebook..."
   },
   {
     "company": "NVIDIA",
@@ -378,10 +370,10 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
-    "title": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
-    "url": "https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron/",
-    "date": "2026-09-01",
-    "summary": "AI is changing the pace of cybersecurity. Agentic systems can coordinate work and pursue complex objectives over long horizons. Security teams are beginning to..."
+    "title": "The Modern CUDA Toolbox in Practice: A Step-by-Step Optimization Walkthrough",
+    "url": "https://developer.nvidia.com/blog/the-modern-cuda-toolbox-in-practice-a-step-by-step-optimization-walkthrough/",
+    "date": "2026-09-02",
+    "summary": "NVIDIA CUDA remains the foundation of GPU-accelerated computing, powering everything from scientific simulations to large-scale AI training. But writing..."
   },
   {
     "company": "NVIDIA",
@@ -390,6 +382,14 @@
     "url": "https://developer.nvidia.com/blog/how-to-size-gpus-for-ai-inference-and-tco-without-overspending/",
     "date": "2026-09-01",
     "summary": "The surge in AI adoption is transforming everything from chatbots to content generation. Still, a common pain point remains: How can organizations confidently..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
+    "title": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
+    "url": "https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron/",
+    "date": "2026-09-01",
+    "summary": "AI is changing the pace of cybersecurity. Agentic systems can coordinate work and pursue complex objectives over long horizons. Security teams are beginning to..."
   },
   {
     "company": "NVIDIA",
