@@ -2,6 +2,14 @@
   {
     "company": "Microsoft",
     "companySlug": "microsoft",
+    "title": "Introducing the Agent Experience (AX) Practitioner Playbook",
+    "url": "https://devblogs.microsoft.com/blog/introducing-the-agent-experience-ax-practitioner-playbook/",
+    "date": "2026-10-09",
+    "summary": "AI coding agents now pick the SDK, the version, and the pattern for your developers. The AX Practitioner Playbook is our method for finding out whether they get your technology right, and for fixing the sources they rely…"
+  },
+  {
+    "company": "Microsoft",
+    "companySlug": "microsoft",
     "title": "From Spec-First to Enterprise-Ready: Extending GitHub Spec Kit",
     "url": "https://devblogs.microsoft.com/blog/from-spec-first-to-enterprise-ready-extending-github-spec-kit/",
     "date": "2026-10-07",
@@ -82,18 +90,18 @@
   {
     "company": "Microsoft",
     "companySlug": "microsoft",
-    "title": "Start here: Azure SQL Foundations series",
-    "url": "https://devblogs.microsoft.com/blog/start-here-azure-sql-foundations-series/",
-    "date": "2026-08-25",
-    "summary": "Most developers I talk to aren t asking whether Azure SQL Database can handle their next app. They re asking where to start when it comes to modernization, migration, and AI in the database. If you re reading this, you r…"
-  },
-  {
-    "company": "Microsoft",
-    "companySlug": "microsoft",
     "title": "Try Azure SRE Agent with no always-on charges",
     "url": "https://devblogs.microsoft.com/blog/try-azure-sre-agent-with-no-always-on-charges/",
     "date": "2026-08-25",
     "summary": "We are happy to announce a 30-day trial experience for Azure SRE Agent. New customers can create and configure the SRE Agent at their own pace, with no charges for setup time or keeping agents ready. During the trial, yo…"
+  },
+  {
+    "company": "Microsoft",
+    "companySlug": "microsoft",
+    "title": "Start here: Azure SQL Foundations series",
+    "url": "https://devblogs.microsoft.com/blog/start-here-azure-sql-foundations-series/",
+    "date": "2026-08-25",
+    "summary": "Most developers I talk to aren t asking whether Azure SQL Database can handle their next app. They re asking where to start when it comes to modernization, migration, and AI in the database. If you re reading this, you r…"
   },
   {
     "company": "Microsoft",
@@ -123,14 +131,6 @@
     "company": "Microsoft",
     "companySlug": "microsoft",
     "title": "Building AX evals that actually work",
-    "url": "https://devblogs.microsoft.com/blog/building-ax-evals-that-actually-work",
-    "date": "2026-07-15",
-    "summary": "This is the eighth and final article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can t control in the agent sta…"
-  },
-  {
-    "company": "Microsoft",
-    "companySlug": "microsoft",
-    "title": "Building AX evals that actually work",
     "url": "https://devblogs.microsoft.com/blog/building-ax-evals-that-actually-work/",
     "date": "2026-07-15",
     "summary": "This is the eighth and final article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can t control in the agent sta…"
@@ -138,16 +138,16 @@
   {
     "company": "Microsoft",
     "companySlug": "microsoft",
-    "title": "The hidden variables in your agent eval",
-    "url": "https://devblogs.microsoft.com/blog/the-hidden-variables-in-your-agent-eval/",
-    "date": "2026-07-08",
-    "summary": "This is the seventh article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can t control in the agent stack, how t…"
+    "title": "Building AX evals that actually work",
+    "url": "https://devblogs.microsoft.com/blog/building-ax-evals-that-actually-work",
+    "date": "2026-07-15",
+    "summary": "This is the eighth and final article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can t control in the agent sta…"
   },
   {
     "company": "Microsoft",
     "companySlug": "microsoft",
     "title": "Let’s Learn GitHub Copilot App &#8211; Free Virtual Training Event",
-    "url": "https://devblogs.microsoft.com/blog/lets-learn-github-copilot-app-free-virtual-training-event",
+    "url": "https://devblogs.microsoft.com/blog/lets-learn-github-copilot-app-free-virtual-training-event/",
     "date": "2026-07-08",
     "summary": "Join us for a free online event series kicking off July 16 to learn how to get started with the GitHub Copilot App! The post Let’s Learn GitHub Copilot App Free Virtual Training Event appeared first on Microsoft for Deve…"
   },
@@ -163,17 +163,17 @@
     "company": "Microsoft",
     "companySlug": "microsoft",
     "title": "Let’s Learn GitHub Copilot App &#8211; Free Virtual Training Event",
-    "url": "https://devblogs.microsoft.com/blog/lets-learn-github-copilot-app-free-virtual-training-event/",
+    "url": "https://devblogs.microsoft.com/blog/lets-learn-github-copilot-app-free-virtual-training-event",
     "date": "2026-07-08",
     "summary": "Join us for a free online event series kicking off July 16 to learn how to get started with the GitHub Copilot App! The post Let’s Learn GitHub Copilot App Free Virtual Training Event appeared first on Microsoft for Deve…"
   },
   {
     "company": "Microsoft",
     "companySlug": "microsoft",
-    "title": "Don&#8217;t rewrite your CLI for agents",
-    "url": "https://devblogs.microsoft.com/blog/dont-rewrite-your-cli-for-agents/",
-    "date": "2026-07-07",
-    "summary": "There s advice making the rounds: replace your CLI args with a single --json payload so agents can use your tool more effectively. The thinking being, that agents already think in structured formats, and nested data maps…"
+    "title": "The hidden variables in your agent eval",
+    "url": "https://devblogs.microsoft.com/blog/the-hidden-variables-in-your-agent-eval/",
+    "date": "2026-07-08",
+    "summary": "This is the seventh article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can t control in the agent stack, how t…"
   },
   {
     "company": "Microsoft",
@@ -186,10 +186,10 @@
   {
     "company": "Microsoft",
     "companySlug": "microsoft",
-    "title": "Not all model upgrades are upgrades",
-    "url": "https://devblogs.microsoft.com/blog/not-all-model-upgrades-are-upgrades",
-    "date": "2026-07-06",
-    "summary": "A new model drops with lower per-token pricing and better benchmarks. You switch. A week later someone asks why the agent is burning 12x more tokens on the same task while producing worse output. We ran 150 agent tasks a…"
+    "title": "Don&#8217;t rewrite your CLI for agents",
+    "url": "https://devblogs.microsoft.com/blog/dont-rewrite-your-cli-for-agents/",
+    "date": "2026-07-07",
+    "summary": "There s advice making the rounds: replace your CLI args with a single --json payload so agents can use your tool more effectively. The thinking being, that agents already think in structured formats, and nested data maps…"
   },
   {
     "company": "Microsoft",
@@ -202,10 +202,10 @@
   {
     "company": "Microsoft",
     "companySlug": "microsoft",
-    "title": "What AI benchmarks are not telling you",
-    "url": "https://devblogs.microsoft.com/blog/what-ai-benchmarks-are-not-telling-you",
-    "date": "2026-07-01",
-    "summary": "This is the sixth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can t control in the agent stack, how to…"
+    "title": "Not all model upgrades are upgrades",
+    "url": "https://devblogs.microsoft.com/blog/not-all-model-upgrades-are-upgrades",
+    "date": "2026-07-06",
+    "summary": "A new model drops with lower per-token pricing and better benchmarks. You switch. A week later someone asks why the agent is burning 12x more tokens on the same task while producing worse output. We ran 150 agent tasks a…"
   },
   {
     "company": "Microsoft",
@@ -218,10 +218,10 @@
   {
     "company": "Microsoft",
     "companySlug": "microsoft",
-    "title": "Your agent already has a plan",
-    "url": "https://devblogs.microsoft.com/blog/your-agent-already-has-a-plan",
-    "date": "2026-06-26",
-    "summary": "If an agent isn t doing the right thing, the obvious move is to make the docs clearer. Add a tip, spell out the correct command, describe the right approach more prominently. You do all of that, and the agent still ignor…"
+    "title": "What AI benchmarks are not telling you",
+    "url": "https://devblogs.microsoft.com/blog/what-ai-benchmarks-are-not-telling-you",
+    "date": "2026-07-01",
+    "summary": "This is the sixth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can t control in the agent stack, how to…"
   },
   {
     "company": "Microsoft",
@@ -234,10 +234,10 @@
   {
     "company": "Microsoft",
     "companySlug": "microsoft",
-    "title": "Learn from Microsoft: Transform software development through an agentic platform",
-    "url": "https://devblogs.microsoft.com/blog/learn-from-microsoft-transform-software-development-through-an-agentic-platform/",
-    "date": "2026-06-25",
-    "summary": "See how Microsoft is transforming software development with agentic workflows, AI-powered automation, and specialized agents across the engineering lifecycle. The post Learn from Microsoft: Transform software development…"
+    "title": "Your agent already has a plan",
+    "url": "https://devblogs.microsoft.com/blog/your-agent-already-has-a-plan",
+    "date": "2026-06-26",
+    "summary": "If an agent isn t doing the right thing, the obvious move is to make the docs clearer. Add a tip, spell out the correct command, describe the right approach more prominently. You do all of that, and the agent still ignor…"
   },
   {
     "company": "Microsoft",
@@ -250,10 +250,10 @@
   {
     "company": "Microsoft",
     "companySlug": "microsoft",
-    "title": "When the model has never seen your code",
-    "url": "https://devblogs.microsoft.com/blog/when-the-model-has-never-seen-your-code",
-    "date": "2026-06-24",
-    "summary": "This is the fifth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can t control in the agent stack, how to…"
+    "title": "Learn from Microsoft: Transform software development through an agentic platform",
+    "url": "https://devblogs.microsoft.com/blog/learn-from-microsoft-transform-software-development-through-an-agentic-platform/",
+    "date": "2026-06-25",
+    "summary": "See how Microsoft is transforming software development with agentic workflows, AI-powered automation, and specialized agents across the engineering lifecycle. The post Learn from Microsoft: Transform software development…"
   },
   {
     "company": "Microsoft",
@@ -266,8 +266,16 @@
   {
     "company": "Microsoft",
     "companySlug": "microsoft",
+    "title": "When the model has never seen your code",
+    "url": "https://devblogs.microsoft.com/blog/when-the-model-has-never-seen-your-code",
+    "date": "2026-06-24",
+    "summary": "This is the fifth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can t control in the agent stack, how to…"
+  },
+  {
+    "company": "Microsoft",
+    "companySlug": "microsoft",
     "title": "Models don&#8217;t have preferences, they have context",
-    "url": "https://devblogs.microsoft.com/blog/models-dont-have-preferences-they-have-context/",
+    "url": "https://devblogs.microsoft.com/blog/models-dont-have-preferences-they-have-context",
     "date": "2026-06-22",
     "summary": "You open a fresh chat, type What framework should I use for a web app? , and the model says React. You screenshot it, share it, and write Claude prefers React. It gets engagement. People nod along. A few reply with their…"
   },
@@ -275,7 +283,7 @@
     "company": "Microsoft",
     "companySlug": "microsoft",
     "title": "Models don&#8217;t have preferences, they have context",
-    "url": "https://devblogs.microsoft.com/blog/models-dont-have-preferences-they-have-context",
+    "url": "https://devblogs.microsoft.com/blog/models-dont-have-preferences-they-have-context/",
     "date": "2026-06-22",
     "summary": "You open a fresh chat, type What framework should I use for a web app? , and the model says React. You screenshot it, share it, and write Claude prefers React. It gets engagement. People nod along. A few reply with their…"
   },
@@ -314,10 +322,10 @@
   {
     "company": "Microsoft",
     "companySlug": "microsoft",
-    "title": "Is your agent extension actually working?",
-    "url": "https://devblogs.microsoft.com/blog/is-your-agent-extension-actually-working",
+    "title": "Spec-Driven Development: A Spec-First Approach to AI-Native Engineering",
+    "url": "https://devblogs.microsoft.com/blog/spec-driven-development-ai-native-engineering",
     "date": "2026-06-10",
-    "summary": "This is the third article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can t control in the agent stack, how to…"
+    "summary": "AI has made software delivery faster, but speed alone does not guarantee better outcomes. As teams adopt AI-native development, the real challenge is keeping requirements, design, implementation, and validation aligned s…"
   },
   {
     "company": "Microsoft",
@@ -330,10 +338,10 @@
   {
     "company": "Microsoft",
     "companySlug": "microsoft",
-    "title": "Spec-Driven Development: A Spec-First Approach to AI-Native Engineering",
-    "url": "https://devblogs.microsoft.com/blog/spec-driven-development-ai-native-engineering",
+    "title": "Is your agent extension actually working?",
+    "url": "https://devblogs.microsoft.com/blog/is-your-agent-extension-actually-working",
     "date": "2026-06-10",
-    "summary": "AI has made software delivery faster, but speed alone does not guarantee better outcomes. As teams adopt AI-native development, the real challenge is keeping requirements, design, implementation, and validation aligned s…"
+    "summary": "This is the third article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can t control in the agent stack, how to…"
   },
   {
     "company": "Microsoft",
