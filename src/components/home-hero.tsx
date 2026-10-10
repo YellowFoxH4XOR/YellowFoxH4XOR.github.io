@@ -54,7 +54,7 @@ export function HomeHero() {
               <span className="hero-line" style={{ "--hero-delay": "120ms" } as CSSProperties}>
                 I build the pipes
               </span>
-            </span>
+            </span>{" "}
             <span className="hero-mask">
               <span
                 className="hero-line text-brand"
@@ -62,7 +62,7 @@ export function HomeHero() {
               >
                 AI products
               </span>
-            </span>
+            </span>{" "}
             <span className="hero-mask">
               <span className="hero-line" style={{ "--hero-delay": "320ms" } as CSSProperties}>
                 run on.
