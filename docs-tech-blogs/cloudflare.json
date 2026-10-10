@@ -2,6 +2,30 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
+    "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
+    "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
+    "date": "2026-10-09",
+    "summary": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline. We’ve also lowered Clef-flash pricing and boosted Clef inference speeds by up to 2.…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
+    "url": "https://blog.cloudflare.com/workers-on-demand-profiling/",
+    "date": "2026-10-09",
+    "summary": "On-demand CPU and memory profiling for Cloudflare Workers and Durable Objects is now available. Now you can generate interactive flamegraphs directly in production to quickly track down memory leaks and performance bottl…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Deno is joining Cloudflare",
+    "url": "https://blog.cloudflare.com/deno-joins-cloudflare/",
+    "date": "2026-10-09",
+    "summary": "The Deno team is joining Cloudflare to radically simplify self-hosting Workers and Durable Objects, so developers can use the same primitives in more places."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
     "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
     "url": "https://blog.cloudflare.com/draft-blog-0091/",
     "date": "2026-10-08",
@@ -130,18 +154,34 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Support for modern cryptographic algorithms in Workers",
-    "url": "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support/",
+    "title": "Announcing Cloudflare K2: serverless event streams",
+    "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
     "date": "2026-10-01",
-    "summary": "Cloudflare Workers is adding opt-in support for post-quantum-resistant algorithms ML-KEM and ML-DSA. You can try it today."
+    "summary": "Cloudflare K2 is a serverless event streaming service built directly on top of R2 object storage for high-scale data movement and long-term retention. By decoupling producers and consumers at the edge, K2 enables durable…"
   },
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Introducing Cloudflare Basin: an open, serverless data platform, now generally available",
-    "url": "https://blog.cloudflare.com/cloudflare-basin/",
+    "title": "Cloudflare OS: your company’s agent workspace, managed for you",
+    "url": "https://blog.cloudflare.com/managed-cloudflare-os/",
     "date": "2026-10-01",
-    "summary": "Cloudflare Basin is built on Apache Iceberg and R2 Object Storage. With general availability, developers can ingest, manage, and query large datasets at scale without paying data egress fees."
+    "summary": "Cloudflare OS gives everyone in your organization an agent workspace that knows how your company works and connects to its data and systems. We’re opening the waitlist for fully managed deployments that you’ll be able to…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Introducing Workers KV Instant — powered by Quicksilver",
+    "url": "https://blog.cloudflare.com/workers-kv-instant/",
+    "date": "2026-10-01",
+    "summary": "Workers KV Instant delivers sub-2ms p99 read latencies and 250ms global replication across Cloudflare’s 300+ edge locations. KV Instant eliminates cold-read penalties and uses the familiar Workers KV API."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "AI Search is now generally available",
+    "url": "https://blog.cloudflare.com/ai-search-ga/",
+    "date": "2026-10-01",
+    "summary": "AI Search is now generally available. It embeds image pixels directly for visual search, runs optical character recognition on scanned PDFs, accepts files up to 10 MiB, and works with any chat model. Here's what's new an…"
   },
   {
     "company": "Cloudflare",
@@ -154,10 +194,18 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "AI Search is now generally available",
-    "url": "https://blog.cloudflare.com/ai-search-ga/",
+    "title": "Introducing Cloudflare Basin: an open, serverless data platform, now generally available",
+    "url": "https://blog.cloudflare.com/cloudflare-basin/",
     "date": "2026-10-01",
-    "summary": "AI Search is now generally available. It embeds image pixels directly for visual search, runs optical character recognition on scanned PDFs, accepts files up to 10 MiB, and works with any chat model. Here's what's new an…"
+    "summary": "Cloudflare Basin is built on Apache Iceberg and R2 Object Storage. With general availability, developers can ingest, manage, and query large datasets at scale without paying data egress fees."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Support for modern cryptographic algorithms in Workers",
+    "url": "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support/",
+    "date": "2026-10-01",
+    "summary": "Cloudflare Workers is adding opt-in support for post-quantum-resistant algorithms ML-KEM and ML-DSA. You can try it today."
   },
   {
     "company": "Cloudflare",
@@ -178,82 +226,10 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Introducing Workers KV Instant — powered by Quicksilver",
-    "url": "https://blog.cloudflare.com/workers-kv-instant/",
-    "date": "2026-10-01",
-    "summary": "Workers KV Instant delivers sub-2ms p99 read latencies and 250ms global replication across Cloudflare’s 300+ edge locations. KV Instant eliminates cold-read penalties and uses the familiar Workers KV API."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Cloudflare OS: your company’s agent workspace, managed for you",
-    "url": "https://blog.cloudflare.com/managed-cloudflare-os/",
-    "date": "2026-10-01",
-    "summary": "Cloudflare OS gives everyone in your organization an agent workspace that knows how your company works and connects to its data and systems. We’re opening the waitlist for fully managed deployments that you’ll be able to…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Announcing Cloudflare K2: serverless event streams",
-    "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
-    "date": "2026-10-01",
-    "summary": "Cloudflare K2 is a serverless event streaming service built directly on top of R2 object storage for high-scale data movement and long-term retention. By decoupling producers and consumers at the edge, K2 enables durable…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Cloudflare Impact reaches $100 million in donations",
-    "url": "https://blog.cloudflare.com/100-million-donations/",
+    "title": "Cut your AI spend with AI Gateway's Auto Router",
+    "url": "https://blog.cloudflare.com/auto-router/",
     "date": "2026-09-30",
-    "summary": "This week, Cloudflare's Impact programs will reach $100 million in donated services. This milestone means that thousands of entities including journalists, civil society, state and local governments, election management…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "The Internet has a second audience",
-    "url": "https://blog.cloudflare.com/agentic-web/",
-    "date": "2026-09-30",
-    "summary": "More than half the traffic reaching sites on Cloudflare is now automated, and AI agents are the fastest-growing part of it. We're giving site owners the tools to see who's visiting, decide who gets in, and charge for acc…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Cloudflare Containers, rebuilt to scale agent sandboxes",
-    "url": "https://blog.cloudflare.com/faster-agent-sandboxes/",
-    "date": "2026-09-30",
-    "summary": "Cloudflare Containers now start 6x faster, let your agent choose each sandbox's image and instance type at runtime, and support filesystem snapshots in public beta, all controlled from a Durable Object."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Identify AI model overuse with User Insights",
-    "url": "https://blog.cloudflare.com/ai-model-overuse-user-insights/",
-    "date": "2026-09-30",
-    "summary": "AI Gateway User Insights now adds task, model, turn, and user categories to help teams understand AI adoption and make better model decisions. This is available free to AI Gateway users."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Pay Per Use: when AI uses your work, you should get paid",
-    "url": "https://blog.cloudflare.com/pay-per-use/",
-    "date": "2026-09-30",
-    "summary": "Pay Per Use is now in beta. AI companies report when they use publishers’ content, and Cloudflare handles billing, payouts, and reporting, so our customers are paid according to use."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Monetization Gateway beta: charge AI agents for consumption with HTTP 402",
-    "url": "https://blog.cloudflare.com/monetization-gateway-beta/",
-    "date": "2026-09-30",
-    "summary": "Cloudflare’s AI Gateway, Ceramic.ai, Stocktwits, and more are using the Cloudflare Monetization Gateway today to charge agents for access to tokens, APIs, and MCP tools. U.S.-based sellers can now apply for access to the…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Simplifying domains for people and agents",
-    "url": "https://blog.cloudflare.com/simplifying-domains/",
-    "date": "2026-09-30",
-    "summary": "Cloudflare Registrar’s new search delivers fast, transparent results across 420+ extensions using Workers, Durable Objects, and WebSockets. Its expanded API and cf CLI also let agents search, register, and transfer domai…"
+    "summary": "Cloudflare AI Gateway now features a model router that evaluates request complexity using an edge-deployed classifier to select the optimal model. By balancing expected output quality against token costs, organizations c…"
   },
   {
     "company": "Cloudflare",
@@ -266,74 +242,58 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Cut your AI spend with AI Gateway's Auto Router",
-    "url": "https://blog.cloudflare.com/auto-router/",
+    "title": "Simplifying domains for people and agents",
+    "url": "https://blog.cloudflare.com/simplifying-domains/",
     "date": "2026-09-30",
-    "summary": "Cloudflare AI Gateway now features a model router that evaluates request complexity using an edge-deployed classifier to select the optimal model. By balancing expected output quality against token costs, organizations c…"
+    "summary": "Cloudflare Registrar’s new search delivers fast, transparent results across 420+ extensions using Workers, Durable Objects, and WebSockets. Its expanded API and cf CLI also let agents search, register, and transfer domai…"
   },
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Building a certificate authority for the whole Internet",
-    "url": "https://blog.cloudflare.com/cloudflare-certificate-authority/",
-    "date": "2026-09-29",
-    "summary": "Twelve years after launching Universal SSL, Cloudflare is applying to become a certificate authority. By combining an established root, an ACME-first approach, and Merkle Tree Certificates, we are building a post-quantum…"
+    "title": "Monetization Gateway beta: charge AI agents for consumption with HTTP 402",
+    "url": "https://blog.cloudflare.com/monetization-gateway-beta/",
+    "date": "2026-09-30",
+    "summary": "Cloudflare’s AI Gateway, Ceramic.ai, Stocktwits, and more are using the Cloudflare Monetization Gateway today to charge agents for access to tokens, APIs, and MCP tools. U.S.-based sellers can now apply for access to the…"
   },
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Using AI to chart a course for our post-quantum migration",
-    "url": "https://blog.cloudflare.com/ai-driven-cryptography-discovery/",
-    "date": "2026-09-29",
-    "summary": "We’re building CryptoLabe, an internal AI-powered tool that discovers cryptography across our codebase, surfaces dependencies, and helps us progress toward a full post-quantum migration by 2029. Here’s what we’ve learned…"
+    "title": "Pay Per Use: when AI uses your work, you should get paid",
+    "url": "https://blog.cloudflare.com/pay-per-use/",
+    "date": "2026-09-30",
+    "summary": "Pay Per Use is now in beta. AI companies report when they use publishers’ content, and Cloudflare handles billing, payouts, and reporting, so our customers are paid according to use."
   },
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Adaptive application security for the AI era: how Cloudflare connects code, traffic, and intelligence to stop attacks",
-    "url": "https://blog.cloudflare.com/ai-era-framework/",
-    "date": "2026-09-29",
-    "summary": "Cloudflare introduces an adaptive security framework connecting risk discovery, agent governance, runtime protection, and AI-powered response in a continuous learning loop."
+    "title": "Identify AI model overuse with User Insights",
+    "url": "https://blog.cloudflare.com/ai-model-overuse-user-insights/",
+    "date": "2026-09-30",
+    "summary": "AI Gateway User Insights now adds task, model, turn, and user categories to help teams understand AI adoption and make better model decisions. This is available free to AI Gateway users."
   },
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Building a post-quantum certificate authority with Merkle Tree Certificates",
-    "url": "https://blog.cloudflare.com/pq-ca-with-mtcs/",
-    "date": "2026-09-29",
-    "summary": "As post-quantum signatures threaten to inflate TLS handshakes and certificate transparency logs, Merkle Tree Certificates offer a path to compact, auditable authentication. Cloudflare’s new certificate authority will sup…"
+    "title": "Cloudflare Containers, rebuilt to scale agent sandboxes",
+    "url": "https://blog.cloudflare.com/faster-agent-sandboxes/",
+    "date": "2026-09-30",
+    "summary": "Cloudflare Containers now start 6x faster, let your agent choose each sandbox's image and instance type at runtime, and support filesystem snapshots in public beta, all controlled from a Durable Object."
   },
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "We tested our own WAF with frontier AI models. Here’s what we found",
-    "url": "https://blog.cloudflare.com/adaptive-ai-waf-testing/",
-    "date": "2026-09-29",
-    "summary": "We built a WAF tester that adapted each request based on what the WAF blocked or passed. This helped us explore variations that a fixed test might miss. We ran it across six attack categories on an authorized staging env…"
+    "title": "The Internet has a second audience",
+    "url": "https://blog.cloudflare.com/agentic-web/",
+    "date": "2026-09-30",
+    "summary": "More than half the traffic reaching sites on Cloudflare is now automated, and AI agents are the fastest-growing part of it. We're giving site owners the tools to see who's visiting, decide who gets in, and charge for acc…"
   },
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Introducing Threat Signals: agentic skills for open-source threat intelligence, free for every Cloudflare account",
-    "url": "https://blog.cloudflare.com/threat-signals/",
-    "date": "2026-09-29",
-    "summary": "We are expanding access to Cloudforce One's Threat Events Platform to every Cloudflare account and introducing Threat Signals. Threat Signals automatically parses open-source threat reporting, extracts structured indicat…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Is your domain using post-quantum encryption? Now you can see for yourself",
-    "url": "https://blog.cloudflare.com/post-quantum-visibility/",
-    "date": "2026-09-29",
-    "summary": "Cloudflare has added visibility into post-quantum (PQ) encryption in TLS 1.3 directly into HTTP Analytics, Log Explorer, and Logpush. Learn how to make sure your domain is protected with PQ encryption."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Enforce positive security with Cloudflare Application Profiles",
-    "url": "https://blog.cloudflare.com/application-profiles/",
-    "date": "2026-09-29",
-    "summary": "Cloudflare learns the structure of your HTTP requests and identifies deviations. You can add a positive security layer that helps reduce attack surface as AI makes it easier for attackers to generate and vary payloads."
+    "title": "Cloudflare Impact reaches $100 million in donations",
+    "url": "https://blog.cloudflare.com/100-million-donations/",
+    "date": "2026-09-30",
+    "summary": "This week, Cloudflare's Impact programs will reach $100 million in donated services. This milestone means that thousands of entities including journalists, civil society, state and local governments, election management…"
   },
   {
     "company": "Cloudflare",
@@ -346,42 +306,74 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "EmDash 1.0: the stable CMS with a secure plugin registry",
-    "url": "https://blog.cloudflare.com/emdash-cms-plugin-registry/",
-    "date": "2026-09-28",
-    "summary": "EmDash 1.0 is a stable, open source CMS built for Astro, with agent-friendly workflows, secure sandboxed plugins, and a decentralized registry that keeps publishers in control."
+    "title": "Enforce positive security with Cloudflare Application Profiles",
+    "url": "https://blog.cloudflare.com/application-profiles/",
+    "date": "2026-09-29",
+    "summary": "Cloudflare learns the structure of your HTTP requests and identifies deviations. You can add a positive security layer that helps reduce attack surface as AI makes it easier for attackers to generate and vary payloads."
   },
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Introducing The Cold Start: pitch your startup live at Cloudflare Connect",
-    "url": "https://blog.cloudflare.com/introducing-the-cold-start/",
-    "date": "2026-09-28",
-    "summary": "Cloudflare is launching The Cold Start, a startup competition giving five early-stage companies five minutes on stage at Cloudflare Connect. Grand Prize winner receives $500,000 in credits, a San Francisco billboard, and…"
+    "title": "Is your domain using post-quantum encryption? Now you can see for yourself",
+    "url": "https://blog.cloudflare.com/post-quantum-visibility/",
+    "date": "2026-09-29",
+    "summary": "Cloudflare has added visibility into post-quantum (PQ) encryption in TLS 1.3 directly into HTTP Analytics, Log Explorer, and Logpush. Learn how to make sure your domain is protected with PQ encryption."
   },
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "The road to the agentic browser: A Kitesurf update",
-    "url": "https://blog.cloudflare.com/kitesurf-update/",
-    "date": "2026-09-28",
-    "summary": "We’ve updated Kitesurf, our Workers-based browser for AI agents, with WebMCP support, improved DOM performance, and terminal-based rendering. With over 730,000 Web Platform subtests passing, agents can now navigate compl…"
+    "title": "Introducing Threat Signals: agentic skills for open-source threat intelligence, free for every Cloudflare account",
+    "url": "https://blog.cloudflare.com/threat-signals/",
+    "date": "2026-09-29",
+    "summary": "We are expanding access to Cloudforce One's Threat Events Platform to every Cloudflare account and introducing Threat Signals. Threat Signals automatically parses open-source threat reporting, extracts structured indicat…"
   },
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Introducing Forge: the open source pipeline for generating SDKs, CLIs, docs, and more",
-    "url": "https://blog.cloudflare.com/forge-open-source-generation-pipeline/",
-    "date": "2026-09-28",
-    "summary": "Forge is a pluggable, open-source pipeline that runs in CI to generate SDKs, CLIs, and documentation directly from API definitions. By shifting generation upstream into individual team repositories, Forge keeps developer…"
+    "title": "We tested our own WAF with frontier AI models. Here’s what we found",
+    "url": "https://blog.cloudflare.com/adaptive-ai-waf-testing/",
+    "date": "2026-09-29",
+    "summary": "We built a WAF tester that adapted each request based on what the WAF blocked or passed. This helped us explore variations that a fixed test might miss. We ran it across six attack categories on an authorized staging env…"
   },
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
-    "url": "https://blog.cloudflare.com/voidzero-update/",
+    "title": "Building a post-quantum certificate authority with Merkle Tree Certificates",
+    "url": "https://blog.cloudflare.com/pq-ca-with-mtcs/",
+    "date": "2026-09-29",
+    "summary": "As post-quantum signatures threaten to inflate TLS handshakes and certificate transparency logs, Merkle Tree Certificates offer a path to compact, auditable authentication. Cloudflare’s new certificate authority will sup…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Adaptive application security for the AI era: how Cloudflare connects code, traffic, and intelligence to stop attacks",
+    "url": "https://blog.cloudflare.com/ai-era-framework/",
+    "date": "2026-09-29",
+    "summary": "Cloudflare introduces an adaptive security framework connecting risk discovery, agent governance, runtime protection, and AI-powered response in a continuous learning loop."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Using AI to chart a course for our post-quantum migration",
+    "url": "https://blog.cloudflare.com/ai-driven-cryptography-discovery/",
+    "date": "2026-09-29",
+    "summary": "We’re building CryptoLabe, an internal AI-powered tool that discovers cryptography across our codebase, surfaces dependencies, and helps us progress toward a full post-quantum migration by 2029. Here’s what we’ve learned…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Building a certificate authority for the whole Internet",
+    "url": "https://blog.cloudflare.com/cloudflare-certificate-authority/",
+    "date": "2026-09-29",
+    "summary": "Twelve years after launching Universal SSL, Cloudflare is applying to become a certificate authority. By combining an established root, an ACME-first approach, and Merkle Tree Certificates, we are building a post-quantum…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
+    "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
     "date": "2026-09-28",
-    "summary": "Since joining Cloudflare, VoidZero has delivered more than 80 releases that drastically speed up JavaScript compilation, linting, and testing. From a 10x faster React compiler to Vite+ 1.0, here’s how we are building fas…"
+    "summary": "We are releasing cf, our new command-line tool that mirrors the entire Cloudflare API and supports programmatic TypeScript configuration. We are also open-sourcing Forge, our internal SDK generator."
   },
   {
     "company": "Cloudflare",
@@ -394,9 +386,17 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
-    "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+    "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
+    "url": "https://blog.cloudflare.com/voidzero-update/",
     "date": "2026-09-28",
-    "summary": "We are releasing cf, our new command-line tool that mirrors the entire Cloudflare API and supports programmatic TypeScript configuration. We are also open-sourcing Forge, our internal SDK generator."
+    "summary": "Since joining Cloudflare, VoidZero has delivered more than 80 releases that drastically speed up JavaScript compilation, linting, and testing. From a 10x faster React compiler to Vite+ 1.0, here’s how we are building fas…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Introducing Forge: the open source pipeline for generating SDKs, CLIs, docs, and more",
+    "url": "https://blog.cloudflare.com/forge-open-source-generation-pipeline/",
+    "date": "2026-09-28",
+    "summary": "Forge is a pluggable, open-source pipeline that runs in CI to generate SDKs, CLIs, and documentation directly from API definitions. By shifting generation upstream into individual team repositories, Forge keeps developer…"
   }
 ]
