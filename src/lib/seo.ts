@@ -29,9 +29,11 @@ export function personSchema() {
     image: `${site.url}/images/profile.jpg`,
     jobTitle: site.jobTitle,
     worksFor: { "@type": "Organization", name: site.worksFor },
+    affiliation: { "@type": "Organization", "@id": site.studio.id, name: site.studio.name, url: site.studio.url },
     description: site.description,
     sameAs: site.sameAs,
-    knowsAbout: site.keywords,
+    // Topics, not the person's own name.
+    knowsAbout: site.keywords.filter((keyword) => keyword !== site.name),
   };
 }
 

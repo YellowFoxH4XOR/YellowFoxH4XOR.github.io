@@ -20,9 +20,15 @@ export const site = {
   email: "akshatkatiyar4@gmail.com",
   jobTitle: "Senior Platform Engineer",
   worksFor: "Commonwealth Bank of Australia (CBA India)",
-  // Profiles that establish identity for search/AI engines (schema.org sameAs).
+  // The software studio Akshat founded; kelvanic.com names him as founder with
+  // this site's Person @id, so search engines connect the two entities.
+  studio: {
+    name: "Kelvanic",
+    url: "https://kelvanic.com/",
+    id: "https://kelvanic.com/#organization",
+  },
+  // Other profiles of this same person (schema.org sameAs).
   sameAs: [
-    "https://kelvanic.com/",
     "https://github.com/YellowFoxH4XOR",
     "https://www.linkedin.com/in/akshat-katiyar/",
     "https://x.com/yellowfox_h4xor",

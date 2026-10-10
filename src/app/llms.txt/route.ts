@@ -20,6 +20,7 @@ export function GET() {
 ${site.intro}
 
 - Role: ${site.jobTitle} at ${site.worksFor}
+- Founder of ${site.studio.name}, an independent software studio: ${site.studio.url}
 - Primary skills: ${site.keywords.join(", ")}
 - Links: ${site.sameAs.join(" | ")}
 
