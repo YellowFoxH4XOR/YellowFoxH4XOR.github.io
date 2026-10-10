@@ -7,7 +7,7 @@ export const site = {
   role: "Senior Platform Engineer",
   // Used for absolute URLs in metadata / Open Graph. Override in prod via env.
   // This must match the host the site is actually served on (canonical domain).
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://site.akshatkatiyar.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://akshatkatiyar.com",
   description:
     "Senior platform engineer with 7+ years building developer infrastructure, automation, and distributed backend systems in Python and Go. Writing about engineering, systems, and the books I read.",
   intro:
@@ -22,7 +22,7 @@ export const site = {
   worksFor: "Commonwealth Bank of Australia (CBA India)",
   // Profiles that establish identity for search/AI engines (schema.org sameAs).
   sameAs: [
-    "https://projects.akshatkatiyar.com/",
+    "https://kelvanic.com/",
     "https://github.com/YellowFoxH4XOR",
     "https://www.linkedin.com/in/akshat-katiyar/",
     "https://x.com/yellowfox_h4xor",
@@ -50,8 +50,8 @@ export const navLinks = [
   { href: "/bookshelf", label: "Bookshelf" },
   { href: "/resume", label: "Resume" },
   { href: "/tech-blogs", label: "Tech Blogs" },
-  // External: the projects index lives on its own subdomain.
-  { href: "https://projects.akshatkatiyar.com/", label: "Projects" },
+  // External: projects live on the Kelvanic studio site.
+  { href: "https://kelvanic.com/", label: "Projects" },
 ] as const;
 
 export const socialLinks = [

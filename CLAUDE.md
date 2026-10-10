@@ -8,7 +8,7 @@ Treat SEO + agent-discoverability as a non-negotiable invariant, not a feature.
 ## Architecture (one paragraph)
 
 Next.js 16 (App Router), Tailwind v4, shadcn/ui. Deployed as a standalone
-Docker image on Coolify, served at `https://site.akshatkatiyar.com`. Blog posts
+Docker image on Coolify, served at `https://akshatkatiyar.com`. Blog posts
 are markdown files in `content/blog/`; pushing one to `master` triggers a
 Coolify rebuild. There is **one source of truth for identity/metadata**:
 `src/lib/site.ts`. All schema/JSON-LD lives in `src/lib/seo.ts`.

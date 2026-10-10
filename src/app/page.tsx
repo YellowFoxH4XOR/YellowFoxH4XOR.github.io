@@ -92,7 +92,7 @@ export default function HomePage() {
           warm paper; this is what the paper pushes against. */}
       <Reveal className="section-gap">
         <a
-          href="https://projects.akshatkatiyar.com/"
+          href="https://kelvanic.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="group relative block overflow-hidden ink-panel px-7 py-10 transition-transform duration-200 ease-[cubic-bezier(0.25,1,0.5,1)] hover:-translate-y-1 sm:px-12 sm:py-14"
@@ -145,7 +145,7 @@ export default function HomePage() {
                   the panel wider than the viewport, so the arrow carries the
                   affordance alone there. */}
               <span className="hidden font-mono text-micro uppercase tracking-[0.18em] text-ink-muted transition-colors duration-200 group-hover:text-brand sm:inline">
-                projects.akshatkatiyar.com
+                kelvanic.com
               </span>
             </span>
           </div>
