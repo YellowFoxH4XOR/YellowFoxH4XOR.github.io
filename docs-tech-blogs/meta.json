@@ -2,6 +2,30 @@
   {
     "company": "Meta",
     "companySlug": "meta",
+    "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
+    "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
+    "date": "2026-10-12",
+    "summary": "At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including: Our first liquid-cooled network rack (IcePack), and 102.4T switch platform (IceCube). Flat…"
+  },
+  {
+    "company": "Meta",
+    "companySlug": "meta",
+    "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
+    "url": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
+    "date": "2026-10-12",
+    "summary": "Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our protocol stack for live streaming video and enhance overall user experience for…"
+  },
+  {
+    "company": "Meta",
+    "companySlug": "meta",
+    "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+    "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
+    "date": "2026-10-12",
+    "summary": "At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation work to expand across opportunistic capacit…"
+  },
+  {
+    "company": "Meta",
+    "companySlug": "meta",
     "title": "NTS: Authenticated Time at Meta",
     "url": "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/",
     "date": "2026-10-06",
@@ -50,18 +74,18 @@
   {
     "company": "Meta",
     "companySlug": "meta",
-    "title": "MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet",
-    "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/",
-    "date": "2026-08-24",
-    "summary": "Training and serving frontier AI models depends on fast, reliable networks that move data between GPUs without wasting compute cycles. To meet this challenge at scale, Meta designed MetaRoCE – a clean-sheet RDMA transpor…"
-  },
-  {
-    "company": "Meta",
-    "companySlug": "meta",
     "title": "MTIA 300: Meta&#8217;s First Training Chip with Built-in NICs and Communication-Offloading Engines",
     "url": "https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/",
     "date": "2026-08-24",
     "summary": "MTIA 300 is the first of Meta’s family of in-house training and inference accelerators optimized for training ranking and recommendation models. We’re sharing how MTIA 300’s built-in NIC chiplets allow it to meet the com…"
+  },
+  {
+    "company": "Meta",
+    "companySlug": "meta",
+    "title": "MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet",
+    "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/",
+    "date": "2026-08-24",
+    "summary": "Training and serving frontier AI models depends on fast, reliable networks that move data between GPUs without wasting compute cycles. To meet this challenge at scale, Meta designed MetaRoCE – a clean-sheet RDMA transpor…"
   },
   {
     "company": "Meta",
@@ -202,17 +226,17 @@
   {
     "company": "Meta",
     "companySlug": "meta",
-    "title": "Capacity Efficiency at Meta: How Unified AI Agents Optimize Performance at Hyperscale",
-    "url": "https://engineering.fb.com/2026/04/16/developer-tools/capacity-efficiency-at-meta-how-unified-ai-agents-optimize-performance-at-hyperscale/",
-    "date": "2026-04-16",
-    "summary": "We re sharing insights into Meta s Capacity Efficiency Program, where we ve built an AI agent platform that helps automate finding and fixing performance issues throughout our infrastructure. By leveraging encoded domain…"
-  },
-  {
-    "company": "Meta",
-    "companySlug": "meta",
     "title": "Post-Quantum Cryptography Migration at Meta: Framework, Lessons, and Takeaways",
     "url": "https://engineering.fb.com/2026/04/16/security/post-quantum-cryptography-migration-at-meta-framework-lessons-and-takeaways/",
     "date": "2026-04-16",
     "summary": "We’re sharing lessons learned from Meta’s post-quantum cryptography (PQC) migration to help other organizations strengthen their resilience as industry transitions to post-quantum cryptography standards. We’re proposing…"
+  },
+  {
+    "company": "Meta",
+    "companySlug": "meta",
+    "title": "Capacity Efficiency at Meta: How Unified AI Agents Optimize Performance at Hyperscale",
+    "url": "https://engineering.fb.com/2026/04/16/developer-tools/capacity-efficiency-at-meta-how-unified-ai-agents-optimize-performance-at-hyperscale/",
+    "date": "2026-04-16",
+    "summary": "We re sharing insights into Meta s Capacity Efficiency Program, where we ve built an AI agent platform that helps automate finding and fixing performance issues throughout our infrastructure. By leveraging encoded domain…"
   }
 ]

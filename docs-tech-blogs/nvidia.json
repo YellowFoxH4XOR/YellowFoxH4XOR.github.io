@@ -2,6 +2,14 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
+    "title": "ReplaySSM: Rethinking State Storage for Faster Hybrid-Model Decoding",
+    "url": "https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding/",
+    "date": "2026-10-12",
+    "summary": "Hybrid models interleave state-space model (SSM) layers with a few attention layers. NVIDIA Nemotron 3, Qwen3.5 through Qwen3.8, Kimi-K3, and GLM-5.3-Flash are..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
     "title": "5 Steps to Create SimReady Assets for Robotics with Frontier AI Models",
     "url": "https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models/",
     "date": "2026-10-08",
@@ -390,13 +398,5 @@
     "url": "https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw/",
     "date": "2026-09-04",
     "summary": "Enterprise work spans messages, decisions, projects, and obligations that change over time. An AI agent that starts without this context must reconstruct it..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "Frontier Reasoning Reaches the Edge: How to Deploy and Optimize Models on NVIDIA Jetson",
-    "url": "https://developer.nvidia.com/blog/frontier-reasoning-reaches-the-edge-how-to-deploy-and-optimize-models-on-nvidia-jetson/",
-    "date": "2026-09-04",
-    "summary": "Running reasoning and agentic AI at the edge has been harder than it needs to be. Until recently, models capable of multi-step reasoning were too large to run..."
   }
 ]
