@@ -2,6 +2,14 @@
   {
     "company": "Meta",
     "companySlug": "meta",
+    "title": "Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI",
+    "url": "https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai/",
+    "date": "2026-10-13",
+    "summary": "Last year, we introduced GEM, the industry’s largest recommendation system (RecSys) foundation model. GEM established Meta s first LLM-inspired paradigm for ads recommendation, driving major performance gains. Building o…"
+  },
+  {
+    "company": "Meta",
+    "companySlug": "meta",
     "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
     "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
     "date": "2026-10-12",
@@ -74,18 +82,18 @@
   {
     "company": "Meta",
     "companySlug": "meta",
-    "title": "MTIA 300: Meta&#8217;s First Training Chip with Built-in NICs and Communication-Offloading Engines",
-    "url": "https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/",
-    "date": "2026-08-24",
-    "summary": "MTIA 300 is the first of Meta’s family of in-house training and inference accelerators optimized for training ranking and recommendation models. We’re sharing how MTIA 300’s built-in NIC chiplets allow it to meet the com…"
-  },
-  {
-    "company": "Meta",
-    "companySlug": "meta",
     "title": "MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet",
     "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/",
     "date": "2026-08-24",
     "summary": "Training and serving frontier AI models depends on fast, reliable networks that move data between GPUs without wasting compute cycles. To meet this challenge at scale, Meta designed MetaRoCE – a clean-sheet RDMA transpor…"
+  },
+  {
+    "company": "Meta",
+    "companySlug": "meta",
+    "title": "MTIA 300: Meta&#8217;s First Training Chip with Built-in NICs and Communication-Offloading Engines",
+    "url": "https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/",
+    "date": "2026-08-24",
+    "summary": "MTIA 300 is the first of Meta’s family of in-house training and inference accelerators optimized for training ranking and recommendation models. We’re sharing how MTIA 300’s built-in NIC chiplets allow it to meet the com…"
   },
   {
     "company": "Meta",
@@ -226,17 +234,17 @@
   {
     "company": "Meta",
     "companySlug": "meta",
-    "title": "Post-Quantum Cryptography Migration at Meta: Framework, Lessons, and Takeaways",
-    "url": "https://engineering.fb.com/2026/04/16/security/post-quantum-cryptography-migration-at-meta-framework-lessons-and-takeaways/",
-    "date": "2026-04-16",
-    "summary": "We’re sharing lessons learned from Meta’s post-quantum cryptography (PQC) migration to help other organizations strengthen their resilience as industry transitions to post-quantum cryptography standards. We’re proposing…"
-  },
-  {
-    "company": "Meta",
-    "companySlug": "meta",
     "title": "Capacity Efficiency at Meta: How Unified AI Agents Optimize Performance at Hyperscale",
     "url": "https://engineering.fb.com/2026/04/16/developer-tools/capacity-efficiency-at-meta-how-unified-ai-agents-optimize-performance-at-hyperscale/",
     "date": "2026-04-16",
     "summary": "We re sharing insights into Meta s Capacity Efficiency Program, where we ve built an AI agent platform that helps automate finding and fixing performance issues throughout our infrastructure. By leveraging encoded domain…"
+  },
+  {
+    "company": "Meta",
+    "companySlug": "meta",
+    "title": "Post-Quantum Cryptography Migration at Meta: Framework, Lessons, and Takeaways",
+    "url": "https://engineering.fb.com/2026/04/16/security/post-quantum-cryptography-migration-at-meta-framework-lessons-and-takeaways/",
+    "date": "2026-04-16",
+    "summary": "We’re sharing lessons learned from Meta’s post-quantum cryptography (PQC) migration to help other organizations strengthen their resilience as industry transitions to post-quantum cryptography standards. We’re proposing…"
   }
 ]
