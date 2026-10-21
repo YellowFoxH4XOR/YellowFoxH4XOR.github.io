@@ -2,6 +2,30 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
+    "title": "Redesign how your team ships software with AI agents",
+    "url": "https://about.gitlab.com/blog/redesign-how-your-team-ships-software-with-ai-agents/",
+    "date": "2026-10-20",
+    "summary": "AI agents are sending more and more code into review queues built for human-paced work. A coding assistant can speed up code writing, but it can’t show you whether review, security checks, and release approvals can keep…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "Uncover the business logic vulnerabilities SAST scanners miss",
+    "url": "https://about.gitlab.com/blog/gitlab-business-logic-security-analyzer/",
+    "date": "2026-10-20",
+    "summary": "Broken object-level authorization ranks first on the OWASP API Security Top 10 , and OWASP says that traditional static application security testing (SAST) tools struggle to find access control flaws. A missing authoriza…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "AI Governance: One view of agent activity",
+    "url": "https://about.gitlab.com/blog/ai-governance-dashboard/",
+    "date": "2026-10-20",
+    "summary": "AI coding agents are writing and changing code, from GitLab Duo Agent Platform agents to externally connected agents like Claude Code, Cursor, and Codex. You are accountable for what those agents do, yet most of their ac…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
     "title": "Three developer tasks worth handing to an agent",
     "url": "https://about.gitlab.com/blog/three-developer-tasks-worth-handing-to-an-agent/",
     "date": "2026-10-19",
@@ -170,14 +194,6 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "How to design GitLab for enterprise scale",
-    "url": "https://about.gitlab.com/blog/how-to-design-gitlab-for-enterprise-scale/",
-    "date": "2026-09-22",
-    "summary": "At enterprise scale, even small architecture choices can have outsized consequences. A deployment that works for a handful of teams can become a constraint once thousands of developers, repositories, and pipelines depend…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
     "title": "How GitLab reduced code-per-agentic-flow ratio by 45%",
     "url": "https://about.gitlab.com/blog/how-gitlab-reduced-code-per-agentic-flow-ratio/",
     "date": "2026-09-22",
@@ -186,10 +202,10 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "GitLab 19.4 released",
-    "url": "https://docs.gitlab.com/releases/19/gitlab-19-4-released/",
-    "date": "2026-09-18",
-    "summary": ""
+    "title": "How to design GitLab for enterprise scale",
+    "url": "https://about.gitlab.com/blog/how-to-design-gitlab-for-enterprise-scale/",
+    "date": "2026-09-22",
+    "summary": "At enterprise scale, even small architecture choices can have outsized consequences. A deployment that works for a handful of teams can become a constraint once thousands of developers, repositories, and pipelines depend…"
   },
   {
     "company": "GitLab",
@@ -202,26 +218,18 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Optimize your team's price-performance with hosted open weight models",
-    "url": "https://about.gitlab.com/blog/optimize-with-open-weight-models/",
-    "date": "2026-09-17",
-    "summary": "There’s no single best model for every software development task. Implementing a new feature, diagnosing a failed pipeline, and resolving security vulnerabilities all place different demands on the model handling them. G…"
+    "title": "GitLab 19.4 released",
+    "url": "https://docs.gitlab.com/releases/19/gitlab-19-4-released/",
+    "date": "2026-09-18",
+    "summary": ""
   },
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Rate limits on GitLab.com are changing",
-    "url": "https://about.gitlab.com/blog/rate-limit-change-2026/",
+    "title": "See who spent your AI credits and set fair caps per team",
+    "url": "https://about.gitlab.com/blog/new-usage-caps-2026/",
     "date": "2026-09-17",
-    "summary": "GitLab.com hosts millions of projects for teams of every size that need a platform they can rely on. Demand is climbing quickly, and we expect platform load to grow several times over this year. Predictable limits are wh…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "GitLab Duo CLI takes a task from goal to done",
-    "url": "https://about.gitlab.com/blog/gitlab-duo-cli-drives-automation/",
-    "date": "2026-09-17",
-    "summary": "Complex tasks hit a wall at the end of every chat turn. Developers already know what they re trying to accomplish. What stalls the work is the handoff back and forth between each step. Without a pre-defined definition of…"
+    "summary": "Scaling AI across your organization depends on knowing where the budget is going and who’s using it. While a subscription cap keeps your total spend within budget, it can’t tell you how much AI was used by individual tea…"
   },
   {
     "company": "GitLab",
@@ -234,10 +242,26 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "See who spent your AI credits and set fair caps per team",
-    "url": "https://about.gitlab.com/blog/new-usage-caps-2026/",
+    "title": "GitLab Duo CLI takes a task from goal to done",
+    "url": "https://about.gitlab.com/blog/gitlab-duo-cli-drives-automation/",
     "date": "2026-09-17",
-    "summary": "Scaling AI across your organization depends on knowing where the budget is going and who’s using it. While a subscription cap keeps your total spend within budget, it can’t tell you how much AI was used by individual tea…"
+    "summary": "Complex tasks hit a wall at the end of every chat turn. Developers already know what they re trying to accomplish. What stalls the work is the handoff back and forth between each step. Without a pre-defined definition of…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "Rate limits on GitLab.com are changing",
+    "url": "https://about.gitlab.com/blog/rate-limit-change-2026/",
+    "date": "2026-09-17",
+    "summary": "GitLab.com hosts millions of projects for teams of every size that need a platform they can rely on. Demand is climbing quickly, and we expect platform load to grow several times over this year. Predictable limits are wh…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "Optimize your team's price-performance with hosted open weight models",
+    "url": "https://about.gitlab.com/blog/optimize-with-open-weight-models/",
+    "date": "2026-09-17",
+    "summary": "There’s no single best model for every software development task. Implementing a new feature, diagnosing a failed pipeline, and resolving security vulnerabilities all place different demands on the model handling them. G…"
   },
   {
     "company": "GitLab",
@@ -258,14 +282,6 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "GitLab Critical Patch Release: 19.3.2, 19.2.6, 19.1.8",
-    "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-3-2-released/",
-    "date": "2026-09-11",
-    "summary": ""
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
     "title": "How to calculate DevOps platform total cost of ownership",
     "url": "https://about.gitlab.com/blog/how-to-calculate-devops-platform-total-cost-of-ownership/",
     "date": "2026-09-11",
@@ -274,10 +290,10 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Co-Create: Building GitLab with our users",
-    "url": "https://about.gitlab.com/blog/co-create-h1-2026/",
-    "date": "2026-09-10",
-    "summary": "GitLab users bring firsthand experience of the workflows they want to improve. Through our Co-Create program, they collaborate directly with us to design, build, and deliver product improvements that benefit more teams.…"
+    "title": "GitLab Critical Patch Release: 19.3.2, 19.2.6, 19.1.8",
+    "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-3-2-released/",
+    "date": "2026-09-11",
+    "summary": ""
   },
   {
     "company": "GitLab",
@@ -290,10 +306,10 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "GPT-6 Astra on GitLab: Faster runs, fewer tokens used",
-    "url": "https://about.gitlab.com/blog/gpt6-astra-on-gitlab/",
-    "date": "2026-09-08",
-    "summary": "OpenAI s newest frontier model GPT-6 Astra is now on GitLab Duo Agent Platform, delivering faster runs and lower token usage. In GitLab s internal evaluation, GPT-6 Astra finished a typical run 43.4% faster than GPT-5.6…"
+    "title": "Co-Create: Building GitLab with our users",
+    "url": "https://about.gitlab.com/blog/co-create-h1-2026/",
+    "date": "2026-09-10",
+    "summary": "GitLab users bring firsthand experience of the workflows they want to improve. Through our Co-Create program, they collaborate directly with us to design, build, and deliver product improvements that benefit more teams.…"
   },
   {
     "company": "GitLab",
@@ -306,10 +322,10 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "GitLab’s internal playbook to foster AI-fluent technical teams",
-    "url": "https://about.gitlab.com/blog/how-gitlab-fosters-ai-fluent-teams/",
-    "date": "2026-09-02",
-    "summary": "Give two engineering teams the same AI tool and you can end up with two very different outcomes. One team ships faster with fewer bugs, while the other gets burned by an agent that confidently generates the wrong output.…"
+    "title": "GPT-6 Astra on GitLab: Faster runs, fewer tokens used",
+    "url": "https://about.gitlab.com/blog/gpt6-astra-on-gitlab/",
+    "date": "2026-09-08",
+    "summary": "OpenAI s newest frontier model GPT-6 Astra is now on GitLab Duo Agent Platform, delivering faster runs and lower token usage. In GitLab s internal evaluation, GPT-6 Astra finished a typical run 43.4% faster than GPT-5.6…"
   },
   {
     "company": "GitLab",
@@ -322,10 +338,10 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "GitLab compliance frameworks: Adhere to SOC 2 in minutes",
-    "url": "https://about.gitlab.com/blog/quick-compliance-with-compliance-framework-templates/",
-    "date": "2026-08-27",
-    "summary": "Compliance is the part of software delivery that everyone agrees is important, yet nobody enjoys. It often lives in spreadsheets, screenshots, and the quiet dread of an upcoming audit. GitLab s custom compliance framewor…"
+    "title": "GitLab’s internal playbook to foster AI-fluent technical teams",
+    "url": "https://about.gitlab.com/blog/how-gitlab-fosters-ai-fluent-teams/",
+    "date": "2026-09-02",
+    "summary": "Give two engineering teams the same AI tool and you can end up with two very different outcomes. One team ships faster with fewer bugs, while the other gets burned by an agent that confidently generates the wrong output.…"
   },
   {
     "company": "GitLab",
@@ -338,10 +354,18 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Git was built for humans — agents need an upgrade",
-    "url": "https://about.gitlab.com/blog/gitlab-next-gen-scm/",
+    "title": "GitLab compliance frameworks: Adhere to SOC 2 in minutes",
+    "url": "https://about.gitlab.com/blog/quick-compliance-with-compliance-framework-templates/",
+    "date": "2026-08-27",
+    "summary": "Compliance is the part of software delivery that everyone agrees is important, yet nobody enjoys. It often lives in spreadsheets, screenshots, and the quiet dread of an upcoming audit. GitLab s custom compliance framewor…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "Making room for what's next in the GitLab UI",
+    "url": "https://about.gitlab.com/blog/making-room-for-whats-next-in-the-gitlab-ui/",
     "date": "2026-08-26",
-    "summary": "The industry is now racing to rebuild source code management for agents. We showed our answer at GitLab Transcend , but let’s reiterate why rebuilding the Git backend is only half the problem. Three things break when age…"
+    "summary": "Throughout this year, the product interface has been in a season of reduction. On the heels of dark mode , the tide has been moving out with a quieter application chrome, overall color reduction, and neutral controls. It…"
   },
   {
     "company": "GitLab",
@@ -354,10 +378,10 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Making room for what's next in the GitLab UI",
-    "url": "https://about.gitlab.com/blog/making-room-for-whats-next-in-the-gitlab-ui/",
+    "title": "Git was built for humans — agents need an upgrade",
+    "url": "https://about.gitlab.com/blog/gitlab-next-gen-scm/",
     "date": "2026-08-26",
-    "summary": "Throughout this year, the product interface has been in a season of reduction. On the heels of dark mode , the tide has been moving out with a quieter application chrome, overall color reduction, and neutral controls. It…"
+    "summary": "The industry is now racing to rebuild source code management for agents. We showed our answer at GitLab Transcend , but let’s reiterate why rebuilding the Git backend is only half the problem. Three things break when age…"
   },
   {
     "company": "GitLab",
@@ -374,29 +398,5 @@
     "url": "https://about.gitlab.com/blog/when-code-is-abundant/",
     "date": "2026-08-24",
     "summary": "I returned from the holiday break in January convinced that something fundamental had changed. Large language models had reached the point where they could produce useful code reliably enough, and cheaply enough, to chan…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "Build custom flows in minutes with the Flow Creator agent",
-    "url": "https://about.gitlab.com/blog/flow-creator-agent/",
-    "date": "2026-08-20",
-    "summary": "Custom Flows already let teams turn manual, multi-step work into automation that runs on GitLab events. But writing one meant learning the Flow Registry schema first. That requirement is a real barrier. The people who un…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "Run agentic software delivery inside the boundaries you already trust",
-    "url": "https://about.gitlab.com/blog/gitlab-dedicated-ai-gateway/",
-    "date": "2026-08-20",
-    "summary": "Many enterprises choose GitLab Dedicated for a clear reason: a single-tenant instance, managed by GitLab, in a cloud region they select. That isolation already covers source code, project data, and the software developme…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "When your backlog outgrows your team, GitLab scales remediation",
-    "url": "https://about.gitlab.com/blog/gitlab-scales-remediation/",
-    "date": "2026-08-20",
-    "summary": "Security teams have historically struggled to keep up with triage and remediation when development was happening at human speed. Today, that challenge is exacerbated by developers writing and shipping code at machine spe…"
   }
 ]

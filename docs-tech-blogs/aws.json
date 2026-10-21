@@ -2,6 +2,14 @@
   {
     "company": "AWS",
     "companySlug": "aws",
+    "title": "Introducing Amazon ECS Gateway: A fully-managed ingress solution for ECS services",
+    "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services/",
+    "date": "2026-10-20",
+    "summary": "Try Amazon ECS Gateway, a new account-level resource that simplifies ingress networking for containerized workloads by dynamically provisioning and managing the necessary infrastructure on your behalf, with all resources…"
+  },
+  {
+    "company": "AWS",
+    "companySlug": "aws",
     "title": "AWS Weekly Roundup: AWS Lambda Web Functions, Amazon S3 on the Vercel Marketplace, and more (October 19, 2026)",
     "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-lambda-web-functions-amazon-s3-on-the-vercel-marketplace-and-more-october-19-2026/",
     "date": "2026-10-19",
@@ -178,18 +186,18 @@
   {
     "company": "AWS",
     "companySlug": "aws",
-    "title": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 processors are now generally available",
-    "url": "https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available/",
-    "date": "2026-08-31",
-    "summary": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 are now generally available, delivering up to 25% better compute performance than R8g, ideal for databases, in-memory caches, and real-time analytics."
-  },
-  {
-    "company": "AWS",
-    "companySlug": "aws",
     "title": "AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)",
     "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026/",
     "date": "2026-08-31",
     "summary": "The news that interested me the most last week was the DuckLabs acquisition. AWS has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind DuckDB, the popular open source analytical databa…"
+  },
+  {
+    "company": "AWS",
+    "companySlug": "aws",
+    "title": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 processors are now generally available",
+    "url": "https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available/",
+    "date": "2026-08-31",
+    "summary": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 are now generally available, delivering up to 25% better compute performance than R8g, ideal for databases, in-memory caches, and real-time analytics."
   },
   {
     "company": "AWS",
@@ -282,18 +290,18 @@
   {
     "company": "AWS",
     "companySlug": "aws",
-    "title": "Amazon SQS turns 20: Two decades of reliable messaging at scale",
-    "url": "https://aws.amazon.com/blogs/aws/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale/",
-    "date": "2026-07-13",
-    "summary": "On July 13, 2006, we launched Amazon Simple Queue Service (Amazon SQS) as one of the first three services available to customers, alongside Amazon EC2 and Amazon S3. We had learned firsthand that distributed systems need…"
-  },
-  {
-    "company": "AWS",
-    "companySlug": "aws",
     "title": "AWS Weekly Roundup: AWS Builder Center at 1 year, Network Scanning in Security Hub, Loom for AWS, and more (July 13, 2026)",
     "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-at-one-year-network-scanning-in-security-hub-loom-for-aws-and-more-july-13-2026/",
     "date": "2026-07-13",
     "summary": "AWS Builder Center turned one year old last week. Launched on July 9, 2025, the platform has grown from a community hub with Wishlist voting, community profiles, and a toolbox into a full ecosystem with sandbox environme…"
+  },
+  {
+    "company": "AWS",
+    "companySlug": "aws",
+    "title": "Amazon SQS turns 20: Two decades of reliable messaging at scale",
+    "url": "https://aws.amazon.com/blogs/aws/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale/",
+    "date": "2026-07-13",
+    "summary": "On July 13, 2006, we launched Amazon Simple Queue Service (Amazon SQS) as one of the first three services available to customers, alongside Amazon EC2 and Amazon S3. We had learned firsthand that distributed systems need…"
   },
   {
     "company": "AWS",
@@ -314,10 +322,10 @@
   {
     "company": "AWS",
     "companySlug": "aws",
-    "title": "Automate public TLS certificate issuance with ACME support in AWS Certificate Manager",
-    "url": "https://aws.amazon.com/blogs/aws/automate-public-tls-certificate-issuance-with-acme-support-in-aws-certificate-manager/",
+    "title": "Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode",
+    "url": "https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/",
     "date": "2026-06-30",
-    "summary": "AWS Certificate Manager now supports the ACME protocol for public TLS certificates, enabling automated issuance and renewal through any ACMEv2-compatible client on any workload. Administrators get centralized governance,…"
+    "summary": "AWS CloudFormation speeds up infrastructure deployment with Express mode, enabling AI agents and developers to receive deployment confirmation in seconds and iterate faster. Available in all commercial Regions at no addi…"
   },
   {
     "company": "AWS",
@@ -330,10 +338,10 @@
   {
     "company": "AWS",
     "companySlug": "aws",
-    "title": "Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode",
-    "url": "https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/",
+    "title": "Automate public TLS certificate issuance with ACME support in AWS Certificate Manager",
+    "url": "https://aws.amazon.com/blogs/aws/automate-public-tls-certificate-issuance-with-acme-support-in-aws-certificate-manager/",
     "date": "2026-06-30",
-    "summary": "AWS CloudFormation speeds up infrastructure deployment with Express mode, enabling AI agents and developers to receive deployment confirmation in seconds and iterate faster. Available in all commercial Regions at no addi…"
+    "summary": "AWS Certificate Manager now supports the ACME protocol for public TLS certificates, enabling automated issuance and renewal through any ACMEv2-compatible client on any workload. Administrators get centralized governance,…"
   },
   {
     "company": "AWS",
@@ -346,14 +354,6 @@
   {
     "company": "AWS",
     "companySlug": "aws",
-    "title": "AWS Weekly Roundup: NY Summit recap, Local Zone in Hanoi, Grok 4.3 in Bedrock, price reductions, and more (June 22, 2026)",
-    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ny-summit-recap-local-zone-in-hanoi-grok-4-3-in-bedrock-price-reductions-and-more-june-22-2026/",
-    "date": "2026-06-22",
-    "summary": "Last week AWS Summit New York City brought together thousands of customers, partners, and builders for a free, one-day event showcasing the latest in cloud and AI innovation. Dr. Swami Sivasubramanian, VP of Agentic AI a…"
-  },
-  {
-    "company": "AWS",
-    "companySlug": "aws",
     "title": "Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs",
     "url": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
     "date": "2026-06-22",
@@ -362,10 +362,10 @@
   {
     "company": "AWS",
     "companySlug": "aws",
-    "title": "Announcing Amazon EC2 G7 instances accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs",
-    "url": "https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-g7-instances-accelerated-by-nvidia-rtx-pro-4500-blackwell-server-edition-gpus/",
-    "date": "2026-06-18",
-    "summary": "Announcing the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, delivering high performance GPU acceleration for AI inference, graphics, and data analytics workloads."
+    "title": "AWS Weekly Roundup: NY Summit recap, Local Zone in Hanoi, Grok 4.3 in Bedrock, price reductions, and more (June 22, 2026)",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ny-summit-recap-local-zone-in-hanoi-grok-4-3-in-bedrock-price-reductions-and-more-june-22-2026/",
+    "date": "2026-06-22",
+    "summary": "Last week AWS Summit New York City brought together thousands of customers, partners, and builders for a free, one-day event showcasing the latest in cloud and AI innovation. Dr. Swami Sivasubramanian, VP of Agentic AI a…"
   },
   {
     "company": "AWS",
@@ -378,18 +378,10 @@
   {
     "company": "AWS",
     "companySlug": "aws",
-    "title": "Announcing Web Search on Amazon Bedrock AgentCore: Ground your AI agents in current, accurate web knowledge",
-    "url": "https://aws.amazon.com/blogs/aws/announcing-web-search-on-amazon-bedrock-agentcore-ground-your-ai-agents-in-current-accurate-web-knowledge/",
-    "date": "2026-06-17",
-    "summary": "AWS introduces Web Search on Amazon Bedrock AgentCore, a fully managed tool that enables agents to ground responses in current, cited web knowledge with zero data egress from customer's secured AWS environment. You can f…"
-  },
-  {
-    "company": "AWS",
-    "companySlug": "aws",
-    "title": "Proactively reduce tech debt autonomously with AWS Transform – continuous modernization (preview)",
-    "url": "https://aws.amazon.com/blogs/aws/proactively-reduce-tech-debt-autonomously-with-aws-transform-continuous-modernization-preview/",
-    "date": "2026-06-17",
-    "summary": "AWS Transform – continuous modernization (preview) automatically scans code repositories to detect, prioritize, and remediate technical debt at scale."
+    "title": "Announcing Amazon EC2 G7 instances accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs",
+    "url": "https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-g7-instances-accelerated-by-nvidia-rtx-pro-4500-blackwell-server-edition-gpus/",
+    "date": "2026-06-18",
+    "summary": "Announcing the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, delivering high performance GPU acceleration for AI inference, graphics, and data analytics workloads."
   },
   {
     "company": "AWS",
@@ -398,5 +390,13 @@
     "url": "https://aws.amazon.com/blogs/aws/aws-security-agent-adds-threat-modeling-kiro-power-and-claude-code-plugin-and-more/",
     "date": "2026-06-17",
     "summary": "AWS Security Agent now adds STRIDE-based threat modeling, full repo and PR code scanning with remediation across major Git platforms, and IDE integrations via Kiro power, Claude Code plugin, and MCP — letting developers…"
+  },
+  {
+    "company": "AWS",
+    "companySlug": "aws",
+    "title": "Proactively reduce tech debt autonomously with AWS Transform – continuous modernization (preview)",
+    "url": "https://aws.amazon.com/blogs/aws/proactively-reduce-tech-debt-autonomously-with-aws-transform-continuous-modernization-preview/",
+    "date": "2026-06-17",
+    "summary": "AWS Transform – continuous modernization (preview) automatically scans code repositories to detect, prioritize, and remediate technical debt at scale."
   }
 ]

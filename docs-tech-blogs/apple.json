@@ -98,14 +98,6 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "Language Discrimination Improves Linguistic Learning in Multilingual Speech Models",
-    "url": "https://machinelearning.apple.com/research/language-discrimination-multilingual-learning",
-    "date": "2026-10-02",
-    "summary": "Multilingual self-supervised speech models can benefit from sharing information across languages, but under a matched total pretraining data budget they still fall short of monolingual models. We show that strengthening…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
     "title": "Limits of Confidence in Diffusion",
     "url": "https://machinelearning.apple.com/research/limits-confidence-diffusion",
     "date": "2026-10-02",
@@ -114,10 +106,10 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "RLTL;DR: Self-Improvement by Internalizing Self-Generated Feedback",
-    "url": "https://machinelearning.apple.com/research/rltl-dr-self-improvement",
-    "date": "2026-10-01",
-    "summary": "The common paradigm of reinforcement learning with verifiable rewards (RLVR) is to let agents make multiple attempts at a task, and optimize towards the successful ones. This becomes problematic in the realms of self-imp…"
+    "title": "Language Discrimination Improves Linguistic Learning in Multilingual Speech Models",
+    "url": "https://machinelearning.apple.com/research/language-discrimination-multilingual-learning",
+    "date": "2026-10-02",
+    "summary": "Multilingual self-supervised speech models can benefit from sharing information across languages, but under a matched total pretraining data budget they still fall short of monolingual models. We show that strengthening…"
   },
   {
     "company": "Apple",
@@ -130,10 +122,10 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "On the Effectiveness-Fluency Trade-Off in LLM Conditioning: A Systematic Study",
-    "url": "https://machinelearning.apple.com/research/effectiveness-fluency-llm-conditioning",
-    "date": "2026-09-30",
-    "summary": "Controlling the output of Large Language Models (LLMs) is a central challenge for their reliable deployment, yet a clear understanding of the involved trade-offs remains elusive. Current approaches to conditioning are of…"
+    "title": "RLTL;DR: Self-Improvement by Internalizing Self-Generated Feedback",
+    "url": "https://machinelearning.apple.com/research/rltl-dr-self-improvement",
+    "date": "2026-10-01",
+    "summary": "The common paradigm of reinforcement learning with verifiable rewards (RLVR) is to let agents make multiple attempts at a task, and optimize towards the successful ones. This becomes problematic in the realms of self-imp…"
   },
   {
     "company": "Apple",
@@ -142,6 +134,14 @@
     "url": "https://machinelearning.apple.com/research/sclate-agent-training-evaluation",
     "date": "2026-09-30",
     "summary": "Continual-learning agents are systems of models, harnesses, and memory operating over long multi-session horizons. Evaluating and training them requires interleaving tasks with agent-side events such as session stop and…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
+    "title": "On the Effectiveness-Fluency Trade-Off in LLM Conditioning: A Systematic Study",
+    "url": "https://machinelearning.apple.com/research/effectiveness-fluency-llm-conditioning",
+    "date": "2026-09-30",
+    "summary": "Controlling the output of Large Language Models (LLMs) is a central challenge for their reliable deployment, yet a clear understanding of the involved trade-offs remains elusive. Current approaches to conditioning are of…"
   },
   {
     "company": "Apple",
@@ -162,18 +162,18 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "A Practical Recipe for Semi-Supervised Federated ASR: Online Pseudo-Labels with Server Update Stabilization",
-    "url": "https://machinelearning.apple.com/research/practical-recipe-federated-asr",
-    "date": "2026-09-24",
-    "summary": "Semi-supervised federated learning (SSFL) trains models on clients’ unlabeled data using a teacher to generate pseudo-labels, with a small labeled seed dataset on the server. Automatic Speech Recognition (ASR) is particu…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
     "title": "Compressing Streaming Neural Audio Encoders via Latent-Space Distillation",
     "url": "https://machinelearning.apple.com/research/latent-space-distillation",
     "date": "2026-09-24",
     "summary": "System-wide Dictation on Apple devices runs entirely on-device, and the speech it transcribes reaches the foundation model through a tokenizer: an encoder that maps short windows of waveform onto the representation the l…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
+    "title": "A Practical Recipe for Semi-Supervised Federated ASR: Online Pseudo-Labels with Server Update Stabilization",
+    "url": "https://machinelearning.apple.com/research/practical-recipe-federated-asr",
+    "date": "2026-09-24",
+    "summary": "Semi-supervised federated learning (SSFL) trains models on clients’ unlabeled data using a teacher to generate pseudo-labels, with a small labeled seed dataset on the server. Automatic Speech Recognition (ASR) is particu…"
   },
   {
     "company": "Apple",
@@ -202,26 +202,10 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "Shared Selective Persistent Memory for Agentic LLM Systems",
-    "url": "https://machinelearning.apple.com/research/shared-selective-persistent-memory",
+    "title": "DACA-GRPO: Denoising-Aware Credit Assignment for Reinforcement Learning in Diffusion Language Models",
+    "url": "https://machinelearning.apple.com/research/denoising-aware-credit-assignment",
     "date": "2026-09-16",
-    "summary": "Agentic LLM systems that generate code through multi-turn tool use face a fundamental context problem: each session starts from zero, discarding the configuration choices, domain constraints, data schemas, and tool-use p…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
-    "title": "Trajectory as the Teacher: Few-Step Discrete Flow Matching via Energy-Navigated Distillation",
-    "url": "https://machinelearning.apple.com/research/trajectory-teacher-flow-matching",
-    "date": "2026-09-16",
-    "summary": "Discrete flow matching generates text by iteratively transforming noise tokens into coherent language, but may require hundreds of forward passes. Distillation uses the multi-step trajectory to train a student to reprodu…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
-    "title": "How Value Induction Reshapes LLM Behaviour",
-    "url": "https://machinelearning.apple.com/research/value-induction-llm-behaviour",
-    "date": "2026-09-16",
-    "summary": "Conversational Large Language Models are post-trained on language that expresses specific behavioural traits, such as curiosity, open-mindedness, and empathy, and values, such as helpfulness, harmlessness, and honesty. T…"
+    "summary": "Diffusion large language models are a compelling alternative to autoregressive models, yet existing RL methods for diffusion treat all denoising steps as equally important and rely on biased, high-variance likelihood est…"
   },
   {
     "company": "Apple",
@@ -234,26 +218,26 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "DACA-GRPO: Denoising-Aware Credit Assignment for Reinforcement Learning in Diffusion Language Models",
-    "url": "https://machinelearning.apple.com/research/denoising-aware-credit-assignment",
+    "title": "How Value Induction Reshapes LLM Behaviour",
+    "url": "https://machinelearning.apple.com/research/value-induction-llm-behaviour",
     "date": "2026-09-16",
-    "summary": "Diffusion large language models are a compelling alternative to autoregressive models, yet existing RL methods for diffusion treat all denoising steps as equally important and rely on biased, high-variance likelihood est…"
+    "summary": "Conversational Large Language Models are post-trained on language that expresses specific behavioural traits, such as curiosity, open-mindedness, and empathy, and values, such as helpfulness, harmlessness, and honesty. T…"
   },
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "SimpleDesign: A Joint Model for Protein Sequence and Structure Codesign",
-    "url": "https://machinelearning.apple.com/research/simpledesign-protein-codesign",
-    "date": "2026-09-11",
-    "summary": "Proteins are fundamental to biological processes, with their function determined by the complex interplay between the amino acid sequence and the three-dimensional structure. Developing generative models capable of under…"
+    "title": "Trajectory as the Teacher: Few-Step Discrete Flow Matching via Energy-Navigated Distillation",
+    "url": "https://machinelearning.apple.com/research/trajectory-teacher-flow-matching",
+    "date": "2026-09-16",
+    "summary": "Discrete flow matching generates text by iteratively transforming noise tokens into coherent language, but may require hundreds of forward passes. Distillation uses the multi-step trajectory to train a student to reprodu…"
   },
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation",
-    "url": "https://machinelearning.apple.com/research/discosign-gloss-translation",
-    "date": "2026-09-11",
-    "summary": "Sign language processing systems have traditionally operated at the sentence level, ignoring critical discourse phenomena fundamental to sign language comprehension. We introduce DiscoSign, a computational approach for d…"
+    "title": "Shared Selective Persistent Memory for Agentic LLM Systems",
+    "url": "https://machinelearning.apple.com/research/shared-selective-persistent-memory",
+    "date": "2026-09-16",
+    "summary": "Agentic LLM systems that generate code through multi-turn tool use face a fundamental context problem: each session starts from zero, discarding the configuration choices, domain constraints, data schemas, and tool-use p…"
   },
   {
     "company": "Apple",
@@ -266,18 +250,26 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "REFACTOR-VLA: Unsupervised Library Learning of Typed Motor Programs",
-    "url": "https://machinelearning.apple.com/research/refactor-vla-motor-programs",
-    "date": "2026-09-02",
-    "summary": "Most current vision-language-action (VLA) models—such as OpenVLA, π0, RT-2, and RDT-1B—are “monolithic.” This means they generate raw motor commands or very short sequences of actions, without organizing behaviors into r…"
+    "title": "DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation",
+    "url": "https://machinelearning.apple.com/research/discosign-gloss-translation",
+    "date": "2026-09-11",
+    "summary": "Sign language processing systems have traditionally operated at the sentence level, ignoring critical discourse phenomena fundamental to sign language comprehension. We introduce DiscoSign, a computational approach for d…"
   },
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "LLMs Are Not (Consistently) Bayesian: Quantifying Internal (In)consistencies of LLMs’ Probabilistic Beliefs",
-    "url": "https://machinelearning.apple.com/research/llms-not-consistently-bayesian",
-    "date": "2026-08-28",
-    "summary": "Modern AI systems are being deployed in complex domains such as medicine, science, and law, where there is often not a single correct answer given the observed evidence. Such systems must be able to represent and update…"
+    "title": "SimpleDesign: A Joint Model for Protein Sequence and Structure Codesign",
+    "url": "https://machinelearning.apple.com/research/simpledesign-protein-codesign",
+    "date": "2026-09-11",
+    "summary": "Proteins are fundamental to biological processes, with their function determined by the complex interplay between the amino acid sequence and the three-dimensional structure. Developing generative models capable of under…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
+    "title": "REFACTOR-VLA: Unsupervised Library Learning of Typed Motor Programs",
+    "url": "https://machinelearning.apple.com/research/refactor-vla-motor-programs",
+    "date": "2026-09-02",
+    "summary": "Most current vision-language-action (VLA) models—such as OpenVLA, π0, RT-2, and RDT-1B—are “monolithic.” This means they generate raw motor commands or very short sequences of actions, without organizing behaviors into r…"
   },
   {
     "company": "Apple",
@@ -290,6 +282,14 @@
   {
     "company": "Apple",
     "companySlug": "apple",
+    "title": "LLMs Are Not (Consistently) Bayesian: Quantifying Internal (In)consistencies of LLMs’ Probabilistic Beliefs",
+    "url": "https://machinelearning.apple.com/research/llms-not-consistently-bayesian",
+    "date": "2026-08-28",
+    "summary": "Modern AI systems are being deployed in complex domains such as medicine, science, and law, where there is often not a single correct answer given the observed evidence. Such systems must be able to represent and update…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
     "title": "From Preferences to Principles: Rubric-Based Alignment for Grounded Knowledge Answers",
     "url": "https://machinelearning.apple.com/research/rubric-based-alignment",
     "date": "2026-08-27",
@@ -298,10 +298,10 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "PROOF-Gen: From Optimized Data to Better Distillation",
-    "url": "https://machinelearning.apple.com/research/proof-gen-optimized-distillation",
+    "title": "Luce: Relightable Gaussians for 3D Asset Generation",
+    "url": "https://machinelearning.apple.com/research/relightable-gaussians-3d-generation",
     "date": "2026-08-26",
-    "summary": "Supervised fine-tuning on teacher-generated trajectories is the standard first stage for distilling tool-calling capabilities into deployable models. Post-training pipelines that drive shipped tool-calling agents re-run…"
+    "summary": "High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. To support relighting and integration into standard rendering pipelines, the representation should include phy…"
   },
   {
     "company": "Apple",
@@ -314,10 +314,10 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "Luce: Relightable Gaussians for 3D Asset Generation",
-    "url": "https://machinelearning.apple.com/research/relightable-gaussians-3d-generation",
+    "title": "PROOF-Gen: From Optimized Data to Better Distillation",
+    "url": "https://machinelearning.apple.com/research/proof-gen-optimized-distillation",
     "date": "2026-08-26",
-    "summary": "High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. To support relighting and integration into standard rendering pipelines, the representation should include phy…"
+    "summary": "Supervised fine-tuning on teacher-generated trajectories is the standard first stage for distilling tool-calling capabilities into deployable models. Post-training pipelines that drive shipped tool-calling agents re-run…"
   },
   {
     "company": "Apple",
@@ -338,10 +338,10 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "Multilingual Knowledge Transfer under Data Constraints via Lexical Interventions",
-    "url": "https://machinelearning.apple.com/research/multilingual-knowledge-transfer-lexical-interventions",
+    "title": "Scaling Laws for Mixture Pretraining Under Data Constraints",
+    "url": "https://machinelearning.apple.com/research/scaling-laws-mixture-pretraining",
     "date": "2026-08-20",
-    "summary": "Cross-lingual knowledge transfer is critical for building high-performing multilingual language models for languages with insufficient training data. When target language data is scarce, the knowledge required for many d…"
+    "summary": "As language models scale, the amount of data they require grows – yet many target data sources, such as low-resource languages or specialized domains, are inherently limited in size. A common strategy is to mix this scar…"
   },
   {
     "company": "Apple",
@@ -354,18 +354,10 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "Scaling Laws for Mixture Pretraining Under Data Constraints",
-    "url": "https://machinelearning.apple.com/research/scaling-laws-mixture-pretraining",
+    "title": "Multilingual Knowledge Transfer under Data Constraints via Lexical Interventions",
+    "url": "https://machinelearning.apple.com/research/multilingual-knowledge-transfer-lexical-interventions",
     "date": "2026-08-20",
-    "summary": "As language models scale, the amount of data they require grows – yet many target data sources, such as low-resource languages or specialized domains, are inherently limited in size. A common strategy is to mix this scar…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
-    "title": "Examining Human-Like Behaviors in LLMs: A Multi-Dimensional Analysis of Model Behaviors, User Factors, and System Prompts",
-    "url": "https://machinelearning.apple.com/research/human-like-behaviors-llms",
-    "date": "2026-08-19",
-    "summary": "Large language models (LLMs) exhibit a wide range of human-like behaviors, from expressing thoughts and emotions, to engaging in relationship-building with users, to refusing requests and maintaining boundaries. Despite…"
+    "summary": "Cross-lingual knowledge transfer is critical for building high-performing multilingual language models for languages with insufficient training data. When target language data is scarce, the knowledge required for many d…"
   },
   {
     "company": "Apple",
@@ -378,10 +370,18 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "A Specialized Semismooth Newton Method for Kernel-Based Optimal Transport",
-    "url": "https://machinelearning.apple.com/research/semismooth-newton-optimal-transport",
+    "title": "Examining Human-Like Behaviors in LLMs: A Multi-Dimensional Analysis of Model Behaviors, User Factors, and System Prompts",
+    "url": "https://machinelearning.apple.com/research/human-like-behaviors-llms",
+    "date": "2026-08-19",
+    "summary": "Large language models (LLMs) exhibit a wide range of human-like behaviors, from expressing thoughts and emotions, to engaging in relationship-building with users, to refusing requests and maintaining boundaries. Despite…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
+    "title": "GRPO Beyond English: A Large-Scale Study of GRPO in Non-English and Multilingual Settings",
+    "url": "https://machinelearning.apple.com/research/grpo-beyond-english",
     "date": "2026-08-18",
-    "summary": "Kernel-based optimal transport (OT) estimators offer an alternative, functional estimation procedure to address OT problems from samples. Recent works suggest that these estimators are more statistically efficient than p…"
+    "summary": "Reinforcement Learning with Verifiable Rewards (RLVR), often optimized with Group Relative Policy Optimization (GRPO), has become a central recipe for improving the reasoning capabilities of pretrained language models bu…"
   },
   {
     "company": "Apple",
@@ -394,9 +394,9 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "GRPO Beyond English: A Large-Scale Study of GRPO in Non-English and Multilingual Settings",
-    "url": "https://machinelearning.apple.com/research/grpo-beyond-english",
+    "title": "A Specialized Semismooth Newton Method for Kernel-Based Optimal Transport",
+    "url": "https://machinelearning.apple.com/research/semismooth-newton-optimal-transport",
     "date": "2026-08-18",
-    "summary": "Reinforcement Learning with Verifiable Rewards (RLVR), often optimized with Group Relative Policy Optimization (GRPO), has become a central recipe for improving the reasoning capabilities of pretrained language models bu…"
+    "summary": "Kernel-based optimal transport (OT) estimators offer an alternative, functional estimation procedure to address OT problems from samples. Recent works suggest that these estimators are more statistically efficient than p…"
   }
 ]
