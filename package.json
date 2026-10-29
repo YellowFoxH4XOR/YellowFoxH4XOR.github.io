@@ -9,7 +9,9 @@
     "lint": "eslint",
     "fetch-tech-blogs": "node scripts/fetch-tech-blogs.mjs",
     "design-check": "node scripts/design-check.mjs",
-    "ui-check": "node scripts/redesign-check.mjs"
+    "ui-check": "node scripts/redesign-check.mjs",
+    "seo-check": "node scripts/seo-check.mjs",
+    "seo-unit-check": "node --experimental-strip-types scripts/seo-unit-check.mjs"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

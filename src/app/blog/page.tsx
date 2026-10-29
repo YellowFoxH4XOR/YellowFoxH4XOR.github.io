@@ -5,9 +5,10 @@ import { JsonLd } from "@/components/json-ld";
 import { PageHeader } from "@/components/page-header";
 import { blogSchema } from "@/lib/seo";
 import { pageMetadata } from "@/lib/page-metadata";
+import { Breadcrumbs } from "@/components/breadcrumbs";
 
 export const metadata: Metadata = pageMetadata(
-  "Blog",
+  "Platform Engineering & AI Notes",
   "Practical notes on AI agents, platform engineering, backend systems, Python, and Go.",
   "/blog",
 );
@@ -17,6 +18,7 @@ export default function BlogIndexPage() {
   return (
     <div>
       {posts.length > 0 && <JsonLd data={blogSchema(posts)} />}
+      <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Writing", path: "/blog" }]} />
       <PageHeader
         eyebrow="Field notes from building real systems."
         title="Writing."

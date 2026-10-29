@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { site } from "@/lib/site";
 import { getAllPosts } from "@/lib/blog";
+import { getAllTechBlogs } from "@/lib/tech-blogs";
+import { techBlogArchivePath, techBlogPageCount } from "@/lib/tech-blog-pagination";
 
 // Generated at /sitemap.xml. Lists every static route plus one entry per blog
 // post so crawlers can discover new posts. Do not claim a modification date
@@ -20,5 +22,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticRoutes, ...postRoutes];
+  const archiveRoutes = Array.from({ length: techBlogPageCount(getAllTechBlogs().length) - 1 }, (_, index) => ({
+    url: `${site.url}${techBlogArchivePath(index + 2)}`,
+    changeFrequency: "daily" as const,
+  }));
+
+  return [...staticRoutes, ...postRoutes, ...archiveRoutes];
 }

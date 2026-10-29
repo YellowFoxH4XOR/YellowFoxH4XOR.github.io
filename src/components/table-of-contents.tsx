@@ -16,7 +16,7 @@ export function TableOfContents({ items }: { items: TocItem[] }) {
   const [activeId, setActiveId] = useState<string | null>(null);
 
   useEffect(() => {
-    if (items.length === 0) return;
+    if (items.length < 2) return;
 
     const headings = items
       .map((item) => document.getElementById(item.id))
@@ -38,10 +38,19 @@ export function TableOfContents({ items }: { items: TocItem[] }) {
       setActiveId(current);
     };
 
-    sync();
-    window.addEventListener("scroll", sync, { passive: true });
-    window.addEventListener("resize", sync, { passive: true });
+    const desktop = window.matchMedia("(min-width: 1024px)");
+    const attach = () => {
+      window.removeEventListener("scroll", sync);
+      window.removeEventListener("resize", sync);
+      if (!desktop.matches) return;
+      sync();
+      window.addEventListener("scroll", sync, { passive: true });
+      window.addEventListener("resize", sync, { passive: true });
+    };
+    attach();
+    desktop.addEventListener("change", attach);
     return () => {
+      desktop.removeEventListener("change", attach);
       window.removeEventListener("scroll", sync);
       window.removeEventListener("resize", sync);
     };

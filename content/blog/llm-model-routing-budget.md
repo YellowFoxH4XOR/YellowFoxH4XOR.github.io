@@ -43,7 +43,7 @@ Routing adds latency. The classification step, even a fast heuristic, is a round
 
 Routing also fails if your query distribution is genuinely unpredictable. If every question from your users is novel and complex, routing everything to the frontier model is already the right answer. The signal that routing helps is a *bimodal* distribution: a mass of repetitive or simple queries, and a tail of hard ones.
 
-You also need to treat evals like CI before you touch the routing threshold. If you don't have a way to measure answer quality per tier, you'll optimize for cost and accidentally degrade the experience. We ran a manual eval on 100 queries per week for the first month, tagging which tier handled them and whether the answer was acceptable. That's how we discovered that "acceptable" on a small model meant "good enough for status lookups, not good enough for root-cause analysis."
+You also need to [treat evals like CI](/blog/evals-as-ci) before you touch the routing threshold. If you don't have a way to measure answer quality per tier, you'll optimize for cost and accidentally degrade the experience. We ran a manual eval on 100 queries per week for the first month, tagging which tier handled them and whether the answer was acceptable. That's how we discovered that "acceptable" on a small model meant "good enough for status lookups, not good enough for root-cause analysis."
 
 ## What actually changed
 

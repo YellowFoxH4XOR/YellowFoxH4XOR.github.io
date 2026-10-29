@@ -63,7 +63,7 @@ export function HomeHero({ latest }: { latest?: PostMeta }) {
             height={1493}
             alt={`Portrait of ${site.name}`}
             priority
-            sizes="(max-width: 640px) 100vw, 330px"
+            sizes="(max-width: 359px) calc(100vw - 36px), (max-width: 640px) calc(100vw - 48px), (max-width: 850px) 30.6vw, (max-width: 1150px) 28.8vw, 330px"
           />
           <figcaption>
             <a href={site.sameAs[0]} target="_blank" rel="noopener noreferrer">

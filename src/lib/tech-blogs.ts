@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-// Build-time loader for the aggregated tech-blog feed data. The JSON files in
+// Offline loader for the aggregated tech-blog feed data. The JSON files in
 // docs-tech-blogs/ are produced offline by scripts/fetch-tech-blogs.mjs (run by
 // a scheduled GitHub Action) and committed to the repo. This reader is a pure
 // fs read — no network — so `next build` stays reproducible. Mirrors blog.ts.
@@ -18,7 +18,9 @@ export type TechBlogEntry = {
 
 // All entries across every company file, newest first.
 export function getAllTechBlogs(): TechBlogEntry[] {
-  if (!fs.existsSync(TECH_BLOGS_DIR)) return [];
+  if (!fs.existsSync(TECH_BLOGS_DIR)) {
+    throw new Error("Missing docs-tech-blogs snapshot. Include the committed feed data in the server deployment.");
+  }
 
   const entries = fs
     .readdirSync(TECH_BLOGS_DIR)
@@ -28,7 +30,18 @@ export function getAllTechBlogs(): TechBlogEntry[] {
       return JSON.parse(raw) as TechBlogEntry[];
     });
 
-  return entries.sort((a, b) => (a.date < b.date ? 1 : -1));
+  for (const entry of entries) {
+    let url: URL;
+    try { url = new URL(entry.url); }
+    catch { throw new Error(`Invalid article URL in ${entry.companySlug} feed snapshot. Store absolute source URLs.`); }
+    if (!["http:", "https:"].includes(url.protocol) || url.username || url.password) {
+      throw new Error(`Unsupported article URL in ${entry.companySlug} feed snapshot.`);
+    }
+  }
+
+  return entries.sort((a, b) =>
+    b.date.localeCompare(a.date) || a.companySlug.localeCompare(b.companySlug) || a.url.localeCompare(b.url),
+  );
 }
 
 export type CompanyFacet = { slug: string; name: string; count: number };

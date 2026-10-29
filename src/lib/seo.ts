@@ -56,6 +56,7 @@ export function blogPostingSchema(post: PostMeta) {
   return {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
+    "@id": `${postUrl}#article`,
     headline: post.title,
     description: post.excerpt,
     datePublished: post.date,
@@ -64,7 +65,7 @@ export function blogPostingSchema(post: PostMeta) {
     image: `${postUrl}/opengraph-image`,
     keywords: post.tags.join(", "),
     inLanguage: "en",
-    isPartOf: { "@id": WEBSITE_ID },
+    isPartOf: { "@type": "Blog", "@id": `${site.url}/blog#blog` },
     author: personRef(),
     publisher: personRef(),
   };
@@ -86,6 +87,7 @@ export function blogSchema(posts: PostMeta[]) {
     publisher: personRef(),
     blogPost: posts.map((post) => ({
       "@type": "BlogPosting",
+      "@id": `${site.url}/blog/${post.slug}#article`,
       headline: post.title,
       description: post.excerpt,
       url: `${site.url}/blog/${post.slug}`,
@@ -114,9 +116,15 @@ export function resumeSchema() {
       sameAs: site.sameAs,
       worksFor: { "@type": "Organization", name: site.worksFor },
       knowsAbout: skillGroups.flatMap((g) => g.items),
-      alumniOf: education.map((e) => ({
+      alumniOf: education.filter((e) => e.kind === "degree").map((e) => ({
         "@type": "EducationalOrganization",
         name: e.school,
+      })),
+      hasCredential: education.filter((e) => e.kind === "certification").map((e) => ({
+        "@type": "EducationalOccupationalCredential",
+        name: e.degree,
+        credentialCategory: "Certification",
+        recognizedBy: { "@type": "Organization", name: e.school },
       })),
       // Each past role as an Occupation. Title, employer, and period are folded
       // into the name (Occupation has no employer field) with the highlights as
@@ -157,8 +165,8 @@ export function bookshelfSchema() {
 // We are the maintainer (curator), not the author, and each item's publisher is
 // the originating company — so the markup never falsely claims authorship. Cap
 // the ItemList at 50 to keep the inline JSON-LD block lean.
-export function techBlogsCollectionSchema(entries: TechBlogEntry[]) {
-  const pageUrl = `${site.url}/tech-blogs`;
+export function techBlogsCollectionSchema(entries: TechBlogEntry[], { path = "/tech-blogs", total = entries.length, offset = 0 }: { path?: string; total?: number; offset?: number } = {}) {
+  const pageUrl = `${site.url}${path}`;
   return {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
@@ -172,10 +180,10 @@ export function techBlogsCollectionSchema(entries: TechBlogEntry[]) {
     maintainer: personRef(),
     mainEntity: {
       "@type": "ItemList",
-      numberOfItems: entries.length,
+      numberOfItems: total,
       itemListElement: entries.slice(0, 50).map((entry, i) => ({
         "@type": "ListItem",
-        position: i + 1,
+        position: offset + i + 1,
         item: {
           "@type": "Article",
           headline: entry.title,

@@ -59,7 +59,10 @@ load-blocking entrance remains. Content is visible immediately and without JS.
 - Archive search and topic filters combine and restore from `q` / `topic` query
   parameters, including back/forward. The server snapshot includes all essays;
   counts are live-announced, and empty-state recovery returns search focus.
-- The reading room retains source filtering and adds keyword search / recovery.
+- The reading room uses 50-entry server-rendered archive pages, real pagination
+  links, and global source/keyword search through a GET form. Search and source
+  filtering work without JavaScript; the entire collection is never serialized
+  into a client component.
 - Motion is limited to restrained hover transforms, with existing reduced-motion
   overrides. `Reveal` remains a server-rendered compatibility wrapper, not an
   IntersectionObserver gate.
@@ -77,12 +80,14 @@ optimized renditions; no runtime dependency on the Pi Designer workspace exists.
 ## Verification
 
 Run `npm run build` and `npm run lint`. Against a production server, run
-`npm run design-check -- <base-url>` and `npm run ui-check -- <base-url>`.
-Both browser suites use an existing Playwright installation through
+`npm run design-check -- <base-url>`, `npm run ui-check -- <base-url>` and
+`npm run seo-check -- <base-url>`. Pure content/pagination checks are available
+through `npm run seo-unit-check`. Browser suites use an existing Playwright installation through
 `PLAYWRIGHT_PATH` if it is not installed locally; Playwright is not added to
 production dependencies. Screenshots are written into the ignored
 `.design-review/redesign/` directory.
 
 The automated checks are regression evidence, not a full manual screen-reader
-accessibility certification. This integration does not change deployment config
-or deploy the site.
+accessibility certification. The Docker runner explicitly includes the committed
+feed snapshot for request-time search. No hosting settings are changed and these
+local changes do not deploy the site.

@@ -32,6 +32,9 @@ RUN addgroup -g 1001 -S nodejs && adduser -S nextjs -u 1001
 COPY --from=builder /app/public ./public
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
+# Global search reads the same committed metadata snapshot at request time.
+# No RSS fetch or external network dependency is introduced into the server.
+COPY --from=builder --chown=nextjs:nodejs /app/docs-tech-blogs ./docs-tech-blogs
 
 USER nextjs
 EXPOSE 3000

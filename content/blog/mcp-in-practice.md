@@ -107,6 +107,6 @@ Standardizing them means you can focus on what actually determines whether the
 agent is worth running: the quality of its judgment, the design of its tool
 contracts, and the architecture that keeps the irreversible actions outside the
 model's probabilistic reach. That last piece connects back to the same
-[determinism instinct](/blog/context-engineering) that governs every other part of
+[determinism instinct](/blog/deterministic-ai) that governs every other part of
 working with LLMs in production — the protocol handles the plumbing so you can
 keep the decisions where they belong.

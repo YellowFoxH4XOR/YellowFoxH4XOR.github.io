@@ -159,8 +159,8 @@ export default function HomePage() {
                   <div className="book-cover">
                     <Image
                       src={book.cover}
-                      width={196}
-                      height={278}
+                      width={book.width}
+                      height={book.height}
                       alt={`Cover of ${book.title}`}
                       sizes="(max-width: 640px) 40vw, 190px"
                     />

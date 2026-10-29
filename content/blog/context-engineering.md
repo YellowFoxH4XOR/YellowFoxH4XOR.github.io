@@ -94,7 +94,7 @@ you've made the system's behavior nearly impossible to pin down in a test. Narro
 the input surface and you narrow the behavior space. Both things get easier at
 once.
 
-It's also related to when to reach for an agent versus plain code.
+It's also related to [when to reach for an agent versus plain code](/blog/llm-agent-vs-code).
 A lot of the "my agent hallucinates" problems I've seen aren't model quality
 issues — they're context quality issues. The agent has accumulated twelve turns of
 mixed tool outputs, user corrections, and intermediate reasoning, and the model is

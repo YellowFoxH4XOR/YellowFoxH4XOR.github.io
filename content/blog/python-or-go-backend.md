@@ -29,7 +29,7 @@ a second full-time job with no business justification.
 If the answer is **processing a high volume of events under strict latency constraints,
 serving thousands of concurrent connections with predictable tail latency, or shipping a
 self-contained binary that runs in a constrained environment** — Go earns its complexity
-tax fast. I chose Go for a high-volume event pipeline
+tax fast. I chose Go for a [high-volume event pipeline](/blog/go-event-pipeline-scale)
 that was pushing ~100k events per day and needed sub-200ms end-to-end with predictable
 p99 behavior. Python asyncio would have gotten close, but goroutines gave me a concurrency
 model that reasoned about clearly, and the single-binary deploy cut the operational surface

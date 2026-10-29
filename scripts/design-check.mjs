@@ -44,6 +44,9 @@ const ROUTES = [
   "/bookshelf",
   "/resume",
   "/tech-blogs",
+  "/tech-blogs/page/2",
+  "/tech-blogs/search?source=cloudflare",
+  "/tech-blogs/search?q=no-matching-article-987654321",
   "/blog/deterministic-ai",
   "/this-route-does-not-exist",
 ];

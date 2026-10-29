@@ -57,11 +57,14 @@ The app builds into a self-contained image via the multi-stage `Dockerfile`
 
 ### Custom domain
 
-1. In Coolify, set the application's domain to `https://www.akshatkatiyar.com`
+1. In Coolify, set the application's domain to `https://akshatkatiyar.com`
    (Coolify provisions HTTPS via Let's Encrypt automatically).
 2. At your DNS provider, point the domain at the Coolify server:
    - `A` record for the server's IP, **or** a `CNAME` to the Coolify host.
 3. Remove any old GitHub Pages DNS / Pages settings for this domain.
+4. Configure the HTTP and `www` variants to permanently redirect to this preferred
+   HTTPS hostname, preserving the path and query string. Check the redirect at
+   the proxy/CDN; changing a canonical tag alone does not create a redirect.
 
 > Note: the old `CNAME` file (a GitHub Pages artifact) was removed — Coolify
 > manages the domain in its dashboard, not via a file in the repo.
@@ -71,3 +74,49 @@ The app builds into a self-contained image via the multi-stage `Dockerfile`
 Enable Coolify's GitHub webhook (or "Automatic Deployment") on the application
 so every push to the default branch rebuilds and redeploys — which is what makes
 "push a markdown file → post goes live" work.
+
+## SEO and archive behavior
+
+- Canonicals, social previews, RSS and structured data derive from the shared
+  identity and content modules. Original publication dates are preserved; deploy
+  time is never presented as an article update.
+- The reading room is a static archive with 50 entries per page. Each archive
+  page has real previous/next links, its own canonical, page-specific metadata,
+  matching structured data, and a derived sitemap entry.
+- `/tech-blogs/search?q=...&source=...&page=...` searches the **whole** committed
+  archive on the server, not only the currently displayed slice. Its GET form
+  works without JavaScript. Arbitrary searches are not enumerated in the sitemap;
+  existing crawl/index policies are unchanged.
+- The Docker runner includes `docs-tech-blogs/` for request-time search. It reads
+  committed metadata only; it does not fetch RSS or call external APIs.
+- Degrees and certifications are modeled separately. Related-article links use
+  shared topics; no author claims, ratings, publication dates or metrics are
+  fabricated to improve an audit score.
+- If the former GitHub Pages hostname is no longer intended as a public site,
+  disable it or configure a deliberate migration redirect in that deployment.
+  Otherwise GitHub Pages can publish this README as an unintended second site.
+
+### Regression checks
+
+```bash
+npm run seo-unit-check
+npm run build
+npm run lint
+# Start the production server in another terminal:
+npx next start -p 3100
+npm run seo-check
+npm run ui-check
+npm run design-check
+```
+
+Browser checks use Playwright without adding it to production dependencies.
+Set `PLAYWRIGHT_PATH` to an existing Playwright ESM entry point when it is not
+installed locally. `seo-check` verifies production HTML, every sitemap route,
+server-rendered schema, internal link targets, the complete paginated feed,
+RSS consistency, and a 350 KB uncompressed HTML budget per reading-room page.
+
+Implementation references: [Google pagination](https://developers.google.com/search/docs/specialty/ecommerce/pagination-and-incremental-page-loading),
+[title links](https://developers.google.com/search/docs/appearance/title-link),
+[crawlable contextual links](https://developers.google.com/search/docs/crawling-indexing/links-crawlable),
+[page experience](https://developers.google.com/search/docs/appearance/page-experience),
+and [Schema.org credentials](https://schema.org/hasCredential).

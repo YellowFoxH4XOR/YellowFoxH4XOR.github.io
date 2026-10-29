@@ -7,6 +7,7 @@
 import { XMLParser } from "fast-xml-parser";
 import { writeFile, mkdir, readFile } from "node:fs/promises";
 import path from "node:path";
+import { normalizeFeedURL } from "./lib/feed-url.mjs";
 
 // Curated big-tech engineering blogs. Adding/removing a company is a one-line
 // edit here. Feeds marked VERIFY are lower-confidence URLs that may drift — a
@@ -164,7 +165,7 @@ async function fetchAndParse(source) {
         company: source.company,
         companySlug: source.companySlug,
         title,
-        url: String(e.url ?? "").trim(),
+        url: normalizeFeedURL(String(e.url ?? ""), res.url || source.feedUrl),
         date: normalizeDate(e.dateRaw),
         // Google News descriptions just echo the title — blank them so cards
         // aren't redundant; the title carries the signal.
@@ -172,7 +173,7 @@ async function fetchAndParse(source) {
       };
     })
     .filter((e) => e.title && e.url && e.date) // drop incomplete entries
-    .sort((a, b) => (a.date < b.date ? 1 : -1))
+    .sort((a, b) => b.date.localeCompare(a.date) || a.url.localeCompare(b.url))
     .slice(0, MAX_PER_COMPANY);
 }
 
@@ -200,7 +201,7 @@ function mergeEntries(existing, fresh) {
     if (k && !byKey.has(k)) byKey.set(k, e);
   }
   return [...byKey.values()]
-    .sort((a, b) => (a.date < b.date ? 1 : -1))
+    .sort((a, b) => b.date.localeCompare(a.date) || a.url.localeCompare(b.url))
     .slice(0, MAX_PER_COMPANY);
 }
 
@@ -228,7 +229,10 @@ for (const source of SOURCES) {
       console.warn(`[WARN] ${source.company}: 0 usable entries (feed empty or unparsed)`);
     }
     const outPath = path.join(OUT_DIR, `${source.companySlug}.json`);
-    const merged = mergeEntries(await readExisting(outPath), fresh);
+    const existing = (await readExisting(outPath))
+      .map((entry) => ({ ...entry, url: normalizeFeedURL(entry.url, source.feedUrl) }))
+      .filter((entry) => entry.url);
+    const merged = mergeEntries(existing, fresh);
     await writeFile(outPath, JSON.stringify(merged, null, 2) + "\n", "utf8");
     totalEntries += merged.length;
     ok++;

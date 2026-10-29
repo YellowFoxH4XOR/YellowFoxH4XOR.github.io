@@ -6,6 +6,7 @@ import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { ScrollToTop } from "@/components/scroll-to-top";
 import { site } from "@/lib/site";
+import { pageAlternates } from "@/lib/page-metadata";
 
 // Display + body voice: a crafted grotesque with real character.
 const bricolage = Bricolage_Grotesque({
@@ -30,14 +31,7 @@ export const metadata: Metadata = {
   authors: [{ name: site.name, url: site.url }],
   creator: site.name,
   publisher: site.name,
-  alternates: {
-    canonical: "/",
-    types: {
-      "application/rss+xml": [
-        { url: "/feed.xml", title: `${site.name} — Blog` },
-      ],
-    },
-  },
+  alternates: pageAlternates("/"),
   openGraph: {
     title: `${site.name} | ${site.role}`,
     description: site.description,

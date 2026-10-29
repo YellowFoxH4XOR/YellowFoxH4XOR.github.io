@@ -27,7 +27,8 @@ ${site.intro}
 ## Pages
 - [Home](${site.url}/): Intro and latest writing.
 - [Blog](${site.url}/blog): Articles on engineering and systems.
-- [Tech Blogs](${site.url}/tech-blogs): Curated recent posts from big-tech engineering blogs and AI labs, plus latest AI research — aggregated from RSS feeds, linking to the originals.
+- [Tech Blogs](${site.url}/tech-blogs): Paginated reading room of external engineering posts and AI research, aggregated from feeds with short excerpts and links to the originals. Follow the page links to browse the archive.
+- [Reading room search](${site.url}/tech-blogs/search): GET search across the full archive using q (keyword) and source (source slug), with page for additional results.
 - [Bookshelf](${site.url}/bookshelf): Books that shaped my thinking.
 - [Resume](${site.url}/resume): Experience and skills.
 

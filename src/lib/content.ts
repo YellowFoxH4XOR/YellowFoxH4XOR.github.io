@@ -144,21 +144,24 @@ export const projects: Project[] = [
   },
 ];
 
-export type Education = { degree: string; school: string; period: string };
+export type Education = { kind: "degree" | "certification"; degree: string; school: string; period: string };
 
 export const education: Education[] = [
   {
     degree: "M.Tech, Software Engineering",
+    kind: "degree",
     school: "BITS Pilani, Rajasthan",
     period: "Jul 2021 \u2013 Jun 2023",
   },
   {
     degree: "B.E., Computer Science",
+    kind: "degree",
     school: "PSG College of Technology, Coimbatore",
     period: "Aug 2014 \u2013 May 2019",
   },
   {
     degree: "AWS Certified Solutions Architect \u2013 Associate",
+    kind: "certification",
     school: "Amazon Web Services",
     period: "Credential",
   },
@@ -171,6 +174,8 @@ export type Book = {
   title: string;
   author: string;
   cover: string;
+  width: number;
+  height: number;
   description: string;
 };
 
@@ -179,6 +184,8 @@ export const books: Book[] = [
     title: "Fooled by Randomness",
     author: "Nassim Nicholas Taleb",
     cover: "/images/fooled_by_randomness.jpeg",
+    width: 181,
+    height: 278,
     description:
       "An examination of the underestimated role of chance in life and the markets, challenging how we think about success and failure.",
   },
@@ -186,6 +193,8 @@ export const books: Book[] = [
     title: "The Psychology of Money",
     author: "Morgan Housel",
     cover: "/images/psychology_of_money.jpeg",
+    width: 180,
+    height: 279,
     description:
       "Exploring the complex relationship between money and human behavior through 19 short stories about wealth, greed, and happiness.",
   },
@@ -193,6 +202,8 @@ export const books: Book[] = [
     title: "Database Design and Implementation",
     author: "Edward Sciore",
     cover: "/images/database_design_and_implementation.jpeg",
+    width: 182,
+    height: 277,
     description:
       "A comprehensive guide to database system concepts, architecture, and implementation techniques.",
   },
@@ -200,6 +211,8 @@ export const books: Book[] = [
     title: "Designing Data-Intensive Applications",
     author: "Martin Kleppmann",
     cover: "/images/ddia.png",
+    width: 196,
+    height: 257,
     description:
       "A deep dive into building scalable, reliable, and maintainable data systems, exploring the principles and practices of modern data architecture.",
   },
@@ -207,6 +220,8 @@ export const books: Book[] = [
     title: "Understanding Distributed Systems",
     author: "Roberto Vitillo",
     cover: "/images/understanding_distributed_systems.jpeg",
+    width: 183,
+    height: 275,
     description:
       "A practical guide to the fundamental concepts and patterns behind modern distributed systems.",
   },
@@ -214,6 +229,8 @@ export const books: Book[] = [
     title: "Building a Career in Software",
     author: "Daniel Heller",
     cover: "/images/building_a_career_in_software.jpeg",
+    width: 182,
+    height: 277,
     description:
       "A practical handbook for software engineers navigating their career path, from technical growth to professional development.",
   },

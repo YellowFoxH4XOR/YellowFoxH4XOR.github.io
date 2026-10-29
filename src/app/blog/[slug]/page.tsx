@@ -11,6 +11,8 @@ import { JsonLd } from "@/components/json-ld";
 import { blogPostingSchema, breadcrumbSchema } from "@/lib/seo";
 import { ReadingProgress } from "@/components/reading-progress";
 import { site } from "@/lib/site";
+import { pageAlternates } from "@/lib/page-metadata";
+import { relatedPosts } from "@/lib/post-recommendations";
 
 // Pre-render one static page per post at build time; unknown slugs 404.
 export function generateStaticParams() {
@@ -28,7 +30,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     title: post.title,
     description: post.excerpt,
     keywords: post.tags,
-    alternates: { canonical: `/blog/${post.slug}` },
+    alternates: pageAlternates(`/blog/${post.slug}`),
     openGraph: {
       title: post.title,
       description: post.excerpt,
@@ -59,6 +61,7 @@ export default async function PostPage({ params }: Params) {
   const newer = idx > 0 ? posts[idx - 1] : null;
   const older = idx < posts.length - 1 ? posts[idx + 1] : null;
   const toc = extractToc(post.content);
+  const related = relatedPosts(post, posts);
   const crumbs = [
     { name: "Home", url: site.url },
     { name: "Blog", url: `${site.url}/blog` },
@@ -117,6 +120,20 @@ export default async function PostPage({ params }: Params) {
         <div className="mt-10">
           <Markdown content={post.content} />
         </div>
+
+        {related.length > 0 && (
+          <section className="mt-14 border-t border-hairline pt-7" aria-labelledby="related-heading">
+            <h2 id="related-heading" className="text-title font-semibold">Related writing</h2>
+            <ul className="mt-5 space-y-5">
+              {related.map((item) => (
+                <li key={item.slug}>
+                  <Link href={`/blog/${item.slug}`} className="link-ember font-medium">{item.title}</Link>
+                  <p className="mt-1.5 text-sm leading-6 text-muted-foreground">{item.excerpt}</p>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         {(newer || older) && (
           <nav className="mt-16 divide-y divide-hairline border-y border-hairline">

@@ -13,9 +13,10 @@ import { PageHeader } from "@/components/page-header";
 import { resumeSchema } from "@/lib/seo";
 import { site } from "@/lib/site";
 import { pageMetadata } from "@/lib/page-metadata";
+import { Breadcrumbs } from "@/components/breadcrumbs";
 
 export const metadata: Metadata = pageMetadata(
-  "Resume",
+  "Platform Engineer Resume & Experience",
   "Senior platform engineer — 7+ years of Python/Go, developer infrastructure, AI tooling, and cloud automation. Experience, skills, open source, and education.",
   "/resume",
 );
@@ -24,6 +25,7 @@ export default function ResumePage() {
   return (
     <div>
       <JsonLd data={resumeSchema()} />
+      <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Resume", path: "/resume" }]} />
       <div data-print-only className="hidden">
         <p className="text-2xl font-bold tracking-tight">{site.name}</p>
         <p className="mt-1 font-mono text-sm">

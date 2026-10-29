@@ -5,9 +5,10 @@ import { JsonLd } from "@/components/json-ld";
 import { PageHeader } from "@/components/page-header";
 import { bookshelfSchema } from "@/lib/seo";
 import { pageMetadata } from "@/lib/page-metadata";
+import { Breadcrumbs } from "@/components/breadcrumbs";
 
 export const metadata: Metadata = pageMetadata(
-  "Bookshelf",
+  "Software Engineering & Systems Books",
   "Books on distributed systems, software engineering, randomness, and finance that shaped my thinking.",
   "/bookshelf",
 );
@@ -16,6 +17,7 @@ export default function BookshelfPage() {
   return (
     <div>
       <JsonLd data={bookshelfSchema()} />
+      <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Bookshelf", path: "/bookshelf" }]} />
       <PageHeader
         eyebrow={`${books.length} books, beyond the screen.`}
         title="Bookshelf."
@@ -33,9 +35,9 @@ export default function BookshelfPage() {
               <Image
                 src={book.cover}
                 alt={`Cover of ${book.title}`}
-                width={196}
-                height={278}
-                priority={index < 3}
+                width={book.width}
+                height={book.height}
+                priority={index === 0}
                 sizes="(max-width: 640px) 115px, 225px"
               />
             </div>

@@ -22,7 +22,7 @@ try {
   const context = await browser.newContext({ viewport: { width: 1440, height: 900 }, reducedMotion: "reduce", colorScheme: "light" });
   const page = await context.newPage();
   page.on("pageerror", (error) => errors.push(error.message));
-  const routes = ["/", "/blog", "/bookshelf", "/resume", "/tech-blogs", "/blog/deterministic-ai"];
+  const routes = ["/", "/blog", "/bookshelf", "/resume", "/tech-blogs", "/tech-blogs/page/2", "/blog/deterministic-ai"];
   for (const route of routes) {
     const response = await page.goto(base + route, { waitUntil: "networkidle" });
     assert.equal(response.status(), 200, `${route} renders`);
@@ -99,6 +99,14 @@ try {
   await page.goto(base + traceHref, { waitUntil: "domcontentloaded" });
   const traceId = new URL(base + traceHref).hash.slice(1);
   assert.ok(traceId && await page.evaluate((id) => !!document.getElementById(id), decodeURIComponent(traceId)), "Homepage command trace targets a real heading");
+  await page.waitForLoadState("networkidle");
+  await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight));
+  await page.waitForFunction(() => document.querySelector('[role="progressbar"]').getAttribute("aria-valuenow") === "100");
+  await page.waitForFunction(() => getComputedStyle(document.querySelector('[role="progressbar"] > div')).transform === "matrix(1, 0, 0, 1, 0, 0)");
+  assert.equal(await page.locator('[role="progressbar"] > div').evaluate((element) => getComputedStyle(element).transform), "matrix(1, 0, 0, 1, 0, 0)", "Reading progress fills with a transform, not layout animation");
+  await page.getByRole("button", { name: "Scroll to top", exact: true }).click();
+  await page.waitForFunction(() => window.scrollY === 0 && document.querySelector('button[aria-label="Scroll to top"]').tabIndex === -1);
+  assert.equal(await page.locator('button[aria-label="Scroll to top"]').getAttribute("aria-hidden"), "true", "Hidden top control is not exposed to assistive technology");
 
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto(base, { waitUntil: "networkidle" });
@@ -131,17 +139,30 @@ try {
   const allEntries = await entries.count();
   const source = page.getByLabel("Filter by source");
   await source.selectOption("cloudflare");
-  assert.ok(await entries.count() > 0 && await entries.count() < allEntries);
+  await page.getByRole("button", { name: "Search", exact: true }).click();
+  await page.waitForURL(/\/tech-blogs\/search\?.*source=cloudflare/);
+  assert.ok(await entries.count() > 0 && await entries.count() <= 50);
+  assert.ok((await entries.allTextContents()).every((text) => text.includes("Cloudflare")), "Source selection filters the complete archive");
   const feedSearch = page.getByRole("searchbox", { name: "Search tech blogs" });
   await feedSearch.fill("no-matching-article-987654321");
+  await page.getByRole("button", { name: "Search", exact: true }).click();
+  await page.waitForURL(/q=no-matching-article-987654321/);
   assert.equal(await entries.count(), 0);
-  await page.getByRole("button", { name: "Reset filters", exact: true }).click();
+  await page.getByRole("link", { name: "Reset filters", exact: true }).click();
+  await page.waitForURL(base + "/tech-blogs");
   assert.equal(await entries.count(), allEntries);
   assert.equal(await source.inputValue(), "");
   await feedSearch.fill("Cloudflare");
+  await page.getByRole("button", { name: "Search", exact: true }).click();
+  await page.waitForURL(/q=Cloudflare/);
   assert.ok(await entries.count() > 0);
-  await page.getByRole("button", { name: "Clear search", exact: true }).click();
+  await page.getByRole("link", { name: "Clear search", exact: true }).click();
+  await page.waitForURL(base + "/tech-blogs");
   assert.equal(await entries.count(), allEntries);
+  const firstArticle = await entries.first().getAttribute("href");
+  await page.getByRole("navigation", { name: "Article archive pages" }).getByRole("link", { name: "Next", exact: true }).click();
+  await page.waitForURL(base + "/tech-blogs/page/2");
+  assert.notEqual(await entries.first().getAttribute("href"), firstArticle, "Archive pages show different articles");
 
   for (const route of ["/feed.xml", "/sitemap.xml", "/robots.txt", "/llms.txt", "/akshat_katiyar_resume.pdf"]) {
     const response = await context.request.get(base + route);
@@ -161,6 +182,12 @@ try {
     assert.equal(invisible, 0, `${route} content visible without JS`);
     if (route === "/blog") assert.equal(await plain.locator(".archive-row").count(), articleLinks.length, "No-JS archive includes every essay");
   }
+  await plain.goto(base + "/tech-blogs");
+  await plain.getByLabel("Filter by source").selectOption("cloudflare");
+  await plain.getByRole("searchbox", { name: "Search tech blogs" }).fill("Cloudflare");
+  await plain.getByRole("button", { name: "Search", exact: true }).click();
+  await plain.waitForURL(/source=cloudflare/);
+  assert.ok(await plain.locator("a.defer-offscreen").count() > 0, "Global source and keyword search works without JavaScript");
   await nojs.close();
   assert.deepEqual(errors, [], "No client-side exceptions");
   console.log("PASS: server-rendered metadata/schema, all articles, gallery, theme, archive/search/URL history, mobile menu, feed search, no-JS content/navigation, feeds/PDF, and screenshots");

@@ -1,7 +1,7 @@
 ---
 title: "A Go Event Pipeline at 100k Events/Day, Sub-200ms"
 date: "2026-03-31"
-excerpt: "How we built a serverless SQS → Lambda → DynamoDB pipeline in Go that handles 100k events a day at sub-200ms end-to-end latency with 99.99% uptime — and what broke along the way."
+excerpt: "How we built a serverless SQS → Lambda → DynamoDB pipeline in Go that handles 100k events a day at sub-200ms end-to-end latency with a 99.99% event delivery rate — and what broke along the way."
 tags: ["go", "aws", "systems", "architecture"]
 ---
 
@@ -148,9 +148,9 @@ delivery rate, zero production incidents. The DLQ has fired twice — both times
 caught by the alarm within two minutes.
 
 The refactor also reduced costs compared to the previous Python setup, mostly
-because Lambda duration dropped by 60%. The performance gains from switching
-languages — covered in depth in [cutting Postgres query latency](/blog/postgresql-query-latency)
-for a different service — compound across your whole compute bill.
+because Lambda duration dropped by 60%. Reducing database work can also reduce
+compute costs; [cutting Postgres query latency](/blog/postgresql-query-latency)
+walks through that kind of investigation for a different service.
 
 If you're building something similar: nail the idempotency first, get the
 partition key right before you have traffic, and treat the DLQ as a first-class
