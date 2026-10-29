@@ -1,177 +1,179 @@
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { site } from "@/lib/site";
-import { getAllPosts } from "@/lib/blog";
-import { SocialLinks } from "@/components/social-links";
-import { PostCard } from "@/components/post-card";
+import { getAllPosts, getPostBySlug, type PostMeta } from "@/lib/blog";
+import { extractToc } from "@/lib/toc";
+import { formatDate } from "@/lib/utils";
+import { postCategory } from "@/lib/post-topics";
+import { books, projects } from "@/lib/content";
 import { JsonLd } from "@/components/json-ld";
 import { HomeHero } from "@/components/home-hero";
-import { Marquee } from "@/components/marquee";
-import { Reveal } from "@/components/reveal";
-import { SectionRail } from "@/components/section-rail";
+import { DeckleGallery } from "@/components/deckle-gallery";
 import { personSchema, websiteSchema } from "@/lib/seo";
 
-// Capability ticker between the hero and the writing index. Short, curated
-// labels (presentational only); the full skill list lives on /resume.
-const capabilities = [
-  "Python",
-  "Go",
-  "FastAPI",
-  "RAG Pipelines",
-  "LLM Agents",
-  "PostgreSQL",
-  "LangChain",
-  "Qdrant",
-  "gRPC",
-  "Kubernetes",
-  "AWS",
-  "Docker",
-];
-
-// What lives on the projects subdomain. Keeps the ink panel from being a
-// headline floating in empty space.
-const projectKinds = ["CLI tools", "Agents", "Web apps", "Experiments"];
+function PostMetadata({ post }: { post: PostMeta }) {
+  return (
+    <div className="post-meta">
+      <span className="category">{postCategory(post.tags)}</span>
+      <time dateTime={post.date}>{formatDate(post.date)}</time>
+      <span>{post.readingTime}</span>
+    </div>
+  );
+}
 
 export default function HomePage() {
-  const posts = getAllPosts().slice(0, 3);
+  const posts = getAllPosts();
+  const [featured, ...secondary] = posts.slice(0, 3);
+  const tracePost = featured?.slug === "how-dragonfly-outruns-redis"
+    ? getPostBySlug(featured.slug)
+    : null;
+  const traceHeading = tracePost
+    ? extractToc(tracePost.content).find((heading) => heading.text.startsWith("Life of SET key val"))
+    : null;
+  const selectedBooks = [
+    "Designing Data-Intensive Applications",
+    "Fooled by Randomness",
+    "Understanding Distributed Systems",
+  ].flatMap((title) => books.filter((book) => book.title === title));
+  const deckle = projects.find((project) => project.name === "Deckle")!;
 
   return (
-    <div>
+    <div className="portfolio-home">
       <JsonLd data={personSchema()} />
       <JsonLd data={websiteSchema()} />
+      <HomeHero latest={featured} />
 
-      <HomeHero />
-
-      <Reveal className="mt-10 sm:mt-12">
-        <div className="bleed-flush">
-          <Marquee items={capabilities} />
+      <section
+        className="writing-home"
+        data-od-id="latest-writing"
+        aria-labelledby="writing-heading"
+      >
+        <div className="section-top">
+          <h2 id="writing-heading">Latest writing</h2>
+          <Link className="text-link" href="/blog">
+            <span>All {posts.length} essays</span><ArrowRight aria-hidden />
+          </Link>
         </div>
-      </Reveal>
-
-      {/* Latest writing */}
-      <Reveal className="section-gap">
-        <SectionRail
-          label="Latest writing"
-          meta={`${posts.length} of the newest notes on engineering, systems, and craft.`}
-          action={
-            <Link
-              href="/blog"
-              className="group inline-flex items-center gap-1.5 font-mono text-micro font-medium uppercase tracking-[0.2em] text-muted-foreground transition-colors duration-200 hover:text-brand"
-            >
-              All posts
-              <ArrowRight className="size-3.5 transition-transform duration-200 group-hover:translate-x-1" />
-            </Link>
-          }
-        >
-          {posts.length > 0 ? (
-            <>
-              <div className="divide-y divide-hairline border-y border-hairline">
-                {posts.map((post, i) => (
-                  <PostCard key={post.slug} post={post} index={i} />
-                ))}
-              </div>
-              <div className="mt-6 flex justify-end lg:hidden">
-                <Link
-                  href="/blog"
-                  className="group inline-flex items-center gap-1.5 font-mono text-micro font-medium uppercase tracking-[0.2em] text-muted-foreground transition-colors duration-200 hover:text-brand"
-                >
-                  All posts
-                  <ArrowRight className="size-3.5 transition-transform duration-200 group-hover:translate-x-1" />
-                </Link>
-              </div>
-            </>
-          ) : (
-            <p className="text-sm text-muted-foreground">
-              No posts yet, check back soon.
-            </p>
-          )}
-        </SectionRail>
-      </Reveal>
-
-      {/* Projects — the page's one anchored dark plane. Everything else is
-          warm paper; this is what the paper pushes against. */}
-      <Reveal className="section-gap">
-        <a
-          href="https://kelvanic.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="group relative block overflow-hidden ink-panel px-7 py-10 transition-transform duration-200 ease-[cubic-bezier(0.25,1,0.5,1)] hover:-translate-y-1 sm:px-12 sm:py-14"
-        >
-          {/* Ember hearth: a warm light rising from the lower-right corner
-              that intensifies on hover. */}
-          <span
-            aria-hidden
-            className="pointer-events-none absolute -bottom-32 -right-24 size-[26rem] rounded-full bg-brand/25 opacity-70 blur-[110px] transition-opacity duration-500 group-hover:opacity-100"
-          />
-          <span
-            aria-hidden
-            className="pointer-events-none absolute inset-0 bg-grain opacity-[0.06]"
-          />
-
-          <div className="relative grid gap-10 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-end lg:gap-16">
-            <div className="min-w-0">
-              <span className="flex items-center gap-2.5 font-mono text-micro font-medium uppercase tracking-[0.24em] text-ink-muted">
-                <span className="size-1 rounded-full bg-brand" />
-                Project index
-              </span>
-
-              <span className="mt-6 block max-w-[14ch] text-display font-bold text-ink-foreground">
-                Small tools, made with care.
-              </span>
-
-              <span className="mt-5 block max-w-[52ch] text-[0.95rem] leading-7 text-ink-muted">
-                Side projects, throwaway experiments that stuck around, and
-                works still in progress. All of it built by hand, most of it
-                still running.
-              </span>
-
-              <span className="mt-8 flex flex-wrap gap-2">
-                {projectKinds.map((kind) => (
-                  <span
-                    key={kind}
-                    className="rounded-full border border-ink-border px-3 py-1 font-mono text-micro uppercase tracking-[0.14em] text-ink-muted"
+        {featured ? (
+          <div className="writing-grid">
+            <article className="writing-feature">
+              <PostMetadata post={featured} />
+              <h3 className="post-title">
+                <Link href={`/blog/${featured.slug}`}>{featured.title}</Link>
+              </h3>
+              <p>{featured.excerpt}</p>
+              {featured.slug === "how-dragonfly-outruns-redis" ? (
+                <>
+                  <Link
+                    className="command-trace"
+                    href={`/blog/${featured.slug}${traceHeading ? `#${traceHeading.id}` : ""}`}
+                    aria-label="Trace a SET command through Dragonfly’s uncontended single-key fast path"
                   >
-                    {kind}
-                  </span>
-                ))}
-              </span>
+                    <code>SET<br />key val</code>
+                    <span>One<br />shard</span>
+                    <span>Execute<br />inline</span>
+                    <code>OK</code>
+                  </Link>
+                  <p className="trace-note">
+                    The uncontended single-key path. Follow it in the source.
+                  </p>
+                </>
+              ) : (
+                <Link className="text-link" href={`/blog/${featured.slug}`}>
+                  <span>Read the essay</span><ArrowRight aria-hidden />
+                </Link>
+              )}
+            </article>
+            <div className="writing-secondary">
+              {secondary.map((post) => (
+                <article key={post.slug}>
+                  <PostMetadata post={post} />
+                  <h3 className="post-title">
+                    <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+                  </h3>
+                  <p className="post-tail">{post.excerpt}</p>
+                </article>
+              ))}
             </div>
-
-            <span className="flex shrink-0 items-center gap-4 lg:flex-col lg:items-end lg:gap-5">
-              <span className="grid size-16 place-items-center rounded-full border border-ink-border transition-colors duration-200 group-hover:border-brand group-hover:bg-brand sm:size-20">
-                <ArrowUpRight className="size-7 text-brand transition-all duration-200 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-brand-foreground sm:size-8" />
-              </span>
-              {/* The domain is one unbreakable token; below sm it would force
-                  the panel wider than the viewport, so the arrow carries the
-                  affordance alone there. */}
-              <span className="hidden font-mono text-micro uppercase tracking-[0.18em] text-ink-muted transition-colors duration-200 group-hover:text-brand sm:inline">
-                kelvanic.com
-              </span>
-            </span>
           </div>
-        </a>
-      </Reveal>
+        ) : (
+          <p>No essays yet. Check back soon.</p>
+        )}
+      </section>
 
-      {/* Elsewhere */}
-      <Reveal className="section-gap">
-        <SectionRail
-          label="Elsewhere"
-          meta="Mail is the fastest way to reach me. Everything else is a slower door."
-        >
-          <div className="border-y border-hairline py-7">
-            <a
-              href={`mailto:${site.email}`}
-              className="group inline-flex items-baseline gap-3 break-all text-lead font-semibold tracking-tight transition-colors duration-200 hover:text-brand sm:text-title"
-            >
-              {site.email}
-              <ArrowUpRight className="size-5 shrink-0 self-center text-muted-foreground transition-all duration-200 group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:text-brand" />
+      <section
+        className="studio"
+        id="studio"
+        data-od-id="kelvanic-studio"
+        aria-labelledby="studio-heading"
+      >
+        <div className="studio-top">
+          <div className="studio-heading-group">
+            <h2 id="studio-heading">{site.studio.name}</h2>
+            <p className="studio-label">
+              Independent software studio<br />Founder &amp; engineer
+            </p>
+          </div>
+          <a className="text-link" href={site.studio.url} target="_blank" rel="noopener noreferrer">
+            <span>Visit the studio</span><ArrowUpRight aria-hidden />
+          </a>
+        </div>
+        <div className="studio-middle">
+          <div className="studio-description">
+            <h3>Deckle.<br />A softer surface for your Mac.</h3>
+            <p>{deckle.homeDescription}</p>
+            <div className="studio-engineering">
+              <h4>A layer, not a barrier.</h4>
+              <p>{deckle.engineeringNote}</p>
+              <p className="shipped-note">
+                {deckle.impact.replace(/\.$/, "")} for macOS.
+              </p>
+            </div>
+            <a className="text-link" href={deckle.url} target="_blank" rel="noopener noreferrer">
+              <span>Explore Deckle</span><ArrowUpRight aria-hidden />
             </a>
-            <div className="mt-7 flex flex-wrap items-center gap-x-3 gap-y-3">
-              <SocialLinks />
-            </div>
           </div>
-        </SectionRail>
-      </Reveal>
+          <DeckleGallery />
+        </div>
+      </section>
+
+      <section
+        className="books-home"
+        data-od-id="home-bookshelf"
+        aria-labelledby="books-heading"
+      >
+        <div className="books-intro">
+          <h2 id="books-heading">Off the screen.</h2>
+          <p>Systems, uncertainty, and the way we think. A few books from my shelf.</p>
+          <Link className="text-link" href="/bookshelf">
+            <span>Explore the bookshelf</span><ArrowRight aria-hidden />
+          </Link>
+        </div>
+        <div className="book-selection">
+          {selectedBooks.map((book) => {
+            const href = `/bookshelf#book-${books.indexOf(book) + 1}`;
+            return (
+              <article className="selected-book" key={book.title}>
+                <Link className="book-cover-link" href={href} aria-label={`About ${book.title}`}>
+                  <div className="book-cover">
+                    <Image
+                      src={book.cover}
+                      width={196}
+                      height={278}
+                      alt={`Cover of ${book.title}`}
+                      sizes="(max-width: 640px) 40vw, 190px"
+                    />
+                  </div>
+                </Link>
+                <h3><Link href={href}>{book.title}</Link></h3>
+                <p className="book-author">{book.author}</p>
+                <p className="book-takeaway">{book.description}</p>
+              </article>
+            );
+          })}
+        </div>
+      </section>
     </div>
   );
 }

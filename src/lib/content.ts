@@ -111,6 +111,9 @@ export type Project = {
   stack: string;
   description: string;
   impact: string;
+  url?: string;
+  homeDescription?: string;
+  engineeringNote?: string;
 };
 
 // Open-source contributions and side projects, as listed on the PDF resume.
@@ -135,6 +138,9 @@ export const projects: Project[] = [
     description:
       "Notarized macOS menu-bar app, distributed through a Homebrew tap.",
     impact: "Shipped and notarized.",
+    url: "https://kelvanic.com/products/deckle/",
+    homeDescription: "I built Deckle with SwiftUI and AppKit: a native menu-bar app that adds a subtle paper texture to macOS.",
+    engineeringNote: "The paper is cached. Adjusting intensity changes opacity, not the texture. And every click, drag, and keystroke passes straight through to your work.",
   },
 ];
 

@@ -32,23 +32,22 @@ export function PageHeader({
   return (
     <header
       className={cn(
-        "border-b border-hairline pb-[var(--space-block)]",
+        "editorial-heading",
         className,
       )}
     >
-      <div className="grid gap-8 lg:grid-cols-[minmax(0,1.45fr)_minmax(0,1fr)] lg:items-end lg:gap-14">
-        <div className="opacity-0 animate-fade-in-up [animation-fill-mode:forwards]">
-          <p className="eyebrow">{eyebrow}</p>
-          <h1 className="mt-5 text-display font-bold">{title}</h1>
+      <div className="grid gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)] lg:items-end lg:gap-20">
+        <div>
+          <h1>{title}</h1>
+          <p className="heading-note">{eyebrow}</p>
         </div>
 
         {(deck || meta || action) && (
           <div
-            className="opacity-0 animate-fade-in-up [animation-fill-mode:forwards] lg:pb-2"
-            style={{ animationDelay: "140ms" }}
+            className="lg:pb-2"
           >
             {deck && (
-              <div className="max-w-[46ch] text-[0.98rem] leading-7 text-muted-foreground">
+              <div className="heading-deck text-muted-foreground">
                 {deck}
               </div>
             )}

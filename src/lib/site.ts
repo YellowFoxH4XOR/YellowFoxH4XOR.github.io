@@ -12,6 +12,10 @@ export const site = {
     "Senior platform engineer with 7+ years building developer infrastructure, automation, and distributed backend systems in Python and Go. Writing about engineering, systems, and the books I read.",
   intro:
     "I'm a senior platform engineer with 7+ years building developer infrastructure, automation, and distributed backend systems in Python and Go. At Commonwealth Bank I built the internal AI developer platform — coding-agent workspaces, MCP integrations, an LLM compatibility gateway, and evaluation telemetry — now used by 200+ engineers.",
+  shortIntro:
+    "I’m a senior platform engineer with 7+ years building developer infrastructure, automation, and distributed backend systems in Python and Go.",
+  currentWork:
+    "I built the internal AI developer platform now used by 200+ engineers: coding-agent workspaces, MCP integrations, an LLM gateway, and evaluation telemetry.",
   greeting: "Hey, I'm Akshat",
 
   // SEO / structured-data fields.
@@ -51,13 +55,11 @@ export const site = {
 } as const;
 
 export const navLinks = [
-  { href: "/", label: "Home" },
-  { href: "/blog", label: "Blog" },
+  { href: "/blog", label: "Writing" },
+  { href: "/#studio", label: "Studio" },
   { href: "/bookshelf", label: "Bookshelf" },
   { href: "/resume", label: "Resume" },
   { href: "/tech-blogs", label: "Tech Blogs" },
-  // External: projects live on the Kelvanic studio site.
-  { href: "https://kelvanic.com/", label: "Projects" },
 ] as const;
 
 export const socialLinks = [

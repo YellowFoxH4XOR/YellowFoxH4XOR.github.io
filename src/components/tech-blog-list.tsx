@@ -1,6 +1,7 @@
 "use client";
 
-import { useId, useState } from "react";
+import { useId, useRef, useState } from "react";
+import { Search, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { SparkIcon } from "@/components/icons";
 import { TechBlogCard } from "@/components/tech-blog-card";
@@ -26,12 +27,18 @@ type Props = {
  */
 export function TechBlogList({ entries, companies }: Props) {
   const [selected, setSelected] = useState<string | null>(null);
+  const [query, setQuery] = useState("");
+  const search = useRef<HTMLInputElement>(null);
   const selectId = useId();
 
   // entries arrive newest-first; filtering preserves that order.
-  const filtered = selected
-    ? entries.filter((e) => e.companySlug === selected)
-    : entries;
+  const filtered = entries.filter(
+    (entry) =>
+      (!selected || entry.companySlug === selected) &&
+      `${entry.title} ${entry.summary} ${entry.company}`
+        .toLowerCase()
+        .includes(query.toLowerCase().trim()),
+  );
 
   const active = companies.find((c) => c.slug === selected);
 
@@ -109,7 +116,30 @@ export function TechBlogList({ entries, companies }: Props) {
 
       {/* Entries */}
       <div className="min-w-0">
-        <p className="mb-4 font-mono text-micro uppercase tracking-[0.18em] text-subtle">
+        <div className="mb-5 flex flex-wrap items-center gap-3">
+          <label className="archive-search flex-1">
+            <Search aria-hidden className="size-5 shrink-0" />
+            <span className="sr-only">Search tech blogs</span>
+            <input
+              ref={search}
+              type="search"
+              placeholder="Search tech blogs"
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+            />
+          </label>
+          {query && (
+            <button
+              type="button"
+              aria-label="Clear search"
+              className="grid size-11 place-items-center rounded-full border border-border"
+              onClick={() => { setQuery(""); search.current?.focus(); }}
+            >
+              <X aria-hidden className="size-4" />
+            </button>
+          )}
+        </div>
+        <p role="status" aria-live="polite" aria-atomic="true" className="mb-4 font-mono text-micro uppercase tracking-[0.18em] text-subtle">
           {active
             ? `${filtered.length} from ${active.name}`
             : `${filtered.length} posts, newest first`}
@@ -125,9 +155,17 @@ export function TechBlogList({ entries, companies }: Props) {
             ))}
           </div>
         ) : (
-          <p className="text-sm text-muted-foreground">
-            No posts for this source.
-          </p>
+          <div className="archive-empty">
+            <h2>No matching articles</h2>
+            <p>Try another keyword or source.</p>
+            <button
+              type="button"
+              className="primary-link"
+              onClick={() => { setSelected(null); setQuery(""); search.current?.focus(); }}
+            >
+              Reset filters
+            </button>
+          </div>
         )}
       </div>
     </div>

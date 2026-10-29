@@ -24,12 +24,10 @@ export default function TechBlogsPage() {
       )}
 
       <PageHeader
-        eyebrow="The reading room"
+        eyebrow="Engineering blogs & AI research"
         title={
           <>
-            Engineering blogs
-            <br />
-            worth your time<span className="text-brand">.</span>
+            Reading room.
           </>
         }
         deck={

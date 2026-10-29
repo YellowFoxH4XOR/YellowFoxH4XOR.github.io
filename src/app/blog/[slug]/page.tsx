@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { getAllPosts, getPostBySlug, formatDate } from "@/lib/blog";
@@ -75,7 +76,7 @@ export default async function PostPage({ params }: Params) {
         <JsonLd data={breadcrumbSchema(crumbs)} />
         <ReadingProgress />
 
-        <div className="opacity-0 animate-fade-in-up [animation-fill-mode:forwards]">
+        <div>
           <Link
             href="/blog"
             className="group inline-flex items-center gap-2 font-mono text-micro font-medium uppercase tracking-[0.2em] text-muted-foreground transition-colors duration-200 hover:text-brand"
@@ -93,6 +94,11 @@ export default async function PostPage({ params }: Params) {
               <span>{post.readingTime}</span>
             </p>
             <h1 className="mt-5 text-display font-bold">{post.title}</h1>
+            <p className="mt-6 text-lead leading-relaxed text-muted-foreground">{post.excerpt}</p>
+            <div className="mt-6 flex items-center gap-3 text-sm">
+              <Image src="/images/profile-portrait.jpg" width={40} height={40} alt="" className="size-10 rounded-full object-cover grayscale" />
+              <span>By <Link href="/resume" className="link-ember inline-flex min-h-6 items-center">{site.name}</Link></span>
+            </div>
             {post.tags.length > 0 && (
               <div className="mt-6 flex flex-wrap gap-2">
                 {post.tags.map((tag) => (
@@ -108,7 +114,7 @@ export default async function PostPage({ params }: Params) {
           </header>
         </div>
 
-        <div className="mt-10 opacity-0 animate-fade-in-up animation-delay-200 [animation-fill-mode:forwards]">
+        <div className="mt-10">
           <Markdown content={post.content} />
         </div>
 

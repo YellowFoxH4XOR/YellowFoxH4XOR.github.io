@@ -3,8 +3,8 @@ import { ArrowLeft, ArrowUpRight } from "lucide-react";
 import { SparkIcon } from "@/components/icons";
 import { navLinks } from "@/lib/site";
 
-// Everything except the home link, which the primary button already covers.
-const elsewhere = navLinks.filter((link) => link.href !== "/");
+// The wordmark / primary button cover home; the navigation covers the rest.
+const elsewhere = navLinks;
 
 export default function NotFound() {
   return (

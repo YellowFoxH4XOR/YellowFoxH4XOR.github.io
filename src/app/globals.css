@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "./portfolio.css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -213,7 +214,7 @@
   --secondary: oklch(0.235 0.02 55);
   --secondary-foreground: oklch(0.9 0.015 70);
   --muted: oklch(0.225 0.018 55);
-  --muted-foreground: oklch(0.66 0.025 60);
+  --muted-foreground: oklch(0.72 0.026 65);
   /* Dark-theme counterpart of --subtle: 4.66:1 on the page background. */
   --subtle: oklch(0.59 0.024 60);
   --accent: oklch(0.26 0.025 52);
