@@ -2,6 +2,38 @@
   {
     "company": "Meta",
     "companySlug": "meta",
+    "title": "Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design",
+    "url": "https://engineering.fb.com/2026/10/28/ml-applications/meta-andromeda-next-gen-ads-retrieval-gpu-co-design/",
+    "date": "2026-10-28",
+    "summary": "This post describes the next generation of Meta Andromeda, Meta s personalized ads retrieval engine, and how co-designing the model, system, and GPU hardware unlocks a new efficiency frontier for ads retrieval. In produc…"
+  },
+  {
+    "company": "Meta",
+    "companySlug": "meta",
+    "title": "PrivacyLib: Privacy Controls at the Data Access Boundary",
+    "url": "https://engineering.fb.com/2026/10/27/security/privacylib/",
+    "date": "2026-10-27",
+    "summary": "This latest deep dive into Meta’s Privacy Aware Infrastructure (PAI) takes a look at PrivacyLib. A privacy requirement must hold as data moves through Meta s diverse data and processing systems. Historically, supporting…"
+  },
+  {
+    "company": "Meta",
+    "companySlug": "meta",
+    "title": "Python Typing Survey 2026: AI Tools and the Shifting Checker Landscape",
+    "url": "https://engineering.fb.com/2026/10/27/developer-tools/python-typing-survey-2026-ai-tools-checker-landscape/",
+    "date": "2026-10-27",
+    "summary": "The 2026 Python Typing Survey received 1,794 responses. Type hint use changed little across three years, but checker selection changed sharply. Among respondents who reported which checkers they use, half selected more t…"
+  },
+  {
+    "company": "Meta",
+    "companySlug": "meta",
+    "title": "Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks",
+    "url": "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks/",
+    "date": "2026-10-26",
+    "summary": "At the 2026 Open Compute Project (OCP) Global Summit, Meta shared the networking innovations that are directly supporting our latest AI models, including Muse Wonder and Muse Spark, and our gigawatt-scale Prometheus clus…"
+  },
+  {
+    "company": "Meta",
+    "companySlug": "meta",
     "title": "GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary",
     "url": "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/",
     "date": "2026-10-19",
@@ -26,6 +58,14 @@
   {
     "company": "Meta",
     "companySlug": "meta",
+    "title": "Sapienz Receives ISSTA 2026 Impact Paper Award",
+    "url": "https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta/",
+    "date": "2026-10-15",
+    "summary": "Ke Mao, Mark Harman, and Yue Jia have been recognized with the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2026 Most Influential Paper Award for their 2016 research, “Sapienz: multi-objec…"
+  },
+  {
+    "company": "Meta",
+    "companySlug": "meta",
     "title": "How Meta Built Forum With AI-Native Engineering",
     "url": "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering/",
     "date": "2026-10-15",
@@ -42,14 +82,6 @@
   {
     "company": "Meta",
     "companySlug": "meta",
-    "title": "Sapienz Receives ISSTA 2026 Impact Paper Award",
-    "url": "https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta/",
-    "date": "2026-10-15",
-    "summary": "Ke Mao, Mark Harman, and Yue Jia have been recognized with the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2026 Most Influential Paper Award for their 2016 research, “Sapienz: multi-objec…"
-  },
-  {
-    "company": "Meta",
-    "companySlug": "meta",
     "title": "Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI",
     "url": "https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai/",
     "date": "2026-10-13",
@@ -58,10 +90,10 @@
   {
     "company": "Meta",
     "companySlug": "meta",
-    "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
-    "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
+    "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
+    "url": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
     "date": "2026-10-12",
-    "summary": "At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation work to expand across opportunistic capacit…"
+    "summary": "Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our protocol stack for live streaming video and enhance overall user experience for…"
   },
   {
     "company": "Meta",
@@ -74,10 +106,10 @@
   {
     "company": "Meta",
     "companySlug": "meta",
-    "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
-    "url": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
+    "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+    "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
     "date": "2026-10-12",
-    "summary": "Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our protocol stack for live streaming video and enhance overall user experience for…"
+    "summary": "At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation work to expand across opportunistic capacit…"
   },
   {
     "company": "Meta",
@@ -98,18 +130,18 @@
   {
     "company": "Meta",
     "companySlug": "meta",
-    "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems",
-    "url": "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/",
-    "date": "2026-09-21",
-    "summary": "We re open-sourcing Rebalancer, the assignment-problem solver that has been used to solve resource allocation problems throughout Meta for over nine years. Rebalancer separates several related concerns: how to specify an…"
-  },
-  {
-    "company": "Meta",
-    "companySlug": "meta",
     "title": "Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable",
     "url": "https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable/",
     "date": "2026-09-21",
     "summary": "Petal, the next step in Meta’s subsea innovation, will be the first subsea cable to deliver petabit capacity at transoceanic distances, connecting France and the United States over approximately 7,000 km (4,300 mi). Expe…"
+  },
+  {
+    "company": "Meta",
+    "companySlug": "meta",
+    "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems",
+    "url": "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/",
+    "date": "2026-09-21",
+    "summary": "We re open-sourcing Rebalancer, the assignment-problem solver that has been used to solve resource allocation problems throughout Meta for over nine years. Rebalancer separates several related concerns: how to specify an…"
   },
   {
     "company": "Meta",
@@ -130,18 +162,18 @@
   {
     "company": "Meta",
     "companySlug": "meta",
-    "title": "MTIA 300: Meta&#8217;s First Training Chip with Built-in NICs and Communication-Offloading Engines",
-    "url": "https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/",
-    "date": "2026-08-24",
-    "summary": "MTIA 300 is the first of Meta’s family of in-house training and inference accelerators optimized for training ranking and recommendation models. We’re sharing how MTIA 300’s built-in NIC chiplets allow it to meet the com…"
-  },
-  {
-    "company": "Meta",
-    "companySlug": "meta",
     "title": "MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet",
     "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/",
     "date": "2026-08-24",
     "summary": "Training and serving frontier AI models depends on fast, reliable networks that move data between GPUs without wasting compute cycles. To meet this challenge at scale, Meta designed MetaRoCE – a clean-sheet RDMA transpor…"
+  },
+  {
+    "company": "Meta",
+    "companySlug": "meta",
+    "title": "MTIA 300: Meta&#8217;s First Training Chip with Built-in NICs and Communication-Offloading Engines",
+    "url": "https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/",
+    "date": "2026-08-24",
+    "summary": "MTIA 300 is the first of Meta’s family of in-house training and inference accelerators optimized for training ranking and recommendation models. We’re sharing how MTIA 300’s built-in NIC chiplets allow it to meet the com…"
   },
   {
     "company": "Meta",
@@ -282,17 +314,17 @@
   {
     "company": "Meta",
     "companySlug": "meta",
-    "title": "Post-Quantum Cryptography Migration at Meta: Framework, Lessons, and Takeaways",
-    "url": "https://engineering.fb.com/2026/04/16/security/post-quantum-cryptography-migration-at-meta-framework-lessons-and-takeaways/",
-    "date": "2026-04-16",
-    "summary": "We’re sharing lessons learned from Meta’s post-quantum cryptography (PQC) migration to help other organizations strengthen their resilience as industry transitions to post-quantum cryptography standards. We’re proposing…"
-  },
-  {
-    "company": "Meta",
-    "companySlug": "meta",
     "title": "Capacity Efficiency at Meta: How Unified AI Agents Optimize Performance at Hyperscale",
     "url": "https://engineering.fb.com/2026/04/16/developer-tools/capacity-efficiency-at-meta-how-unified-ai-agents-optimize-performance-at-hyperscale/",
     "date": "2026-04-16",
     "summary": "We re sharing insights into Meta s Capacity Efficiency Program, where we ve built an AI agent platform that helps automate finding and fixing performance issues throughout our infrastructure. By leveraging encoded domain…"
+  },
+  {
+    "company": "Meta",
+    "companySlug": "meta",
+    "title": "Post-Quantum Cryptography Migration at Meta: Framework, Lessons, and Takeaways",
+    "url": "https://engineering.fb.com/2026/04/16/security/post-quantum-cryptography-migration-at-meta-framework-lessons-and-takeaways/",
+    "date": "2026-04-16",
+    "summary": "We’re sharing lessons learned from Meta’s post-quantum cryptography (PQC) migration to help other organizations strengthen their resilience as industry transitions to post-quantum cryptography standards. We’re proposing…"
   }
 ]
