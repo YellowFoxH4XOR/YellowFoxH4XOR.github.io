@@ -6,12 +6,13 @@ import { Reveal } from "@/components/reveal";
 import { PageHeader } from "@/components/page-header";
 import { SectionRail } from "@/components/section-rail";
 import { bookshelfSchema } from "@/lib/seo";
+import { pageMetadata } from "@/lib/page-metadata";
 
-export const metadata: Metadata = {
-  title: "Bookshelf",
-  description: "Books I've read and recommend.",
-  alternates: { canonical: "/bookshelf" },
-};
+export const metadata: Metadata = pageMetadata(
+  "Bookshelf",
+  "Books on distributed systems, software engineering, randomness, and finance that shaped my thinking.",
+  "/bookshelf",
+);
 
 export default function BookshelfPage() {
   return (

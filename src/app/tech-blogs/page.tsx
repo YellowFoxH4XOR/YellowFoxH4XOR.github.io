@@ -5,13 +5,13 @@ import { JsonLd } from "@/components/json-ld";
 import { Reveal } from "@/components/reveal";
 import { PageHeader } from "@/components/page-header";
 import { techBlogsCollectionSchema } from "@/lib/seo";
+import { pageMetadata } from "@/lib/page-metadata";
 
-export const metadata: Metadata = {
-  title: "Tech Blogs",
-  description:
-    "Recent posts from big-tech engineering blogs and AI labs — Airbnb, Meta, Netflix, OpenAI, Anthropic, Cloudflare, and more — plus the latest AI research, aggregated from their feeds and linked to the originals.",
-  alternates: { canonical: "/tech-blogs" },
-};
+export const metadata: Metadata = pageMetadata(
+  "Tech Blogs",
+  "Recent posts from engineering blogs and AI labs, plus the latest AI research, aggregated from feeds and linked to the original sources.",
+  "/tech-blogs",
+);
 
 export default function TechBlogsPage() {
   const entries = getAllTechBlogs();

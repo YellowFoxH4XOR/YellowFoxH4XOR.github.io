@@ -6,12 +6,13 @@ import { Reveal } from "@/components/reveal";
 import { PageHeader } from "@/components/page-header";
 import { SectionRail } from "@/components/section-rail";
 import { blogSchema } from "@/lib/seo";
+import { pageMetadata } from "@/lib/page-metadata";
 
-export const metadata: Metadata = {
-  title: "Blog",
-  description: "Writing about engineering, systems, and what I'm learning.",
-  alternates: { canonical: "/blog" },
-};
+export const metadata: Metadata = pageMetadata(
+  "Blog",
+  "Practical notes on AI agents, platform engineering, backend systems, Python, and Go.",
+  "/blog",
+);
 
 export default function BlogIndexPage() {
   const posts = getAllPosts();

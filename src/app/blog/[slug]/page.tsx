@@ -32,6 +32,9 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
       title: post.title,
       description: post.excerpt,
       type: "article",
+      url: `${site.url}/blog/${post.slug}`,
+      siteName: site.name,
+      locale: site.locale,
       publishedTime: post.date,
       authors: [site.name],
       tags: post.tags,
@@ -40,6 +43,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
       card: "summary_large_image",
       title: post.title,
       description: post.excerpt,
+      creator: site.twitterHandle,
     },
   };
 }

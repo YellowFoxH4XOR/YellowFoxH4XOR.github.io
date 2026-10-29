@@ -14,13 +14,13 @@ import { PageHeader } from "@/components/page-header";
 import { SectionRail } from "@/components/section-rail";
 import { resumeSchema } from "@/lib/seo";
 import { site } from "@/lib/site";
+import { pageMetadata } from "@/lib/page-metadata";
 
-export const metadata: Metadata = {
-  title: "Resume",
-  description:
-    "Senior platform engineer — 7+ years of Python/Go, developer infrastructure, AI tooling, and cloud automation. Experience, skills, open source, and education.",
-  alternates: { canonical: "/resume" },
-};
+export const metadata: Metadata = pageMetadata(
+  "Resume",
+  "Senior platform engineer — 7+ years of Python/Go, developer infrastructure, AI tooling, and cloud automation. Experience, skills, open source, and education.",
+  "/resume",
+);
 
 export default function ResumePage() {
   return (

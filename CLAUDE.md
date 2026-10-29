@@ -127,7 +127,7 @@ index `Blog` JSON-LD. They are pure functions of `getAllPosts()`.
    ```yaml
    ---
    title: "..."           # also the OG/Twitter title and <h1>
-   date: "YYYY-MM-DD"     # publish date; drives sitemap lastmod + RSS pubDate
+   date: "YYYY-MM-DD"     # publish date; drives RSS pubDate and article schema
    excerpt: "..."         # one line; becomes meta description + OG description
    tags: ["...", "..."]   # become keywords + JSON-LD keywords + RSS categories
    draft: true            # optional; keeps it out of production builds

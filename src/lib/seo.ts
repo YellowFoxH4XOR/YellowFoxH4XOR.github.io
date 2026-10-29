@@ -59,7 +59,6 @@ export function blogPostingSchema(post: PostMeta) {
     headline: post.title,
     description: post.excerpt,
     datePublished: post.date,
-    dateModified: post.date,
     url: postUrl,
     mainEntityOfPage: { "@type": "WebPage", "@id": postUrl },
     image: `${postUrl}/opengraph-image`,

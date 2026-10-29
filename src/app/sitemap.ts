@@ -3,7 +3,8 @@ import { site } from "@/lib/site";
 import { getAllPosts } from "@/lib/blog";
 
 // Generated at /sitemap.xml. Lists every static route plus one entry per blog
-// post (with its publish date as lastModified) so crawlers index new posts.
+// post so crawlers can discover new posts. Do not claim a modification date
+// unless the content model tracks actual edits.
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: site.url, changeFrequency: "weekly", priority: 1 },
@@ -15,7 +16,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const postRoutes: MetadataRoute.Sitemap = getAllPosts().map((post) => ({
     url: `${site.url}/blog/${post.slug}`,
-    lastModified: new Date(post.date),
     changeFrequency: "yearly",
     priority: 0.8,
   }));

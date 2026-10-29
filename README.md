@@ -49,8 +49,10 @@ The app builds into a self-contained image via the multi-stage `Dockerfile`
 2. **Build Pack:** select **Dockerfile** (Coolify auto-detects the `Dockerfile`).
 3. **Port:** set the exposed port to **3000**.
 4. (Optional) **Environment variables:** set `NEXT_PUBLIC_SITE_URL` to your
-   public URL (e.g. `https://www.akshatkatiyar.com`) so Open Graph / canonical
-   URLs are absolute.
+   canonical public URL (e.g. `https://akshatkatiyar.com`) and make it available
+   as a **build-time** variable in Coolify. The Dockerfile passes this build
+   argument to `next build`, which generates the canonical URLs, metadata, RSS,
+   and sitemap. A runtime-only variable will not update prerendered pages.
 5. **Deploy.** Coolify builds the image and starts the container.
 
 ### Custom domain
