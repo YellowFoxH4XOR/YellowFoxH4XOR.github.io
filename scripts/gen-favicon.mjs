@@ -1,11 +1,18 @@
-// One-off generator: rasterizes scripts/fox-favicon.svg into the full favicon set.
-// Run with: node scripts/gen-favicon.mjs
+// Canonical source: scripts/fox-favicon.svg. Regenerate every browser/app icon
+// together so Next's file-based icon and the fallback/PWA assets never diverge.
+// Run with: npm run generate:favicon
 import sharp from "sharp";
-import { writeFile } from "node:fs/promises";
+import { copyFile, mkdir, writeFile } from "node:fs/promises";
 
 const SVG = "scripts/fox-favicon.svg";
 
-const png = (size) => sharp(SVG).resize(size, size).png().toBuffer();
+const png = (size, opaque = false) => {
+  const image = sharp(SVG).resize(size, size);
+  // Installed app icons should have an opaque background; the OS applies its
+  // own corner mask. Browser favicons retain the rounded tile's transparency.
+  if (opaque) image.flatten({ background: "#261c15" });
+  return image.png({ compressionLevel: 9 }).toBuffer();
+};
 
 // Assemble a multi-resolution .ico from PNG buffers (browsers accept PNG-in-ICO).
 function buildIco(entries) {
@@ -35,7 +42,7 @@ function buildIco(entries) {
 }
 
 const [p16, p32, p48, p180, p192, p512] = await Promise.all(
-  [16, 32, 48, 180, 192, 512].map(png),
+  [16, 32, 48, 180, 192, 512].map((size) => png(size, size >= 180)),
 );
 
 const ico = buildIco([
@@ -44,7 +51,11 @@ const ico = buildIco([
   { size: 48, buf: p48 },
 ]);
 
+await mkdir("public/favicon", { recursive: true });
 await Promise.all([
+  // Served through the App Router and advertised by the layout's SVG icon link.
+  copyFile(SVG, "src/app/icon.svg"),
+  copyFile(SVG, "public/favicon/favicon.svg"),
   writeFile("public/favicon/favicon.ico", ico),
   writeFile("src/app/favicon.ico", ico),
   writeFile("public/favicon/favicon-16x16.png", p16),
@@ -54,4 +65,4 @@ await Promise.all([
   writeFile("public/favicon/android-chrome-512x512.png", p512),
 ]);
 
-console.log("favicon set generated.");
+console.log("Ember fox favicon generated: SVG, 16/32/48px ICO, Apple touch icon, and 192/512px app icons.");

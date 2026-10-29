@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "generate:favicon": "node scripts/gen-favicon.mjs",
     "fetch-tech-blogs": "node scripts/fetch-tech-blogs.mjs",
     "design-check": "node scripts/design-check.mjs",
     "ui-check": "node scripts/redesign-check.mjs",

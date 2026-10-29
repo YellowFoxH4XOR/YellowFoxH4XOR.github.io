@@ -1,38 +1,12 @@
-<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#8f81ff"/>
-      <stop offset="1" stop-color="#634cd4"/>
-    </linearGradient>
-  </defs>
-
-  <!-- rounded-square backdrop -->
-  <rect x="0" y="0" width="512" height="512" rx="112" fill="url(#bg)"/>
-
-  <!-- fox head silhouette (white) -->
-  <path fill="#ffffff" d="
-    M120 200
-    L165 108
-    L212 198
-    L256 172
-    L300 198
-    L347 108
-    L392 200
-    L398 285
-    L300 360
-    L256 420
-    L212 360
-    L114 285
-    Z"/>
-
-  <!-- inner ears (cut to violet) -->
-  <path fill="#7960fb" d="M152 162 L186 168 L168 196 Z"/>
-  <path fill="#7960fb" d="M360 162 L326 168 L344 196 Z"/>
-
-  <!-- eyes -->
-  <path fill="#7960fb" d="M190 244 L246 264 L198 288 Z"/>
-  <path fill="#7960fb" d="M322 244 L266 264 L314 288 Z"/>
-
-  <!-- snout / nose -->
-  <path fill="#7960fb" d="M256 372 L240 348 L272 348 Z"/>
+<svg width="512" height="512" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Akshat Katiyar — ember fox</title>
+  <!-- Broad, solid shapes stay legible at 16px; no gradients or fine strokes. -->
+  <rect width="64" height="64" rx="14" fill="#261c15"/>
+  <!-- Upright ears, broad brow, and the fox's tapered face. -->
+  <path d="M12 10 27 20Q32 18 37 20L52 10 50 34 32 54 14 34Z" fill="#f4a259"/>
+  <path d="m17 18 7 5-6 4Zm30 0-7 5 6 4Z" fill="#261c15"/>
+  <!-- Two light cheeks converge into a pointed muzzle. -->
+  <path d="m15 32 13 5 4 6 4-6 13-5-5 11-12 10-12-10Z" fill="#fff1d6"/>
+  <path d="m20 29 8 3-4 3-4-3Zm24 0-8 3 4 3 4-3Z" fill="#261c15"/>
+  <path d="M28 42h8l-4 5Z" fill="#261c15"/>
 </svg>
