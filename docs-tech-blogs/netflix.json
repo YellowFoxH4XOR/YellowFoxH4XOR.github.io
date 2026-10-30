@@ -42,50 +42,10 @@
   {
     "company": "Netflix",
     "companySlug": "netflix",
-    "title": "Netflix Stratum Media Processing: Automated Container Right-Sizing",
-    "url": "https://netflixtechblog.com/netflix-stratum-media-processing-automated-container-right-sizing-ddf9aa68a801?source=rss----2615bd06b42e---4",
+    "title": "Behind the Scenes: Evolving Netflix’s Ads Event Pipeline for Live — Part II",
+    "url": "https://netflixtechblog.com/behind-the-scenes-evolving-netflixs-ads-event-pipeline-for-live-part-ii-826ebf9ad9fb?source=rss----2615bd06b42e---4",
     "date": "2026-10-14",
-    "summary": "By Violetta Pidvolotska and Naveen Mareddy Stratum is Netflix’s internal serverless media processing platform, shaped by over a decade of experience developing large-scale distributed systems. It powers a wide range of m…"
-  },
-  {
-    "company": "Netflix",
-    "companySlug": "netflix",
-    "title": "The Lifecycle of LLM-as-a-Judge: Building, Aligning, and Monitoring at scale",
-    "url": "https://netflixtechblog.com/the-lifecycle-of-llm-as-a-judge-building-aligning-and-monitoring-at-scale-c95bd8283508?source=rss----2615bd06b42e---4",
-    "date": "2026-10-14",
-    "summary": "By Emma Yanyang Kong , JJ Tan , Ishan Gupta , Lars Olds , Claire Campbell , David Fagnan , Ratna Kavuri , Rohan Gosain , Veli Balin , Minsu Jang , Louis Garcia Introduction Any team generating text with an LLM at scale h…"
-  },
-  {
-    "company": "Netflix",
-    "companySlug": "netflix",
-    "title": "Running Apache Spark experiments in my sleep (and on a plane)",
-    "url": "https://netflixtechblog.com/running-apache-spark-experiments-in-my-sleep-and-on-a-plane-588816b6b5f8?source=rss----2615bd06b42e---4",
-    "date": "2026-10-14",
-    "summary": "By Prashanth Gedde Narayanaswamy As one of Netflix’s largest and critical data pipelines, member-sessionizer consolidates tens of billions of hourly client events, encompassing user taps, playbacks, and engagement signal…"
-  },
-  {
-    "company": "Netflix",
-    "companySlug": "netflix",
-    "title": "Netflix Conductor: The Next Chapter",
-    "url": "https://netflixtechblog.com/netflix-conductor-the-next-chapter-41ad21067649?source=rss----2615bd06b42e---4",
-    "date": "2026-10-14",
-    "summary": "Netflix Conductor : The Next Chapter by Aravindan Ramkumar on behalf of the Conductor team Conductor is the workflow orchestration engine Netflix uses to stitch micro-services into reliable, observable business processes…"
-  },
-  {
-    "company": "Netflix",
-    "companySlug": "netflix",
-    "title": "Reliable GPU compute for large training & inference jobs",
-    "url": "https://netflixtechblog.com/reliable-gpu-compute-for-large-training-inference-jobs-d62b03a96d7a?source=rss----2615bd06b42e---4",
-    "date": "2026-10-14",
-    "summary": "How we detect failing GPUs and network fabric, remediate machines automatically, and let long-running jobs survive hardware loss. Authors: Nick Rutigliano , Argha C , Samartha Chandrashekar Open Netflix, and the home scr…"
-  },
-  {
-    "company": "Netflix",
-    "companySlug": "netflix",
-    "title": "Integrating Netflix’s Foundation Model into Personalization applications",
-    "url": "https://netflixtechblog.com/integrating-netflixs-foundation-model-into-personalization-applications-cf176b5860eb?source=rss----2615bd06b42e---4",
-    "date": "2026-10-14",
-    "summary": "Authors: Divya Gadde , Ko-Jen Hsiao , Dhaval Patel and Moumita Bhattacharya The motivation for building the Netflix Foundation Model for personalization was laid out in this previous blog post. The Netflix homepage is po…"
+    "summary": "By Yogesh Nagarur Introduction In Part 1 of this series , we shared how Netflix built the Ads Event pipeline and approached it as a system design problem: replacing fragmented pipelines with a centralized collection, enr…"
   },
   {
     "company": "Netflix",
@@ -98,6 +58,14 @@
   {
     "company": "Netflix",
     "companySlug": "netflix",
+    "title": "Integrating Netflix’s Foundation Model into Personalization applications",
+    "url": "https://netflixtechblog.com/integrating-netflixs-foundation-model-into-personalization-applications-cf176b5860eb?source=rss----2615bd06b42e---4",
+    "date": "2026-10-14",
+    "summary": "Authors: Divya Gadde , Ko-Jen Hsiao , Dhaval Patel and Moumita Bhattacharya The motivation for building the Netflix Foundation Model for personalization was laid out in this previous blog post. The Netflix homepage is po…"
+  },
+  {
+    "company": "Netflix",
+    "companySlug": "netflix",
     "title": "Measuring the Impact of Personalized Recommendations",
     "url": "https://netflixtechblog.com/measuring-the-impact-of-personalized-recommendations-4c26be3a4d96?source=rss----2615bd06b42e---4",
     "date": "2026-10-14",
@@ -106,18 +74,50 @@
   {
     "company": "Netflix",
     "companySlug": "netflix",
-    "title": "TimeSeries Tiered Storage Journey: Kafka/Flink Streams to Native Cassandra Cold Reads",
-    "url": "https://netflixtechblog.com/timeseries-tiered-storage-journey-kafka-flink-streams-to-native-cassandra-cold-reads-e59d597c9d60?source=rss----2615bd06b42e---4",
+    "title": "Netflix Conductor: The Next Chapter",
+    "url": "https://netflixtechblog.com/netflix-conductor-the-next-chapter-41ad21067649?source=rss----2615bd06b42e---4",
     "date": "2026-10-14",
-    "summary": "By Oleksii Tkachuk , Rajiv Shringi , Chris Lohfink , Abe Ratnofsky , Kartik Sathyanarayanan Introduction In an earlier post , we introduced the TimeSeries Abstraction, our high-throughput, low-latency platform designed t…"
+    "summary": "Netflix Conductor : The Next Chapter by Aravindan Ramkumar on behalf of the Conductor team Conductor is the workflow orchestration engine Netflix uses to stitch micro-services into reliable, observable business processes…"
   },
   {
     "company": "Netflix",
     "companySlug": "netflix",
-    "title": "Behind the Scenes: Evolving Netflix’s Ads Event Pipeline for Live — Part II",
-    "url": "https://netflixtechblog.com/behind-the-scenes-evolving-netflixs-ads-event-pipeline-for-live-part-ii-826ebf9ad9fb?source=rss----2615bd06b42e---4",
+    "title": "Netflix Stratum Media Processing: Automated Container Right-Sizing",
+    "url": "https://netflixtechblog.com/netflix-stratum-media-processing-automated-container-right-sizing-ddf9aa68a801?source=rss----2615bd06b42e---4",
     "date": "2026-10-14",
-    "summary": "By Yogesh Nagarur Introduction In Part 1 of this series , we shared how Netflix built the Ads Event pipeline and approached it as a system design problem: replacing fragmented pipelines with a centralized collection, enr…"
+    "summary": "By Violetta Pidvolotska and Naveen Mareddy Stratum is Netflix’s internal serverless media processing platform, shaped by over a decade of experience developing large-scale distributed systems. It powers a wide range of m…"
+  },
+  {
+    "company": "Netflix",
+    "companySlug": "netflix",
+    "title": "Reliable GPU compute for large training & inference jobs",
+    "url": "https://netflixtechblog.com/reliable-gpu-compute-for-large-training-inference-jobs-d62b03a96d7a?source=rss----2615bd06b42e---4",
+    "date": "2026-10-14",
+    "summary": "How we detect failing GPUs and network fabric, remediate machines automatically, and let long-running jobs survive hardware loss. Authors: Nick Rutigliano , Argha C , Samartha Chandrashekar Open Netflix, and the home scr…"
+  },
+  {
+    "company": "Netflix",
+    "companySlug": "netflix",
+    "title": "Running Apache Spark experiments in my sleep (and on a plane)",
+    "url": "https://netflixtechblog.com/running-apache-spark-experiments-in-my-sleep-and-on-a-plane-588816b6b5f8?source=rss----2615bd06b42e---4",
+    "date": "2026-10-14",
+    "summary": "By Prashanth Gedde Narayanaswamy As one of Netflix’s largest and critical data pipelines, member-sessionizer consolidates tens of billions of hourly client events, encompassing user taps, playbacks, and engagement signal…"
+  },
+  {
+    "company": "Netflix",
+    "companySlug": "netflix",
+    "title": "The Lifecycle of LLM-as-a-Judge: Building, Aligning, and Monitoring at scale",
+    "url": "https://netflixtechblog.com/the-lifecycle-of-llm-as-a-judge-building-aligning-and-monitoring-at-scale-c95bd8283508?source=rss----2615bd06b42e---4",
+    "date": "2026-10-14",
+    "summary": "By Emma Yanyang Kong , JJ Tan , Ishan Gupta , Lars Olds , Claire Campbell , David Fagnan , Ratna Kavuri , Rohan Gosain , Veli Balin , Minsu Jang , Louis Garcia Introduction Any team generating text with an LLM at scale h…"
+  },
+  {
+    "company": "Netflix",
+    "companySlug": "netflix",
+    "title": "TimeSeries Tiered Storage Journey: Kafka/Flink Streams to Native Cassandra Cold Reads",
+    "url": "https://netflixtechblog.com/timeseries-tiered-storage-journey-kafka-flink-streams-to-native-cassandra-cold-reads-e59d597c9d60?source=rss----2615bd06b42e---4",
+    "date": "2026-10-14",
+    "summary": "By Oleksii Tkachuk , Rajiv Shringi , Chris Lohfink , Abe Ratnofsky , Kartik Sathyanarayanan Introduction In an earlier post , we introduced the TimeSeries Abstraction, our high-throughput, low-latency platform designed t…"
   },
   {
     "company": "Netflix",
@@ -218,42 +218,10 @@
   {
     "company": "Netflix",
     "companySlug": "netflix",
-    "title": "The Evolution of Cassandra Data Movement at Netflix",
-    "url": "https://netflixtechblog.com/the-evolution-of-cassandra-data-movement-at-netflix-6e13329c80a1?source=rss----2615bd06b42e---4",
-    "date": "2026-06-19",
-    "summary": "By Guil Pires , Jennifer Prince , Jose Camacho , Ken Kurzweil , Phanindra Chunduru Background In a previous post, we introduced Data Bridge , a unified management plane for batch Data Movement at Netflix. Historically, s…"
-  },
-  {
-    "company": "Netflix",
-    "companySlug": "netflix",
     "title": "A Human-Augmenting Agentic Workflow for Causal Inference",
-    "url": "https://netflixtechblog.com/a-human-augmenting-agentic-workflow-for-causal-inference-4623f0a9c5af?source=rss----2615bd06b42e---4",
+    "url": "https://medium.com/netflix-techblog/a-human-augmenting-agentic-workflow-for-causal-inference-4623f0a9c5af?source=rss----2615bd06b42e---4",
     "date": "2026-06-19",
     "summary": "By Winston Chou, Adrien Alexandre, Lars Olds, Yi Zhang, Garrett Hagemann, and Nathan Kallus Introduction Imagine asking a data agent to analyze the causal relationship between two variables, such as the effect of watchin…"
-  },
-  {
-    "company": "Netflix",
-    "companySlug": "netflix",
-    "title": "From Silos to Service Topology: Why Netflix Built a Real-Time Service Map",
-    "url": "https://netflixtechblog.com/from-silos-to-service-topology-why-netflix-built-a-real-time-service-map-0165ba13a7bc?source=rss----2615bd06b42e---4",
-    "date": "2026-06-19",
-    "summary": "By Parth Jain , Rakesh Sukumar , Yingwu Zhao , Renzo Sanchez-Silva Nathan Fisher How we built a living map of our distributed infrastructure to help engineers understand dependencies, troubleshoot faster, and keep Netfli…"
-  },
-  {
-    "company": "Netflix",
-    "companySlug": "netflix",
-    "title": "VMAF v1: Good Is Not Good Enough",
-    "url": "https://netflixtechblog.com/vmaf-v1-good-is-not-good-enough-60d7e4244ea8?source=rss----2615bd06b42e---4",
-    "date": "2026-06-19",
-    "summary": "By Christos G. Bampis , Zhi Li , Kyle Swanson, Nil Fons Miret and Pavan Madhusudanarao Will this encode look good to Netflix members? Does switching to a new codec improve quality at the same bitrate and by how much? Wha…"
-  },
-  {
-    "company": "Netflix",
-    "companySlug": "netflix",
-    "title": "The Data Canary: How Netflix Validates Catalog Metadata",
-    "url": "https://medium.com/netflix-techblog/the-data-canary-how-netflix-validates-catalog-metadata-18b699d58e36?source=rss----2615bd06b42e---4",
-    "date": "2026-06-19",
-    "summary": "By Celina Amados At Netflix, our catalog metadata is crucial to our member experience, and a single corrupted data state can impact millions of viewers immediately. To protect streaming reliability, we built an automated…"
   },
   {
     "company": "Netflix",
@@ -266,10 +234,26 @@
   {
     "company": "Netflix",
     "companySlug": "netflix",
+    "title": "From Silos to Service Topology: Why Netflix Built a Real-Time Service Map",
+    "url": "https://medium.com/netflix-techblog/from-silos-to-service-topology-why-netflix-built-a-real-time-service-map-0165ba13a7bc?source=rss----2615bd06b42e---4",
+    "date": "2026-06-19",
+    "summary": "By Parth Jain , Rakesh Sukumar , Yingwu Zhao , Renzo Sanchez Nathan Fisher How we built a living map of our distributed infrastructure to help engineers understand dependencies, troubleshoot faster, and keep Netflix runn…"
+  },
+  {
+    "company": "Netflix",
+    "companySlug": "netflix",
     "title": "Predicting Risk in Content Launches: How Data-Driven Insights can Transform Launch Planning",
     "url": "https://medium.com/netflix-techblog/predicting-risk-in-content-launches-how-data-driven-insights-can-transform-launch-planning-587b1f2de928?source=rss----2615bd06b42e---4",
     "date": "2026-06-19",
     "summary": "by Emily Gill Each year, we bring the Analytics Engineering community together for an Analytics Summit — a multi-day internal conference to share analytical deliverables across Netflix, discuss analytic practice, and bui…"
+  },
+  {
+    "company": "Netflix",
+    "companySlug": "netflix",
+    "title": "The Data Canary: How Netflix Validates Catalog Metadata",
+    "url": "https://medium.com/netflix-techblog/the-data-canary-how-netflix-validates-catalog-metadata-18b699d58e36?source=rss----2615bd06b42e---4",
+    "date": "2026-06-19",
+    "summary": "By Celina Amados At Netflix, our catalog metadata is crucial to our member experience, and a single corrupted data state can impact millions of viewers immediately. To protect streaming reliability, we built an automated…"
   },
   {
     "company": "Netflix",
@@ -290,22 +274,6 @@
   {
     "company": "Netflix",
     "companySlug": "netflix",
-    "title": "A Human-Augmenting Agentic Workflow for Causal Inference",
-    "url": "https://medium.com/netflix-techblog/a-human-augmenting-agentic-workflow-for-causal-inference-4623f0a9c5af?source=rss----2615bd06b42e---4",
-    "date": "2026-06-19",
-    "summary": "By Winston Chou, Adrien Alexandre, Lars Olds, Yi Zhang, Garrett Hagemann, and Nathan Kallus Introduction Imagine asking a data agent to analyze the causal relationship between two variables, such as the effect of watchin…"
-  },
-  {
-    "company": "Netflix",
-    "companySlug": "netflix",
-    "title": "From Silos to Service Topology: Why Netflix Built a Real-Time Service Map",
-    "url": "https://medium.com/netflix-techblog/from-silos-to-service-topology-why-netflix-built-a-real-time-service-map-0165ba13a7bc?source=rss----2615bd06b42e---4",
-    "date": "2026-06-19",
-    "summary": "By Parth Jain , Rakesh Sukumar , Yingwu Zhao , Renzo Sanchez Nathan Fisher How we built a living map of our distributed infrastructure to help engineers understand dependencies, troubleshoot faster, and keep Netflix runn…"
-  },
-  {
-    "company": "Netflix",
-    "companySlug": "netflix",
     "title": "VMAF v1: Good Is Not Good Enough",
     "url": "https://medium.com/netflix-techblog/vmaf-v1-good-is-not-good-enough-60d7e4244ea8?source=rss----2615bd06b42e---4",
     "date": "2026-06-19",
@@ -314,18 +282,10 @@
   {
     "company": "Netflix",
     "companySlug": "netflix",
-    "title": "Thinking Fast & Slow for a Personalized Notification System",
-    "url": "https://netflixtechblog.com/thinking-fast-slow-for-a-personalized-notification-system-4d89b26525cd?source=rss----2615bd06b42e---4",
+    "title": "A Human-Augmenting Agentic Workflow for Causal Inference",
+    "url": "https://netflixtechblog.com/a-human-augmenting-agentic-workflow-for-causal-inference-4623f0a9c5af?source=rss----2615bd06b42e---4",
     "date": "2026-06-19",
-    "summary": "by Matthew Wood , Ishan Gupta , Kevin Mercurio, Devon Bryant , and Claire Dorman In his seminal book “Thinking, Fast and Slow,” Daniel Kahneman describes two systems that drive human cognition: System 1, which operates a…"
-  },
-  {
-    "company": "Netflix",
-    "companySlug": "netflix",
-    "title": "Predicting Risk in Content Launches: How Data-Driven Insights can Transform Launch Planning",
-    "url": "https://netflixtechblog.com/predicting-risk-in-content-launches-how-data-driven-insights-can-transform-launch-planning-587b1f2de928?source=rss----2615bd06b42e---4",
-    "date": "2026-06-19",
-    "summary": "by Emily Gill Each year, we bring the Analytics Engineering community together for an Analytics Summit — a multi-day internal conference to share analytical deliverables across Netflix, discuss analytic practice, and bui…"
+    "summary": "By Winston Chou, Adrien Alexandre, Lars Olds, Yi Zhang, Garrett Hagemann, and Nathan Kallus Introduction Imagine asking a data agent to analyze the causal relationship between two variables, such as the effect of watchin…"
   },
   {
     "company": "Netflix",
@@ -338,6 +298,22 @@
   {
     "company": "Netflix",
     "companySlug": "netflix",
+    "title": "From Silos to Service Topology: Why Netflix Built a Real-Time Service Map",
+    "url": "https://netflixtechblog.com/from-silos-to-service-topology-why-netflix-built-a-real-time-service-map-0165ba13a7bc?source=rss----2615bd06b42e---4",
+    "date": "2026-06-19",
+    "summary": "By Parth Jain , Rakesh Sukumar , Yingwu Zhao , Renzo Sanchez-Silva Nathan Fisher How we built a living map of our distributed infrastructure to help engineers understand dependencies, troubleshoot faster, and keep Netfli…"
+  },
+  {
+    "company": "Netflix",
+    "companySlug": "netflix",
+    "title": "Predicting Risk in Content Launches: How Data-Driven Insights can Transform Launch Planning",
+    "url": "https://netflixtechblog.com/predicting-risk-in-content-launches-how-data-driven-insights-can-transform-launch-planning-587b1f2de928?source=rss----2615bd06b42e---4",
+    "date": "2026-06-19",
+    "summary": "by Emily Gill Each year, we bring the Analytics Engineering community together for an Analytics Summit — a multi-day internal conference to share analytical deliverables across Netflix, discuss analytic practice, and bui…"
+  },
+  {
+    "company": "Netflix",
+    "companySlug": "netflix",
     "title": "The Data Canary: How Netflix Validates Catalog Metadata",
     "url": "https://netflixtechblog.com/the-data-canary-how-netflix-validates-catalog-metadata-18b699d58e36?source=rss----2615bd06b42e---4",
     "date": "2026-06-19",
@@ -346,10 +322,26 @@
   {
     "company": "Netflix",
     "companySlug": "netflix",
-    "title": "Dynamic Repartitioning for Time Series Workloads",
-    "url": "https://netflixtechblog.com/dynamically-splitting-wide-partitions-in-cassandra-for-time-series-workloads-0eded064f456?source=rss----2615bd06b42e---4",
-    "date": "2026-06-03",
-    "summary": "By Rajiv Shringi , Kaidan Fullerton , Oleksii Tkachuk and Kartik Sathyanarayanan Introduction Netflix’s TimeSeries Abstraction is a scalable system for ingesting and querying petabytes of temporal event data with millise…"
+    "title": "The Evolution of Cassandra Data Movement at Netflix",
+    "url": "https://netflixtechblog.com/the-evolution-of-cassandra-data-movement-at-netflix-6e13329c80a1?source=rss----2615bd06b42e---4",
+    "date": "2026-06-19",
+    "summary": "By Guil Pires , Jennifer Prince , Jose Camacho , Ken Kurzweil , Phanindra Chunduru Background In a previous post, we introduced Data Bridge , a unified management plane for batch Data Movement at Netflix. Historically, s…"
+  },
+  {
+    "company": "Netflix",
+    "companySlug": "netflix",
+    "title": "Thinking Fast & Slow for a Personalized Notification System",
+    "url": "https://netflixtechblog.com/thinking-fast-slow-for-a-personalized-notification-system-4d89b26525cd?source=rss----2615bd06b42e---4",
+    "date": "2026-06-19",
+    "summary": "by Matthew Wood , Ishan Gupta , Kevin Mercurio, Devon Bryant , and Claire Dorman In his seminal book “Thinking, Fast and Slow,” Daniel Kahneman describes two systems that drive human cognition: System 1, which operates a…"
+  },
+  {
+    "company": "Netflix",
+    "companySlug": "netflix",
+    "title": "VMAF v1: Good Is Not Good Enough",
+    "url": "https://netflixtechblog.com/vmaf-v1-good-is-not-good-enough-60d7e4244ea8?source=rss----2615bd06b42e---4",
+    "date": "2026-06-19",
+    "summary": "By Christos G. Bampis , Zhi Li , Kyle Swanson, Nil Fons Miret and Pavan Madhusudanarao Will this encode look good to Netflix members? Does switching to a new codec improve quality at the same bitrate and by how much? Wha…"
   },
   {
     "company": "Netflix",
@@ -362,8 +354,16 @@
   {
     "company": "Netflix",
     "companySlug": "netflix",
+    "title": "Dynamic Repartitioning for Time Series Workloads",
+    "url": "https://netflixtechblog.com/dynamically-splitting-wide-partitions-in-cassandra-for-time-series-workloads-0eded064f456?source=rss----2615bd06b42e---4",
+    "date": "2026-06-03",
+    "summary": "By Rajiv Shringi , Kaidan Fullerton , Oleksii Tkachuk and Kartik Sathyanarayanan Introduction Netflix’s TimeSeries Abstraction is a scalable system for ingesting and querying petabytes of temporal event data with millise…"
+  },
+  {
+    "company": "Netflix",
+    "companySlug": "netflix",
     "title": "High-Throughput Graph Abstraction at Netflix: Part I",
-    "url": "https://netflixtechblog.com/high-throughput-graph-abstraction-at-netflix-part-i-e88063e6f6d5?source=rss----2615bd06b42e---4",
+    "url": "https://medium.com/netflix-techblog/high-throughput-graph-abstraction-at-netflix-part-i-e88063e6f6d5?source=rss----2615bd06b42e---4",
     "date": "2026-05-29",
     "summary": "By Oleksii Tkachuk , Kartik Sathyanarayanan , Rajiv Shringi Introduction Netflix has a diverse range of graph use cases, each serving specific business needs with unique functionality and performance requirements. These…"
   },
@@ -371,7 +371,7 @@
     "company": "Netflix",
     "companySlug": "netflix",
     "title": "High-Throughput Graph Abstraction at Netflix: Part I",
-    "url": "https://medium.com/netflix-techblog/high-throughput-graph-abstraction-at-netflix-part-i-e88063e6f6d5?source=rss----2615bd06b42e---4",
+    "url": "https://netflixtechblog.com/high-throughput-graph-abstraction-at-netflix-part-i-e88063e6f6d5?source=rss----2615bd06b42e---4",
     "date": "2026-05-29",
     "summary": "By Oleksii Tkachuk , Kartik Sathyanarayanan , Rajiv Shringi Introduction Netflix has a diverse range of graph use cases, each serving specific business needs with unique functionality and performance requirements. These…"
   },

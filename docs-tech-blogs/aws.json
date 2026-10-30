@@ -82,6 +82,14 @@
   {
     "company": "AWS",
     "companySlug": "aws",
+    "title": "Amazon Aurora PostgreSQL now supports direct querying of Apache Iceberg and Parquet data in your data lake",
+    "url": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake/",
+    "date": "2026-09-30",
+    "summary": "Amazon Aurora PostgreSQL now lets you directly query Apache Iceberg and Parquet data stored in your data lake alongside live operational data—no ETL pipelines required. Powered by DuckDB embedded within Aurora, this capa…"
+  },
+  {
+    "company": "AWS",
+    "companySlug": "aws",
     "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
     "url": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types/",
     "date": "2026-09-30",
@@ -94,14 +102,6 @@
     "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches/",
     "date": "2026-09-30",
     "summary": "Amazon S3 Vectors now supports metadata pre filtering, delivering up to 5x higher recall on filtered searches. Filters evaluate before similarity search so scoped queries return more relevant results. Ideal for RAG, agen…"
-  },
-  {
-    "company": "AWS",
-    "companySlug": "aws",
-    "title": "Amazon Aurora PostgreSQL now supports direct querying of Apache Iceberg and Parquet data in your data lake",
-    "url": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake/",
-    "date": "2026-09-30",
-    "summary": "Amazon Aurora PostgreSQL now lets you directly query Apache Iceberg and Parquet data stored in your data lake alongside live operational data—no ETL pipelines required. Powered by DuckDB embedded within Aurora, this capa…"
   },
   {
     "company": "AWS",
@@ -130,18 +130,18 @@
   {
     "company": "AWS",
     "companySlug": "aws",
-    "title": "Now on Amazon CloudWatch Omni: collaborative AI-powered observability for your applications",
-    "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-collaborative-ai-powered-observability-for-your-applications/",
-    "date": "2026-09-22",
-    "summary": "Amazon CloudWatch Omni is the next evolution of CloudWatch — unified observability that brings your applications and AI agents into one reimagined experience, with auto-discovered topology, natural language queries, and…"
-  },
-  {
-    "company": "AWS",
-    "companySlug": "aws",
     "title": "Introducing Amazon CloudWatch Omni: AI-powered observability for generative AI and agentic workloads",
     "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-ai-powered-observability-for-generative-ai-and-agentic-workloads/",
     "date": "2026-09-22",
     "summary": "Learn how Amazon CloudWatch Omni delivers AI-powered observability purpose-built for generative AI and agentic workloads. Trace, evaluate, and experiment with AI agents across any framework—directly from your IDE or a st…"
+  },
+  {
+    "company": "AWS",
+    "companySlug": "aws",
+    "title": "Now on Amazon CloudWatch Omni: collaborative AI-powered observability for your applications",
+    "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-collaborative-ai-powered-observability-for-your-applications/",
+    "date": "2026-09-22",
+    "summary": "Amazon CloudWatch Omni is the next evolution of CloudWatch — unified observability that brings your applications and AI agents into one reimagined experience, with auto-discovered topology, natural language queries, and…"
   },
   {
     "company": "AWS",
@@ -338,10 +338,10 @@
   {
     "company": "AWS",
     "companySlug": "aws",
-    "title": "Automate public TLS certificate issuance with ACME support in AWS Certificate Manager",
-    "url": "https://aws.amazon.com/blogs/aws/automate-public-tls-certificate-issuance-with-acme-support-in-aws-certificate-manager/",
+    "title": "Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode",
+    "url": "https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/",
     "date": "2026-06-30",
-    "summary": "AWS Certificate Manager now supports the ACME protocol for public TLS certificates, enabling automated issuance and renewal through any ACMEv2-compatible client on any workload. Administrators get centralized governance,…"
+    "summary": "AWS CloudFormation speeds up infrastructure deployment with Express mode, enabling AI agents and developers to receive deployment confirmation in seconds and iterate faster. Available in all commercial Regions at no addi…"
   },
   {
     "company": "AWS",
@@ -354,10 +354,10 @@
   {
     "company": "AWS",
     "companySlug": "aws",
-    "title": "Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode",
-    "url": "https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/",
+    "title": "Automate public TLS certificate issuance with ACME support in AWS Certificate Manager",
+    "url": "https://aws.amazon.com/blogs/aws/automate-public-tls-certificate-issuance-with-acme-support-in-aws-certificate-manager/",
     "date": "2026-06-30",
-    "summary": "AWS CloudFormation speeds up infrastructure deployment with Express mode, enabling AI agents and developers to receive deployment confirmation in seconds and iterate faster. Available in all commercial Regions at no addi…"
+    "summary": "AWS Certificate Manager now supports the ACME protocol for public TLS certificates, enabling automated issuance and renewal through any ACMEv2-compatible client on any workload. Administrators get centralized governance,…"
   },
   {
     "company": "AWS",
@@ -386,17 +386,17 @@
   {
     "company": "AWS",
     "companySlug": "aws",
-    "title": "Announcing Amazon EC2 G7 instances accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs",
-    "url": "https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-g7-instances-accelerated-by-nvidia-rtx-pro-4500-blackwell-server-edition-gpus/",
-    "date": "2026-06-18",
-    "summary": "Announcing the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, delivering high performance GPU acceleration for AI inference, graphics, and data analytics workloads."
-  },
-  {
-    "company": "AWS",
-    "companySlug": "aws",
     "title": "Amazon ECS introduces new high-resolution metrics for faster service auto scaling",
     "url": "https://aws.amazon.com/blogs/aws/amazon-ecs-introduces-new-high-resolution-metrics-for-faster-service-auto-scaling/",
     "date": "2026-06-18",
     "summary": "Amazon Elastic Container Service (Amazon ECS) service auto scaling automatically adjusts task counts to meet workload demand with comprehensive scaling policies, including predictive scaling for recurring traffic pattern…"
+  },
+  {
+    "company": "AWS",
+    "companySlug": "aws",
+    "title": "Announcing Amazon EC2 G7 instances accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs",
+    "url": "https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-g7-instances-accelerated-by-nvidia-rtx-pro-4500-blackwell-server-edition-gpus/",
+    "date": "2026-06-18",
+    "summary": "Announcing the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, delivering high performance GPU acceleration for AI inference, graphics, and data analytics workloads."
   }
 ]

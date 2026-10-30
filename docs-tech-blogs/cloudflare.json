@@ -2,6 +2,14 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
+    "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
+    "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
+    "date": "2026-10-29",
+    "summary": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and the impact of recent b…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
     "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
     "url": "https://blog.cloudflare.com/php-ctf/",
     "date": "2026-10-27",
@@ -90,18 +98,18 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Cutting our inference bill by 68% by being obsessive about optimization",
-    "url": "https://blog.cloudflare.com/obsessive-inference-optimization/",
-    "date": "2026-10-19",
-    "summary": "When our AI code reviewer's cost per run doubled, we dug into the token usage to find out why. Learn how we used prompt caching and intelligent model routing to slash our inference bill by 68% while speeding up reviews."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
     "title": "Introducing Clairic, a new System One class of extraction models",
     "url": "https://blog.cloudflare.com/clairic-extraction-model/",
     "date": "2026-10-19",
     "summary": "Clairic is a new model from Cloudflare that is a System One extraction modeI, capable of extracting, computing, estimating, and forecasting data from unstructured inputs."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Cutting our inference bill by 68% by being obsessive about optimization",
+    "url": "https://blog.cloudflare.com/obsessive-inference-optimization/",
+    "date": "2026-10-19",
+    "summary": "When our AI code reviewer's cost per run doubled, we dug into the token usage to find out why. Learn how we used prompt caching and intelligent model routing to slash our inference bill by 68% while speeding up reviews."
   },
   {
     "company": "Cloudflare",
@@ -122,10 +130,10 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "A fully programmable secure web gateway",
-    "url": "https://blog.cloudflare.com/programmable-gateway-dlp/",
+    "title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
+    "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
     "date": "2026-10-15",
-    "summary": "Cloudflare Gateway and Data Loss Prevention have inherited the flexibility and power of Cloudflare Workers through our full-stack integration with the Cloudflare Developer platform."
+    "summary": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike."
   },
   {
     "company": "Cloudflare",
@@ -138,18 +146,10 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
-    "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
+    "title": "A fully programmable secure web gateway",
+    "url": "https://blog.cloudflare.com/programmable-gateway-dlp/",
     "date": "2026-10-15",
-    "summary": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Yandex outage: Data shows that instead of going dark, malicious bots went on the move",
-    "url": "https://blog.cloudflare.com/yandex-outage/",
-    "date": "2026-10-14",
-    "summary": "When strikes hit Yandex data centers, many assumed Russian bot operations went dark. Cloudflare data reveals that while search crawling stopped, malicious bots simply migrated to other networks."
+    "summary": "Cloudflare Gateway and Data Loss Prevention have inherited the flexibility and power of Cloudflare Workers through our full-stack integration with the Cloudflare Developer platform."
   },
   {
     "company": "Cloudflare",
@@ -162,10 +162,10 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Rewinding the exponential: How we keep hardware usage down",
-    "url": "https://blog.cloudflare.com/rewinding-the-exponential/",
-    "date": "2026-10-13",
-    "summary": "Our strategies to optimize our data pipeline throughput without compromising data quality."
+    "title": "Yandex outage: Data shows that instead of going dark, malicious bots went on the move",
+    "url": "https://blog.cloudflare.com/yandex-outage/",
+    "date": "2026-10-14",
+    "summary": "When strikes hit Yandex data centers, many assumed Russian bot operations went dark. Cloudflare data reveals that while search crawling stopped, malicious bots simply migrated to other networks."
   },
   {
     "company": "Cloudflare",
@@ -178,10 +178,26 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
+    "title": "Rewinding the exponential: How we keep hardware usage down",
+    "url": "https://blog.cloudflare.com/rewinding-the-exponential/",
+    "date": "2026-10-13",
+    "summary": "Our strategies to optimize our data pipeline throughput without compromising data quality."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
     "title": "Filter, reshape, and redact logs before export with Transformers",
     "url": "https://blog.cloudflare.com/transformers-on-logpush/",
     "date": "2026-10-12",
     "summary": "Logpush now supports Transformers, allowing teams to filter, redact, and reshape log streams using SQL before export. Powered by Apache DataFusion and Apache Arrow, Transformers apply those changes directly to log data b…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
+    "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
+    "date": "2026-10-09",
+    "summary": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline. We’ve also lowered Clef-flash pricing and boosted Clef inference speeds by up to 2.…"
   },
   {
     "company": "Cloudflare",
@@ -202,16 +218,8 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
-    "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
-    "date": "2026-10-09",
-    "summary": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline. We’ve also lowered Clef-flash pricing and boosted Clef inference speeds by up to 2.…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
     "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
-    "url": "https://blog.cloudflare.com/radar-redesign/",
+    "url": "https://blog.cloudflare.com/draft-blog-0091/",
     "date": "2026-10-08",
     "summary": "We redesigned Cloudflare Radar to make real-time global traffic and outage data accessible to a wider audience — including journalists, less technical researchers, and everyday users. By introducing an interactive map an…"
   },
@@ -219,7 +227,7 @@
     "company": "Cloudflare",
     "companySlug": "cloudflare",
     "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
-    "url": "https://blog.cloudflare.com/draft-blog-0091/",
+    "url": "https://blog.cloudflare.com/radar-redesign/",
     "date": "2026-10-08",
     "summary": "We redesigned Cloudflare Radar to make real-time global traffic and outage data accessible to a wider audience — including journalists, less technical researchers, and everyday users. By introducing an interactive map an…"
   },
@@ -258,30 +266,6 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Introducing Web Search API via AI Gateway",
-    "url": "https://blog.cloudflare.com/introducing-web-search-api/",
-    "date": "2026-10-02",
-    "summary": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs,…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
-    "url": "https://blog.cloudflare.com/streamline/",
-    "date": "2026-10-02",
-    "summary": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "8 major updates to Cloudflare Observability",
-    "url": "https://blog.cloudflare.com/one-observability-platform/",
-    "date": "2026-10-02",
-    "summary": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
     "title": "Follow the thread: a new dashboard to investigate account abuse",
     "url": "https://blog.cloudflare.com/account-abuse-protection-dashboard/",
     "date": "2026-10-02",
@@ -294,30 +278,6 @@
     "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
     "date": "2026-10-02",
     "summary": "We’re announcing the closed beta of a self-serve Cloudflare OHTTP Gateway. We’re also renaming our Privacy Gateway to Cloudflare OHTTP Relay to better distinguish the two products."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
-    "url": "https://blog.cloudflare.com/enterprise-for-all-update/",
-    "date": "2026-10-02",
-    "summary": "A year after pledging to eliminate two-tier product access, Cloudflare has expanded Logpush, multi-account governance, and higher platform limits to all accounts. Here is an update on our progress, how we dogfood these t…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "2026 Birthday week: network performance update",
-    "url": "https://blog.cloudflare.com/network-performance-birthday-week-2026/",
-    "date": "2026-10-02",
-    "summary": "Cloudflare now ranks as the fastest provider across 74% of the top 1,000 global networks. By incorporating background telemetry from Cloudflare Challenge Pages, we have expanded our real-user measurement scale while main…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
-    "url": "https://blog.cloudflare.com/protected-quick-tunnels/",
-    "date": "2026-10-02",
-    "summary": "Quick Tunnels now support email authentication. Add --allowed-mail to one cloudflared command, and only the addresses or domains you list can reach your local app. No Cloudflare account required on either side."
   },
   {
     "company": "Cloudflare",
@@ -338,6 +298,62 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
+    "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
+    "url": "https://blog.cloudflare.com/enterprise-for-all-update/",
+    "date": "2026-10-02",
+    "summary": "A year after pledging to eliminate two-tier product access, Cloudflare has expanded Logpush, multi-account governance, and higher platform limits to all accounts. Here is an update on our progress, how we dogfood these t…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Introducing Web Search API via AI Gateway",
+    "url": "https://blog.cloudflare.com/introducing-web-search-api/",
+    "date": "2026-10-02",
+    "summary": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs,…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "2026 Birthday week: network performance update",
+    "url": "https://blog.cloudflare.com/network-performance-birthday-week-2026/",
+    "date": "2026-10-02",
+    "summary": "Cloudflare now ranks as the fastest provider across 74% of the top 1,000 global networks. By incorporating background telemetry from Cloudflare Challenge Pages, we have expanded our real-user measurement scale while main…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "8 major updates to Cloudflare Observability",
+    "url": "https://blog.cloudflare.com/one-observability-platform/",
+    "date": "2026-10-02",
+    "summary": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
+    "url": "https://blog.cloudflare.com/protected-quick-tunnels/",
+    "date": "2026-10-02",
+    "summary": "Quick Tunnels now support email authentication. Add --allowed-mail to one cloudflared command, and only the addresses or domains you list can reach your local app. No Cloudflare account required on either side."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
+    "url": "https://blog.cloudflare.com/streamline/",
+    "date": "2026-10-02",
+    "summary": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "AI Search is now generally available",
+    "url": "https://blog.cloudflare.com/ai-search-ga/",
+    "date": "2026-10-01",
+    "summary": "AI Search is now generally available. It embeds image pixels directly for visual search, runs optical character recognition on scanned PDFs, accepts files up to 10 MiB, and works with any chat model. Here's what's new an…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
     "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
     "url": "https://blog.cloudflare.com/clef-decision-models/",
     "date": "2026-10-01",
@@ -346,10 +362,10 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "One year later: Sovereign AI and the fight for choice",
-    "url": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
+    "title": "Introducing Cloudflare Basin: an open, serverless data platform, now generally available",
+    "url": "https://blog.cloudflare.com/cloudflare-basin/",
     "date": "2026-10-01",
-    "summary": "AI sovereignty is not a zero-sum game, but many governments now believe it is. Cloudflare's answer: more local open-source models, model-agnostic security tools, and a commitment to giving nations genuine choice."
+    "summary": "Cloudflare Basin is built on Apache Iceberg and R2 Object Storage. With general availability, developers can ingest, manage, and query large datasets at scale without paying data egress fees."
   },
   {
     "company": "Cloudflare",
@@ -370,22 +386,6 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Introducing Workers KV Instant — powered by Quicksilver",
-    "url": "https://blog.cloudflare.com/workers-kv-instant/",
-    "date": "2026-10-01",
-    "summary": "Workers KV Instant delivers sub-2ms p99 read latencies and 250ms global replication across Cloudflare’s 300+ edge locations. KV Instant eliminates cold-read penalties and uses the familiar Workers KV API."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "AI Search is now generally available",
-    "url": "https://blog.cloudflare.com/ai-search-ga/",
-    "date": "2026-10-01",
-    "summary": "AI Search is now generally available. It embeds image pixels directly for visual search, runs optical character recognition on scanned PDFs, accepts files up to 10 MiB, and works with any chat model. Here's what's new an…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
     "title": "We want you to build the next Git platform on Cloudflare",
     "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
     "date": "2026-10-01",
@@ -394,9 +394,9 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
-    "title": "Introducing Cloudflare Basin: an open, serverless data platform, now generally available",
-    "url": "https://blog.cloudflare.com/cloudflare-basin/",
+    "title": "One year later: Sovereign AI and the fight for choice",
+    "url": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
     "date": "2026-10-01",
-    "summary": "Cloudflare Basin is built on Apache Iceberg and R2 Object Storage. With general availability, developers can ingest, manage, and query large datasets at scale without paying data egress fees."
+    "summary": "AI sovereignty is not a zero-sum game, but many governments now believe it is. Cloudflare's answer: more local open-source models, model-agnostic security tools, and a commitment to giving nations genuine choice."
   }
 ]

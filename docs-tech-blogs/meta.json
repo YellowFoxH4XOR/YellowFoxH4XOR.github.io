@@ -2,18 +2,18 @@
   {
     "company": "Meta",
     "companySlug": "meta",
-    "title": "Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design",
-    "url": "https://engineering.fb.com/2026/10/28/ml-applications/meta-andromeda-next-gen-ads-retrieval-gpu-co-design/",
-    "date": "2026-10-28",
-    "summary": "This post describes the next generation of Meta Andromeda, Meta s personalized ads retrieval engine, and how co-designing the model, system, and GPU hardware unlocks a new efficiency frontier for ads retrieval. In produc…"
+    "title": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale",
+    "url": "https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale/",
+    "date": "2026-10-29",
+    "summary": "Over the last year we ve been sharing our work leveraging large language models to catch bugs on the fly — a novel approach we call Catching Just-in-Time Tests (JiTTests). Now, we re sharing the results and positive impa…"
   },
   {
     "company": "Meta",
     "companySlug": "meta",
-    "title": "PrivacyLib: Privacy Controls at the Data Access Boundary",
-    "url": "https://engineering.fb.com/2026/10/27/security/privacylib/",
-    "date": "2026-10-27",
-    "summary": "This latest deep dive into Meta’s Privacy Aware Infrastructure (PAI) takes a look at PrivacyLib. A privacy requirement must hold as data moves through Meta s diverse data and processing systems. Historically, supporting…"
+    "title": "Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design",
+    "url": "https://engineering.fb.com/2026/10/28/ml-applications/meta-andromeda-next-gen-ads-retrieval-gpu-co-design/",
+    "date": "2026-10-28",
+    "summary": "This post describes the next generation of Meta Andromeda, Meta s personalized ads retrieval engine, and how co-designing the model, system, and GPU hardware unlocks a new efficiency frontier for ads retrieval. In produc…"
   },
   {
     "company": "Meta",
@@ -26,10 +26,26 @@
   {
     "company": "Meta",
     "companySlug": "meta",
+    "title": "PrivacyLib: Privacy Controls at the Data Access Boundary",
+    "url": "https://engineering.fb.com/2026/10/27/security/privacylib/",
+    "date": "2026-10-27",
+    "summary": "This latest deep dive into Meta’s Privacy Aware Infrastructure (PAI) takes a look at PrivacyLib. A privacy requirement must hold as data moves through Meta s diverse data and processing systems. Historically, supporting…"
+  },
+  {
+    "company": "Meta",
+    "companySlug": "meta",
     "title": "Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks",
     "url": "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks/",
     "date": "2026-10-26",
     "summary": "At the 2026 Open Compute Project (OCP) Global Summit, Meta shared the networking innovations that are directly supporting our latest AI models, including Muse Wonder and Muse Spark, and our gigawatt-scale Prometheus clus…"
+  },
+  {
+    "company": "Meta",
+    "companySlug": "meta",
+    "title": "Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster",
+    "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+    "date": "2026-10-19",
+    "summary": "With the recent release of the Muse family of foundational models, we want to take you inside the infrastructure that has made it all possible. The first phase of Prometheus, our gigawatt-scale supercluster, is already c…"
   },
   {
     "company": "Meta",
@@ -46,14 +62,6 @@
     "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/",
     "date": "2026-10-19",
     "summary": "Sometimes, giving an AI agent all of the knowledge it needs is the wrong approach. At Meta, we ve seen notable improvements in efficiency and accuracy by keeping the orchestration layer of our data pipeline agents delibe…"
-  },
-  {
-    "company": "Meta",
-    "companySlug": "meta",
-    "title": "Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster",
-    "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
-    "date": "2026-10-19",
-    "summary": "With the recent release of the Muse family of foundational models, we want to take you inside the infrastructure that has made it all possible. The first phase of Prometheus, our gigawatt-scale supercluster, is already c…"
   },
   {
     "company": "Meta",
@@ -90,10 +98,10 @@
   {
     "company": "Meta",
     "companySlug": "meta",
-    "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
-    "url": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
+    "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+    "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
     "date": "2026-10-12",
-    "summary": "Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our protocol stack for live streaming video and enhance overall user experience for…"
+    "summary": "At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation work to expand across opportunistic capacit…"
   },
   {
     "company": "Meta",
@@ -106,10 +114,10 @@
   {
     "company": "Meta",
     "companySlug": "meta",
-    "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
-    "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
+    "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
+    "url": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
     "date": "2026-10-12",
-    "summary": "At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation work to expand across opportunistic capacit…"
+    "summary": "Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our protocol stack for live streaming video and enhance overall user experience for…"
   },
   {
     "company": "Meta",

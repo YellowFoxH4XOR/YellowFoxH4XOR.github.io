@@ -2,18 +2,18 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "GitLab Orbit is GA: Higher agent accuracy, lower token cost",
-    "url": "https://about.gitlab.com/blog/gitlab-orbit-ga/",
-    "date": "2026-10-29",
-    "summary": "An agent’s true cost isn’t only the tokens it burns. It’s the review that calls your code “safe to merge” after seeing the diff, but without any context on the pipeline. We call that artificial confidence, not artificial…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
     "title": "GitLab Orbit: Find vulnerability blast radius without the manual hunt",
     "url": "https://about.gitlab.com/blog/find-vulnerability-blast-radius-with-gitlab-orbit/",
     "date": "2026-10-29",
     "summary": "A critical vulnerability needs a fix and a map. The fix is usually fast. Finding where the vulnerable component lives, who owns it, and whether it s exposed to the Internet is what costs you time. Most security teams pie…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "GitLab Orbit is GA: Higher agent accuracy, lower token cost",
+    "url": "https://about.gitlab.com/blog/gitlab-orbit-ga/",
+    "date": "2026-10-29",
+    "summary": "An agent’s true cost isn’t only the tokens it burns. It’s the review that calls your code “safe to merge” after seeing the diff, but without any context on the pipeline. We call that artificial confidence, not artificial…"
   },
   {
     "company": "GitLab",
@@ -58,10 +58,10 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Redesign how your team ships software with AI agents",
-    "url": "https://about.gitlab.com/blog/redesign-how-your-team-ships-software-with-ai-agents/",
+    "title": "AI Governance: One view of agent activity",
+    "url": "https://about.gitlab.com/blog/ai-governance-dashboard/",
     "date": "2026-10-20",
-    "summary": "AI agents are sending more and more code into review queues built for human-paced work. A coding assistant can speed up code writing, but it can’t show you whether review, security checks, and release approvals can keep…"
+    "summary": "AI coding agents are writing and changing code, from GitLab Duo Agent Platform agents to externally connected agents like Claude Code, Cursor, and Codex. You are accountable for what those agents do, yet most of their ac…"
   },
   {
     "company": "GitLab",
@@ -74,18 +74,10 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "AI Governance: One view of agent activity",
-    "url": "https://about.gitlab.com/blog/ai-governance-dashboard/",
+    "title": "Redesign how your team ships software with AI agents",
+    "url": "https://about.gitlab.com/blog/redesign-how-your-team-ships-software-with-ai-agents/",
     "date": "2026-10-20",
-    "summary": "AI coding agents are writing and changing code, from GitLab Duo Agent Platform agents to externally connected agents like Claude Code, Cursor, and Codex. You are accountable for what those agents do, yet most of their ac…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "Three developer tasks worth handing to an agent",
-    "url": "https://about.gitlab.com/blog/three-developer-tasks-worth-handing-to-an-agent/",
-    "date": "2026-10-19",
-    "summary": "You already have an AI assistant. It completes your code, explains code you didn’t write, and maybe even drafts a whole feature while you sip your coffee. An agent on GitLab picks up where your editor stops. The AI in yo…"
+    "summary": "AI agents are sending more and more code into review queues built for human-paced work. A coding assistant can speed up code writing, but it can’t show you whether review, security checks, and release approvals can keep…"
   },
   {
     "company": "GitLab",
@@ -98,18 +90,18 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "GitLab Secrets Manager: Govern secrets like your code",
-    "url": "https://about.gitlab.com/blog/secrets-manager-ga/",
-    "date": "2026-10-15",
-    "summary": "Credentials often start in an engineer s local dev environments, then get copied into unscoped CI/CD variables to keep pipelines running. Stored there as a raw value rather than a reference to a scoped secret, a signing…"
+    "title": "Three developer tasks worth handing to an agent",
+    "url": "https://about.gitlab.com/blog/three-developer-tasks-worth-handing-to-an-agent/",
+    "date": "2026-10-19",
+    "summary": "You already have an AI assistant. It completes your code, explains code you didn’t write, and maybe even drafts a whole feature while you sip your coffee. An agent on GitLab picks up where your editor stops. The AI in yo…"
   },
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Get every merge request in front of the right reviewer, faster",
-    "url": "https://about.gitlab.com/blog/recommend-reviewers-flow/",
+    "title": "Unblock agentic software delivery with governed code review",
+    "url": "https://about.gitlab.com/blog/gitlab-code-review/",
     "date": "2026-10-15",
-    "summary": "The code is written. Now who reviews it? The volume of code has never been greater, but delivery hasn’t kept pace. At Meta, code changes on internal platforms grew 220% year over year, while changes that reached users as…"
+    "summary": "AI agents have changed how much code a team can produce in a day. Review queues haven’t kept up, and delivery stalls while changes wait for a closer look. The usual workarounds (reminders, reviewer rotations, assigning a…"
   },
   {
     "company": "GitLab",
@@ -122,10 +114,18 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Unblock agentic software delivery with governed code review",
-    "url": "https://about.gitlab.com/blog/gitlab-code-review/",
+    "title": "Get every merge request in front of the right reviewer, faster",
+    "url": "https://about.gitlab.com/blog/recommend-reviewers-flow/",
     "date": "2026-10-15",
-    "summary": "AI agents have changed how much code a team can produce in a day. Review queues haven’t kept up, and delivery stalls while changes wait for a closer look. The usual workarounds (reminders, reviewer rotations, assigning a…"
+    "summary": "The code is written. Now who reviews it? The volume of code has never been greater, but delivery hasn’t kept pace. At Meta, code changes on internal platforms grew 220% year over year, while changes that reached users as…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "GitLab Secrets Manager: Govern secrets like your code",
+    "url": "https://about.gitlab.com/blog/secrets-manager-ga/",
+    "date": "2026-10-15",
+    "summary": "Credentials often start in an engineer s local dev environments, then get copied into unscoped CI/CD variables to keep pipelines running. Stored there as a raw value rather than a reference to a scoped secret, a signing…"
   },
   {
     "company": "GitLab",
@@ -154,18 +154,18 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Scaling Git for the agentic software factory",
-    "url": "https://about.gitlab.com/blog/scaling-git-for-the-agentic-software-factory/",
-    "date": "2026-10-13",
-    "summary": "AI agents are fundamentally changing the economics of software development. As the cost of producing code falls, the volume of changes moving through the software factory is accelerating beyond what infrastructure design…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
     "title": "Make every AI credit count: See, cap, and reduce agent spend",
     "url": "https://about.gitlab.com/blog/make-every-ai-credit-count/",
     "date": "2026-10-13",
     "summary": "Costs multiply with every task you hand to an agent. Each task consumes tokens and credits, and as agents spread across your teams and automations, consumption can grow faster than usage. If you run the platform, you own…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "Scaling Git for the agentic software factory",
+    "url": "https://about.gitlab.com/blog/scaling-git-for-the-agentic-software-factory/",
+    "date": "2026-10-13",
+    "summary": "AI agents are fundamentally changing the economics of software development. As the cost of producing code falls, the volume of changes moving through the software factory is accelerating beyond what infrastructure design…"
   },
   {
     "company": "GitLab",
@@ -250,14 +250,6 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "How to design GitLab for enterprise scale",
-    "url": "https://about.gitlab.com/blog/how-to-design-gitlab-for-enterprise-scale/",
-    "date": "2026-09-22",
-    "summary": "At enterprise scale, even small architecture choices can have outsized consequences. A deployment that works for a handful of teams can become a constraint once thousands of developers, repositories, and pipelines depend…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
     "title": "How GitLab reduced code-per-agentic-flow ratio by 45%",
     "url": "https://about.gitlab.com/blog/how-gitlab-reduced-code-per-agentic-flow-ratio/",
     "date": "2026-09-22",
@@ -266,10 +258,10 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "GitLab 19.4 released",
-    "url": "https://docs.gitlab.com/releases/19/gitlab-19-4-released/",
-    "date": "2026-09-18",
-    "summary": ""
+    "title": "How to design GitLab for enterprise scale",
+    "url": "https://about.gitlab.com/blog/how-to-design-gitlab-for-enterprise-scale/",
+    "date": "2026-09-22",
+    "summary": "At enterprise scale, even small architecture choices can have outsized consequences. A deployment that works for a handful of teams can become a constraint once thousands of developers, repositories, and pipelines depend…"
   },
   {
     "company": "GitLab",
@@ -282,18 +274,10 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "Optimize your team's price-performance with hosted open weight models",
-    "url": "https://about.gitlab.com/blog/optimize-with-open-weight-models/",
-    "date": "2026-09-17",
-    "summary": "There’s no single best model for every software development task. Implementing a new feature, diagnosing a failed pipeline, and resolving security vulnerabilities all place different demands on the model handling them. G…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "Rate limits on GitLab.com are changing",
-    "url": "https://about.gitlab.com/blog/rate-limit-change-2026/",
-    "date": "2026-09-17",
-    "summary": "GitLab.com hosts millions of projects for teams of every size that need a platform they can rely on. Demand is climbing quickly, and we expect platform load to grow several times over this year. Predictable limits are wh…"
+    "title": "GitLab 19.4 released",
+    "url": "https://docs.gitlab.com/releases/19/gitlab-19-4-released/",
+    "date": "2026-09-18",
+    "summary": ""
   },
   {
     "company": "GitLab",
@@ -322,6 +306,22 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
+    "title": "Optimize your team's price-performance with hosted open weight models",
+    "url": "https://about.gitlab.com/blog/optimize-with-open-weight-models/",
+    "date": "2026-09-17",
+    "summary": "There’s no single best model for every software development task. Implementing a new feature, diagnosing a failed pipeline, and resolving security vulnerabilities all place different demands on the model handling them. G…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "Rate limits on GitLab.com are changing",
+    "url": "https://about.gitlab.com/blog/rate-limit-change-2026/",
+    "date": "2026-09-17",
+    "summary": "GitLab.com hosts millions of projects for teams of every size that need a platform they can rely on. Demand is climbing quickly, and we expect platform load to grow several times over this year. Predictable limits are wh…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
     "title": "When to use SAST versus an LLM security scanner",
     "url": "https://about.gitlab.com/blog/sast-vs-llm-security-scanner/",
     "date": "2026-09-16",
@@ -338,18 +338,18 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "GitLab Critical Patch Release: 19.3.2, 19.2.6, 19.1.8",
-    "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-3-2-released/",
-    "date": "2026-09-11",
-    "summary": ""
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
     "title": "How to calculate DevOps platform total cost of ownership",
     "url": "https://about.gitlab.com/blog/how-to-calculate-devops-platform-total-cost-of-ownership/",
     "date": "2026-09-11",
     "summary": "There’s nothing like budget pressure to put your DevOps platform under a microscope. But subscription fees and license costs only tell one part of the story. The total cost of ownership (TCO) for a DevOps platform also i…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "GitLab Critical Patch Release: 19.3.2, 19.2.6, 19.1.8",
+    "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-3-2-released/",
+    "date": "2026-09-11",
+    "summary": ""
   },
   {
     "company": "GitLab",
@@ -370,14 +370,6 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "GPT-6 Astra on GitLab: Faster runs, fewer tokens used",
-    "url": "https://about.gitlab.com/blog/gpt6-astra-on-gitlab/",
-    "date": "2026-09-08",
-    "summary": "OpenAI s newest frontier model GPT-6 Astra is now on GitLab Duo Agent Platform, delivering faster runs and lower token usage. In GitLab s internal evaluation, GPT-6 Astra finished a typical run 43.4% faster than GPT-5.6…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
     "title": "Bring your own model to GitLab Duo Self-Hosted with Microsoft Foundry",
     "url": "https://about.gitlab.com/blog/gitlab-duo-self-hosted-models-on-microsoft-foundry/",
     "date": "2026-09-08",
@@ -386,10 +378,10 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
-    "title": "GitLab’s internal playbook to foster AI-fluent technical teams",
-    "url": "https://about.gitlab.com/blog/how-gitlab-fosters-ai-fluent-teams/",
-    "date": "2026-09-02",
-    "summary": "Give two engineering teams the same AI tool and you can end up with two very different outcomes. One team ships faster with fewer bugs, while the other gets burned by an agent that confidently generates the wrong output.…"
+    "title": "GPT-6 Astra on GitLab: Faster runs, fewer tokens used",
+    "url": "https://about.gitlab.com/blog/gpt6-astra-on-gitlab/",
+    "date": "2026-09-08",
+    "summary": "OpenAI s newest frontier model GPT-6 Astra is now on GitLab Duo Agent Platform, delivering faster runs and lower token usage. In GitLab s internal evaluation, GPT-6 Astra finished a typical run 43.4% faster than GPT-5.6…"
   },
   {
     "company": "GitLab",
@@ -398,5 +390,13 @@
     "url": "https://about.gitlab.com/blog/critical-remote-code-execution-in-vm2/",
     "date": "2026-09-02",
     "summary": "GitLab s Threat Research Group found a critical sandbox escape vulnerability in vm2, one of the most widely adopted Node.js sandboxing libraries. The vulnerability uses a configuration copied straight from vm2 s own READ…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "GitLab’s internal playbook to foster AI-fluent technical teams",
+    "url": "https://about.gitlab.com/blog/how-gitlab-fosters-ai-fluent-teams/",
+    "date": "2026-09-02",
+    "summary": "Give two engineering teams the same AI tool and you can end up with two very different outcomes. One team ships faster with fewer bugs, while the other gets burned by an agent that confidently generates the wrong output.…"
   }
 ]

@@ -18,18 +18,18 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "Selection-Based Structured Reasoning: Toward Efficient Multimodal Search Agents",
-    "url": "https://machinelearning.apple.com/research/selection-structured-reasoning",
-    "date": "2026-10-15",
-    "summary": "Multimodal agents commonly generate freeform reasoning before each action. For small models, limited model capacity can result in lengthy reasoning that provides little useful guidance for action generation while incurri…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
     "title": "Plan or Retrieve First? A Scale Study of Tool Discovery Architectures",
     "url": "https://machinelearning.apple.com/research/plan-retrieve-tool-discovery",
     "date": "2026-10-15",
     "summary": "Tool-augmented LLM agents discover relevant APIs from large registries before planning execution, yet finite context windows prohibit injecting all tool definitions into a single prompt. The dominant approach, which we t…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
+    "title": "Selection-Based Structured Reasoning: Toward Efficient Multimodal Search Agents",
+    "url": "https://machinelearning.apple.com/research/selection-structured-reasoning",
+    "date": "2026-10-15",
+    "summary": "Multimodal agents commonly generate freeform reasoning before each action. For small models, limited model capacity can result in lengthy reasoning that provides little useful guidance for action generation while incurri…"
   },
   {
     "company": "Apple",
@@ -58,18 +58,18 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "Large Language Models for Machine Translation Quality Annotation: Humans and Models Are Both Challenged",
-    "url": "https://machinelearning.apple.com/research/llm-translation-quality-annotation",
-    "date": "2026-10-12",
-    "summary": "Large Language Models (LLMs) are considered to be a more efficient and cost-effective alternative to human judgment for Machine Translation (MT) evaluation. With MT evaluation spanning a large number of language pairs, d…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
     "title": "Minions: A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
     "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
     "date": "2026-10-12",
     "summary": "The increasing demand for GPU-accelerated machine learning inference has exposed limitations in centralized GPU infrastructures, including high cost, limited elasticity, and long wait times under resource constraints. At…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
+    "title": "Large Language Models for Machine Translation Quality Annotation: Humans and Models Are Both Challenged",
+    "url": "https://machinelearning.apple.com/research/llm-translation-quality-annotation",
+    "date": "2026-10-12",
+    "summary": "Large Language Models (LLMs) are considered to be a more efficient and cost-effective alternative to human judgment for Machine Translation (MT) evaluation. With MT evaluation spanning a large number of language pairs, d…"
   },
   {
     "company": "Apple",
@@ -122,18 +122,18 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "RLTL;DR: Self-Improvement by Internalizing Self-Generated Feedback",
-    "url": "https://machinelearning.apple.com/research/rltl-dr-self-improvement",
-    "date": "2026-10-01",
-    "summary": "The common paradigm of reinforcement learning with verifiable rewards (RLVR) is to let agents make multiple attempts at a task, and optimize towards the successful ones. This becomes problematic in the realms of self-imp…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
     "title": "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?",
     "url": "https://machinelearning.apple.com/research/harness-autonomous-ml-engineering",
     "date": "2026-10-01",
     "summary": "Recent autonomous machine learning engineering (MLE) agents have made significant progress on public leaderboards. Often motivated by progress stagnation over long-horizon cycles and limited Large Language Model (LLM) pr…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
+    "title": "RLTL;DR: Self-Improvement by Internalizing Self-Generated Feedback",
+    "url": "https://machinelearning.apple.com/research/rltl-dr-self-improvement",
+    "date": "2026-10-01",
+    "summary": "The common paradigm of reinforcement learning with verifiable rewards (RLVR) is to let agents make multiple attempts at a task, and optimize towards the successful ones. This becomes problematic in the realms of self-imp…"
   },
   {
     "company": "Apple",
@@ -170,18 +170,18 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "A Practical Recipe for Semi-Supervised Federated ASR: Online Pseudo-Labels with Server Update Stabilization",
-    "url": "https://machinelearning.apple.com/research/practical-recipe-federated-asr",
-    "date": "2026-09-24",
-    "summary": "Semi-supervised federated learning (SSFL) trains models on clients’ unlabeled data using a teacher to generate pseudo-labels, with a small labeled seed dataset on the server. Automatic Speech Recognition (ASR) is particu…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
     "title": "Compressing Streaming Neural Audio Encoders via Latent-Space Distillation",
     "url": "https://machinelearning.apple.com/research/latent-space-distillation",
     "date": "2026-09-24",
     "summary": "System-wide Dictation on Apple devices runs entirely on-device, and the speech it transcribes reaches the foundation model through a tokenizer: an encoder that maps short windows of waveform onto the representation the l…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
+    "title": "A Practical Recipe for Semi-Supervised Federated ASR: Online Pseudo-Labels with Server Update Stabilization",
+    "url": "https://machinelearning.apple.com/research/practical-recipe-federated-asr",
+    "date": "2026-09-24",
+    "summary": "Semi-supervised federated learning (SSFL) trains models on clients’ unlabeled data using a teacher to generate pseudo-labels, with a small labeled seed dataset on the server. Automatic Speech Recognition (ASR) is particu…"
   },
   {
     "company": "Apple",
@@ -210,6 +210,22 @@
   {
     "company": "Apple",
     "companySlug": "apple",
+    "title": "DACA-GRPO: Denoising-Aware Credit Assignment for Reinforcement Learning in Diffusion Language Models",
+    "url": "https://machinelearning.apple.com/research/denoising-aware-credit-assignment",
+    "date": "2026-09-16",
+    "summary": "Diffusion large language models are a compelling alternative to autoregressive models, yet existing RL methods for diffusion treat all denoising steps as equally important and rely on biased, high-variance likelihood est…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
+    "title": "Glyph: A Multi-Strategy Agentic System for Column Description and Sensitivity-Ontology Tagging of Enterprise Data Catalogs",
+    "url": "https://machinelearning.apple.com/research/glyph-column-description-tagging",
+    "date": "2026-09-16",
+    "summary": "Enterprise data lakes accumulate tables faster than human stewards can document or classify them, leaving columns with missing descriptions and unassigned governance labels. This documentation debt undermines data discov…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
     "title": "Shared Selective Persistent Memory for Agentic LLM Systems",
     "url": "https://machinelearning.apple.com/research/shared-selective-persistent-memory",
     "date": "2026-09-16",
@@ -234,18 +250,10 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "Glyph: A Multi-Strategy Agentic System for Column Description and Sensitivity-Ontology Tagging of Enterprise Data Catalogs",
-    "url": "https://machinelearning.apple.com/research/glyph-column-description-tagging",
-    "date": "2026-09-16",
-    "summary": "Enterprise data lakes accumulate tables faster than human stewards can document or classify them, leaving columns with missing descriptions and unassigned governance labels. This documentation debt undermines data discov…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
-    "title": "DACA-GRPO: Denoising-Aware Credit Assignment for Reinforcement Learning in Diffusion Language Models",
-    "url": "https://machinelearning.apple.com/research/denoising-aware-credit-assignment",
-    "date": "2026-09-16",
-    "summary": "Diffusion large language models are a compelling alternative to autoregressive models, yet existing RL methods for diffusion treat all denoising steps as equally important and rely on biased, high-variance likelihood est…"
+    "title": "DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation",
+    "url": "https://machinelearning.apple.com/research/discosign-gloss-translation",
+    "date": "2026-09-11",
+    "summary": "Sign language processing systems have traditionally operated at the sentence level, ignoring critical discourse phenomena fundamental to sign language comprehension. We introduce DiscoSign, a computational approach for d…"
   },
   {
     "company": "Apple",
@@ -254,14 +262,6 @@
     "url": "https://machinelearning.apple.com/research/simpledesign-protein-codesign",
     "date": "2026-09-11",
     "summary": "Proteins are fundamental to biological processes, with their function determined by the complex interplay between the amino acid sequence and the three-dimensional structure. Developing generative models capable of under…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
-    "title": "DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation",
-    "url": "https://machinelearning.apple.com/research/discosign-gloss-translation",
-    "date": "2026-09-11",
-    "summary": "Sign language processing systems have traditionally operated at the sentence level, ignoring critical discourse phenomena fundamental to sign language comprehension. We introduce DiscoSign, a computational approach for d…"
   },
   {
     "company": "Apple",
@@ -282,18 +282,18 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "LLMs Are Not (Consistently) Bayesian: Quantifying Internal (In)consistencies of LLMs’ Probabilistic Beliefs",
-    "url": "https://machinelearning.apple.com/research/llms-not-consistently-bayesian",
-    "date": "2026-08-28",
-    "summary": "Modern AI systems are being deployed in complex domains such as medicine, science, and law, where there is often not a single correct answer given the observed evidence. Such systems must be able to represent and update…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
     "title": "Agent Seer: Synthesizing Scenarios from Specification Understanding",
     "url": "https://machinelearning.apple.com/research/agent-seer-synthesizing-scenarios",
     "date": "2026-08-28",
     "summary": "Evaluating AI agents that use external tools requires realistic test scenarios that capture how practitioners compose tools and iterate across conversation turns. Constructing such scenarios by hand demands deep domain e…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
+    "title": "LLMs Are Not (Consistently) Bayesian: Quantifying Internal (In)consistencies of LLMs’ Probabilistic Beliefs",
+    "url": "https://machinelearning.apple.com/research/llms-not-consistently-bayesian",
+    "date": "2026-08-28",
+    "summary": "Modern AI systems are being deployed in complex domains such as medicine, science, and law, where there is often not a single correct answer given the observed evidence. Such systems must be able to represent and update…"
   },
   {
     "company": "Apple",
@@ -306,18 +306,18 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "PROOF-Gen: From Optimized Data to Better Distillation",
-    "url": "https://machinelearning.apple.com/research/proof-gen-optimized-distillation",
-    "date": "2026-08-26",
-    "summary": "Supervised fine-tuning on teacher-generated trajectories is the standard first stage for distilling tool-calling capabilities into deployable models. Post-training pipelines that drive shipped tool-calling agents re-run…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
     "title": "IDEA Prune: An Integrated Enlarge-and-Prune Pipeline in Generative Language Model Pretraining",
     "url": "https://machinelearning.apple.com/research/idea-prune-pipeline",
     "date": "2026-08-26",
     "summary": "Recent advancements in large language models have intensified the need for efficient and deployable models within limited inference budgets. Structured pruning pipelines have shown promise in token efficiency compared to…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
+    "title": "PROOF-Gen: From Optimized Data to Better Distillation",
+    "url": "https://machinelearning.apple.com/research/proof-gen-optimized-distillation",
+    "date": "2026-08-26",
+    "summary": "Supervised fine-tuning on teacher-generated trajectories is the standard first stage for distilling tool-calling capabilities into deployable models. Post-training pipelines that drive shipped tool-calling agents re-run…"
   },
   {
     "company": "Apple",
@@ -386,17 +386,17 @@
   {
     "company": "Apple",
     "companySlug": "apple",
-    "title": "A Specialized Semismooth Newton Method for Kernel-Based Optimal Transport",
-    "url": "https://machinelearning.apple.com/research/semismooth-newton-optimal-transport",
-    "date": "2026-08-18",
-    "summary": "Kernel-based optimal transport (OT) estimators offer an alternative, functional estimation procedure to address OT problems from samples. Recent works suggest that these estimators are more statistically efficient than p…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
     "title": "MVICAD2: Multi-View Independent Component Analysis with Delays and Dilations",
     "url": "https://machinelearning.apple.com/research/mvicad2-delays-dilations",
     "date": "2026-08-18",
     "summary": "Machine learning techniques in multi-view settings face significant challenges, particularly when integrating heterogeneous data, aligning feature spaces, and managing view-specific biases. These issues are prominent in…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
+    "title": "A Specialized Semismooth Newton Method for Kernel-Based Optimal Transport",
+    "url": "https://machinelearning.apple.com/research/semismooth-newton-optimal-transport",
+    "date": "2026-08-18",
+    "summary": "Kernel-based optimal transport (OT) estimators offer an alternative, functional estimation procedure to address OT problems from samples. Recent works suggest that these estimators are more statistically efficient than p…"
   }
 ]
