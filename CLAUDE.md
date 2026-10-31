@@ -36,7 +36,9 @@ so layouts are editorial rather than a centred stack.
 
 | Concern | File | Notes |
 |---|---|---|
-| Tokens, utilities, article + print CSS | `src/app/globals.css` | Everything below is defined here |
+| Semantic palette, shared spacing, homepage scale | `src/app/tokens.css` | Light, dark and print token sets |
+| Utilities, article + print CSS | `src/app/globals.css` | Tailwind theme aliases and utilities |
+| Homepage composition | `src/app/homepage.css` | Scoped editorial rules; shared chrome stays in `portfolio.css` |
 | Editorial two-track section | `src/components/section-rail.tsx` | Sticky label rail + content track |
 | Inner-page masthead | `src/components/page-header.tsx` | Headline left, deck right |
 | Post contents rail | `src/components/table-of-contents.tsx` + `src/lib/toc.ts` | Scroll spy; ids match rehype-slug |
@@ -47,7 +49,7 @@ each a visible jump (~1.3 ratio). Use the utilities (`text-mega`,
 `text-display`, `text-headline`, `text-title`, `text-lead`, `text-meta`,
 `text-micro`). Do not invent one-off `text-[1.37rem]` sizes.
 
-**Spacing.** `--space-section` / `--space-block` / `--space-group`, applied via
+**Spacing.** Primitive `--space-*` tokens live in `tokens.css`. `--space-section` / `--space-block` / `--space-group`, applied via
 the `section-gap` and `block-gap` utilities. Sections sit far apart, blocks
 inside them sit close. One uniform gap everywhere reads as a template.
 

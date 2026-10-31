@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, ArrowUpRight } from "lucide-react";
+import { ArrowDown, ArrowRight, ArrowUpRight } from "lucide-react";
 import { site } from "@/lib/site";
 import { getAllPosts, getPostBySlug, type PostMeta } from "@/lib/blog";
 import { extractToc } from "@/lib/toc";
@@ -58,10 +58,10 @@ export default function HomePage() {
         {featured ? (
           <div className="writing-grid">
             <article className="writing-feature">
+              <Link className="post-title-link" href={`/blog/${featured.slug}`}>
+                <h3 className="post-title">{featured.title}</h3>
+              </Link>
               <PostMetadata post={featured} />
-              <h3 className="post-title">
-                <Link href={`/blog/${featured.slug}`}>{featured.title}</Link>
-              </h3>
               <p>{featured.excerpt}</p>
               {featured.slug === "how-dragonfly-outruns-redis" ? (
                 <>
@@ -70,10 +70,12 @@ export default function HomePage() {
                     href={`/blog/${featured.slug}${traceHeading ? `#${traceHeading.id}` : ""}`}
                     aria-label="Trace a SET command through Dragonfly’s uncontended single-key fast path"
                   >
-                    <code>SET<br />key val</code>
-                    <span>One<br />shard</span>
-                    <span>Execute<br />inline</span>
-                    <code>OK</code>
+                    <ol className="command-steps" aria-label="Command execution order">
+                      <li><code>SET key val</code><ArrowDown aria-hidden /></li>
+                      <li><span>One shard</span><ArrowDown aria-hidden /></li>
+                      <li><span>Execute inline</span><ArrowDown aria-hidden /></li>
+                      <li><code>OK</code></li>
+                    </ol>
                   </Link>
                   <p className="trace-note">
                     The uncontended single-key path. Follow it in the source.
@@ -88,10 +90,10 @@ export default function HomePage() {
             <div className="writing-secondary">
               {secondary.map((post) => (
                 <article key={post.slug}>
+                  <Link className="post-title-link" href={`/blog/${post.slug}`}>
+                    <h3 className="post-title">{post.title}</h3>
+                  </Link>
                   <PostMetadata post={post} />
-                  <h3 className="post-title">
-                    <Link href={`/blog/${post.slug}`}>{post.title}</Link>
-                  </h3>
                   <p className="post-tail">{post.excerpt}</p>
                 </article>
               ))}
@@ -112,7 +114,7 @@ export default function HomePage() {
           <div className="studio-heading-group">
             <h2 id="studio-heading">{site.studio.name}</h2>
             <p className="studio-label">
-              Independent software studio<br />Founder &amp; engineer
+              Independent software studio<br />Engineer
             </p>
           </div>
           <a className="text-link" href={site.studio.url} target="_blank" rel="noopener noreferrer">
@@ -166,7 +168,7 @@ export default function HomePage() {
                     />
                   </div>
                 </Link>
-                <h3><Link href={href}>{book.title}</Link></h3>
+                <Link className="book-title-link" href={href}><h3>{book.title}</h3></Link>
                 <p className="book-author">{book.author}</p>
                 <p className="book-takeaway">{book.description}</p>
               </article>

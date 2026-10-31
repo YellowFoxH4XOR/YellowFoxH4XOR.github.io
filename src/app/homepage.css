@@ -1,0 +1,159 @@
+/* Hallmark · shape: Split Studio · genre: editorial · theme: brand · redesign: full · hero: Banner · nav: edge-aligned, kept · footer: statement, kept · signature: Dragonfly command trace · job: hire · posture: restrained · v2.0.0 */
+/* Hallmark · pre-emit critique: P4 H4 E4 S5 R4 V4 · weakest: H, one masthead and a reading-led hierarchy replace competing introductory headings */
+/* Hallmark · waive 44c · Banner masthead spans both columns · the portrait aligns with the engineering sentence and actions, not the bounds of the full-width name */
+/* Hallmark · reworded "Engineer. Founder. Writer." to "Platform engineer, founder, and writer building with Python and Go." · 19 names the triad heading; all three roles remain in the hero sentence */
+/* Hallmark · dismissed 41 · ink and code-bg are surface tokens, not a text pairing; text contrast is checked in both rendered themes by design-check */
+/* Hallmark · dismissed 77 · the Next page wrapper contains five homepage sections and the shared contact footer; the direct-child detector counts the wrapper as one */
+/* Hallmark · answered F15 · homepage section columns share home-gap and one 1200px container; other gaps belong to preserved archive and resume layouts */
+/* Hallmark · answered F20 · three books occupy one complete desktop row and three complete mobile rows; the detector groups unrelated writing articles with book articles */
+/* Hallmark · hero-review: fix · 3 findings · 3 resolved · finish-review: subagent · 2 findings · 2 resolved · gap: none */
+.portfolio-home { --column-gap: var(--home-gap); }
+.portfolio-home h1, .portfolio-home h2, .portfolio-home h3, .portfolio-home h4 { overflow-wrap: break-word; min-width: 0; text-wrap: balance; }
+.portfolio-home p { text-wrap: pretty; }
+.portfolio-home .identity { display: block; padding-top: var(--space-2xl); }
+.portfolio-home .identity h1 { font-size: var(--text-home-name); font-weight: 500; line-height: 1.02; letter-spacing: -.055em; max-width: none; }
+.portfolio-home .hero-body { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .52fr); gap: var(--home-gap); align-items: center; margin-top: var(--space-xl); padding-bottom: var(--space-2xl); }
+.portfolio-home .hero-intro { display: block; grid-column: 1; grid-row: 1; }
+.portfolio-home .hero-statement { font-size: var(--text-home-statement); font-weight: 500; line-height: 1.08; letter-spacing: -.035em; max-width: 24ch; color: var(--foreground); }
+.portfolio-home .mobile-copy { display: none; }
+.portfolio-home .mobile-latest { display: grid; grid-template-columns: minmax(0, 1fr) 20px; column-gap: var(--space-md); row-gap: var(--space-xs); align-items: center; margin-top: var(--space-action); padding-top: var(--space-lg); border-top: 1px solid var(--border); max-width: 56ch; }
+.portfolio-home .mobile-latest small { grid-column: 1 / -1; color: var(--brand); font-family: var(--font-body); font-size: var(--text-home-meta); }
+.portfolio-home .mobile-latest span { font-size: var(--text-home-body); line-height: 1.4; }
+.portfolio-home .mobile-latest:hover span { text-decoration: underline; text-underline-offset: .2em; }
+.portfolio-home .hero-actions { margin-top: var(--space-action); gap: var(--space-lg); }
+.portfolio-home .primary-link { min-height: 48px; padding: var(--space-sm) var(--space-lg); gap: var(--space-lg); font-size: var(--text-home-meta); border-radius: var(--home-radius); }
+.portfolio-home .portrait { grid-column: 2; grid-row: 1; width: 100%; max-width: 320px; justify-self: end; margin: var(--space-zero); }
+.portfolio-home .portrait img { width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; object-position: 50% 68%; border-radius: var(--home-radius); }
+.portfolio-home .portrait figcaption { padding-top: var(--space-xs); }
+.portfolio-home .portrait figcaption a { font-family: var(--font-body); font-size: var(--text-home-meta); justify-content: space-between; gap: var(--space-sm); }
+.portfolio-home .engineering-profile { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--home-gap); border-top: 1px solid var(--border); padding-block: var(--space-2xl); margin-bottom: var(--space-2xl); }
+.portfolio-home .profile-summary h2 { font-size: var(--text-home-section); max-width: 20ch; }
+.portfolio-home .profile-summary p { font-size: var(--text-home-body); color: var(--muted-foreground); line-height: 1.65; margin-top: var(--space-lg); max-width: 55ch; }
+.portfolio-home .current-work { display: block; margin: var(--space-zero); padding: var(--space-zero); border: 0; max-width: none; align-self: end; }
+.portfolio-home .current-work h3 { font-size: var(--text-home-item); line-height: 1.2; max-width: 25ch; }
+.portfolio-home .current-work p { font-size: var(--text-home-body); line-height: 1.65; margin-top: var(--space-lg); max-width: 55ch; }
+.portfolio-home .writing-home { padding-top: var(--space-xl); }
+.portfolio-home .section-top { align-items: baseline; gap: var(--space-lg); margin-bottom: var(--space-2xl); }
+.portfolio-home .section-top h2 { font-size: var(--text-home-section); }
+.portfolio-home .writing-grid { display: block; }
+.portfolio-home .writing-feature { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: var(--home-gap); align-items: start; padding: var(--space-zero); }
+.portfolio-home .writing-feature h3 { grid-column: 1; font-size: var(--text-home-feature); line-height: 1.1; margin: var(--space-zero); max-width: 24ch; }
+.portfolio-home .post-title-link { grid-column: 1; }
+.portfolio-home .post-title-link:hover, .portfolio-home .book-title-link:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .15em; }
+.portfolio-home .post-meta { font-family: var(--font-body); font-size: var(--text-home-meta); gap: var(--space-md); margin-top: var(--space-lg); }
+.portfolio-home .writing-feature .post-meta { grid-column: 1; }
+.portfolio-home .writing-feature > p { grid-column: 1; font-size: var(--text-home-body); line-height: 1.65; margin-top: var(--space-lg); max-width: 55ch; }
+.portfolio-home .command-trace { grid-column: 2; grid-row: 1 / 5; display: block; margin: var(--space-zero); min-height: 320px; padding: var(--space-xl); border: 0; border-radius: var(--home-radius); background: var(--muted); font-size: var(--text-home-body); line-height: 1.4; }
+.portfolio-home .command-trace code { font-size: var(--text-home-item); line-height: 1.2; }
+.portfolio-home .command-steps { display: grid; gap: var(--space-sm); list-style: none; margin: 0; padding: 0; }
+.portfolio-home .command-steps li { display: grid; gap: var(--space-sm); }
+.portfolio-home .command-steps span { font-family: var(--font-body); }
+.portfolio-home .command-steps svg { color: var(--muted-foreground); }
+.portfolio-home .command-steps li:last-child code { color: var(--brand); }
+.portfolio-home .command-trace:hover { background: var(--secondary); }
+.portfolio-home .writing-feature > .trace-note { font-size: var(--text-home-meta); margin-top: var(--space-md); }
+.portfolio-home .writing-secondary { margin-top: var(--space-2xl); border: 0; }
+.portfolio-home .writing-secondary article { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: var(--home-gap); padding-block: var(--space-xl); border-top: 1px solid var(--border); }
+.portfolio-home .writing-secondary h3 { grid-column: 1; grid-row: 1 / 3; font-size: var(--text-home-item); margin: var(--space-zero); max-width: 30ch; }
+.portfolio-home .writing-secondary .post-title-link { grid-row: 1 / 3; }
+.portfolio-home .writing-secondary .post-meta { grid-column: 2; margin: var(--space-zero); }
+.portfolio-home .writing-secondary .post-tail { grid-column: 2; font-size: var(--text-home-body); line-height: 1.65; margin-top: var(--space-md); max-width: 55ch; }
+.portfolio-home .studio { margin-top: var(--home-section); padding: var(--space-2xl); border: 0; border-radius: var(--home-radius); }
+.portfolio-home .studio-top { gap: var(--space-lg); align-items: start; padding-bottom: var(--space-xl); border-bottom: 1px solid var(--ink-border); }
+.portfolio-home .studio-heading-group { display: block; }
+.portfolio-home .studio h2 { font-size: var(--text-home-section); letter-spacing: -.035em; }
+.portfolio-home .studio-heading-group .studio-label { margin-top: var(--space-md); max-width: none; font-size: var(--text-home-meta); }
+.portfolio-home .studio-middle { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--home-gap); padding: var(--space-2xl) var(--space-zero) var(--space-zero); align-items: center; }
+.portfolio-home .studio-description h3 { font-size: var(--text-home-section); max-width: 16ch; }
+.portfolio-home .studio-description p { font-size: var(--text-home-body); line-height: 1.65; max-width: 46ch; margin-top: var(--space-lg); }
+.portfolio-home .studio-engineering { margin-top: var(--space-xl); padding-top: var(--space-lg); }
+.portfolio-home .studio-engineering h4 { font-size: var(--text-home-body); }
+.portfolio-home .studio-engineering p { margin-top: var(--space-md); }
+.portfolio-home .studio-engineering .shipped-note { font-size: var(--text-home-meta); }
+.portfolio-home .studio-description > .text-link { margin-top: var(--space-lg); }
+.portfolio-home .product-gallery { justify-self: end; max-width: 380px; }
+.portfolio-home .product-image-frame { border-radius: var(--home-radius); }
+.portfolio-home .gallery-controls { gap: var(--space-xs); margin-top: var(--space-md); }
+.portfolio-home .gallery-controls button { padding: var(--space-xs) var(--space-sm); font-size: var(--text-home-meta); }
+.portfolio-home .books-home { display: block; margin-top: var(--home-section-large); padding-bottom: var(--home-section); }
+.portfolio-home .books-intro { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: var(--home-gap); align-items: start; margin-bottom: var(--space-2xl); }
+.portfolio-home .books-intro h2 { grid-column: 1; grid-row: 1 / 3; font-size: var(--text-home-section); }
+.portfolio-home .books-intro p { grid-column: 2; max-width: 45ch; margin: var(--space-zero); font-size: var(--text-home-body); }
+.portfolio-home .books-intro .text-link { grid-column: 2; justify-self: start; margin-top: var(--space-md); }
+.portfolio-home .book-selection { gap: var(--home-gap); }
+.portfolio-home .book-cover { height: 280px; padding-bottom: var(--space-lg); border-bottom: 1px solid var(--border); }
+.portfolio-home .book-cover img { height: 100%; max-width: 100%; box-shadow: none; transition: none; }
+.portfolio-home .book-cover-link:hover img { transform: none; }
+.portfolio-home .book-cover-link:hover { opacity: .8; }
+.portfolio-home .selected-book h3 { font-size: var(--text-home-item); line-height: 1.2; max-width: 22ch; margin-top: var(--space-lg); }
+.portfolio-home .selected-book .book-author { font-size: var(--text-home-meta); margin-top: var(--space-sm); }
+.portfolio-home .selected-book .book-takeaway { font-size: var(--text-home-body); line-height: 1.65; max-width: 36ch; margin-top: var(--space-lg); }
+.portfolio-home a:focus-visible, .portfolio-home button:focus-visible { outline: 2px solid var(--brand); outline-offset: 4px; }
+.portfolio-home .studio a:focus-visible, .portfolio-home .studio button:focus-visible { outline-color: var(--ink-foreground); }
+.portfolio-home a:active, .portfolio-home button:active { opacity: .75; }
+.portfolio-home button:disabled { opacity: .55; cursor: not-allowed; }
+.nav-link { white-space: nowrap; }
+.footer-bottom { font-family: var(--font-body); }
+@media (max-width: 60rem) {
+  .portfolio-home .identity { padding-top: var(--space-xl); }
+  .portfolio-home .hero-body { grid-template-columns: minmax(0, 1fr) minmax(0, .6fr); }
+  .portfolio-home .studio { padding: var(--space-xl); }
+  .portfolio-home .studio-middle { align-items: start; }
+  .portfolio-home .book-cover { height: 224px; }
+}
+@media (max-width: 40rem) {
+  .portfolio-home .identity h1 { font-size: var(--text-home-name); }
+  .portfolio-home .hero-body { grid-template-columns: minmax(0, 1fr); margin-top: var(--space-action); padding-bottom: var(--space-xl); }
+  .portfolio-home .hero-statement { font-size: var(--text-home-statement); max-width: 20ch; }
+  .portfolio-home .desktop-copy { display: none; }
+  .portfolio-home .mobile-copy { display: inline; }
+  .portfolio-home .desktop-break { display: none; }
+  .portfolio-home .hero-actions { gap: var(--space-md); margin-top: var(--space-lg); }
+  .portfolio-home .portrait { grid-column: 1; grid-row: 2; max-width: none; }
+  .portfolio-home .portrait img { aspect-ratio: 4 / 5; height: auto; object-position: 50% 35%; }
+  .portfolio-home .mobile-latest { margin-top: var(--space-lg); row-gap: var(--space-xs); }
+  .portfolio-home .mobile-latest small { font-family: var(--font-body); font-size: var(--text-home-meta); }
+  .portfolio-home .engineering-profile { grid-template-columns: minmax(0, 1fr); padding-block: var(--space-xl); margin-bottom: var(--space-xl); }
+  .portfolio-home .profile-summary h2 { max-width: 16ch; }
+  .portfolio-home .current-work { border-top: 1px solid var(--border); padding-top: var(--space-action); }
+  .portfolio-home .current-work h3 { max-width: none; }
+  .portfolio-home .current-work p, .portfolio-home .profile-summary p { margin-top: var(--space-md); }
+  .portfolio-home .section-top { gap: var(--space-sm); margin-bottom: var(--space-xl); }
+  .portfolio-home .section-top .text-link { font-size: var(--text-home-meta); gap: var(--space-xs); }
+  .portfolio-home .writing-feature { grid-template-columns: minmax(0, 1fr); }
+  .portfolio-home .command-trace { grid-column: 1; grid-row: auto; min-height: 240px; margin-top: var(--space-action); padding: var(--space-lg); }
+  .portfolio-home .writing-feature > .trace-note { margin-top: var(--space-md); }
+  .portfolio-home .writing-secondary { margin-top: var(--space-xl); }
+  .portfolio-home .writing-secondary article { grid-template-columns: minmax(0, 1fr); padding-block: var(--space-action); }
+  .portfolio-home .writing-secondary h3 { grid-row: auto; }
+  .portfolio-home .writing-secondary .post-title-link { grid-row: auto; }
+  .portfolio-home .writing-secondary .post-meta, .portfolio-home .writing-secondary .post-tail { grid-column: 1; margin-top: var(--space-md); }
+  .portfolio-home .studio { padding: var(--space-lg); }
+  .portfolio-home .studio-top { gap: var(--space-md); padding-bottom: var(--space-action); }
+  .portfolio-home .studio-top .text-link { font-size: var(--text-home-meta); white-space: nowrap; gap: var(--space-xs); }
+  .portfolio-home .studio-heading-group .studio-label { font-size: var(--text-home-meta); }
+  .portfolio-home .studio-middle { grid-template-columns: minmax(0, 1fr); padding-top: var(--space-xl); gap: var(--space-xl); }
+  .portfolio-home .product-gallery { justify-self: center; max-width: 320px; }
+  .portfolio-home .books-intro { grid-template-columns: minmax(0, 1fr); margin-bottom: var(--space-xl); }
+  .portfolio-home .books-intro h2 { grid-row: auto; }
+  .portfolio-home .books-intro p { grid-column: 1; margin-top: var(--space-lg); }
+  .portfolio-home .books-intro .text-link { grid-column: 1; }
+  .portfolio-home .book-selection { grid-template-columns: minmax(0, 1fr); gap: var(--space-xl); }
+  .portfolio-home .selected-book, .portfolio-home .book-selection .selected-book:last-child { display: grid; grid-template-columns: minmax(0, .7fr) minmax(0, 1fr); column-gap: var(--space-lg); }
+  .portfolio-home .selected-book .book-cover-link { grid-row: 1 / 4; }
+  .portfolio-home .book-cover { height: auto; padding: var(--space-zero); border: 0; }
+  .portfolio-home .book-cover img { width: 100%; height: auto; }
+  .portfolio-home .selected-book h3, .portfolio-home .book-selection .selected-book:last-child h3 { font-size: var(--text-home-body); margin: var(--space-zero); align-self: start; }
+  .portfolio-home .selected-book .book-author { margin-top: var(--space-xs); }
+  .portfolio-home .selected-book .book-takeaway { grid-column: 2; font-size: var(--text-home-meta); margin-top: var(--space-md); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .portfolio-home *, .portfolio-home *::before, .portfolio-home *::after { transition: none; animation: none; }
+}
+@media print {
+  .portfolio-home .hero-body, .portfolio-home .engineering-profile, .portfolio-home .studio-middle { break-inside: avoid; }
+  .portfolio-home .identity { padding-top: var(--space-zero); }
+  .portfolio-home .hero-body { grid-template-columns: minmax(0, 1fr) minmax(0, .4fr); }
+  .portfolio-home .studio { background: var(--background); color: var(--foreground); }
+  .portfolio-home .books-home { padding-bottom: var(--space-zero); }
+}

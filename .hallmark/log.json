@@ -1,0 +1,69 @@
+[
+ {
+  "mode": "redesign",
+  "depth": "full",
+  "scope": "page",
+  "shape": "Split Studio",
+  "theme": "brand",
+  "axes": "light/grotesk-sans/warm",
+  "hero": "Banner",
+  "nav": "edge-aligned, kept",
+  "footer": "statement, kept",
+  "imagery": "existing owner portrait, authentic Deckle screens and book covers; no stand-ins",
+  "photos": [],
+  "entry": "src/app/page.tsx",
+  "fingerprint": "Hanging|Two-column asymmetric|Hairline and ink plane|Solid primary|Margin-aligned|None",
+  "sections": [
+   "Introduction",
+   "Engineering profile",
+   "Writing: feature and editorial rows",
+   "Kelvanic and Deckle switcher",
+   "Bookshelf",
+   "Existing contact footer"
+  ],
+  "signature": "Bricolage name masthead and ordered Dragonfly command trace",
+  "waived": [
+   "44c: full-width masthead is independent of portrait and sentence alignment"
+  ],
+  "draw": "b8ded6",
+  "swaps": "Index-First/Poster to Split Studio/Banner because the retained material includes an owner portrait and real product screens",
+  "prompt": "Go ahead with a homepage redesign using existing material and the warm editorial Ember & Ink brand",
+  "before": {
+   "fails": 78,
+   "reflex": 154
+  },
+  "after": {
+   "fails": 0,
+   "openReflex": 0,
+   "waived": 1,
+   "warnings": 0,
+   "answered": 2,
+   "dismissed": 3,
+   "notes": 2
+  },
+  "kept": {
+   "links": "30/30",
+   "headings": "15/15",
+   "figures": "6/6"
+  },
+  "reviews": {
+   "hero": "subagent: 3 resolved",
+   "finish": "subagent: 2 resolved"
+  },
+  "checks": [
+   "production build and TypeScript",
+   "eslint",
+   "seo-unit-check",
+   "seo-check: 43 sitemap pages",
+   "design-check: 10 routes, 7 widths, 2 themes, contrast, targets, no-JS, print",
+   "ui-check: gallery, theme, navigation, archive, schema, feeds and PDF"
+  ],
+  "copyChanges": [
+   "Engineer. Founder. Writer. moved into the specific hero sentence; original systems thesis retained as the engineering profile heading",
+   "Mobile opening uses the existing CBA platform and 200+ engineer claim; full biography and work copy retained below"
+  ],
+  "assetsNeeded": [],
+  "optionalMaterial": "A short authentic Deckle screen recording would add product-in-use evidence.",
+  "date": "2026-10-31"
+ }
+]

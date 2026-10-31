@@ -1,0 +1,23 @@
+{
+  "scanned": "2026-10-31",
+  "findings": {
+    "framework": "Next.js 16.4.3, React 19, Tailwind v4 (package.json:23-26,44)",
+    "fonts": "Bricolage Grotesque and Spline Sans Mono (src/app/layout.tsx:2-21)",
+    "palette": "Existing Ember & Ink brand: warm paper, ink, restrained ember accent (CLAUDE.md:31-35; src/app/design_spec.md:11-20)",
+    "spacing": "Fluid section/block/group tokens and a centered 1200px container (src/app/globals.css:74-76; src/app/portfolio.css:3-7)",
+    "motion": "Existing easing and duration tokens; restrained hover motion (src/app/globals.css:78-89; src/app/design_spec.md:66-68)",
+    "material": "Existing portrait, Deckle views, book covers, essays and project content (src/app/design_spec.md:71-78; src/app/page.tsx:25-45)",
+    "invariants": "Preserve routes, content, metadata, server-rendered JSON-LD, no-JS readability and print behavior (CLAUDE.md:91-120)",
+    "working_tree": "Untracked opencode.json predates this run and must remain untouched"
+  },
+  "preserve": [
+    "Existing Ember & Ink brand and font pairing",
+    "Real content, images and application wiring",
+    "SEO, accessibility, no-JS and print invariants"
+  ],
+  "introduce": [
+    "Approved homepage redesign: masthead, engineering profile, editorial writing rows, ordered command trace, studio and bookshelf",
+    "Palette consolidated in src/app/tokens.css; homepage rules in src/app/homepage.css; base access rules in src/app/base.css",
+    "Hallmark before/after captures and log; all 30 recorded links retained"
+  ]
+}

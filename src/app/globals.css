@@ -1,6 +1,13 @@
+/* Hallmark · shape: Split Studio · genre: editorial · theme: brand · redesign: full · draw: b8ded6
+ * paper: oklch(0.968 0.009 85) · accent: oklch(0.55 0.17 46) · display: Bricolage Grotesque · body: Bricolage Grotesque · hero: Banner · nav: edge-aligned, kept · footer: statement, kept · signature: Dragonfly command trace
+ * axes: light/grotesk-sans/warm · posture: restrained · job: hire · contrast: pass · fold: pass · v2.0.0 */
+/* Hallmark · pre-emit critique: P4 H4 E4 S5 R4 V4 · weakest: H, separated the introduction from engineering evidence and enlarged the essay hierarchy */
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "./tokens.css";
+@import "./base.css" layer(base);
 @import "./portfolio.css";
+@import "./homepage.css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -149,105 +156,6 @@
   }
 }
 
-:root {
-  /* Ember & Ink — light theme: warm drafting paper, ember accent. */
-  --background: oklch(0.968 0.009 85);
-  --foreground: oklch(0.25 0.025 55);
-  --card: oklch(0.985 0.007 85);
-  --card-foreground: oklch(0.25 0.025 55);
-  --popover: oklch(0.985 0.007 85);
-  --popover-foreground: oklch(0.25 0.025 55);
-  --primary: oklch(0.55 0.17 46);
-  --primary-foreground: oklch(0.975 0.01 85);
-  --secondary: oklch(0.935 0.014 75);
-  --secondary-foreground: oklch(0.33 0.04 50);
-  --muted: oklch(0.94 0.012 78);
-  --muted-foreground: oklch(0.47 0.03 55);
-  /* The quietest tier that still clears WCAG AA (4.67:1 here). Replaces the
-     old habit of fading --muted-foreground to 60-80% opacity, which dropped
-     small metadata to 2.6-3.9:1. Hierarchy comes from size, weight and
-     family; never from making text harder to read. */
-  --subtle: oklch(0.54 0.028 58);
-  --accent: oklch(0.925 0.02 70);
-  --accent-foreground: oklch(0.35 0.06 45);
-  --destructive: oklch(0.58 0.19 28);
-  --border: oklch(0.875 0.016 70);
-  --input: oklch(0.875 0.016 70);
-  --ring: oklch(0.55 0.17 46 / 45%);
-  --chart-1: oklch(0.55 0.17 46);
-  --chart-2: oklch(0.5 0.12 150);
-  --chart-3: oklch(0.62 0.14 25);
-  --chart-4: oklch(0.68 0.13 85);
-  --chart-5: oklch(0.5 0.1 230);
-  --radius: 0.5rem;
-  --brand: oklch(0.55 0.17 46);
-  --brand-foreground: oklch(0.975 0.01 85);
-  --code-bg: oklch(0.19 0.018 55);
-  /* Deep ink surface: the one anchored, high-contrast moment per page.
-     Gives the warm-paper palette something to push against. */
-  --ink: oklch(0.228 0.024 50);
-  --ink-foreground: oklch(0.952 0.014 78);
-  --ink-muted: oklch(0.735 0.028 66);
-  --ink-border: oklch(0.325 0.028 52);
-  /* Hairline rule, lighter than --border, for internal divisions. */
-  --hairline: oklch(0.885 0.014 72);
-  --sidebar: oklch(0.985 0.007 85);
-  --sidebar-foreground: oklch(0.25 0.025 55);
-  --sidebar-primary: oklch(0.55 0.17 46);
-  --sidebar-primary-foreground: oklch(0.975 0.01 85);
-  --sidebar-accent: oklch(0.935 0.014 75);
-  --sidebar-accent-foreground: oklch(0.33 0.04 50);
-  --sidebar-border: oklch(0.875 0.016 70);
-  --sidebar-ring: oklch(0.55 0.17 46 / 45%);
-}
-
-.dark {
-  /* Ember & Ink — dark theme: lamplit warm ink, glowing ember accent. */
-  --background: oklch(0.165 0.013 55);
-  --foreground: oklch(0.915 0.014 75);
-  --card: oklch(0.2 0.016 55);
-  --card-foreground: oklch(0.915 0.014 75);
-  --popover: oklch(0.2 0.016 55);
-  --popover-foreground: oklch(0.915 0.014 75);
-  --primary: oklch(0.76 0.15 62);
-  --primary-foreground: oklch(0.17 0.02 50);
-  --secondary: oklch(0.235 0.02 55);
-  --secondary-foreground: oklch(0.9 0.015 70);
-  --muted: oklch(0.225 0.018 55);
-  --muted-foreground: oklch(0.72 0.026 65);
-  /* Dark-theme counterpart of --subtle: 4.66:1 on the page background. */
-  --subtle: oklch(0.59 0.024 60);
-  --accent: oklch(0.26 0.025 52);
-  --accent-foreground: oklch(0.93 0.02 70);
-  --destructive: oklch(0.62 0.19 28);
-  --border: oklch(0.29 0.022 55);
-  --input: oklch(0.31 0.022 55);
-  --ring: oklch(0.76 0.15 62 / 50%);
-  --chart-1: oklch(0.76 0.15 62);
-  --chart-2: oklch(0.65 0.12 150);
-  --chart-3: oklch(0.68 0.15 25);
-  --chart-4: oklch(0.72 0.13 85);
-  --chart-5: oklch(0.62 0.1 230);
-  --brand: oklch(0.76 0.15 62);
-  --brand-foreground: oklch(0.17 0.02 50);
-  --code-bg: oklch(0.155 0.015 50);
-  /* In dark mode the ink surface lifts instead of sinking, so it still
-     reads as a distinct plane rather than disappearing into the page. */
-  --ink: oklch(0.243 0.022 54);
-  --ink-foreground: oklch(0.945 0.014 78);
-  --ink-muted: oklch(0.72 0.026 65);
-  --ink-border: oklch(0.345 0.028 54);
-  --hairline: oklch(0.265 0.02 55);
-  --sidebar: oklch(0.19 0.016 55);
-  --sidebar-foreground: oklch(0.915 0.014 75);
-  --sidebar-primary: oklch(0.76 0.15 62);
-  --sidebar-primary-foreground: oklch(0.17 0.02 50);
-  --sidebar-accent: oklch(0.235 0.02 55);
-  --sidebar-accent-foreground: oklch(0.9 0.015 70);
-  --sidebar-border: oklch(0.29 0.022 55);
-  --sidebar-ring: oklch(0.76 0.15 62 / 50%);
-}
-
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -347,7 +255,7 @@
 }
 
 @utility bleed-flush {
-  width: 100vw;
+  width: auto;
   margin-inline: calc(50% - 50vw);
 }
 
@@ -495,11 +403,11 @@
 
 /* Mono eyebrow label used above section content. */
 @utility eyebrow {
-  font-family: var(--font-mono);
+  font-family: var(--font-sans);
   font-size: var(--text-micro);
   font-weight: 500;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
+  letter-spacing: normal;
+  text-transform: none;
   font-variant-numeric: tabular-nums;
   color: var(--color-muted-foreground);
 }
@@ -528,7 +436,7 @@
    rule gives no-JS readers the final state immediately, and everyone else
    still gets the animation. */
 @media (scripting: enabled) {
-  .reveal {
+  .js .reveal {
     opacity: 0;
     transform: translateY(22px);
     transition:
@@ -634,7 +542,7 @@
 .article pre {
   @apply overflow-x-auto rounded-lg border border-border/70 p-4 text-sm;
   background-color: var(--code-bg);
-  color: oklch(0.9 0.015 70);
+  color: var(--code-foreground);
 }
 .article pre code {
   @apply font-mono bg-transparent p-0 border-0;
@@ -709,39 +617,10 @@
      is not enough: every element carries an explicit token-backed colour
      class, so a reader printing while in dark mode gets near-white text on
      white paper. Overriding the variables fixes the whole tree at once. */
-  :root,
-  .dark {
-    --background: #ffffff;
-    --foreground: #16120f;
-    --card: #ffffff;
-    --card-foreground: #16120f;
-    --popover: #ffffff;
-    --popover-foreground: #16120f;
-    --muted: #f4f2ef;
-    --muted-foreground: #3d3733;
-    --subtle: #4a443f;
-    --accent: #f4f2ef;
-    --accent-foreground: #16120f;
-    --secondary: #f4f2ef;
-    --secondary-foreground: #16120f;
-    --border: #c9c3bc;
-    --hairline: #d8d2cb;
-    --input: #c9c3bc;
-    --brand: #8a3d12;
-    --brand-foreground: #ffffff;
-    --primary: #8a3d12;
-    --primary-foreground: #ffffff;
-    --ink: #ffffff;
-    --ink-foreground: #16120f;
-    --ink-muted: #3d3733;
-    --ink-border: #c9c3bc;
-    --code-bg: #f4f2ef;
-  }
-
   html,
   body {
-    background: #fff !important;
-    color: #16120f !important;
+    background: var(--background) !important;
+    color: var(--foreground) !important;
   }
 
   /* Chrome and Safari otherwise drop backgrounds and lighten text. */
@@ -754,9 +633,9 @@
 
   /* Code panels are warm ink on screen; on paper that is a toner sink. */
   .article pre {
-    background: #f4f2ef !important;
-    color: #16120f !important;
-    border: 1px solid #c9c3bc !important;
+    background: var(--code-bg) !important;
+    color: var(--foreground) !important;
+    border: 1px solid var(--border) !important;
   }
 
   /* Screen-only furniture: navigation, ambience, and controls. Targeted by

@@ -38,7 +38,8 @@ npm start        # serve the production build
 - **Name, intro, nav, social links** — `src/lib/site.ts`
 - **Resume (experience, skills) and bookshelf** — `src/lib/content.ts`
 - **Images / favicons** — `public/images`, `public/favicon`
-- **Theme colors** — `src/app/globals.css` (`--brand` is the accent)
+- **Theme colors** — `src/app/tokens.css` (`--brand` is the accent; includes light, dark and print palettes)
+- **Homepage layout** — `src/app/homepage.css` (shared chrome and inner pages use `portfolio.css`)
 
 ## Deploying on Coolify
 

@@ -14,7 +14,7 @@ const bricolage = Bricolage_Grotesque({
   subsets: ["latin"],
 });
 
-// Data/labels voice: a quiet mono for eyebrows, metadata, and code.
+// Data voice: a quiet mono for dates, measurements, and code.
 const splineMono = Spline_Sans_Mono({
   variable: "--font-mono",
   subsets: ["latin"],
@@ -85,7 +85,7 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${bricolage.variable} ${splineMono.variable} h-full antialiased`}
     >
-      <body className="relative flex min-h-full flex-col overflow-x-hidden bg-background text-foreground transition-colors duration-300">
+      <body className="relative flex min-h-full flex-col bg-background text-foreground">
         {/* Keyboard skip link — hidden until focused. */}
         <a
           href="#main-content"
