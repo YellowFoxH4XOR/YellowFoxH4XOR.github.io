@@ -2,6 +2,14 @@
   {
     "company": "Microsoft",
     "companySlug": "microsoft",
+    "title": "Does &#8216;eval&#8217; in the workspace path change what your agent does?",
+    "url": "https://devblogs.microsoft.com/blog/does-eval-in-the-workspace-path-change-what-your-agent-does/",
+    "date": "2026-10-30",
+    "summary": "Your eval might be telling the agent it s a test before the agent reads a single instruction. Eval tools need a fresh folder for every run, and the easiest way to get one is a temp directory with a random name like /tmp/…"
+  },
+  {
+    "company": "Microsoft",
+    "companySlug": "microsoft",
     "title": "Publish Visual Studio Marketplace extensions securely with Trusted Publishing",
     "url": "https://devblogs.microsoft.com/blog/trusted-publishing-visual-studio-marketplace/",
     "date": "2026-10-28",
@@ -390,13 +398,5 @@
     "url": "https://devblogs.microsoft.com/blog/how-ai-coding-agents-actually-use-your-technology",
     "date": "2026-05-27",
     "summary": "You ship an SDK, a CLI, an API, and developers use it. Now AI coding agents use it too, except they use it differently than humans do. Most of the time you have no idea what s actually happening between developer types a…"
-  },
-  {
-    "company": "Microsoft",
-    "companySlug": "microsoft",
-    "title": "The AX stack: what&#8217;s fixed, where you can win",
-    "url": "https://devblogs.microsoft.com/blog/the-ax-stack-whats-fixed-where-you-can-win",
-    "date": "2026-05-21",
-    "summary": "AI coding agents promise to make you more productive. On the surface they do, but in practice they fall short: agents generate code that doesn t compile, use a deprecated SDK, or pick the wrong service entirely. Is it yo…"
   }
 ]
