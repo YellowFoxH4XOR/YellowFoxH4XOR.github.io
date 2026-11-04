@@ -2,6 +2,14 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
+    "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
+    "url": "https://blog.cloudflare.com/zero-wire/",
+    "date": "2026-11-03",
+    "summary": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
     "title": "How we halved DNS build delay and cut memory use by 85%",
     "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
     "date": "2026-11-02",
@@ -390,13 +398,5 @@
     "url": "https://blog.cloudflare.com/cloudflare-basin/",
     "date": "2026-10-01",
     "summary": "Cloudflare Basin is built on Apache Iceberg and R2 Object Storage. With general availability, developers can ingest, manage, and query large datasets at scale without paying data egress fees."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Announcing Cloudflare K2: serverless event streams",
-    "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
-    "date": "2026-10-01",
-    "summary": "Cloudflare K2 is a serverless event streaming service built directly on top of R2 object storage for high-scale data movement and long-term retention. By decoupling producers and consumers at the edge, K2 enables durable…"
   }
 ]
