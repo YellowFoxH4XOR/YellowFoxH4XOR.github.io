@@ -2,401 +2,401 @@
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Molecular Prior Networks",
-    "url": "https://arxiv.org/abs/2611.05103v1",
-    "date": "2026-11-03",
-    "summary": "Predicting affinity between small molecules and their protein targets remains one of the central problems in drug discovery. Due to the substantial cost of wet-lab experiments, machine learning models of drug-target affi…"
+    "title": "Finite-width shift of the edge of chaos in deep neural networks",
+    "url": "https://arxiv.org/abs/2611.06582v1",
+    "date": "2026-11-04",
+    "summary": "Deep neural networks train best when they are initialised at the edge of chaos, the critical line in the plane of weight and bias variances on which the distance between two inputs neither grows nor shrinks with depth. T…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Beyond Multi-Index Models: Learning Intersections of Degree-2 PTFs",
-    "url": "https://arxiv.org/abs/2611.05114v1",
-    "date": "2026-11-03",
-    "summary": "We give an algorithm for PAC learning intersections of $k$ degree-2 polynomial threshold functions over $R^d$ under a Gaussian distribution. Our algorithm achieves classification error $ε$ using $d^{O(k)}2^{O_k(\\log^3(1/…"
+    "title": "Thermodynamics-Informed Learning Captures Hierarchical Hydrogen-Bond Networks in Deep Eutectic Solvents",
+    "url": "https://arxiv.org/abs/2611.06590v1",
+    "date": "2026-11-04",
+    "summary": "Deep eutectic solvents (DESs) offer a tunable platform for lignocellulose refining, but their solvation behavior depends on multicomponent hydrogen-bond networks rather than individual constituent properties. We develop…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Distributed Linear Bandits for Freshness-Aware Preprocessing in MEC-Enabled Digital Twin Networks",
-    "url": "https://arxiv.org/abs/2611.05115v1",
-    "date": "2026-11-03",
-    "summary": "Digital twins (DTs) require timely updates from Internet of Things (IoT) devices to accurately represent the state of the corresponding physical systems, but transmitting large data volumes can compromise freshness. More…"
+    "title": "A trust layer for fast pedestal-stability surrogates: calibrated error bars, out-of-distribution alarms and few-shot recalibration",
+    "url": "https://arxiv.org/abs/2611.06597v1",
+    "date": "2026-11-04",
+    "summary": "Machine-learning surrogates of linear peeling-ballooning stability now run in milliseconds, but they are mostly deployed as point estimators: they do not say how wrong they may be, or when a query lies outside what they…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Towards an Optimal Control Foundation of Early Exits - Turnpikes and ResNets",
-    "url": "https://arxiv.org/abs/2611.05120v1",
-    "date": "2026-11-03",
-    "summary": "The feed-forward propagation through neural networks is crucial for training and inference. To trade off efficiency and accuracy, it has been proposed to consider intermediate outputs of hidden states as data-dependent r…"
+    "title": "The Behavioral Rate of Fine-Tuning: Compression as a Measure of Useful Information",
+    "url": "https://arxiv.org/abs/2611.06598v1",
+    "date": "2026-11-04",
+    "summary": "Low-Rank Adaptation (LoRA) adapts a frozen language model through a compact learned update, making it a natural setting for asking how much information fine-tuning needs to write. Yet adapter rank, parameter count, or nu…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Do Ray-Traced Cities Make a Better Channel Prior for an Unseen Site? A Pre-Registered Study in Simulation, and a Test on Measured Channels that Reverses It",
-    "url": "https://arxiv.org/abs/2611.05128v1",
-    "date": "2026-11-03",
-    "summary": "Channel estimators at a newly deployed base station usually start from 3GPP stochastic channel models, which describe no particular street. We ask whether a channel prior pooled from many ray-traced cities serves an unse…"
+    "title": "Verifier-Guided Self-Consistency: Test-Time Reasoning with Imperfect Generators and Verifiers",
+    "url": "https://arxiv.org/abs/2611.06606v1",
+    "date": "2026-11-04",
+    "summary": "Large language models can solve many multi-step reasoning problems, but their reasoning remains brittle: plausible intermediate steps often lead to incorrect answers. Improving reasoning at test time requires balancing t…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Solving the Nonlinear Westervelt Equation in Ultrasound Propagation Using Physics-Informed Neural Networks",
-    "url": "https://arxiv.org/abs/2611.05130v1",
-    "date": "2026-11-03",
-    "summary": "Modeling the nonlinear acoustic wave propagation in biological tissues needs accuracy, especially in ultrasound imaging and therapeutic applications. The 1D Westervelt equation, \\( p_{xx} - p_{tt} + γ\\, p_{ttt} + η\\,(p^{…"
+    "title": "Alternatives to Shallow Autoencoders for Collaborative Filtering",
+    "url": "https://arxiv.org/abs/2611.06610v1",
+    "date": "2026-11-04",
+    "summary": "Collaborative filtering (CF) is a cornerstone of recommender systems and plays a relevant role in many modern applications. CF uses user-item interaction data to discover future preferences. Although deep learning models…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "PAC Learning with Multiple Correct Answers",
-    "url": "https://arxiv.org/abs/2611.05133v1",
-    "date": "2026-11-03",
-    "summary": "We study PAC learning when each example comes with a set of at most $\\ell$ correct labels and a prediction is correct if it belongs to this set. Training may reveal the full set, only whether a proposed label is correct…"
+    "title": "From Reconstruction to Imputation: Test-Time Optimization for Missing Time-Series Channels",
+    "url": "https://arxiv.org/abs/2611.06612v1",
+    "date": "2026-11-04",
+    "summary": "Complete sensor-channel failures create a difficult form of time-series missingness: local interpolation is unavailable, and deploying a separately trained imputer for every failure pattern may be impractical. We ask whe…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "A Random Matrix Analysis of Symmetric Tensor Unfolding",
-    "url": "https://arxiv.org/abs/2611.05137v1",
-    "date": "2026-11-03",
-    "summary": "We study a fundamental problem in machine learning: partial recovery of a planted signal $\\boldsymbol{v} \\in \\mathbb{S}^{n-1}$ from a spiked tensor $\\boldsymbol{\\mathsf{X}} = λ\\, \\boldsymbol{v}^{\\otimes p} + \\boldsymbol{…"
+    "title": "Dimension-Free Private Mean Estimation is Impossible Without the Covariance",
+    "url": "https://arxiv.org/abs/2611.06615v1",
+    "date": "2026-11-04",
+    "summary": "We study the limits of differentially private Gaussian mean estimation when the covariance matrix is unknown. Prior work shows that when the covariance $Σ$ is known, the optimal sample complexity can depend only on its s…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Beyond Foundation Models: PFN Priors Improve Tabular Hyperparameter Optimization",
-    "url": "https://arxiv.org/abs/2611.05141v1",
-    "date": "2026-11-03",
-    "summary": "Synthetic priors have so far served one purpose: pretraining tabular foundation models. We ask whether the same priors can improve conventional tabular models, which are trained from scratch on each dataset. We propose P…"
+    "title": "Interactive World Simulation with Cosmos for Physical AI",
+    "url": "https://arxiv.org/abs/2611.06627v1",
+    "date": "2026-11-04",
+    "summary": "We present a shared framework that adapts Cosmos world foundation models for real-time interactive world simulation in Physical AI. By streaming visual observations in response to actions and scene controls, the framewor…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Macrocanonical Generator Networks: Data-Efficient Neural Surrogates for Amortized Physics Simulation",
-    "url": "https://arxiv.org/abs/2611.05157v1",
-    "date": "2026-11-03",
-    "summary": "Many scientific simulations are computationally expensive, limiting their use in simulation-based inference, uncertainty quantification, and decision making. We introduce macrocanonical generator networks, a framework fo…"
+    "title": "Noise-regularized training of quantum circuit Born machines under a finite shot budget",
+    "url": "https://arxiv.org/abs/2611.06630v1",
+    "date": "2026-11-04",
+    "summary": "Quantum circuit Born machines (QCBMs) can learn distributions that are hard to sample from classically, but their value depends on generalizing from finite training data. Here, we study how hardware noise affects this ge…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Perturb, Repair, Verify: Self-Play Vision-Language Verifiers for Compositional Understanding",
-    "url": "https://arxiv.org/abs/2611.05158v1",
-    "date": "2026-11-03",
-    "summary": "Vision-language verifiers judge whether an image faithfully matches a textual description, yet existing training pipelines typically rely on static supervision from stronger external judges or curated hard-negative data.…"
+    "title": "TestBED: An Open-Source Toolkit for Bayesian Experimental Design",
+    "url": "https://arxiv.org/abs/2611.06633v1",
+    "date": "2026-11-04",
+    "summary": "Bayesian experimental design (BED) is a principled framework for intelligent data acquisition with applications across a wide range of scientific and industrial domains. However, the development and adoption of BED remai…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Basin2Vec: Learning Basin-Centric Embeddings for Scalable Hydrological Modeling",
-    "url": "https://arxiv.org/abs/2611.05164v1",
-    "date": "2026-11-03",
-    "summary": "Reliable streamflow prediction across time and in ungauged basins requires representations that capture hydrologically relevant basin characteristics. Existing methods rely on either fixed handcrafted attributes or gener…"
+    "title": "Detecting Silent Action-Interface Mismatch with Calibrated Relational World Models",
+    "url": "https://arxiv.org/abs/2611.06653v1",
+    "date": "2026-11-04",
+    "summary": "A robot action can satisfy shape and range constraints yet carry the wrong semantics: axes may be permuted, signs inverted, rotations rescaled, or gripper polarity reversed. We study learned state-action-effect relations…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Learning Behaviorally Relevant Dynamics in Multimodal Neural Recordings",
-    "url": "https://arxiv.org/abs/2611.05167v1",
-    "date": "2026-11-03",
-    "summary": "Multimodal neural data can enable a more complete understanding of brain dynamics underlying behavior. Modalities such as spiking activity, local field potentials (LFPs), and behavior capture diverse spatiotemporal aspec…"
+    "title": "Fingerprinting the Dispatchers behind Distributed Model Extraction",
+    "url": "https://arxiv.org/abs/2611.06661v1",
+    "date": "2026-11-04",
+    "summary": "API distillation campaigns try to hide model-stealing traffic by splitting requests across thousands of load-balanced accounts, which standard content classifiers often miss. However, request timestamps, specifically arr…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Provably Learning Mixtures of Linear Experts",
-    "url": "https://arxiv.org/abs/2611.05184v1",
-    "date": "2026-11-03",
-    "summary": "Mixture-of-Experts (MoE) models are widely deployed in modern machine learning. However, few convergence guarantees exist for gradient-based training of MoEs: the objective is nonconvex, and even simple mixtures trap fir…"
+    "title": "Self-Directed Apple Tasting",
+    "url": "https://arxiv.org/abs/2611.06677v1",
+    "date": "2026-11-04",
+    "summary": "We study the classical apple-tasting setting, a partial feedback model in which the learner observes the true label only when it predicts $1$. A combinatorial characterization for the rates of this problem in the online…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Stepsize modulation for cross entropy from local quadratic optimization",
-    "url": "https://arxiv.org/abs/2611.05191v1",
-    "date": "2026-11-03",
-    "summary": "Two methods are presented that perturb a given learning rate schedule in stochastic gradient descent with cross entropy loss. Both methods use an extra forward pass to estimate various derivatives of the minibatch loss.…"
+    "title": "Do unlearning algorithms learn the right features?",
+    "url": "https://arxiv.org/abs/2611.06681v1",
+    "date": "2026-11-04",
+    "summary": "Machine unlearning is commonly evaluated with standard post-deletion metrics that compare an unlearned model to one retrained on the remaining data. Such snapshot evaluations can conceal consequential differences in the…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Ensembles of Random Partition-Based Models under Covariate Shift",
-    "url": "https://arxiv.org/abs/2611.05195v1",
-    "date": "2026-11-03",
-    "summary": "Distribution shifts, including covariate shifts, are ubiquitous in real-world applications of machine learning. Empirical evidence suggests that, across a variety of models with and without downstream adaptation, ensembl…"
+    "title": "SecureGARD: Dynamic Ontology-Guided Governance for Secure Tool-Using LLM Agents",
+    "url": "https://arxiv.org/abs/2611.06682v1",
+    "date": "2026-11-04",
+    "summary": "Tool-using large language model (LLM) agents translate model outputs into consequential actions, turning indirect prompt injection into an execution-security problem. Existing defenses constrain tool calls, trajectories,…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Empirical Bayes Flow Matching for Continuous Cryo-EM Heterogeneity",
-    "url": "https://arxiv.org/abs/2611.05202v1",
-    "date": "2026-11-03",
-    "summary": "We address the problem of learning generative priors over high-dimensional latent variables from indirect, noisy observations, with a focus on continuous heterogeneity in cryo-electron microscopy (cryo-EM). In this setti…"
+    "title": "Don't Replace, Complement: A Detector-Agnostic Subspace Signal for Near-OOD Detection",
+    "url": "https://arxiv.org/abs/2611.06688v1",
+    "date": "2026-11-04",
+    "summary": "Post-hoc out-of-distribution (OOD) detection is mature on far-OOD yet remains weak on near-OOD. These two settings differ in their use of class-characteristic feature directions: far-OOD inputs largely fail to activate t…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Multi-Objective Generative Optimization via Expected Hypervolume Fine-Tuning",
-    "url": "https://arxiv.org/abs/2611.05207v1",
-    "date": "2026-11-03",
-    "summary": "Scientific discovery requires plausible designs spanning useful trade-offs among competing properties: a molecule with strong binding affinity, for example, may be difficult to synthesize. Pretrained generative models, e…"
+    "title": "PINR-ESI: Physics-Informed Self-Supervised Implicit Neural Representation Framework for EEG Extended-Source Imaging",
+    "url": "https://arxiv.org/abs/2611.06700v1",
+    "date": "2026-11-04",
+    "summary": "EEG extended-source imaging aims to localize active cortical regions and characterize their spatial extent, yet supervised inverse networks typically depend on synthetic EEG-source pairs and may be sensitive to synthetic…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Privacy for Free in Efficient Agnostic Halfspace Learning",
-    "url": "https://arxiv.org/abs/2611.05208v1",
-    "date": "2026-11-03",
-    "summary": "We provide the first computationally efficient, differentially private algorithms for agnostically learning halfspaces. In particular, we study three different settings of agnostic learning: improper learning under Gauss…"
+    "title": "Where It Breaks: Diagnosing Perception, Memory, and Decision Failures of a Vision-Language Agent in Pac-Man",
+    "url": "https://arxiv.org/abs/2611.06704v1",
+    "date": "2026-11-04",
+    "summary": "Training an agent to play Pac-Man with only up, down, left and right actions raises a basic question: when performance is poor, what should be improved? Difficulty can arise from reading the screen or from choosing actio…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Physics-informed traditional and generative Mori-Zwanzig-reduced models for multiscale systems",
-    "url": "https://arxiv.org/abs/2611.05211v1",
-    "date": "2026-11-03",
-    "summary": "Model reduction via the Mori-Zwanzig (MZ) formalism is well understood for coarse-grained representations constructed from standard basis functions such as Fourier functions. We show that the same formalism can be used t…"
+    "title": "ALTO: African and Levantine Tech-Facilitated Gender-Based Violence Corpus",
+    "url": "https://arxiv.org/abs/2611.06706v1",
+    "date": "2026-11-04",
+    "summary": "Tech-facilitated gender based violence (TFGBV) is a pervasive online harm affecting women and gender minority groups through its many direct and covert forms. Current models and annotated datasets for gendered harm detec…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Fusing Earth observation embeddings and spaceborne terrain with meteorological forcing for flood peak depth prediction from high-water marks",
-    "url": "https://arxiv.org/abs/2611.05220v1",
-    "date": "2026-11-03",
-    "summary": "Flood peak depth on normally dry land governs damage and risk to life, but is observed only sparsely, by post-event high-water mark (HWM) surveys, and depth derived from satellite flood extent is produced after the event…"
+    "title": "Energy-Guided Transport for Projection-Free Physics-Informed Flow Matching",
+    "url": "https://arxiv.org/abs/2611.06711v1",
+    "date": "2026-11-04",
+    "summary": "Deep generative models, particularly Flow Matching frameworks, have emerged as powerful tools for synthesizing complex physical systems. However, standard architectures remain purely statistically driven and agnostic to…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Fairness Metrics based on the AUC in Clinical Predictive AI",
-    "url": "https://arxiv.org/abs/2611.05222v1",
-    "date": "2026-11-03",
-    "summary": "Fairness evaluation of clinical prediction models for binary outcomes often involves fairness metrics that compare the area under the receiver operating characteristic curve (AUC, or c-statistic) across subgroups. Howeve…"
+    "title": "Symmetry Breaking at the Edge of Stability via Central Flow Analysis",
+    "url": "https://arxiv.org/abs/2611.06718v1",
+    "date": "2026-11-04",
+    "summary": "Continuous symmetries in neural networks lead to conserved quantities that are invariant under gradient flow, such as layer balancedness in linear and ReLU networks. Finite-step gradient descent need not preserve these l…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "PLANTEUR: A Crop-Type Segmentation Benchmark for Tropical Regions",
-    "url": "https://arxiv.org/abs/2611.05223v1",
-    "date": "2026-11-03",
-    "summary": "We introduce PLANTEUR, a benchmark for crop-type mapping from satellite images in the French overseas territories. Building on the PASTIS design, PLANTEUR provides georeferenced and aligned Sentinel-2, Sentinel-1, and La…"
+    "title": "Dexterous Robotic Hands in the Foundation-Model Era: A Full-Stack Survey of Hardware, Data, Cross-Embodiment Transfer, Learning, and Evaluation",
+    "url": "https://arxiv.org/abs/2611.06724v1",
+    "date": "2026-11-04",
+    "summary": "Dexterous robotic hands are increasingly coupled to large-scale human data and foundation models, yet progress in hardware, representation learning and evaluation is often assessed separately. This survey reviews work fr…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Learning curves in natural and artificial systems",
-    "url": "https://arxiv.org/abs/2611.05224v1",
-    "date": "2026-11-03",
-    "summary": "A general mathematical model of experience formation is considered, in which the learning level is defined as the probability that the next value of the uncertainty factor has already been mastered and not forgotten. Wit…"
+    "title": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
+    "url": "https://arxiv.org/abs/2611.06728v1",
+    "date": "2026-11-04",
+    "summary": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Post-Inference Model Chaining: A Problem Statement and a Model-based Bootstrap for Training End-to-End Digital Twins",
-    "url": "https://arxiv.org/abs/2611.05225v1",
-    "date": "2026-11-03",
-    "summary": "End-to-end digital twins can be constructed by fitting separate stage models and connecting them after inference. We investigate the Frequentist prediction properties of a commonly used Monte Carlo simulation scheme that…"
+    "title": "Template Gap Reconstruction for Shell Output Simulation with Small Language Models",
+    "url": "https://arxiv.org/abs/2611.06731v1",
+    "date": "2026-11-04",
+    "summary": "Small language models offer a compact basis for shell simulation without executing submitted commands, but full-output decoding requires them to predict recurring utility structure alongside content that varies across ex…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Regret-based Characterization, Information Limits, and the Sample Complexity of Auditing Adaptive Policies",
-    "url": "https://arxiv.org/abs/2611.05227v1",
-    "date": "2026-11-03",
-    "summary": "A policy can earn its performance by where it locates on average or by reacting to information. For any Markov policy $π$ in a finite-horizon MDP, let $ν$ be its open-loop marginal, which plays $π$'s average action distr…"
+    "title": "ConceptARC at Scale: Studying Conceptual Understanding in Reasoning Models",
+    "url": "https://arxiv.org/abs/2611.06732v1",
+    "date": "2026-11-04",
+    "summary": "Large reasoning models (LRMs) perform well on challenging benchmarks, yet it remains unclear whether they form generalizable abstractions across conceptually related reasoning tasks. The Abstraction and Reasoning Corpus…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Post-stratified importance sampling",
-    "url": "https://arxiv.org/abs/2611.05238v1",
-    "date": "2026-11-03",
-    "summary": "Importance sampling is a building block of modern statistical computing, but the weighted estimate is prone to high or infinite variance. Moreover, its empirical standard error is often unreliable, leaving importance sam…"
+    "title": "Coupled Scene Graph Anticipation: When With-Constraint Recall Hides Structural Inconsistency",
+    "url": "https://arxiv.org/abs/2611.06738v1",
+    "date": "2026-11-04",
+    "summary": "Scene Graph Anticipation (SGA) predicts object relationships in future video frames. Continuous-time SGA models evolve each subject-object pair with an independent Neural ODE, so relationships sharing an entity cannot in…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Shrinkage prior for implicit generative models",
-    "url": "https://arxiv.org/abs/2611.05241v1",
-    "date": "2026-11-03",
-    "summary": "Implicit generative models based on deep neural networks have revolutionized many scientific fields, from weather research to language generation. They successfully model complex random objects arising in real-world prob…"
+    "title": "Continual Classification Beyond the Kernel Regime: Harnessing the Sparsity Bias of L2 Regularization in Diagonal Linear Networks",
+    "url": "https://arxiv.org/abs/2611.06759v1",
+    "date": "2026-11-04",
+    "summary": "We study logistic regression for continual learning with linear predictors in a high-dimensional statistical setting. Existing theoretical work has largely focused on continual linear regression with variants of L2 regul…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Logarithmic Regret for Alternating Mirror Descent",
-    "url": "https://arxiv.org/abs/2611.05243v1",
-    "date": "2026-11-03",
-    "summary": "Alternating online mirror descent (AltOMD) is a simple learning rule for zero-sum games, which improves upon simultaneous OMD numerically and theoretically. Previous work obtained $O(T^{1/3})$ and $O(T^{1/5})$ regret bou…"
+    "title": "FedFiOT: Fisher-Weighted Optimal Transport for Model Merging in One-Shot and Few-Round Federated Learning",
+    "url": "https://arxiv.org/abs/2611.06783v1",
+    "date": "2026-11-04",
+    "summary": "One-shot and few-round federated learning (FL) reduce communication burden by constructing a global model within one or a few communication rounds, but often achieve lower performance than conventional multi-round FL. Wi…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Going Deeper With Memories",
-    "url": "https://arxiv.org/abs/2611.05255v1",
-    "date": "2026-11-03",
-    "summary": "Byte level language models avoid tokenizer dependence and provide universal coverage, but processing every byte at full resolution is expensive. We introduce DeepMem, a causal multiscale architecture that separates seman…"
+    "title": "Ranking Agreement Does Not Reveal Paragraph-Edit Agreement in Two Released Paper Acceptance Predictors",
+    "url": "https://arxiv.org/abs/2611.06789v1",
+    "date": "2026-11-04",
+    "summary": "A fast acceptance classifier could select revisions for a slower evaluator. We ask whether agreement on existing papers supports that use. We compare a classifier of word and document features with two released text-only…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "NovoCRF: Globally Normalized De Novo Peptide Sequencing on a Prefix-Mass Lattice",
-    "url": "https://arxiv.org/abs/2611.05260v1",
-    "date": "2026-11-03",
-    "summary": "De novo peptide sequencing has moved from dynamic programming over hand-designed or generative scores to large transformers that learn the task end to end. We present NovoCRF, a conditional random field (CRF) whose state…"
+    "title": "Transforming Integer Grids to Spatial Intuition: Perception, Not Planning, Governs ARC-AGI-3",
+    "url": "https://arxiv.org/abs/2611.06793v1",
+    "date": "2026-11-04",
+    "summary": "Sample-efficient fluid intelligence requires agents that rapidly form working models of unfamiliar interactive environments. ARC-AGI-3 tests this across uninstructed visual games scored by Relative Human Action Efficienc…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Gaussian Partitioning for Reliable Learning of Multi-Index Models",
-    "url": "https://arxiv.org/abs/2611.05264v1",
-    "date": "2026-11-03",
-    "summary": "We introduce Gaussian partitioning, an algorithmic primitive for distributions smooth with respect to a Gaussian. It partitions space into polyhedral regions so that almost all mass lies in thin strips restricting a few…"
+    "title": "Message-passing graph persistence",
+    "url": "https://arxiv.org/abs/2611.06801v1",
+    "date": "2026-11-04",
+    "summary": "Message-passing graph neural networks (GNNs) are limited in expressive power by the one-dimensional Weisfeiler-Leman test. Persistent homology (PH) provides topological descriptors that can complement GNN representations…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Stabilizing On-Policy Targeted Guidance in Agentic Reinforcement Learning",
-    "url": "https://arxiv.org/abs/2611.05266v1",
-    "date": "2026-11-03",
-    "summary": "Naive on-policy RL is often bottlenecked by the capabilities of the base model --- insufficient coverage can result in an inability to learn from certain rewards. At the same time, rewards in modern post-training systems…"
+    "title": "ConDR: Conservative Reachability through Neural Hamilton-Jacobi Subsolutions",
+    "url": "https://arxiv.org/abs/2611.06802v1",
+    "date": "2026-11-04",
+    "summary": "Hamilton-Jacobi (HJ) Reachability identifies the unsafe states of a dynamical system from which it can be forced into failure under worst-case disturbance. However, classical grid-based solvers scale exponentially with s…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "iGC: Antibody Optimization via Reinforcement Learning over a Learned Somatic Hypermutation Prior",
-    "url": "https://arxiv.org/abs/2611.05270v1",
-    "date": "2026-11-03",
-    "summary": "Antibody affinity maturation is a natural optimization process in which B cells acquire mutations through somatic hypermutation (SHM), undergo selection for improved antigen binding, and iteratively evolve toward higher…"
+    "title": "Evolutionary Design of Interpretable Spatial Descriptors for Structure-Property Relationship Discovery",
+    "url": "https://arxiv.org/abs/2611.06811v1",
+    "date": "2026-11-04",
+    "summary": "Structure property prediction is a classical task in machine learning, ranging from molecular activity and materials properties to local functional responses measured in microscopy. For image-based regression, two choice…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "De Rham cohomological architectures for PINNs and PDEs with topological holes",
-    "url": "https://arxiv.org/abs/2611.05276v1",
-    "date": "2026-11-03",
-    "summary": "We attempt to alleviate failure modes of classical physics-informed neural networks (PINNs) in scenarios of topological pathologies corresponding to punctures, holes, poles, and voids by introducing de Rham cohomological…"
+    "title": "GFlowQEC: Generative Flow Networks that Learn to Sample Quantum LDPC Codes",
+    "url": "https://arxiv.org/abs/2611.06819v1",
+    "date": "2026-11-04",
+    "summary": "Choosing a quantum error-correcting code for a real device means scoring candidates with circuit-level simulations so slow that only a few hundred can be run. So every evaluation counts, and a search is judged by how man…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Conformal Prediction at Performative Equilibrium: The Price of Performativity",
-    "url": "https://arxiv.org/abs/2611.05277v1",
-    "date": "2026-11-03",
-    "summary": "Conformal prediction gives finite-sample coverage when calibration and test points are exchangeable, but exchangeability can fail when deployment changes the data distribution. We study conformal prediction in performati…"
+    "title": "Systolic Linear Attention: Co-Designing Tile-Grouped Gated Delta Attention for TPUs",
+    "url": "https://arxiv.org/abs/2611.06828v1",
+    "date": "2026-11-04",
+    "summary": "Gated-delta linear attention layers such as Gated DeltaNet (GDN), Kimi Delta Attention (KDA), and GDN-2 are tuned for GPUs, where small tensor-core tiles and fast vector registers make per-channel decay rescaling and seq…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Knowingly Wrong: Training LLMs Against Their Own Beliefs can Induce Misalignment",
-    "url": "https://arxiv.org/abs/2611.05287v1",
-    "date": "2026-11-03",
-    "summary": "Fine-tuning a large language model (LLM) on harmful data in a narrow domain, such as bad medical advice, can make it broadly misaligned. How realistic this risk is remains unclear, since models are very rarely fine-tuned…"
+    "title": "Enabling AWS Cloud FPGA Development Using High-Level Vitis HLS",
+    "url": "https://arxiv.org/abs/2611.06829v1",
+    "date": "2026-11-04",
+    "summary": "We present a toolchain for development of ML models on AWS EC2 F2 cloud FPGA infrastructure from high-level language, implementing a complete Vitis HLS to HDK bridge to AFI workflow that has been absent from the academic…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "GSBR: Geometric Support Behavior Regularization for Online RL",
-    "url": "https://arxiv.org/abs/2611.05295v1",
-    "date": "2026-11-03",
-    "summary": "Regularizing online reinforcement learning (RL) toward a pretrained base policy can improve sample efficiency and learning stability, but regularization that is too restrictive limits how much the policy can improve. Bas…"
+    "title": "Alignment Myopia in Generative AI",
+    "url": "https://arxiv.org/abs/2611.06830v1",
+    "date": "2026-11-04",
+    "summary": "Current generative AI alignment relies on a myopic paradigm that prioritizes immediate conversational satisfaction. By relying on short-horizon feedback, this approach ignores the profound, longitudinal externalities of…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Universal Hardness From Masking Channels",
-    "url": "https://arxiv.org/abs/2611.05296v1",
-    "date": "2026-11-03",
-    "summary": "We prove a broad learning-theoretic generalization of the celebrated hardcore lemma concerning the average-case complexity of computing a Boolean function (Impagliazzo, 1995). Our starting point is the observation that t…"
+    "title": "Context--Answer Metamodels: Forecasting LLM Activations Before the First Answer Token",
+    "url": "https://arxiv.org/abs/2611.06837v1",
+    "date": "2026-11-04",
+    "summary": "Under stochastic decoding, a single context can elicit many different answers from a language model. Characterizing this variation typically requires many expensive autoregressive rollouts, each revealing only one realiz…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers",
-    "url": "https://arxiv.org/abs/2611.05304v1",
-    "date": "2026-11-03",
-    "summary": "Looped transformers are a parameter-efficient alternative to standard transformers for language modeling. By reapplying the same layers across multiple loop steps, recent looped language models match the performance of n…"
+    "title": "Same Layout, Different Count: What Number Words Do Past Ten in Text-to-Image Models",
+    "url": "https://arxiv.org/abs/2611.06840v1",
+    "date": "2026-11-04",
+    "summary": "Ask SD3.5-Medium for twelve of an object and then, from the same starting noise, for twenty-five. The picture keeps its layout, but the count changes about as much as it would under a new random seed, and in no consisten…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "$Φ$asmaNet: A Staged Spectral Token-Refinement Architecture for Fast Gravitational-Wave Signal-to-Noise Ratio Prediction",
-    "url": "https://arxiv.org/abs/2611.05309v1",
-    "date": "2026-11-03",
-    "summary": "Quantifying selection effects in gravitational-wave population studies requires millions of costly signal-to-noise ratio (SNR) calculations. We present $Φ$asmaNet, a compact neural architecture for structured tabular reg…"
+    "title": "Thermally Conditioned Time-Series Forecasting of Grain Growth in Polycrystalline Materials",
+    "url": "https://arxiv.org/abs/2611.06843v1",
+    "date": "2026-11-04",
+    "summary": "Grain growth during heat treatment strongly affects the microstructure of polycrystalline materials and, consequently, their mechanical properties. Although numerical methods such as front-tracking or front-capturing sim…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "CATF: A Manager-Worker Framework for Context-Aware Time-Series Forecasting",
-    "url": "https://arxiv.org/abs/2611.05325v1",
-    "date": "2026-11-03",
-    "summary": "We study context-aware time-series forecasting, in which a single target variable is predicted from its own history and a set of contextual variables, such as weather and calendar information. As the context becomes more…"
+    "title": "Navigating Disagreement Among Criteria for Evaluating Explanation Faithfulness",
+    "url": "https://arxiv.org/abs/2611.06846v1",
+    "date": "2026-11-04",
+    "summary": "Faithfulness requires that algorithmic explanations accurately reflect the model's behavior. Yet existing operationalizations of faithfulness can disagree about whether the same explanation is faithful, leaving developer…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "A simple adaptive accelerated optimistic dual averaging method for unconstrained convex optimization in $p$-norm geometry",
-    "url": "https://arxiv.org/abs/2611.05334v1",
-    "date": "2026-11-03",
-    "summary": "Efficient preconditioning plays an important role in large-scale first-order optimization. In this paper, we propose an adaptive accelerated optimistic dual averaging ($\\text{A}^2$ODA) method for unconstrained convex opt…"
+    "title": "Visual Token Routing: Learning to keep tokens that matter",
+    "url": "https://arxiv.org/abs/2611.06854v1",
+    "date": "2026-11-04",
+    "summary": "Computer-use agents (CUAs) have recently achieved superhuman performance on several long-horizon benchmarks. However, their computational cost limits their use in long-horizon tasks and real-time domains such as video ga…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "A Circuit for In-Context Learning",
-    "url": "https://arxiv.org/abs/2611.05344v1",
-    "date": "2026-11-03",
-    "summary": "In-context learning (ICL) lets a pretrained language model perform a task specified by demonstrations in its prompt, with no parameter updates. With arbitrary labels the model must acquire a mapping it cannot have memori…"
+    "title": "Balancing hierarchical representation and quantization: A performance trade-off in text embeddings",
+    "url": "https://arxiv.org/abs/2611.06859v1",
+    "date": "2026-11-04",
+    "summary": "Hierarchical text embedding models offer variable-length representations, while quantization reduces numerical precision; both aim to improve computational efficiency. This work is an empirical benchmark study of how the…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Agnostic Learning by Imitating",
-    "url": "https://arxiv.org/abs/2611.05346v1",
-    "date": "2026-11-03",
-    "summary": "Given a class of machine learning models and sample access to a data distribution with binary labels, which computational task is harder: training a discriminative model that distinguishes positive and negative labels as…"
+    "title": "CounterFactual Retrieval for Evidence-Aware Individual Animal Identification",
+    "url": "https://arxiv.org/abs/2611.06864v1",
+    "date": "2026-11-04",
+    "summary": "Automated identification of individual animals is moving from small curated studies toward shared benchmarks and reusable foundation models. This progress is useful, but current evaluation leaves the evidence behind a ma…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Reading Why: Born-Measured Attention with Exact Word Evidence on Light and Qubits",
-    "url": "https://arxiv.org/abs/2611.05355v1",
-    "date": "2026-11-03",
-    "summary": "When a language model answers, we can usually only estimate why. We build a transformer in which every step is a Born measurement - attention $|\\langle q|k\\rangle|^4$ normalised over each row, a measured product in place…"
+    "title": "Adaptive Multi Mode: Budget-Aware Routing of Optimizers By Online Landscape Probes",
+    "url": "https://arxiv.org/abs/2611.06879v1",
+    "date": "2026-11-04",
+    "summary": "The best classical optimizer for a continuous black-box problem depends on its budget and landscape. Existing routers decide from the dimension and budget, past improvement or features fitted to one benchmark, and few te…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Suppressing Misaligned Behaviors in Language Models, Durably",
-    "url": "https://arxiv.org/abs/2611.05358v1",
-    "date": "2026-11-03",
-    "summary": "Undesired model behaviors can emerge or re-emerge at any stage of training. Once observed, how effectively can we suppress them? To study this question, we first construct two model organisms--language models deliberatel…"
+    "title": "Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement",
+    "url": "https://arxiv.org/abs/2611.06905v1",
+    "date": "2026-11-04",
+    "summary": "The introduction of generalist robot policies has enabled a single, large model to learn to perform a variety of tasks from a vast pre-training corpus. While these models often exhibit powerful zero-shot generalization c…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "GUILD: Guided Iterative Data Collection for Imitation Learning",
-    "url": "https://arxiv.org/abs/2611.05368v1",
-    "date": "2026-11-03",
-    "summary": "Imitation learning policies in robotics are trained on datasets collected through costly real-world teleoperation. Often, the data-collection process is unguided, relying on the teleoperator's intuition, resulting in dat…"
+    "title": "Perceptive Humanoid Motion from Simulation",
+    "url": "https://arxiv.org/abs/2611.06908v1",
+    "date": "2026-11-04",
+    "summary": "Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a data bottleneck: mapping pixels and free-form language to low…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "PolicyIK: High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning",
-    "url": "https://arxiv.org/abs/2611.05372v1",
-    "date": "2026-11-03",
-    "summary": "Inverse kinematics (IK) converts end-effector pose commands into joint motion, and many vision-language-action (VLA) policies rely on it to act on a given arm and to transfer across embodiments. Precise IK remains labori…"
+    "title": "FlowReconBench: Accuracy, calibration and cost of learned and classical flow reconstruction from sparse sensors",
+    "url": "https://arxiv.org/abs/2611.06912v1",
+    "date": "2026-11-04",
+    "summary": "Reconstructing full flow fields from sparse sensors requires prior assumptions about unmeasured regions and physical variables. Yet it remains unclear when learned models outperform classical estimators and which aspects…"
   },
   {
     "company": "arXiv · ML",
     "companySlug": "arxiv-ml",
-    "title": "Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization",
-    "url": "https://arxiv.org/abs/2611.05373v1",
-    "date": "2026-11-03",
-    "summary": "Direct Nash Optimization (DNO) aligns a language model to a general preference function by approximating the Nash equilibrium of a two-player preference game. Its practical variant, DNO-Prct, iterates on-policy sampling,…"
+    "title": "A Framework for Context Enrichment and Selective Robustness in LLM Social Agents",
+    "url": "https://arxiv.org/abs/2611.06914v1",
+    "date": "2026-11-04",
+    "summary": "Researchers use large language models as agents in social simulations, where agents are prompted with observations and background information intended to shape their actions. Yet LLM agents have been shown to substantial…"
   }
 ]

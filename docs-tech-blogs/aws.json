@@ -2,6 +2,14 @@
   {
     "company": "AWS",
     "companySlug": "aws",
+    "title": "Amazon S3 Tables now offer managed migration of Apache Hive tables to Apache Iceberg",
+    "url": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-offer-managed-migration-of-apache-hive-tables-to-apache-iceberg/",
+    "date": "2026-11-04",
+    "summary": "You can now migrate existing Apache Hive datasets in Amazon S3 to fully managed Apache Iceberg tables in Amazon S3 Tables, with no pipelines to build or compute to provision, while production workloads keep running."
+  },
+  {
+    "company": "AWS",
+    "companySlug": "aws",
     "title": "AWS Weekly Roundup: GPT-6.1 Terra on Bedrock, Step Functions as agent tools, and more (November 2, 2026)",
     "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026/",
     "date": "2026-11-02",
@@ -390,13 +398,5 @@
     "url": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
     "date": "2026-06-22",
     "summary": "AWS launches a new serverless compute primitive, AWS Lambda MicroVMs. VM-level, isolated sandboxes with no shared kernel or resources between sessions. Rapid launch and resume, full lifecycle control, state preservation…"
-  },
-  {
-    "company": "AWS",
-    "companySlug": "aws",
-    "title": "Amazon ECS introduces new high-resolution metrics for faster service auto scaling",
-    "url": "https://aws.amazon.com/blogs/aws/amazon-ecs-introduces-new-high-resolution-metrics-for-faster-service-auto-scaling/",
-    "date": "2026-06-18",
-    "summary": "Amazon Elastic Container Service (Amazon ECS) service auto scaling automatically adjusts task counts to meet workload demand with comprehensive scaling policies, including predictive scaling for recurring traffic pattern…"
   }
 ]
