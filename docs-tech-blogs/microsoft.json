@@ -2,6 +2,14 @@
   {
     "company": "Microsoft",
     "companySlug": "microsoft",
+    "title": "Your best AX fixes are hiding in agent trajectories",
+    "url": "https://devblogs.microsoft.com/blog/your-best-ax-fixes-are-hiding-in-agent-trajectories/",
+    "date": "2026-11-05",
+    "summary": "All five agent runs produced a working script, and nothing in the eval score looked wrong. The trajectories told a different story. Every run read a DLL as raw bytes to find plugin names, and three scripts would quietly…"
+  },
+  {
+    "company": "Microsoft",
+    "companySlug": "microsoft",
     "title": "Does &#8216;eval&#8217; in the workspace path change what your agent does?",
     "url": "https://devblogs.microsoft.com/blog/does-eval-in-the-workspace-path-change-what-your-agent-does/",
     "date": "2026-10-30",
@@ -390,13 +398,5 @@
     "url": "https://devblogs.microsoft.com/blog/improve-your-agentic-developer-tools-by-grounding-in-microsoft-learn",
     "date": "2026-05-28",
     "summary": "Development workflows span terminals, IDEs, background agents, and custom assistants. What matters is whether they draw from the same current source. Learn MCP Server gives any MCP-compatible agent direct access to curre…"
-  },
-  {
-    "company": "Microsoft",
-    "companySlug": "microsoft",
-    "title": "How AI coding agents actually use your technology",
-    "url": "https://devblogs.microsoft.com/blog/how-ai-coding-agents-actually-use-your-technology",
-    "date": "2026-05-27",
-    "summary": "You ship an SDK, a CLI, an API, and developers use it. Now AI coding agents use it too, except they use it differently than humans do. Most of the time you have no idea what s actually happening between developer types a…"
   }
 ]

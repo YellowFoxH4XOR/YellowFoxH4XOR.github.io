@@ -2,6 +2,14 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
+    "title": "Agents aren’t humans (but they kinda are)",
+    "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
+    "date": "2026-11-05",
+    "summary": "AI agents act for millions, but servers see intermediaries that strip user visibility. This post defines the problem space and introduces a collaborative approach to safely identifying, allowing, and managing this automa…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
     "title": "See the agents, set the terms: new visibility and control for personal agents",
     "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
     "date": "2026-11-04",
@@ -390,13 +398,5 @@
     "url": "https://blog.cloudflare.com/ai-search-ga/",
     "date": "2026-10-01",
     "summary": "AI Search is now generally available. It embeds image pixels directly for visual search, runs optical character recognition on scanned PDFs, accepts files up to 10 MiB, and works with any chat model. Here's what's new an…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
-    "url": "https://blog.cloudflare.com/clef-decision-models/",
-    "date": "2026-10-01",
-    "summary": "We are introducing Clef and Clef-flash, open-source decision models hosted on Workers AI for high-speed classification and agentic workflows. Also launching: a new reinforcement learning platform that allows developers t…"
   }
 ]
