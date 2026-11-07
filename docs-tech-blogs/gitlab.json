@@ -2,6 +2,14 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
+    "title": "The Pentagon wants to know who checks code when AI writes it",
+    "url": "https://about.gitlab.com/blog/department-of-war-instruction-for-ai-generated-code/",
+    "date": "2026-11-06",
+    "summary": "The Department of War now treats AI-generated code as unverified until it’s proven otherwise. DoW Instruction 8430.01 , “Accelerated Mission Software,” took effect September 8, 2026, and is the department’s latest guidan…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
     "title": "10 questions to ask any software vendor about sovereignty",
     "url": "https://about.gitlab.com/blog/10-questions-to-ask-any-software-vendor-about-sovereignty/",
     "date": "2026-11-02",
@@ -390,13 +398,5 @@
     "url": "https://about.gitlab.com/blog/gpt6-astra-on-gitlab/",
     "date": "2026-09-08",
     "summary": "OpenAI s newest frontier model GPT-6 Astra is now on GitLab Duo Agent Platform, delivering faster runs and lower token usage. In GitLab s internal evaluation, GPT-6 Astra finished a typical run 43.4% faster than GPT-5.6…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "Critical remote code execution in vm2, a widely used Node.js sandbox library",
-    "url": "https://about.gitlab.com/blog/critical-remote-code-execution-in-vm2/",
-    "date": "2026-09-02",
-    "summary": "GitLab s Threat Research Group found a critical sandbox escape vulnerability in vm2, one of the most widely adopted Node.js sandboxing libraries. The vulnerability uses a configuration copied straight from vm2 s own READ…"
   }
 ]
