@@ -2,6 +2,14 @@
   {
     "company": "NVIDIA",
     "companySlug": "nvidia",
+    "title": "Make a Robot Arm Feel Weightless with NVIDIA Holoscan 5",
+    "url": "https://developer.nvidia.com/blog/make-a-robot-arm-feel-weightless-with-nvidia-holoscan-5/",
+    "date": "2026-11-09",
+    "summary": "Picture guiding a robot arm by hand while its motors supply just enough torque to support its weight and keep the robot upright. This simple interaction, a..."
+  },
+  {
+    "company": "NVIDIA",
+    "companySlug": "nvidia",
     "title": "Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
     "url": "https://developer.nvidia.com/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective/",
     "date": "2026-11-06",
@@ -390,13 +398,5 @@
     "url": "https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration/",
     "date": "2026-10-06",
     "summary": "GPU-accelerated Kubernetes clusters depend on compatible versions across dozens of components, each on its own release cycle: host kernels, GPU drivers,..."
-  },
-  {
-    "company": "NVIDIA",
-    "companySlug": "nvidia",
-    "title": "Control How Your GPU Shares Work with Green Contexts",
-    "url": "https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts/",
-    "date": "2026-10-06",
-    "summary": "GPU applications increasingly consist of multiple independent components running at the same time within a single process: a latency-sensitive operator..."
   }
 ]
