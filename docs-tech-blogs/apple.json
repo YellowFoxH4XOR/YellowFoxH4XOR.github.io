@@ -10,6 +10,14 @@
   {
     "company": "Apple",
     "companySlug": "apple",
+    "title": "Attention to Mamba: A Recipe for Cross-Architecture Distillation",
+    "url": "https://machinelearning.apple.com/research/attention-mamba-distillation",
+    "date": "2026-11-03",
+    "summary": "State Space Models (SSMs) such as Mamba have become a popular alternative to Transformer models, due to their reduced memory consumption and higher throughput at generation compared to their Attention-based counterparts.…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
     "title": "Online Dense Reinforcement Learning with Planning-Grounding Agent for UI Navigation on Live iOS Apps",
     "url": "https://machinelearning.apple.com/research/planning-grounding-ui-navigation",
     "date": "2026-11-02",
@@ -22,6 +30,14 @@
     "url": "https://machinelearning.apple.com/research/gharp-head-animation",
     "date": "2026-10-26",
     "summary": "We present GHARP (Real-time Gaussian Head Animation from Large-scale Reconstruction Prior), a method that animates 3D human heads in real time from a few input images of a subject and a driving expression signal. We deco…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
+    "title": "Pixels to Tokens: Token Space Efficient Active Learning for Low-Budget Semantic Segmentation",
+    "url": "https://machinelearning.apple.com/research/pixels-tokens-active-learning",
+    "date": "2026-10-21",
+    "summary": "While foundation models and vision transformers (ViTs) have redefined visual representations, current active learning (AL) strategies for these backbones largely operate at the patch or region level, where annotation req…"
   },
   {
     "company": "Apple",
@@ -382,21 +398,5 @@
     "url": "https://machinelearning.apple.com/research/scaling-laws-mixture-pretraining",
     "date": "2026-08-20",
     "summary": "As language models scale, the amount of data they require grows – yet many target data sources, such as low-resource languages or specialized domains, are inherently limited in size. A common strategy is to mix this scar…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
-    "title": "Examining Human-Like Behaviors in LLMs: A Multi-Dimensional Analysis of Model Behaviors, User Factors, and System Prompts",
-    "url": "https://machinelearning.apple.com/research/human-like-behaviors-llms",
-    "date": "2026-08-19",
-    "summary": "Large language models (LLMs) exhibit a wide range of human-like behaviors, from expressing thoughts and emotions, to engaging in relationship-building with users, to refusing requests and maintaining boundaries. Despite…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
-    "title": "The P-Completeness of Inverted Index Traversal: On the Complexity of Evaluating Boolean Query DAGs",
-    "url": "https://machinelearning.apple.com/research/the-p-completeness-of-inverted-index-traversal",
-    "date": "2026-08-19",
-    "summary": "Modern AI agents increasingly rely on search infrastructure to execute complex, neuro-symbolic reasoning workflows. These workflows often compile into deeply nested, non-monotonic Boolean queries over text fields. Howeve…"
   }
 ]
