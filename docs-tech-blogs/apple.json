@@ -2,6 +2,14 @@
   {
     "company": "Apple",
     "companySlug": "apple",
+    "title": "Theoretical Limits of Language Model Alignment",
+    "url": "https://machinelearning.apple.com/research/theoretical-limits-alignment",
+    "date": "2026-11-12",
+    "summary": "Language model (LM) alignment improves model outputs to reflect human preferences while preserving the capabilities of the base model. The most common alignment approaches are (i) reinforcement learning, which maximizes…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
     "title": "Evaluating the Evaluators: Investigating LLM Judges for Personalized Writing Style Assessment",
     "url": "https://machinelearning.apple.com/research/evaluating-evaluators-llm-judges",
     "date": "2026-11-10",
@@ -390,13 +398,5 @@
     "url": "https://machinelearning.apple.com/research/starflow2-multimodal-generation",
     "date": "2026-08-25",
     "summary": "Unified multimodal models that understand, reason over, and generate interleaved text–image sequences remain structurally fragmented: existing approaches either sacrifice visual fidelity through discrete tokenization, im…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
-    "title": "Beyond Visual CoT: Internalized Visual Thinking for Proactive Video Reasoning",
-    "url": "https://machinelearning.apple.com/research/internalized-visual-thinking",
-    "date": "2026-08-24",
-    "summary": "Multimodal large language models increasingly use visual chain-of-thought (Visual CoT) to reason about spatial, temporal, and embodied environments. By generating intermediate reasoning images, Visual CoT provides an int…"
   }
 ]

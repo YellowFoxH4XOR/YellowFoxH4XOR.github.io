@@ -2,401 +2,401 @@
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Can KV Cache Be Reused Across Model Updates? A DeepSeek-V4-Flash Case Study",
-    "url": "https://arxiv.org/abs/2611.14051v1",
-    "date": "2026-11-10",
-    "summary": "Reusing key--value (KV) caches across language model updates could avoid repeated computation of shared context, but changes in model weights raise a fundamental question about what these caches preserve. We investigate…"
+    "title": "DPA: Decentralized Primal Averaging with Quasi-Global Momentum for Highly Heterogeneous Data",
+    "url": "https://arxiv.org/abs/2611.16871v1",
+    "date": "2026-11-12",
+    "summary": "Decentralized training of deep learning models keeps training data local and supports on-device learning over networks. In realistic scenarios, heterogeneity across agents' local data poses an optimization challenge and…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "HandsOnAid: Building and Evaluating an Offline First-Aid Assistant for Emergency Response Scenarios",
-    "url": "https://arxiv.org/abs/2611.14059v1",
-    "date": "2026-11-10",
-    "summary": "Emergencies can occur where there is no phone signal and no ambulance nearby. A small language model on a phone can be helpful in such situations, but its advice needs to be safe and accurate. We built HandsOnAid, a 4-bi…"
+    "title": "Context Graph: Explainable Multi-Agent Decision Chains in AI-RAN",
+    "url": "https://arxiv.org/abs/2611.16879v1",
+    "date": "2026-11-12",
+    "summary": "AI-RAN distributes network control across multiple autonomous agents, namely xApps and rApps operating over shared radio resources. When an alert or degradation appears, operators currently lack a structured way to trace…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Obscured Wildfire Flame Detection by Spatio-temporal Analysis of Smoke Patterns Using Frame-wise Transformers",
-    "url": "https://arxiv.org/abs/2611.14074v1",
-    "date": "2026-11-10",
-    "summary": "In this paper, we propose a new paradigm in wildfire management for detecting both visible and obscured fire using Deep Learning (DL). The essence of our method is the joint spatial and temporal analysis of RGB videos, e…"
+    "title": "Protein Language Models Fail To Capture Contact Predictions Under Invariant Relabeling",
+    "url": "https://arxiv.org/abs/2611.16881v1",
+    "date": "2026-11-12",
+    "summary": "Protein language models (pLMs) produce highly accurate contact maps from single-sequence inputs. People often take this accuracy as proof that these models implicitly learn invariant coevolutionary statistics, extracting…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "ZoomGain: Mining Global-to-Zoom Perception Gaps for Fine-Grained Visual Supervision",
-    "url": "https://arxiv.org/abs/2611.14076v1",
-    "date": "2026-11-10",
-    "summary": "Fine-grained visual perception requires Vision-Language Models (VLMs) to locate and interpret subtle evidence within complex scenes. Constructing supervision for this ability is challenging: questions must have correct,…"
+    "title": "LLM-Assisted Verification in Dafny",
+    "url": "https://arxiv.org/abs/2611.16886v1",
+    "date": "2026-11-12",
+    "summary": "Formal verification of complex algorithms requires expertise in program specification, invariant construction, mathematical proof, and the management of automated theorem provers. Although large language models (LLMs) ca…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "From Bias to Positionality: A critical grammar for Large Language Models",
-    "url": "https://arxiv.org/abs/2611.14079v1",
-    "date": "2026-11-10",
-    "summary": "Bias has become a default lens for understanding what machine learning systems do and how we should relate to them. Bias is at root a deviation from a standard; in decision making systems we can supply a standard from ou…"
+    "title": "Look It Up: Multi-bit LLM Watermarking via Codebook Search",
+    "url": "https://arxiv.org/abs/2611.16890v1",
+    "date": "2026-11-12",
+    "summary": "Attributing short LLM-generated texts to a specific source remains challenging for existing multi-bit watermarking methods, which often require long generations or costly decoding to recover payloads reliably. We propose…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Sable: A Small-Field Sumcheck Argument for Bit-Exact Inference of Large Language Models",
-    "url": "https://arxiv.org/abs/2611.14083v1",
-    "date": "2026-11-10",
-    "summary": "We present Sable, an argument system and single-GPU prover for the statement that a committed, integer-quantized transformer produced a given token sequence from a given prompt, bit for bit. Sable fixes an integer functi…"
+    "title": "CADET: Construction of PCB Routing Instances with Executable Demonstrations",
+    "url": "https://arxiv.org/abs/2611.16913v1",
+    "date": "2026-11-12",
+    "summary": "Printed circuit board (PCB) routing is the stage of physical layout that finds paths connecting the placed pads of each net. Public datasets in this domain are few, and most contain only the final states of routed boards…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "ProofCoder: Continuous Reasoning for Automated Software Verification",
-    "url": "https://arxiv.org/abs/2611.14106v1",
-    "date": "2026-11-10",
-    "summary": "Formal verification using proof assistants provides strong correctness guarantees for software, but constructing proofs remains labor-intensive and requires significant expertise. Recent approaches based on large languag…"
+    "title": "STEALTH: Steganographic Text Encoding Agnostic to Low-Level Tensor Hardware",
+    "url": "https://arxiv.org/abs/2611.16928v1",
+    "date": "2026-11-12",
+    "summary": "Provably secure linguistic steganography hides a message inside text sampled from a language model, so that without the key, a stegotext is computationally indistinguishable from an honest model sample. Nearly every such…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Model-Free Runtime Measurement of Task-Relevant Information",
-    "url": "https://arxiv.org/abs/2611.14111v1",
-    "date": "2026-11-10",
-    "summary": "Autonomous systems increasingly monitor physical kinematics, environmental states and task completion outcomes. While existing work provides methods to plan information seeking actions and interpret acquired observations…"
+    "title": "SPADE: Soft Prompts for Ai-text DEtection",
+    "url": "https://arxiv.org/abs/2611.16929v1",
+    "date": "2026-11-12",
+    "summary": "The easy access to Large Language Models (LLMs) has made AI-generated texts on the web increasingly ubiquitous, making AI-text detection a crucial task. Prompts greatly influence the generation process, but existing dete…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Looking One Step Ahead: An Anticipation-guided Agent for Object State Readout in Videos",
-    "url": "https://arxiv.org/abs/2611.14113v1",
-    "date": "2026-11-10",
-    "summary": "Understanding the progress of an activity requires tracking how the objects involved change over time. Object state readout provides this information by describing a target object's states and transitions across video fr…"
+    "title": "Kezek: Splitting Mono Two-Person Conversations into Per-Speaker Tracks for Full-Duplex Dialogue Data",
+    "url": "https://arxiv.org/abs/2611.16933v1",
+    "date": "2026-11-12",
+    "summary": "Full-duplex spoken dialogue models learn turn-taking, overlaps and backchannels from conversations recorded with one channel per speaker, but most available conversational audio is a single mono mix. We present Kezek, a…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Visual Similarity in Adult Word Extension and Artificial Word Learning",
-    "url": "https://arxiv.org/abs/2611.14116v1",
-    "date": "2026-11-10",
-    "summary": "When two objects share a name, how much does their visual similarity explain, and what do the teaching examples add? First, we reanalyzed trial-level data from a large adult word-extension study (Lewis & Frank, 2018), co…"
+    "title": "Universal Infectious Disease Forecasting with Mantis 2",
+    "url": "https://arxiv.org/abs/2611.16935v1",
+    "date": "2026-11-12",
+    "summary": "Public health agencies need to anticipate how outbreaks will unfold, when they will peak, and how long demand on health services will remain elevated. We previously developed a foundation model, Mantis, which was trained…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Hx2Dx: From Anamnesis to Diagnosis - A Multimodal Arena for Conversational Clinical Reasoning in LLMs",
-    "url": "https://arxiv.org/abs/2611.14122v1",
-    "date": "2026-11-10",
-    "summary": "Large language models (LLMs) achieve expert-level diagnostic accuracy in static evaluations, where the model receives a curated vignette or case report that already condenses the diagnostically relevant findings. Such ev…"
+    "title": "S1-Evo: Experience-Guided Evidence Competition Attacks on Typed System-1 Decision Models",
+    "url": "https://arxiv.org/abs/2611.16937v1",
+    "date": "2026-11-12",
+    "summary": "Typed System-1 (S1) decision models are increasingly deployed in LLM agents for routing, moderation, and authorization to cut inference cost, yet untrusted context can still manipulate typed outputs and alter execution b…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Representational Atoms in Neural Networks",
-    "url": "https://arxiv.org/abs/2611.14168v1",
-    "date": "2026-11-10",
-    "summary": "Understanding the internal representations of neural networks and characterizing their relationship with human conceptual structure are two critical questions for elucidating model mechanisms. The former reveals how lear…"
+    "title": "Lara Mini Base: Language Diversity as a Resource, Not a Trade-off",
+    "url": "https://arxiv.org/abs/2611.16956v1",
+    "date": "2026-11-12",
+    "summary": "General-purpose language models are trained mostly on English: over open models we review, at most, non-English pretraining data makes up only a 12% share. Models built for European languages give them far more, but scor…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "BARS: Budget-Aware Sequential Sampling with Refusal for Majority Identification under Unknown Distributions",
-    "url": "https://arxiv.org/abs/2611.14171v1",
-    "date": "2026-11-10",
-    "summary": "Repeated sampling with majority selection is an effective means of enforcing self-consistency in large language models. Recently, a variant has also been introduced that terminates early to save costs when the output dis…"
+    "title": "The Value of Thinking: Learning When to Reason in Hybrid Decision Models",
+    "url": "https://arxiv.org/abs/2611.16961v1",
+    "date": "2026-11-12",
+    "summary": "Existing adaptive-reasoning methods shorten the explicit reasoning a model writes, or skip it by switching modes; either way the answer is still written out token by token. \\emph{Rather than deciding how much to think},…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Cross-Border Fulfillment Center Selection via Doubly Robust Estimation and Linear Programming",
-    "url": "https://arxiv.org/abs/2611.14174v1",
-    "date": "2026-11-10",
-    "summary": "We introduce the cross-border (XB) fulfillment center (FC) Selection Model: a multi-stage optimization framework combining forecasting, doubly robust estimation, and linear programming to select optimal source FCs. For e…"
+    "title": "Compiling Known Rules into Compact Neural Agents: Weight-Space Programming on Unseen Games",
+    "url": "https://arxiv.org/abs/2611.16981v1",
+    "date": "2026-11-12",
+    "summary": "Weight-space programming (WSP) uses language models to construct neural network weights without training. We test whether known game mechanics can be compiled into compact agents that generalise to held-out levels, rende…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "An Augmented Lagrangian Approach to Lifted Bellman Linear Programming",
-    "url": "https://arxiv.org/abs/2611.14183v1",
-    "date": "2026-11-10",
-    "summary": "Temporal-difference critics regress onto a bootstrapped target and usually need a target network. Lifted Bellman Linear Programming (LBLP) instead expresses the in-sample optimal values of offline RL as the solution to a…"
+    "title": "ElasticDino: Dense Semantic Features Using Elastic Deformations",
+    "url": "https://arxiv.org/abs/2611.16984v1",
+    "date": "2026-11-12",
+    "summary": "Vision transformers (ViTs) serve as the backbone for countless vision tasks, including dense prediction tasks, such as segmentation and depth estimation, even though the quadratic complexity of self-attention severely li…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Joint Quantization and Dynamic Partitioning for Context-Aware Edge Vision Transformers",
-    "url": "https://arxiv.org/abs/2611.14196v1",
-    "date": "2026-11-10",
-    "summary": "Deploying vision transformer models across connected and automated vehicles (CAVs) requires joint management of computation and Vehicle-to-Vehicle (V2V) communication. Static split-inference methods use fixed partition p…"
+    "title": "Primer: An AI Framework for Instructor-Centered Educational Simulation Creation",
+    "url": "https://arxiv.org/abs/2611.16986v1",
+    "date": "2026-11-12",
+    "summary": "Educational simulations are a well-established pedagogical technique that gives learners opportunities to apply knowledge, respond to challenges, and reflect on their performance. High-quality simulations, however, are d…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Breakdown of Autoregressive Multi-Step Reasoning Under Concentrated vs. Diffuse Attention Head Dropout",
-    "url": "https://arxiv.org/abs/2611.14209v1",
-    "date": "2026-11-10",
-    "summary": "During extended wakefulness, mammalian neocortical networks experience localized periods of transient neuronal silence termed off-states. Here, we examine how analogous spatiotemporally concentrated disruptions affect se…"
+    "title": "AnalogLayoutWorld: An Open Benchmark for Agentic Analog Layout Design",
+    "url": "https://arxiv.org/abs/2611.16991v1",
+    "date": "2026-11-12",
+    "summary": "Coding agents have demonstrated strong capabilities in software development, yet their ability to tackle long-horizon engineering tasks governed by physical constraints remains less understood. We study this question thr…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Verifiable Agentic Traffic Class: A Policed Quality-of-Service Mechanism for Agentic AI Traffic, Evaluated from Simulation to Real-Kernel Adversarial Testing",
-    "url": "https://arxiv.org/abs/2611.14211v1",
-    "date": "2026-11-10",
-    "summary": "Software agents built on large language models generate traffic unlike human web traffic, yet routers have no class for it and cannot verify a sender's claim to be an agent. This paper proposes the Verifiable Agentic Tra…"
+    "title": "Skill Adapter: Personalized Modification and Online Routing of General-Purpose Skills",
+    "url": "https://arxiv.org/abs/2611.17007v1",
+    "date": "2026-11-12",
+    "summary": "Large language model (LLM) agents use external skills to reuse task procedures and experience with tools. General-purpose skills describe shared execution procedures, while specific tool choices, operating practices, and…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Dyship: Leveraging Acoustic Features For Speaker Relationship Classification From Dyadic Conversations",
-    "url": "https://arxiv.org/abs/2611.14241v1",
-    "date": "2026-11-10",
-    "summary": "We introduce DyShip, a framework for classifying speaker familiarity and kinship from dyadic conversations in the Seamless Interaction corpus. We compare five speech representations: spectrograms, MFCCs, self-supervised…"
+    "title": "AI for Biologists: The Knowledge Boundaries of Foundation Models in the Age of Agentic Systems",
+    "url": "https://arxiv.org/abs/2611.17015v1",
+    "date": "2026-11-12",
+    "summary": "Artificial intelligence (AI) is changing how biological research is done. Biological foundation models trained on millions of nucleotides, protein, and single-cell measurements predict protein structures, mutation effect…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "An AI Assistant for Automating Anti-Corruption Expertise of Draft Legislation Based on the TRACE Framework",
-    "url": "https://arxiv.org/abs/2611.14244v1",
-    "date": "2026-11-10",
-    "summary": "We present an AI assistant for automating anti-corruption expertise of draft legislation based on the TRACE architecture, designed to screen bills for corruption risks: pinpoint provisions an expert would criticise and n…"
+    "title": "Your Vision Foundation Model Is Secretly an EEG Foundation Model",
+    "url": "https://arxiv.org/abs/2611.17031v1",
+    "date": "2026-11-12",
+    "summary": "Electroencephalography (EEG) foundation models are pretrained on thousands of hours of recordings, yet their frozen features transfer poorly to downstream tasks, and this transfer does not consistently improve with large…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Personalized Affective Perception via Continual Learning in Human-Agent Negotiation",
-    "url": "https://arxiv.org/abs/2611.14247v1",
-    "date": "2026-11-10",
-    "summary": "Self-interested intelligent agents that negotiate with humans should interpret nonverbal expressions and adapt their behavior accordingly. However, generic facial-affect models degrade across individuals and contexts, cr…"
+    "title": "From Delegation to Coordination: Learning Efficient Multi-Agent Deep Research",
+    "url": "https://arxiv.org/abs/2611.17041v1",
+    "date": "2026-11-12",
+    "summary": "Multi-agent deep-research systems use delegation to parallelize search and keep long tool traces out of the main agent's context. Yet delegation helps only when task allocation and subtask execution are coordinated: the…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "A Cross-Scenario Survey and Analysis of Self-Evolving Multimodal Agents",
-    "url": "https://arxiv.org/abs/2611.14256v1",
-    "date": "2026-11-10",
-    "summary": "Recent work shows that multimodal agents increasingly self-improve without recurring human annotation. However, each self-improvement mechanism is designed and evaluated within a single scenario, leaving its precondition…"
+    "title": "AURA 2.0: From User-Driven Responses to Model-Initiated Conversations in Streaming Video",
+    "url": "https://arxiv.org/abs/2611.17048v1",
+    "date": "2026-11-12",
+    "summary": "Most AI assistants respond only when prompted, remaining silent even when events in the video stream offer meaningful opportunities for conversation. To move beyond purely user-driven interaction, we present AURA 2.0, a…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Lilo: A Multi-Agent Conversational Sandbox for Children's Digital Communication",
-    "url": "https://arxiv.org/abs/2611.14260v1",
-    "date": "2026-11-10",
-    "summary": "Children's peer conflicts increasingly play out in group chats, where tone and timing are stripped away, and a hurtful message is easier to send than to say aloud. We present Lilo, a multi-agent conversational system tha…"
+    "title": "Auditing AI peer reviewers: a benchmark on real scientific papers",
+    "url": "https://arxiv.org/abs/2611.17052v1",
+    "date": "2026-11-12",
+    "summary": "LLM-based peer review is now used at production scale, but its evaluation remains limited. We introduce a benchmark that injects objective, localisable errors of four types (general issues, mathematics, numerics, citatio…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Recurrent Modular Structure in Spiking Neural Network Reinforcement Learning",
-    "url": "https://arxiv.org/abs/2611.14262v1",
-    "date": "2026-11-10",
-    "summary": "Biological neural circuits are both modular and recurrent, with dense communities sparsely linked to one another. Spiking neural networks (SNNs) for reinforcement learning are usually feed-forward, and it is unclear how…"
+    "title": "Discovering Effective Agent Memory Designs through Program Evolution",
+    "url": "https://arxiv.org/abs/2611.17068v1",
+    "date": "2026-11-12",
+    "summary": "Program evolution provides a promising approach to discover agent memory designs and study the choices underlying their effectiveness. We introduce MAPE, a framework that evolves whole memory programs from minimal seeds…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Achieving Robust Channel Estimation Neural Networks on Doppler effects by Designed Training Data",
-    "url": "https://arxiv.org/abs/2611.14267v1",
-    "date": "2026-11-10",
-    "summary": "Channel estimation is crucial in wireless communication systems. Many existing works train and test their models using the same or similar channel. However, practical channels are infinitely diverse and time-variant whil…"
+    "title": "Reasoning Supervision and Capability Retention in LoRA Domain Adaptation",
+    "url": "https://arxiv.org/abs/2611.17072v1",
+    "date": "2026-11-12",
+    "summary": "Fine-tuning foundation models on financial data has a wide range of applications, including identifying event types from news, monitoring risk and compliance language, and answering questions over filings and earnings ca…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Ninety-Six Ways to Measure a Scribe: Fragmented Evaluation of Ambient Scribes in Healthcare",
-    "url": "https://arxiv.org/abs/2611.14284v1",
-    "date": "2026-11-10",
-    "summary": "Ambient artificial intelligence (AI) scribes have moved rapidly from experimental pilots to enterprise-wide deployment across health systems, promising reduced documentation burden and improved clinician experience. Whil…"
+    "title": "Speed-to-Power Dominates Energy Costs for AI Data Centers: Technoeconomic Analysis of Powering AI in the Continental United States",
+    "url": "https://arxiv.org/abs/2611.17098v1",
+    "date": "2026-11-12",
+    "summary": "The rapid growth of artificial intelligence is driving demand for new data centers at large scale and on short deployment timelines. To power them, firms connect to the commercial grid or contract generation directly, bu…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "LM-SimBench: A Unified Framework, Dataset, and Benchmark for Large Language Model Training Simulation",
-    "url": "https://arxiv.org/abs/2611.14285v1",
-    "date": "2026-11-10",
-    "summary": "Evaluating candidate parallelization strategies through distributed training runs makes strategy selection prohibitively expensive at scale. Performance simulation offers a lower cost alternative, yet controlled comparis…"
+    "title": "A Compact xDAWN-Guided Spatio-Temporal Network with Filter-Bank Convolution for P300 Detection",
+    "url": "https://arxiv.org/abs/2611.17101v1",
+    "date": "2026-11-12",
+    "summary": "P300-based brain-computer interfaces (BCIs) enable communication by decoding stimulus-evoked EEG responses into character selections without requiring voluntary motor output. Reliable P300 detection remains difficult bec…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Multimodal Abstention That Preserves Acquired Correct Answers",
-    "url": "https://arxiv.org/abs/2611.14311v1",
-    "date": "2026-11-10",
-    "summary": "Adding abstention to a task-adapted multimodal model can discard correct answers, including capabilities acquired during adaptation. We formulate abstention repair as maximizing correct abstention on unanswerable questio…"
+    "title": "Predicting Ethanol Drinking Status from Nonhuman Primate Liver Histology: A Proof of Concept for Parameter-efficient Fine-tuning in Few-Shot Vision-Language Modeling",
+    "url": "https://arxiv.org/abs/2611.17105v1",
+    "date": "2026-11-12",
+    "summary": "Combining vision-language models (VLMs) with parameter-efficient fine-tuning (PEFT) offers a promising approach to few-shot whole-slide image (WSI) classification in computational pathology. This study evaluates this app…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
-    "url": "https://arxiv.org/abs/2611.14320v1",
-    "date": "2026-11-10",
-    "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails…"
+    "title": "SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models",
+    "url": "https://arxiv.org/abs/2611.17110v1",
+    "date": "2026-11-12",
+    "summary": "Embodied foundation models hinge on diverse robot interaction data, which are costly to collect. Egocentric human videos offer a complementary source of experience, and latent action models (LAMs) provide a popular means…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "When Should Agents Remember? Falsification-Gated Self-Evolution for LLM Agents",
-    "url": "https://arxiv.org/abs/2611.14326v1",
-    "date": "2026-11-10",
-    "summary": "LLM agents increasingly operate in long-horizon, verifier-rich environments, but current self-improvement mechanisms often write episode-derived lessons directly into memory, making local success an unreliable signal for…"
+    "title": "Designing Institutions for Autonomous AI",
+    "url": "https://arxiv.org/abs/2611.17114v1",
+    "date": "2026-11-12",
+    "summary": "As autonomous AI agents increasingly interact in persistent populations, their collective capabilities and alignment depend not only on individual models, but also on the institutions governing their interactions. Yet AI…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Forward-Value Discretization: Faster Stochastic Diffusion Sampling Without High-Order Approximation",
-    "url": "https://arxiv.org/abs/2611.14328v1",
-    "date": "2026-11-10",
-    "summary": "Stochastic diffusion samplers often require substantially more neural function evaluations (NFEs) than deterministic samplers to achieve comparable sample quality. Although higher-order discretization accelerates determi…"
+    "title": "CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
+    "url": "https://arxiv.org/abs/2611.17115v1",
+    "date": "2026-11-12",
+    "summary": "Enforcement defenses against prompt injection, such as CaMeL, Progent, IPIGuard and DRIFT, ask the agent's own model to write a security artifact (a program, a privilege policy, a dependency graph or a constraint list) t…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "AI Isn't Getting Dumber, We're Getting Pickier: Rising Standards in Human Evaluation of Large Language Models",
-    "url": "https://arxiv.org/abs/2611.14333v1",
-    "date": "2026-11-10",
-    "summary": "Users often complain that AI assistants such as ChatGPT are getting worse. Some versions do change, but human evaluation leaves a second possibility untested: the people judging may change. We separate the two on Chatbot…"
+    "title": "Parameter-Efficient Conciseness Adaptation: Differentiable Length Control for Concise Clinical Reasoning in Smaller Language Models",
+    "url": "https://arxiv.org/abs/2611.17128v1",
+    "date": "2026-11-12",
+    "summary": "Smaller language models (SLMs) make it feasible to deploy clinical natural language processing where large proprietary models are too costly, and parameter-efficient fine-tuning allows them to be specialised on commodity…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "CLADE: Category-Level Answering from Deficient Evidence in Retrieval-Augmented Language Models",
-    "url": "https://arxiv.org/abs/2611.14355v1",
-    "date": "2026-11-10",
-    "summary": "Retrieval-augmented systems often retrieve passages that are accurate and relevant but state the answer at a coarser level of granularity than the question requires. For example, a question may ask which specific disease…"
+    "title": "Cited but Unused: Parametric Provenance in Retrieval-Augmented Generation",
+    "url": "https://arxiv.org/abs/2611.17161v1",
+    "date": "2026-11-12",
+    "summary": "Retrieval-augmented generation systems attach citations to attribute claims to their sources. These citations frequently misstate provenance, and standard verification cannot detect this. We measure provenance by counter…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "EngineAgent: Agentizing On-Device LLM Inference Engines with Inference Stack Hierarchy Awareness and Hardware Abilities",
-    "url": "https://arxiv.org/abs/2611.14356v1",
-    "date": "2026-11-10",
-    "summary": "Rapidly evolving LLM architectures and heterogeneous mobile hardware make supporting new models in on-device inference engines a recurring and costly system challenge. Each model may require coordinated changes across co…"
+    "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
+    "url": "https://arxiv.org/abs/2611.17167v1",
+    "date": "2026-11-12",
+    "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teac…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Cognitive Mapping of Learning by Thinking Mechanisms in Large Language Models",
-    "url": "https://arxiv.org/abs/2611.14382v1",
-    "date": "2026-11-10",
-    "summary": "Large language models (LLMs) increasingly exhibit capabilities that resemble human Learning by Thinking (LbT), the acquisition of new insight through internal processes such as explanation and reasoning, without new exte…"
+    "title": "Cortex-FL: Agent-Mediated Collaboration for Federated Learning",
+    "url": "https://arxiv.org/abs/2611.17186v1",
+    "date": "2026-11-12",
+    "summary": "Federated learning (FL) enables independent data owners to train models collaboratively without centralizing raw data. However, identifying collaborators, preparing training tasks, and coordinating execution and incentiv…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "An Energy-Based Perspective on Machine Learning",
-    "url": "https://arxiv.org/abs/2611.14383v1",
-    "date": "2026-11-10",
-    "summary": "Energy-based models (EBMs) define a distribution through a scalar energy, $p_θ(x)\\propto\\exp(-E_θ(x))$, and are usually presented as one model family among many. This tutorial has a broader goal: beyond introducing EBMs,…"
+    "title": "MALNISI-Infused Graph Construction and Weighted Contrastive Loss based GAT for Unsupervised Representation Learning in HSI",
+    "url": "https://arxiv.org/abs/2611.17199v1",
+    "date": "2026-11-12",
+    "summary": "Hyperspectral images (HSI) possess discriminating spectral characteristics with respect to land utilization due to high-dimensional information. Recently, unsupervised representation learning using graph neural networks…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Blurring the Block Boundaries: Overlapping Block Denoising for Efficient Diffusion Language Models",
-    "url": "https://arxiv.org/abs/2611.14387v1",
-    "date": "2026-11-10",
-    "summary": "Diffusion Language Models (DLMs) have emerged as effective alternatives to autoregressive models for latency-critical tasks, enabling faster token generation. Recent advances employ block diffusion with self-editing capa…"
+    "title": "Introducing Feedback Delays to Non-Delayed Adversarial MDPs: Optimal $\\sqrt S$ and $\\sqrt K$ Dependencies in Tabular and Linear AMDPs",
+    "url": "https://arxiv.org/abs/2611.17214v1",
+    "date": "2026-11-12",
+    "summary": "We study regret minimization in episodic Adversarial Markov Decision Processes (AMDPs) with unknown transitions and bandit feedback. In tabular AMDPs with $S$ states, $A$ actions, and horizon $H$, the best known $K$-epis…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Causal Concept Explanations for Deep Neural Models",
-    "url": "https://arxiv.org/abs/2611.14407v1",
-    "date": "2026-11-10",
-    "summary": "Concept-based explanations in neural models are important for the development, certification, and adoption of autonomous systems. Yet, interpretability remains correlational. Without methods to guide and quantify causal…"
+    "title": "Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline",
+    "url": "https://arxiv.org/abs/2611.17220v1",
+    "date": "2026-11-12",
+    "summary": "Oral exams are compelling because (1) students can be asked to provide their reasoning for an answer and (2) their interactive nature permits follow-up questions to resolve ambiguous answers. But oral exams scale poorly.…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models",
-    "url": "https://arxiv.org/abs/2611.14413v1",
-    "date": "2026-11-10",
-    "summary": "Local language models can save memory by storing weights in fewer bits, and they can reduce sensitivity to the order of answer options by averaging a few reorderings. We ask whether the first makes the second worse, and…"
+    "title": "Al-Ghasali: A Computational Framework for Simulating Islamic Jurisprudential Rulings via Finite State Automata and Large Language Models",
+    "url": "https://arxiv.org/abs/2611.17235v1",
+    "date": "2026-11-12",
+    "summary": "This paper presents Al Ghasali, a computational framework designed to formalize and simulate Islamic jurisprudential (Fiqh) rulings. Building upon recent set theoretic formalizations of al sabr wa al Taqsim that extract…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model",
-    "url": "https://arxiv.org/abs/2611.14418v1",
-    "date": "2026-11-10",
-    "summary": "Local decoding usually fixes one weight precision for the whole generation. We study a different allocation: store 8-bit weights, decode with their top 4 bits, and redo a step at 8 bits only when the low-precision output…"
+    "title": "When Both Sides Adapt: The Challenges of Evaluating Interactive LLM Systems",
+    "url": "https://arxiv.org/abs/2611.17239v1",
+    "date": "2026-11-12",
+    "summary": "In interactive systems where users engage with LLMs, users are adaptive and, after observing LLM responses, can change their prompting strategy, as well as the type and difficulty of subsequent tasks. Thus model response…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
-    "url": "https://arxiv.org/abs/2611.14419v1",
-    "date": "2026-11-10",
-    "summary": "Formal world models can support planning, verification, and safety reasoning, but constructing them from open-ended natural-language situations is difficult, particularly in multi-agent settings where several formalizati…"
+    "title": "Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery",
+    "url": "https://arxiv.org/abs/2611.17241v1",
+    "date": "2026-11-12",
+    "summary": "Modern automated heuristic discovery (AHD) systems increasingly rival hand-crafted heuristics by leveraging Large Language Models (LLMs) to iteratively mutate and refine solutions. A natural assumption is that more power…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Quantifying the Sampling Frequency Invariance of Time-Series Foundation Models for Sensor Data Applications",
-    "url": "https://arxiv.org/abs/2611.14425v1",
-    "date": "2026-11-10",
-    "summary": "Time-Series Foundation Models (TSFMs) are increasingly used in sensor applications, where sampling frequency (SF) varies across sensors, devices, and operating modes (e.g., power saving). Ideally, TSFMs must remain effec…"
+    "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+    "url": "https://arxiv.org/abs/2611.17267v1",
+    "date": "2026-11-12",
+    "summary": "We introduce GeoWorld, a controllable and continuously evolving geographic environment platform for LLM agents, and LiveGeo, a benchmark for evaluating reliable decision-making in real-world geographic environments using…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Two Communities, One Problem: Branch-and-Bound vs. A* for Resource-Constrained Project Scheduling",
-    "url": "https://arxiv.org/abs/2611.14426v1",
-    "date": "2026-11-10",
-    "summary": "Branch-and-Bound (B&B) and $A^*$ are popular exact search methods originating from Operations Research and Artificial Intelligence, respectively. Although the two methods share fundamental search principles, their differ…"
+    "title": "Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs",
+    "url": "https://arxiv.org/abs/2611.17280v1",
+    "date": "2026-11-12",
+    "summary": "We propose Synthesis Smuggling, a novel threat model in which an adversarial LLM infers sensitive information about a user from routine assistance-seeking interactions and steganographically encodes that into innocuous-l…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge",
-    "url": "https://arxiv.org/abs/2611.14432v1",
-    "date": "2026-11-10",
-    "summary": "We describe our solution for the 2026 BEHAVIOR Challenge: 100 long-horizon household tasks in the OmniGibson simulator. We placed 9th on the final leaderboard, the only independent team in the top 10. The core of the sol…"
+    "title": "Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon",
+    "url": "https://arxiv.org/abs/2611.17294v1",
+    "date": "2026-11-12",
+    "summary": "On-device inference requires kernels that make effective use of local accelerators. Efficient training and evaluation of models that generate Apple Metal kernels benefit from native macOS tools and concurrent agent sessi…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game",
-    "url": "https://arxiv.org/abs/2611.14487v1",
-    "date": "2026-11-10",
-    "summary": "Research ideation is iterative: researchers refine their ideas step by step based on feedback. Yet existing evaluations obscure this search process, making it difficult to understand how LLMs explore the space of researc…"
+    "title": "Goal Encoding in LLMs",
+    "url": "https://arxiv.org/abs/2611.17297v1",
+    "date": "2026-11-12",
+    "summary": "We investigate whether and how LLMs encode goals: internal neural representations that precede and guide action, and that are flexible enough to be realized through many different execution paths. We construct a coding s…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows",
-    "url": "https://arxiv.org/abs/2611.14492v1",
-    "date": "2026-11-10",
-    "summary": "Business process automation runs the same Standard Operating Procedure (SOP) again and again on new inputs. Large Language Model (LLM) agents can follow an SOP written in natural language, but they call an LLM to choose…"
+    "title": "Consistent Video-to-Video Translation via Explicit Correspondences",
+    "url": "https://arxiv.org/abs/2611.17298v1",
+    "date": "2026-11-12",
+    "summary": "Interactive video-to-video applications require real-time generation while maintaining long-range temporal consistency. However, recent methods achieve speed by restricting attention to a fixed-length causal window. This…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents",
-    "url": "https://arxiv.org/abs/2611.14493v1",
-    "date": "2026-11-10",
-    "summary": "Deploying LLM-based analytics agents in enterprise settings requires evaluation frameworks that can reliably detect failures across complex, multi-tool workflows. We present a three-phase comparative study of three evalu…"
+    "title": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
+    "url": "https://arxiv.org/abs/2611.17309v1",
+    "date": "2026-11-12",
+    "summary": "Looped models have emerged as a prominent paradigm for reasoning, with successes on simple reasoning puzzles such as Sudoku-Extreme and Maze-Unique. However, these models can be unstable, slow to train, and use many para…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
-    "url": "https://arxiv.org/abs/2611.14514v1",
-    "date": "2026-11-10",
-    "summary": "LLM agents are increasingly used for open-ended, data-driven scientific discovery, yet most of them evaluate hypotheses pointwise, testing an empirical claim $h$ only against its complement $\\neg h$. When evidence reject…"
+    "title": "Sketching Language Models for Context Attribution",
+    "url": "https://arxiv.org/abs/2611.17313v1",
+    "date": "2026-11-12",
+    "summary": "Context attribution asks how removing parts of a prompt changes a language model's output. We study leave-one-out (LOO) attribution for a prompt of $n$ tokens and a fixed measurement function. Computing all LOO values di…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
-    "url": "https://arxiv.org/abs/2611.14518v1",
-    "date": "2026-11-10",
-    "summary": "DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In medical l…"
+    "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+    "url": "https://arxiv.org/abs/2611.17316v1",
+    "date": "2026-11-12",
+    "summary": "Coding agents tackle successive tasks on an evolving repository, carrying forward edits and writing memory before the next task is known. Selecting memory for unknown next tasks requires balancing future usefulness again…"
   },
   {
     "company": "arXiv · AI",
     "companySlug": "arxiv-ai",
-    "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
-    "url": "https://arxiv.org/abs/2611.14519v1",
-    "date": "2026-11-10",
-    "summary": "Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task. Most comparisons, however,…"
+    "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+    "url": "https://arxiv.org/abs/2611.17323v1",
+    "date": "2026-11-12",
+    "summary": "Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline design, they have been…"
   }
 ]
