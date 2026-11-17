@@ -26,6 +26,22 @@
   {
     "company": "Apple",
     "companySlug": "apple",
+    "title": "Understanding Private Evolution as Learning-Augmented Clustering",
+    "url": "https://machinelearning.apple.com/research/private-evolution-clustering",
+    "date": "2026-11-10",
+    "summary": "Private Evolution (PE) is a differentially private algorithm for synthetic data generation. While it can be viewed as a Wasserstein learning algorithm, it performs much better in practice than worst-case Wasserstein anal…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
+    "title": "Toward a Theory of Evaluability",
+    "url": "https://machinelearning.apple.com/research/theory-evaluability",
+    "date": "2026-11-10",
+    "summary": "Machine learning models, particularly large foundation models, are increasingly evaluated along multiple axes that are relevant for their usage. In addition to accuracy measures appropriate for the specific task of inter…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
     "title": "Weighted State Souping for Efficient Long-Context Retrieval",
     "url": "https://machinelearning.apple.com/research/weighted-state-souping",
     "date": "2026-11-10",
@@ -382,21 +398,5 @@
     "url": "https://machinelearning.apple.com/research/proof-gen-optimized-distillation",
     "date": "2026-08-26",
     "summary": "Supervised fine-tuning on teacher-generated trajectories is the standard first stage for distilling tool-calling capabilities into deployable models. Post-training pipelines that drive shipped tool-calling agents re-run…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
-    "title": "Luce: Relightable Gaussians for 3D Asset Generation",
-    "url": "https://machinelearning.apple.com/research/relightable-gaussians-3d-generation",
-    "date": "2026-08-26",
-    "summary": "High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. To support relighting and integration into standard rendering pipelines, the representation should include phy…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
-    "title": "STARFlow2: Bridging Language Models and Normalizing Flows for Unified Multimodal Generation",
-    "url": "https://machinelearning.apple.com/research/starflow2-multimodal-generation",
-    "date": "2026-08-25",
-    "summary": "Unified multimodal models that understand, reason over, and generate interleaved text–image sequences remain structurally fragmented: existing approaches either sacrifice visual fidelity through discrete tokenization, im…"
   }
 ]
