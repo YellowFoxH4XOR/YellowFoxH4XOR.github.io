@@ -2,6 +2,14 @@
   {
     "company": "Apple",
     "companySlug": "apple",
+    "title": "Split-and-Scale Latent 3D Representations",
+    "url": "https://machinelearning.apple.com/research/split-scale-latent-3d",
+    "date": "2026-11-16",
+    "summary": "Latent 3D representations have significantly expanded the capabilities of modern shape modeling, enabling compact encoding of 3D scenes and supporting powerful 3D generative models. Despite this progress, current represe…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
     "title": "Theoretical Limits of Language Model Alignment",
     "url": "https://machinelearning.apple.com/research/theoretical-limits-alignment",
     "date": "2026-11-12",
@@ -390,13 +398,5 @@
     "url": "https://machinelearning.apple.com/research/idea-prune-pipeline",
     "date": "2026-08-26",
     "summary": "Recent advancements in large language models have intensified the need for efficient and deployable models within limited inference budgets. Structured pruning pipelines have shown promise in token efficiency compared to…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
-    "title": "PROOF-Gen: From Optimized Data to Better Distillation",
-    "url": "https://machinelearning.apple.com/research/proof-gen-optimized-distillation",
-    "date": "2026-08-26",
-    "summary": "Supervised fine-tuning on teacher-generated trajectories is the standard first stage for distilling tool-calling capabilities into deployable models. Post-training pipelines that drive shipped tool-calling agents re-run…"
   }
 ]

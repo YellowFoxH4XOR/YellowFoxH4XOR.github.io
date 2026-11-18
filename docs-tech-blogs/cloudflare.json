@@ -2,6 +2,22 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
+    "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
+    "url": "https://blog.cloudflare.com/java4shell-waf-protection/",
+    "date": "2026-11-18",
+    "summary": "Java4Shell is a critical memory-corruption flaw in OpenJDK's Base64 decoder that can lead to remote code execution. Cloudflare has released six WAF managed rules for paid plans that logs matching requests by default. Pat…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "Quad9’s withdrawal from France: A canary in the coal mine",
+    "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+    "date": "2026-11-17",
+    "summary": "Quad9's forced withdrawal from France highlights the dangers of mandating DNS-level blocking. We explore why forcing public resolvers to act as content filters is technically flawed and threatens the open Internet."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
     "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
     "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
     "date": "2026-11-13",
@@ -382,21 +398,5 @@
     "url": "https://blog.cloudflare.com/civil-society-automation/",
     "date": "2026-10-02",
     "summary": "Some of the world's leading organizations are building the future of non-profit work with Cloudflare."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Introducing Cloudflare Traces: follow requests through our entire platform",
-    "url": "https://blog.cloudflare.com/cloudflare-tracing/",
-    "date": "2026-10-02",
-    "summary": "Cloudflare Traces shows how a request moves through security rules, transformations, cache, routing, Workers, and your origin, then follows it across services running anywhere in your stack."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
-    "url": "https://blog.cloudflare.com/enterprise-for-all-update/",
-    "date": "2026-10-02",
-    "summary": "A year after pledging to eliminate two-tier product access, Cloudflare has expanded Logpush, multi-account governance, and higher platform limits to all accounts. Here is an update on our progress, how we dogfood these t…"
   }
 ]
