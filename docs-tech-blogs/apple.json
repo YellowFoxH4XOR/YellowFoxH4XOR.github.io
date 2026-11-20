@@ -18,6 +18,14 @@
   {
     "company": "Apple",
     "companySlug": "apple",
+    "title": "Complexity of Differentially Private Selection via Federated APIs",
+    "url": "https://machinelearning.apple.com/research/differentially-private-selection",
+    "date": "2026-11-10",
+    "summary": "Differential privacy (DP) has become the standard for privacy-preserving data analysis, yet its practical implementation in federated or distributed settings often faces a significant utility gap compared to the central…"
+  },
+  {
+    "company": "Apple",
+    "companySlug": "apple",
     "title": "Evaluating the Evaluators: Investigating LLM Judges for Personalized Writing Style Assessment",
     "url": "https://machinelearning.apple.com/research/evaluating-evaluators-llm-judges",
     "date": "2026-11-10",
@@ -390,13 +398,5 @@
     "url": "https://machinelearning.apple.com/research/rubric-based-alignment",
     "date": "2026-08-27",
     "summary": "Designing effective reward signals for open-domain question answering is challenging because high-quality responses must simultaneously satisfy multiple aspects of answer quality that are difficult to capture with a holi…"
-  },
-  {
-    "company": "Apple",
-    "companySlug": "apple",
-    "title": "IDEA Prune: An Integrated Enlarge-and-Prune Pipeline in Generative Language Model Pretraining",
-    "url": "https://machinelearning.apple.com/research/idea-prune-pipeline",
-    "date": "2026-08-26",
-    "summary": "Recent advancements in large language models have intensified the need for efficient and deployable models within limited inference budgets. Structured pruning pipelines have shown promise in token efficiency compared to…"
   }
 ]

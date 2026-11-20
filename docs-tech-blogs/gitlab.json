@@ -2,6 +2,70 @@
   {
     "company": "GitLab",
     "companySlug": "gitlab",
+    "title": "The best way to use your coding agents with GitLab",
+    "url": "https://about.gitlab.com/blog/coding-agents-with-gitlab/",
+    "date": "2026-11-19",
+    "summary": "Say you and your team already use Claude Code, Codex, Cursor, Devin, or OpenCode to write code. Maybe even more than one of them. What happens next depends on everyone’s personal setup. Some have their agent review chang…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "Duo Agent Platform now does up to 2x more per GitLab Credit",
+    "url": "https://about.gitlab.com/blog/duo-agent-platform-does-more-per-gitlab-credit/",
+    "date": "2026-11-19",
+    "summary": "GitLab Duo Agent Platform has become more efficient in how it uses the underlying models offered through GitLab. That includes all the latest models from Anthropic, OpenAI, Google, and GitLab-hosted open-weight models. A…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "Cut your vulnerability backlog with agentic remediation",
+    "url": "https://about.gitlab.com/blog/gitlab-agentic-remediation/",
+    "date": "2026-11-19",
+    "summary": "Vulnerability backlogs are growing faster than teams can clear them. AI writes more code and finds more flaws, while fixes still move at human speed. NIST’s National Vulnerability Database has already published twice as…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "Keep recurring work moving with scheduled automations",
+    "url": "https://about.gitlab.com/blog/gitlab-scheduled-automations/",
+    "date": "2026-11-19",
+    "summary": "Every engineering team has work that needs regular attention, like triaging new issues or investigating incidents. Among DevSecOps professionals using AI tools, 43% say automating repetitive tasks has created the most ef…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "Turn Slack conversations into trusted software, faster",
+    "url": "https://about.gitlab.com/blog/gitlab-slack-integration-for-software-factory/",
+    "date": "2026-11-19",
+    "summary": "Most software starts as a conversation: a customer requests a new capability, a product manager weighs it against the roadmap, an engineer checks feasibility, and a security lead asks what it touches. Then someone has to…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "Rotate a leaked GitLab token and let GitLab Duo fix the code",
+    "url": "https://about.gitlab.com/blog/secret-detection-token-rotate-and-fix/",
+    "date": "2026-11-19",
+    "summary": "Secret detection alerts you when an active personal access token (PAT) is exposed in your default branch. Acting on that finding is harder: revoking the token breaks dependent pipelines, and replacing it safely takes sev…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "GitLab 19.6 released",
+    "url": "https://docs.gitlab.com/releases/19/gitlab-19-6-released/",
+    "date": "2026-11-19",
+    "summary": ""
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
+    "title": "Agentic engineering with GitLab and your local agent: A walkthrough",
+    "url": "https://about.gitlab.com/blog/agentic-engineering-walkthrough/",
+    "date": "2026-11-18",
+    "summary": "You can build an agentic engineering environment to drive greater automation throughout your workflow. How? Start in the harness you already use and connect to GitLab Duo Agent Platform once with a skill. Longer, reposit…"
+  },
+  {
+    "company": "GitLab",
+    "companySlug": "gitlab",
     "title": "GitLab Transcend Hackathon: Meet the 'Life After Code' winners",
     "url": "https://about.gitlab.com/blog/gitlab-transcend-hackathon-life-after-code/",
     "date": "2026-11-18",
@@ -334,69 +398,5 @@
     "url": "https://about.gitlab.com/blog/securing-the-software-factory-at-machine-speed/",
     "date": "2026-09-18",
     "summary": "I joined GitLab at a moment when the way teams build and secure software has been changing rapidly. GitLab CEO Bill Staples recently framed that shift in When Code Is Abundant . When code is no longer the bottleneck, tru…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "GitLab 19.4 released",
-    "url": "https://docs.gitlab.com/releases/19/gitlab-19-4-released/",
-    "date": "2026-09-18",
-    "summary": ""
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "GitLab Duo CLI takes a task from goal to done",
-    "url": "https://about.gitlab.com/blog/gitlab-duo-cli-drives-automation/",
-    "date": "2026-09-17",
-    "summary": "Complex tasks hit a wall at the end of every chat turn. Developers already know what they re trying to accomplish. What stalls the work is the handoff back and forth between each step. Without a pre-defined definition of…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "New MCP tools help platform teams scale automation",
-    "url": "https://about.gitlab.com/blog/new-mcp-tools-for-automation/",
-    "date": "2026-09-17",
-    "summary": "Agentic tools are moving fast past code completion into running pipelines, opening merge requests, and triaging work on a team s behalf. The Model Context Protocol ( MCP ) has become the common way these agents reach int…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "See who spent your AI credits and set fair caps per team",
-    "url": "https://about.gitlab.com/blog/new-usage-caps-2026/",
-    "date": "2026-09-17",
-    "summary": "Scaling AI across your organization depends on knowing where the budget is going and who’s using it. While a subscription cap keeps your total spend within budget, it can’t tell you how much AI was used by individual tea…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "Optimize your team's price-performance with hosted open weight models",
-    "url": "https://about.gitlab.com/blog/optimize-with-open-weight-models/",
-    "date": "2026-09-17",
-    "summary": "There’s no single best model for every software development task. Implementing a new feature, diagnosing a failed pipeline, and resolving security vulnerabilities all place different demands on the model handling them. G…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "Rate limits on GitLab.com are changing",
-    "url": "https://about.gitlab.com/blog/rate-limit-change-2026/",
-    "date": "2026-09-17",
-    "summary": "GitLab.com hosts millions of projects for teams of every size that need a platform they can rely on. Demand is climbing quickly, and we expect platform load to grow several times over this year. Predictable limits are wh…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "When to use SAST versus an LLM security scanner",
-    "url": "https://about.gitlab.com/blog/sast-vs-llm-security-scanner/",
-    "date": "2026-09-16",
-    "summary": "You re probably running some version of this experiment already: Point a frontier model at a merge request and ask it to double as a vulnerability scanner. On a single merge request, it often works well. The model reads…"
-  },
-  {
-    "company": "GitLab",
-    "companySlug": "gitlab",
-    "title": "GitLab Dedicated: Compliance for a new regulatory era",
-    "url": "https://about.gitlab.com/blog/gitlab-dedicated-compliance/",
-    "date": "2026-09-14",
-    "summary": "Enforcements such as NIS2 are no longer a future planning consideration. The European Union Agency for Cybersecurity s (ENISA) NIS360 report confirms that supervisory authorities are actively assessing cybersecurity matu…"
   }
 ]

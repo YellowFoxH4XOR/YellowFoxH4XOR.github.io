@@ -2,6 +2,14 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
+    "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
+    "url": "https://blog.cloudflare.com/nginx2root/",
+    "date": "2026-11-20",
+    "summary": "Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare's proxy are shielded from the most serious of the…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
     "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
     "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
     "date": "2026-11-19",
@@ -390,13 +398,5 @@
     "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
     "date": "2026-10-05",
     "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prov…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Follow the thread: a new dashboard to investigate account abuse",
-    "url": "https://blog.cloudflare.com/account-abuse-protection-dashboard/",
-    "date": "2026-10-02",
-    "summary": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams investigate and block…"
   }
 ]
