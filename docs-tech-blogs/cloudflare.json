@@ -10,6 +10,22 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
+    "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
+    "url": "https://blog.cloudflare.com/phpaftershell-waf-protection/",
+    "date": "2026-11-20",
+    "summary": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the sam…"
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
+    "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
+    "url": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
+    "date": "2026-11-20",
+    "summary": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
     "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
     "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
     "date": "2026-11-19",
@@ -382,21 +398,5 @@
     "url": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
     "date": "2026-10-06",
     "summary": "On October 11, 2026, the DNS root switches to a new key-signing key (KSK-2024). Learn what this means for you, and how RFC 8509 trust anchor sentinels allow you to test whether your DNS resolver is ready for the rollover…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "Everything we launched during Birthday Week 2026",
-    "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
-    "date": "2026-10-05",
-    "summary": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped."
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "One year later: the power of 1.1.1.1 interns",
-    "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
-    "date": "2026-10-05",
-    "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prov…"
   }
 ]
