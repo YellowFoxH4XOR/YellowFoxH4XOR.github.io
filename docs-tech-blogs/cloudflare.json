@@ -2,6 +2,14 @@
   {
     "company": "Cloudflare",
     "companySlug": "cloudflare",
+    "title": "Probing DNS at Cloudflare",
+    "url": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
+    "date": "2026-11-23",
+    "summary": "At Cloudflare we’ve built tools to enable teams to extend our internal testing framework and build test tooling for networking protocols. This is the story of how this was used for DNS."
+  },
+  {
+    "company": "Cloudflare",
+    "companySlug": "cloudflare",
     "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
     "url": "https://blog.cloudflare.com/nginx2root/",
     "date": "2026-11-20",
@@ -390,13 +398,5 @@
     "url": "https://blog.cloudflare.com/agentic-security-operations/",
     "date": "2026-10-07",
     "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system d…"
-  },
-  {
-    "company": "Cloudflare",
-    "companySlug": "cloudflare",
-    "title": "The keys to the Internet change on October 11. Are you ready?",
-    "url": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
-    "date": "2026-10-06",
-    "summary": "On October 11, 2026, the DNS root switches to a new key-signing key (KSK-2024). Learn what this means for you, and how RFC 8509 trust anchor sentinels allow you to test whether your DNS resolver is ready for the rollover…"
   }
 ]
