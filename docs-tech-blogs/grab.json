@@ -26,6 +26,14 @@
   {
     "company": "Grab",
     "companySlug": "grab",
+    "title": "How a shared merchant data service can degrade gracefully",
+    "url": "https://engineering.grab.com/shared-merchant-data-service",
+    "date": "2026-11-18",
+    "summary": "Introduction When a cache becomes unreliable, a shared read service can struggle in ways that spread to the systems that depend on it. We saw this pattern in our merchant data service (MDS). Cache reads began timing out,…"
+  },
+  {
+    "company": "Grab",
+    "companySlug": "grab",
     "title": "App stability at scale with a layered defense",
     "url": "https://engineering.grab.com/app-stability-at-scale-with-a-layered-defense",
     "date": "2026-10-21",
